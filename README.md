@@ -1,8 +1,6 @@
-# DermRAG
+# CORA
 
-Code for `[[paper title]]` (`[[journal / DOI]]`) — an agentic retrieval-augmented
-generation pipeline for dermatology question answering, evaluated against physicians in a
-reader study.
+An agentic retrieval-augmented generation pipeline for dermatology question answering, evaluated against physicians in a reader study.
 
 ## Setup
 
