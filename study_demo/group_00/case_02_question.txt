@@ -1,0 +1,8 @@
+A patient is found to have sun-sensitive dermatitis, diarrhea, and dementia he must be suffering from the deficiency of which of the following.
+
+A. Niacin
+B. Riboflavin
+C. Folic acid
+D. Iron
+
+LLM answer: A. Niacin

@@ -1,0 +1,8 @@
+A <strong>46-year-old</strong> <strong>obese</strong> man comes to the <strong>emergency room</strong> because of <strong>paresthesias</strong> in his feet and a <strong>hypopigmented skin lesion</strong> on his <strong>knee</strong> that he first noticed <strong>6 weeks ago</strong>. He has also had <strong>fever</strong>, <strong>fatigue</strong>, and <strong>malaise</strong> for the last <strong>week</strong>. He has a history of <strong>chronic autoimmune thyroiditis</strong> for which he takes <strong>levothyroxine</strong>. He <strong>immigrated from Indonesia</strong> <strong>3 years ago</strong> to join his family in the <strong>United States</strong>. His <strong>temperature is 38.7°C (101.7°F)</strong> and <strong>blood pressure is 122/84 mm Hg</strong>. Physical exam shows a <strong>well-defined hypopigmented skin lesion</strong> approximately <strong>3 cm in diameter</strong> over the <strong>anterior aspect of the right knee</strong>. The area has <strong>no hair growth</strong> and <strong>remains dry although he is diaphoretic</strong>. There is <strong>diminished sensation to light touch and pinprick</strong> in the skin lesion when compared to surrounding skin. There is <strong>reduced light touch sensation in the big toes bilaterally</strong>. After obtaining a <strong>skin biopsy</strong> of the lesion to <strong>confirm the diagnosis</strong>, which of the following is the most appropriate <strong>initial pharmacotherapy</strong>?
+
+A. Topical fluconazole
+B. Topical betamethasone
+C. Intravenous amphotericin
+D. Oral rifampicin and dapsone
+
+LLM answer: D. Oral rifampicin and dapsone

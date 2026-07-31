@@ -1,0 +1,9 @@
+A <strong>63-year-old woman</strong> presents to the outpatient clinic complaining of <strong>severe vulvar itching</strong>. The <strong>pruritus</strong> started <strong>1 year ago</strong> and became worse over the <strong>last several months</strong>. She has tried <strong>over-the-counter topical steroids without relief</strong>. She is <strong>not currently sexually active</strong>. Her medical history is notable for <strong>long-standing lichen sclerosus</strong>. The physical examination reveals an <strong>ulcerated small nodule on the right labium majus</strong>, as well as <strong>dry, thin, white lesions encircling the genital and perianal areas</strong>. Which of the following is the most likely diagnosis?
+
+A. Bartholin gland cyst
+B. Bartholin gland carcinoma
+C. Squamous cell carcinoma
+D. Melanoma
+E. Vulvar Paget's disease
+
+LLM answer: C. Squamous cell carcinoma

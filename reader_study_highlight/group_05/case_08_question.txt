@@ -1,0 +1,8 @@
+A <strong>40-year-old woman</strong> presents with a <strong>2-year h/o</strong> <strong>erythematous papulopustular lesions</strong> on <strong>convexities of the face</strong>. There is a <strong>background of erythema</strong> & <strong>telangiectasia</strong>. The most likely diagnosis is:
+
+A. Acne vulgaris
+B. Rosacea
+C. SLE
+D. Polymorphic light eruption
+
+LLM answer: B. Rosacea

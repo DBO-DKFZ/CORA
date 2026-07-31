@@ -1,0 +1,12 @@
+# --- Input ---
+rag_mode: false
+retrieved_docs_dir: results/retrieved_docs_medqa_qwenagent_reranked/
+
+# --- Model ---
+model: "gpt-5"
+provider: "openai"  # together | openai | local
+local_base_url: "http://localhost:8000/v1"
+
+# --- Output ---
+output_file: "results/gpt5/results_gpt5_medqa_base.csv"
+verbose: true

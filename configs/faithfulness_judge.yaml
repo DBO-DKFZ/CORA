@@ -1,0 +1,15 @@
+# --- Input ---
+input_csv: results/results_mistrallarge2_naiverag_reranked.csv
+
+# --- Judge model ---
+model: "openai/gpt-oss-120b"
+provider: "together"   # together | openai | local
+
+# --- Output ---
+output_csv: results/faithfulness_mistrallarge2_naiverag.csv
+verbose: true
+
+# --- Optional ---
+# top_k_docs: 5   # truncate to first N cited docs if cases have many citations
+only_sufficient: true          # if true, only judge cases where final_sufficient == True
+sufficient_source: results/retrieved_docs_medqa_qwenagent_reranked  # dir of per-question JSONs (retrieval_result.final_sufficient) or a CSV with final_sufficient column

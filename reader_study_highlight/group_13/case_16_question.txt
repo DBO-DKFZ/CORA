@@ -1,0 +1,8 @@
+A <strong>26-year-old female</strong> patient presented with <strong>oral ulcers</strong>, <strong>sensitivity to light</strong> and <strong>rash over the malar area of the face sparing the nasolabial folds of both sides</strong>. Which of the following is the associated condition?
+
+A. SLE
+B. Psoriasis
+C. Dermatitis
+D. Sturge-Weber syndrome
+
+LLM answer: A. SLE

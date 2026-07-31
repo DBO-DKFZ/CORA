@@ -1,0 +1,8 @@
+A <strong>64-year-old man</strong> arrived at the clinic with a <strong>severely painful rash</strong> and <strong>skin eruptions</strong> that are <strong>localized entirely on one side of his body</strong>, closely following the <strong>dermatome level of spinal nerve C7</strong>. The patient was diagnosed with <strong>herpes zoster virus</strong>. In what structure has the virus most likely proliferated to cause the patient's current condition?
+
+A. The sympathetic chain
+B. The dorsal root ganglion of the C7 spinal nerve
+C. The lateral horn of the C7 spinal cord segment
+D. The posterior cutaneous branch of the dorsal primary ramus of C7
+
+LLM answer: B. The dorsal root ganglion of the C7 spinal nerve

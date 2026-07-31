@@ -1,0 +1,8 @@
+A <strong>56-year-old</strong> man of <strong>Nepalese origin</strong> presents to a clinic complaining of <strong>skin rashes</strong> that have been troubling him for <strong>years</strong>. On examination, there are numerous <strong>poorly demarcated skin lesions</strong> present on <strong>all parts of the body</strong>. There is also evidence of significant <strong>facial thickening</strong>, <strong>eyebrow loss</strong>, and <strong>symmetrical sensory neuropathy</strong> in a <strong>‘glove and stocking’ distribution</strong>. An examination of the hands reveals <strong>bilateral weakness</strong>. A <strong>skin biopsy</strong> is taken from one of the lesions, and the culture is positive for <strong>acid-fast bacilli</strong>. Which of the following pharmacological therapies is involved in the treatment of this condition?
+
+A. Dapsone
+B. Flucloxacillin
+C. Isoniazid
+D. Prednisone
+
+LLM answer: A. Dapsone

@@ -1,0 +1,8 @@
+A <strong>10-year-old child</strong> experiences <strong>recurrent skin lesions</strong> on her <strong>face and upper extremities</strong> that <strong>rapidly progress to cancer</strong>. <strong>Xeroderma pigmentosum</strong> is considered a possible differential. Which of the following is defective in that case?
+
+A. Topoisomerase
+B. 3' → 5' Exonuclease
+C. Endonuclease
+D. Helicase
+
+LLM answer: C. Endonuclease

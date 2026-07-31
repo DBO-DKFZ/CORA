@@ -1,0 +1,8 @@
+A <strong>46-year-old man</strong> has had a <strong>slowly enlarging nodule</strong> on his <strong>trunk</strong> for the past <strong>10 months</strong>. On examination, the <strong>5-cm lesion</strong> is in the <strong>right anterior axillary line</strong> at the level of the <strong>nipple</strong> and has a <strong>central ulcerated plaque</strong>. The lesion is <strong>widely excised</strong> and on microscopic examination is composed of <strong>dense spindle cells in a storiform pattern</strong> that <strong>invades the dermal adipose tissue</strong>. The lesion <strong>recurs within a year</strong>, and the man is treated with a <strong>tyrosine kinase inhibitor</strong>. Molecular analysis of the lesion is most likely to show activation with overexpression of which of the following genes?
+
+A. TSC1
+B. PDGFB
+C. FGFR3
+D. KIT
+
+LLM answer: B. PDGFB

@@ -1,0 +1,8 @@
+A <strong>70-year-old woman</strong> comes to the physician for the evaluation of <strong>back pain</strong>. For the past <strong>six days</strong>, she has had a <strong>burning pain</strong> in her <strong>upper right back and chest</strong>. She cannot recall any recent injury and has no prior history of back pain. She has a history of <strong>hypertension</strong> and <strong>gastroesophageal reflux</strong>. The patient volunteers at an animal shelter three times a week. She does not smoke or drink alcohol. Current medications include <strong>ramipril</strong> and <strong>pantoprazole</strong>. The patient appears healthy and well nourished. Her temperature is <strong>36.9°C (98.42°F)</strong>, pulse is <strong>76/min</strong>, and blood pressure is <strong>145/92 mm Hg</strong>. Examination shows a <strong>long erythematous rash</strong> covered with <strong>multiple clear vesicles and crusty lesions</strong> extending from her back to below her <strong>right breast</strong>. Which of the following is the most likely underlying mechanism of the disease?
+
+A. Viral reactivation in dorsal root ganglia
+B. IgA deposits in the upper dermis
+C. Bacterial lymphatic infection of the epidermis
+D. Infestation with bloodsucking parasites
+
+LLM answer: A. Viral reactivation in dorsal root ganglia

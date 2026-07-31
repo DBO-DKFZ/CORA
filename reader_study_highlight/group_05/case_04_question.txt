@@ -1,0 +1,8 @@
+A <strong>thirty-two-year-old</strong> <strong>adult male</strong> presents with a <strong>chronic suppurative lesion</strong> on the <strong>angle of the jaw</strong>. <strong>Microscopic examination</strong> shows <strong>small abscesses immediately beneath the epidermis</strong> with <strong>moderate growth of epithelial cords</strong>. In the <strong>abscess</strong>, there are <strong>oval, unicellular organisms</strong> measuring <strong>20 µm in diameter</strong> and having a <strong>thick, double-refractive cell wall</strong> and <strong>cytoplasm containing refractive granules and vacuoles</strong>. Which of the following is the most likely diagnosis?
+
+A. Blastomycosis
+B. Foreign body reaction
+C. Syphilis
+D. Tuberculosis
+
+LLM answer: A. Blastomycosis

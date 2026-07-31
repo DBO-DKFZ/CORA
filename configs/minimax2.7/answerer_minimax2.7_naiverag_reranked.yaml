@@ -1,0 +1,13 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_naiverag_reranked/
+
+# --- Model ---
+model: "MiniMaxAI/MiniMax-M2.7"
+provider: "together"
+local_base_url: "http://localhost:8000/v1"
+
+# --- Output ---
+output_file: "results/minimax2.7/results_minimax2.7_naiverag_reranked.csv"
+retry_nan_responses: true
+verbose: true

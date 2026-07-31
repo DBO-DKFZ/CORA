@@ -1,0 +1,8 @@
+A <strong>4-year-old child</strong> living in a <strong>slum</strong> is <strong>bitten by a rat</strong> while sleeping. <strong>Two days later</strong>, the child develops a <strong>rash</strong> characterized by <strong>discrete erythematous 1-4 mm macules</strong> on the <strong>extremities and face</strong>, most obvious on the <strong>palms and soles</strong>. Which of the following organisms is the most likely cause of this child's disease?
+
+A. Borrelia burgdorferi
+B. Streptobacillus moniliformis
+C. Pseudomonas mallei
+D. Pseudomonas pseudomallei
+
+LLM answer: B. Streptobacillus moniliformis

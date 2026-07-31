@@ -1,0 +1,8 @@
+The most likely diagnosis for a lady with <strong>central obesity</strong> showing <strong>purple striae</strong> on <strong>abdominal skin</strong> is:
+
+A. Conn's syndrome
+B. Cushing's syndrome
+C. Addison's disease
+D. Hypothyroidism
+
+LLM answer: B. Cushing's syndrome

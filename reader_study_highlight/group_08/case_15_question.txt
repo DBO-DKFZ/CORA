@@ -1,0 +1,8 @@
+A <strong>73-year-old woman</strong> is brought to the physician by her son because of a <strong>2-month history of diarrhea</strong> and <strong>recurrent upper respiratory tract infections</strong>. Her son says that she frequently <strong>trips over the nightstand</strong> when she gets up to go to the bathroom at <strong>night</strong>. She is <strong>173 cm (5 ft 8 in) tall</strong> and <strong>weighs 54 kg (120 lb)</strong>; <strong>BMI is 18 kg/m2</strong>. Physical examination shows <strong>dry skin</strong>, <strong>multiple bruises on the shins</strong>, and <strong>triangular keratin plaques on the temporal half of the conjunctiva</strong>. A deficiency of which of the following is the most likely underlying cause of these findings?
+
+A. Retinol
+B. Zinc
+C. Riboflavin
+D. Niacin
+
+LLM answer: A. Retinol

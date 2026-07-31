@@ -1,0 +1,9 @@
+A <strong>22-year-old man</strong> presents with <strong>multiple, target-like skin lesions</strong> on his <strong>right and left upper and lower limbs</strong>. He says that the lesions appeared <strong>4 days ago</strong> and that, over the <strong>last 24 hours</strong>, they have extended to his <strong>torso</strong>. <strong>Past medical history</strong> is significant for <strong>pruritus</strong> and <strong>pain on the left border of his lower lip</strong> <strong>1 week ago</strong>, followed by the development of an <strong>oral ulcerative lesion</strong>. On <strong>physical examination</strong>, <strong>multiple round erythematous papules</strong> with a <strong>central blister</strong>, a <strong>pale ring of edema</strong> surrounding a <strong>dark red inflammatory zone</strong>, and an <strong>erythematous halo</strong> are noted. <strong>Mucosal surfaces are free of any ulcerative and exudative lesions</strong>. Which of the following statements best explains the <strong>pathogenesis</strong> underlying this patient’s <strong>condition</strong>?
+
+A. Tumor necrosis factor (TNF) alpha production by CD4+ T cells in the skin
+B. Circulating anti-desmoglein antibodies
+C. Circulating anti-double-stranded DNA antibodies
+D. IgA deposition in the papillary dermis
+E. Interferon (IFN) gamma production by CD4+ T cells in the skin
+
+LLM answer: A. Tumor necrosis factor (TNF) alpha production by CD4+ T cells in the skin

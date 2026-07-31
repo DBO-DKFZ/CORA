@@ -1,0 +1,10 @@
+A <strong>33-year-old man</strong> comes to the physician for evaluation of <strong>progressive hair loss</strong> from his <strong>scalp</strong>. He first noticed <strong>receding of the hairline</strong> over the <strong>bitemporal regions</strong> of his <strong>scalp</strong> <strong>5 years ago</strong>. Since then, his hair has gradually become thinner over the <strong>crown</strong> of his head. He is otherwise healthy and takes no medications. Examination shows <strong>diffuse, nonscarring hair loss</strong> over the <strong>scalp</strong> with a <strong>bitemporal pattern of recession</strong>. Administration of which of the following drugs is most appropriate to treat this patient's <strong>hair loss</strong>?
+
+A. Flutamide
+B. Clomipramine
+C. Griseofulvin
+D. Triamcinolone
+E. Levothyroxine
+F. Finasteride
+
+LLM answer: F. Finasteride

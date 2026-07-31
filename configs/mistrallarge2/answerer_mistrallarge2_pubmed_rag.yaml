@@ -1,0 +1,15 @@
+# --- Input ---
+rag_mode: true
+open_ended: true
+retrieved_docs_dir: results/retrieved_docs_pubmed_qwenagent_reranked/
+
+# --- Model ---
+model: "bartowski/Mistral-Large-Instruct-2411-GGUF"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/mistrallarge2/results_mistrallarge2_pubmed_rag.csv"
+verbose: true
+# --- Filtering ---
+# min_confidence: 0.0  # uncomment to include all sufficient=True cases; set a value to use a custom confidence cutoff

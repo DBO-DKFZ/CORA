@@ -1,0 +1,8 @@
+A <strong>60-year-old woman</strong> presents to the dermatologist with a lesion on her <strong>lower eyelid</strong>. She noticed it <strong>a month ago</strong> and looked like a <strong>pimple</strong>. She says that it has been <strong>bleeding lately with minimal trauma</strong> which alarmed her. She says the lesion has <strong>not grown in size</strong> and is <strong>not associated with pain or pruritus</strong>. <strong>No significant past medical history</strong>. Physical examination reveals a <strong>0.5 cm lesion</strong> that has a <strong>pearly appearance</strong> with <strong>telangiectasia</strong> and <strong>central ulceration</strong> and <strong>curled borders</strong>. The lesion is <strong>biopsied</strong>. Histopathology reveals <strong>peripheral palisading cells</strong> with <strong>large, hyperchromatic nuclei</strong> and a <strong>high nuclear: cytoplasmic ratio</strong>. Which of the following mechanisms best describes the most common mode of spread of this patient’s neoplasm?
+
+A. Seeding
+B. Does not spread (tumor is typically benign)
+C. Local invasion via collagenase
+D. Lymphatic spread
+
+LLM answer: C. Local invasion via collagenase

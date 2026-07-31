@@ -1,0 +1,8 @@
+A <strong>45-year-old woman</strong> presents with a <strong>weeping eczematoid lesion</strong> of her <strong>nipple</strong>. Which of the following statements is false concerning her <strong>diagnosis</strong> and <strong>management</strong>?
+
+A. Treatment is with warm compresses and oral antibiotics
+B. Biopsy of the nipple, revealing malignant cells within the milk ducts, is invariably associated with an underlying invasive carcinoma
+C. The appropriate treatment is mastectomy
+D. The lesion always represents a high-risk disease with a significant risk of subsequent metastatic disease
+
+LLM answer: B. Biopsy of the nipple, revealing malignant cells within the milk ducts, is invariably associated with an underlying invasive carcinoma

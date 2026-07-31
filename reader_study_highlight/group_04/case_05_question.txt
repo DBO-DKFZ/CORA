@@ -1,0 +1,10 @@
+A <strong>40-year-old woman</strong> comes to the physician for the evaluation of a <strong>4-month history</strong> of <strong>reddening of the nose and cheeks</strong>. She has <strong>no itching or pain</strong>. She first noticed the redness while on a recent holiday in <strong>Spain</strong>, where she stayed at the <strong>beach</strong> and did daily <strong>wine tastings</strong>. She has tried several brands of <strong>sunscreen</strong>, stopped going outside in the middle of the day, and has not drunk <strong>alcohol</strong> since her trip, but the <strong>facial redness persists</strong>. She has <strong>no history of serious illness</strong>. Her younger sister has <strong>acne vulgaris</strong>, and her mother has <strong>systemic lupus erythematosus</strong>. The patient reports that she has had a lot of <strong>stress</strong> lately due to relationship problems with her husband. She does not smoke. Her <strong>vital signs are within normal limits</strong>. Examination shows <strong>erythema of the nose, chin, and medial cheeks</strong> with <strong>scant papules</strong> and <strong>telangiectasias</strong>. There are <strong>no comedones or blisters</strong>. The remainder of the examination shows <strong>no abnormalities</strong>. In addition to <strong>behavioral modifications</strong>, which of the following is the most appropriate <strong>initial treatment</strong>?
+
+A. Topical corticosteroids
+B. Topical benzoyl peroxide
+C. Oral doxycycline
+D. Oral isotretinoin
+E. Oral hydroxychloroquine
+F. Topical metronidazole
+
+LLM answer: F. Topical metronidazole

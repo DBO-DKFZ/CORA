@@ -1,0 +1,8 @@
+A <strong>50-year-old man</strong> presents to a clinic with a <strong>skin lesion</strong> on his <strong>forearm</strong>, which recently changed in color from <strong>light brown to brown-black</strong>. The lesion was initially <strong>pinhead in size</strong> but now has grown to the <strong>size of a penny</strong>. On examination, there is a <strong>3.5 x 2.5 cm irregularly-shaped lesion</strong> on his <strong>left forearm</strong>. A photograph of the lesion is presented. A <strong>biopsy</strong> of the lesion shows <strong>nests of pigmented melanocytes</strong>, with few areas showing <strong>invasion into the superficial dermis</strong>. The physician talks to the patient about a new drug, a <strong>monoclonal antibody against the cytotoxic T lymphocyte-associated antigen 4 (CTLA-4) molecule</strong>, that has recently been launched in the market for his <strong>condition</strong>. The <strong>CTLA-4 molecule</strong> usually interacts with which of the following on the <strong>antigen-presenting cells</strong>?
+
+A. MHC class II
+B. T cell receptor
+C. CD28
+D. B7
+
+LLM answer: D. B7

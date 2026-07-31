@@ -1,0 +1,8 @@
+A <strong>4-month-old boy</strong> is brought to the <strong>pediatrician</strong> for a <strong>wellness visit</strong>. Upon examination, the physician notes <strong>severe burns</strong> on the <strong>sun-exposed areas of the skin</strong>, including the <strong>face</strong> (especially the <strong>ears</strong> and <strong>nose</strong>), <strong>dorsal aspect of the hands</strong>, <strong>shoulders</strong>, and <strong>dorsal aspect of his feet</strong>. The child has <strong>very fair skin</strong> and <strong>blond hair</strong>. The parents insist that the child has not spent any extraordinary amount of time in the <strong>sun</strong>, but they admit that they rarely apply <strong>sunscreen</strong>. Which of the following <strong>physical factors</strong> is the most likely <strong>etiology</strong> for the <strong>burns</strong>?
+
+A. Infrared radiation
+B. Child abuse
+C. UV-B radiation
+D. Ionizing radiation
+
+LLM answer: C. UV-B radiation

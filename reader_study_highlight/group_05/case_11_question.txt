@@ -1,0 +1,8 @@
+A <strong>21-year-old man</strong> comes to the physician's office due to a <strong>3-week history</strong> of <strong>fatigue</strong> and a <strong>rash</strong>, along with the recent development of <strong>joint pain that has moved from his knee to his elbows</strong>. The patient reports <strong>going camping last month</strong> but denies having been <strong>bitten by a tick</strong>. His past medical history is significant for <strong>asthma</strong> treated with an <strong>albuterol inhaler</strong>. His pulse is <strong>54/min</strong> and blood pressure is <strong>110/72</strong>. Physical examination reveals <strong>multiple circular red rings with central clearings</strong> on the <strong>right arm and chest</strong>. There is a <strong>normal range of motion in all joints</strong> and <strong>5/5 strength bilaterally in the upper and lower extremities</strong>. Without proper treatment, the patient is at highest risk for which of the following complications?
+
+A. Cranial nerve palsy
+B. Glomerular damage
+C. Heart valve stenosis
+D. Bone marrow failure
+
+LLM answer: A. Cranial nerve palsy

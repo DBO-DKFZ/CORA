@@ -1,0 +1,8 @@
+A <strong>62-year-old woman</strong> presents to the office because she has noticed <strong>yellowish bumps and patches</strong> on her <strong>elbows and knees</strong> that seem to come and go. Recently she noticed the same <strong>yellow bumps on her eyelids</strong>. She is a <strong>new patient</strong> and reports that she is otherwise healthy but did not have insurance until recently so she has not been to the doctor in <strong>over 8 years</strong>. <strong>Past medical history</strong> is significant for <strong>occasional headaches</strong> that she treats with <strong>aspirin</strong>. She used to <strong>smoke a pack a day for the last 20 years</strong> but recently quit. Her <strong>father died of a heart attack at the age of 55 years</strong> and her <strong>mother had a stroke at 64</strong> and lives in a nursing home. Her <strong>blood pressure is 135/87 mm Hg</strong>, the <strong>heart rate is 95/min</strong>, the <strong>respiratory rate is 12/min</strong>, and the <strong>temperature is 37.0°C (98.6°F)</strong>. On <strong>physical exam</strong>, she has multiple <strong>tan-yellow, firm papules</strong> on her <strong>knees and elbows</strong>. The papules around her <strong>eyes</strong> are <strong>smaller and soft</strong>. You discuss the <strong>likely cause of the bumps</strong> and explain that you will need to <strong>order additional tests</strong>. What test should you perform?
+
+A. Biopsy
+B. Celiac panel
+C. Lipid panel
+D. Erythrocyte sedimentation rate (ESR)
+
+LLM answer: C. Lipid panel

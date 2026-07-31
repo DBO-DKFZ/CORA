@@ -1,0 +1,9 @@
+A previously healthy <strong>25-year-old male</strong> comes to his primary care physician with a <strong>painless solitary lesion</strong> on his <strong>penis</strong> that developed <strong>4 days ago</strong>. He has not experienced anything like this before. He is currently <strong>sexually active with multiple partners</strong> and <strong>uses condoms inconsistently</strong>. His temperature is <strong>37.0°C (98.7°F)</strong>, pulse is <strong>67/min</strong>, respirations are <strong>17/min</strong>, and blood pressure is <strong>110/70 mm Hg</strong>. Genitourinary examination shows a <strong>shallow, nontender, firm ulcer with a smooth base</strong> along the <strong>shaft of the penis</strong>. There is <strong>nontender inguinal adenopathy bilaterally</strong>. Which of the following is the most appropriate next step to <strong>confirm the diagnosis</strong>?
+
+A. Swab culture
+B. Urine polymerase chain reaction
+C. Rapid plasma reagin
+D. Fluorescent treponemal antibody absorption test
+E. Dark-field microscopy
+
+LLM answer: E. Dark-field microscopy

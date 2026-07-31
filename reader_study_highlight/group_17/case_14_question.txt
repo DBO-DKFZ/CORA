@@ -1,0 +1,9 @@
+An <strong>18-year-old man</strong> seeks an evaluation from a physician for <strong>painful right axillary swelling</strong> since <strong>2 days ago</strong>. He has <strong>malaise</strong>. He has <strong>no history of serious illnesses</strong> and <strong>takes no medications</strong>. He has a <strong>pet kitten</strong> which was <strong>recently treated for fleas</strong>. The <strong>temperature is 38.5℃ (101.3℉)</strong>, the <strong>pulse is 88/min</strong>, the <strong>respiration rate is 14/min</strong>, and the <strong>blood pressure is 120/80 mm Hg</strong>. There are <strong>2 painless papules</strong> on the patient’s <strong>right forearm</strong> that appeared on the <strong>healing scratch marks</strong> left by his <strong>pet kitten</strong> a <strong>few days ago</strong>. Several <strong>lymph nodes in the right axilla are enlarged and tender</strong>. The <strong>overlying skin is erythematous</strong>. <strong>No other lymphadenopathy</strong> is detected in other areas. The rest of the examination shows <strong>no abnormalities</strong>. Which of the following is the most appropriate <strong>pharmacotherapy</strong> at this time?
+
+A. Azithromycin
+B. Doxycycline
+C. Pyrimethamine
+D. Streptomycin
+E. No pharmacotherapy
+
+LLM answer: B. Doxycycline

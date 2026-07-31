@@ -1,0 +1,8 @@
+A <strong>19-year-old woman</strong> with a known history of <strong>malabsorption</strong> presents with a <strong>painful red tongue</strong>, <strong>red eyes</strong>, and <strong>cracked lips</strong>. She says her symptoms gradually began <strong>4 months ago</strong> after moving away from home for college. She also complains of <strong>photophobia</strong>, <strong>spontaneous lacrimation</strong>, and <strong>itchy dermatitis</strong>. Past medical history is significant for a <strong>long-standing malabsorption syndrome</strong>, which she says that she <strong>hasn’t been able to maintain her normal diet or take her vitamins regularly</strong> due to her busy schedule. The patient is <strong>afebrile</strong> and <strong>vital signs are within normal limits</strong>. On physical examination, she has a <strong>malnourished appearance</strong> with <strong>significant pallor</strong>. <strong>Conjunctival injection</strong> is present <strong>bilaterally</strong>. Which of the following diagnostic tests will be most helpful to support the diagnosis of the most likely <strong>vitamin deficiency</strong> in this patient?
+
+A. Measurement of erythrocyte glutamic oxaloacetic transaminase activity
+B. Measurement of serum methylmalonic acid levels
+C. Measurement of erythrocyte folate levels
+D. Measurement of erythrocyte glutathione reductase activity
+
+LLM answer: D. Measurement of erythrocyte glutathione reductase activity

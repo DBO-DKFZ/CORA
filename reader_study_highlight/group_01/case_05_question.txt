@@ -1,0 +1,8 @@
+A <strong>15-year-old girl</strong> comes to the physician for a <strong>follow-up evaluation</strong>. She has multiple <strong>erythematous pustules and nodules</strong> over her <strong>face</strong>, for which she has received <strong>erythromycin</strong> and <strong>topical benzoyl peroxide</strong>. She is concerned that the therapy is <strong>ineffective</strong>. The physician recommends a <strong>drug</strong> on the condition that the patient agrees to use <strong>oral contraceptives</strong>. The <strong>molecular structure</strong> of the drug most likely recommended by the physician closely resembles a drug used to treat which of the following <strong>conditions</strong>?
+
+A. EGFR-positive non-small cell lung cancer
+B. Acute promyelocytic leukemia
+C. BRAF-positive metastatic melanoma
+D. Choriocarcinoma
+
+LLM answer: B. Acute promyelocytic leukemia

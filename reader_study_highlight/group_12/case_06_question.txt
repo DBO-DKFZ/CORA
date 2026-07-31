@@ -1,0 +1,8 @@
+A <strong>5-month-old</strong> child presented to the <strong>dermatology OPD</strong> with <strong>dryness</strong> along with <strong>white, fine scales</strong> on <strong>most parts of the body</strong> with <strong>sparing of face</strong>. The child was born at <strong>39 weeks gestation</strong> <strong>spontaneous vaginal delivery</strong> outside the hospital. On examination, <strong>large scales</strong> which were <strong>attached at the centre with turned up edges</strong> were observed at the <strong>extensor surface of lower limbs</strong> along with <strong>characteristic findings on palms and deltoid region</strong>. Which of the following genes is most likely defective in the above condition: -
+
+A. Desmoglein
+B. Plakoglobin
+C. Plakophilin
+D. Filaggrin
+
+LLM answer: D. Filaggrin

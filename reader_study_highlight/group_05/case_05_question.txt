@@ -1,0 +1,10 @@
+A <strong>24-year-old female</strong> comes to the physician because of <strong>flu-like symptoms</strong> and a <strong>new rash</strong> for <strong>2 days</strong>. She denies contact with sick individuals or recent travel abroad, but recently went <strong>camping in Vermont</strong>. <strong>Vital signs are within normal limits</strong>. Examination of the <strong>lateral right thigh</strong> shows a <strong>circular red ring with central clearing</strong>. Which of the following is the <strong>natural reservoir</strong> of the <strong>pathogen</strong> responsible for this patient's symptoms?
+
+A. Rat
+B. Mouse
+C. Cow
+D. Rabbit
+E. Tick
+F. Flea
+
+LLM answer: B. Mouse

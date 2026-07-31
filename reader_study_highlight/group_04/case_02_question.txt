@@ -1,0 +1,8 @@
+A <strong>72-year-old woman</strong> presented with <strong>skin changes</strong> over her <strong>left breast</strong>. She had a history of <strong>breast cancer</strong> <strong>5 years earlier</strong> and was treated with a <strong>lumpectomy</strong> and <strong>radiation therapy</strong>. What is the diagnosis?
+
+A. Inflammatory breast cancer
+B. Mastitis
+C. Radiation-induced angiosarcoma
+D. Fat necrosis
+
+LLM answer: C. Radiation-induced angiosarcoma

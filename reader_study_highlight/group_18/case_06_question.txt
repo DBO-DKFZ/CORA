@@ -1,0 +1,8 @@
+An <strong>eleven-year-old boy</strong> has <strong>tinea capitis</strong> on his <strong>scalp</strong>. The most appropriate line of <strong>treatment</strong> is:
+
+A. Oral griseofulvin therapy
+B. Topical griseofulvin therapy
+C. Shaving of the scalp
+D. Selenium sulphide shampoo
+
+LLM answer: A. Oral griseofulvin therapy

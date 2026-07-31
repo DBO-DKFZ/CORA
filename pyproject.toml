@@ -1,0 +1,68 @@
+[project]
+name = "dermrag"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "None"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+
+torch = "^2.6.0"
+torchvision = "^0.22.0"
+
+transformers = "4.57.1" 
+pillow = ">=11.1.0,<12.0.0"
+pandas = "^2.0.0"
+accelerate = "^1.10.0"
+datasets = "^3.4.1"
+numpy = "^1.24.0"
+requests = "^2.31.0"
+huggingface-hub = "^0.34.4"
+protobuf = "^4.24.0"
+safetensors = "^0.4.0"
+openpyxl = "^3.1.0"
+notebook = "^7.4"
+sentencepiece = "^0.2.0"
+omegaconf = "^2.3"
+scikit-learn = "^1.7"
+tf-keras = "^2.19.0"
+unsloth = "^2025.8.9"
+bitsandbytes = "^0.47.0"
+qwen-vl-utils = "^0.0.11"
+openai = "^1.100.2"
+tqdm = "^4.67.1"
+ipywidgets = "^8.1.7"
+uv = "^0.8.12"
+open-clip-torch = "^3.1.0"
+opensloth = "^0.2.1"
+chromadb = "^1.4.0"
+sentence-transformers = "^5.2.0"
+python-dotenv = "^1.2.1"
+markdown = "^3.10"
+nltk = "^3.9.2"
+rouge-score = "^0.1.2"
+sacrebleu = "^2.5.1"
+bert-score = "^0.3.13"
+langchain = "^1.2.6"
+langchain-text-splitters = "^1.1.0"
+llama-index = "^0.14.13"
+llama-index-embeddings-huggingface = "^0.6.1"
+llama-index-vector-stores-chroma = "^0.5.5"
+together = "^1.5.35"
+statsmodels = "^0.14.6"
+boto3 = "^1.43.24"
+beautifulsoup4 = "^4.15.0"
+lxml = "^6.1.1"
+tinycss2 = ">=1.5.0"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false

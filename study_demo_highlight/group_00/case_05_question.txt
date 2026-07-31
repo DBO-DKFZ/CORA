@@ -1,0 +1,8 @@
+An <strong>epidemiologic study</strong> observes increased numbers of <strong>respiratory tract infections</strong> among <strong>children</strong> living in a community in which most families are at the <strong>poverty level</strong>. The infectious agents include <strong>Streptococcus pneumoniae</strong>, <strong>Haemophilus influenzae</strong>, and <strong>Klebsiella pneumoniae</strong>. Most of the children have had <strong>pneumonitis</strong> and <strong>rubeola infection</strong>. The study documents increased rates of <strong>keratomalacia</strong>, <strong>urinary tract calculi</strong>, and <strong>generalized papular dermatosis</strong> in these children as they reach adulthood. These children are most likely to have a deficiency of which of the following <strong>vitamins</strong>?
+
+A. Vitamin A
+B. Vitamin B1
+C. Vitamin E
+D. Vitamin D
+
+LLM answer: A. Vitamin A

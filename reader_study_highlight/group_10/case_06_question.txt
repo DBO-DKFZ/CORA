@@ -1,0 +1,8 @@
+A <strong>child</strong> presents with <strong>multiple</strong> <strong>skin-colored papules</strong> over the <strong>lips</strong>. What is the <strong>bedside investigation</strong> that you would like to do?
+
+A. Wood's lamp
+B. KOH
+C. Tzanck smear
+D. Slit skin smear
+
+LLM answer: C. Tzanck smear

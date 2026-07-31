@@ -1,0 +1,9 @@
+A <strong>58-year-old</strong> <strong>Caucasian female</strong> presents to her <strong>primary care physician</strong> with concerns about several recent <strong>health changes</strong>. The patient has recently <strong>gained weight</strong> and <strong>can't seem to exercise like she used to</strong>. She also notes that her <strong>thinking seems slow</strong>. <strong>Physical examination</strong> shows <strong>thickened, dry skin</strong>. <strong>Serum analysis</strong> confirms the physician's suspicions. Which of the following findings was most helpful in the diagnosis?
+
+A. High T4 and T3
+B. Low T4 and T3
+C. High TSH
+D. Hypercholesterolemia
+E. Low TSH
+
+LLM answer: C. High TSH

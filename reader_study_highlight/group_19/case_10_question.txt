@@ -1,0 +1,8 @@
+What is the most probable diagnosis of a child who presents with <strong>white</strong> <strong>umbilicated</strong> <strong>lesions</strong> on the <strong>face</strong>?
+
+A. Molluscum contagiosum
+B. Herpes simplex infection
+C. Erythema toxicum neonatorum
+D. Human papilloma virus infection
+
+LLM answer: A. Molluscum contagiosum

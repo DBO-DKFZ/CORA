@@ -1,0 +1,8 @@
+A <strong>19-year-old man</strong> presents to the clinic because he is concerned about a <strong>pigmented skin lesion</strong>. Which of the following characteristics suggests a <strong>dysplastic nevus</strong> (<strong>atypical mole</strong>) rather than a <strong>benign acquired nevus</strong>?
+
+A. uniform tan color
+B. located on buttock
+C. 4 mm in diameter
+D. 20 similar lesions on body
+
+LLM answer: B. located on buttock

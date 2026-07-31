@@ -1,0 +1,8 @@
+A <strong>28-year-old man</strong> presents with a <strong>new genital ulcer</strong> on his <strong>penis</strong> that is <strong>painless</strong>. He is <strong>sexually active</strong> and noticed the lesion <strong>1 week ago</strong>. The ulcer is <strong>1 cm in size</strong>, has an <strong>eroded base</strong>, and an <strong>indurated margin</strong>. <strong>Dark-field examination</strong> of the ulcer fluid <strong>confirmed the diagnosis</strong>.For the above patient, select the most likely infecting organism.
+
+A. toxoplasmosis
+B. tetanus
+C. syphilis
+D. smallpox
+
+LLM answer: C. syphilis

@@ -1,0 +1,19 @@
+# Generate MedQA-style vignettes from open-access dermatology case reports.
+# python pubmed/generate_vignettes.py --config configs/generate_vignettes.yaml
+
+# NOTE: 2025_2026 case reports are the question source; 2005_2024 is the RAG database context.
+input_jsonl: "pubmed/case_reports_2025_2026.jsonl"
+output_jsonl: "pubmed/vignettes.jsonl"
+
+# generation model
+model: "claude-sonnet-4-6"
+provider: "anthropic"        # anthropic | openai | together | local
+
+# adversarial verifier (defaults to the generation model/provider if omitted)
+verifier_model: "claude-sonnet-4-6"
+verifier_provider: "anthropic"
+
+sample_size: null            # null/0 = full corpus; or an int to spread a sample
+body_char_limit: 14000       # truncate very long full texts to control tokens
+max_workers: 8
+verbose: true

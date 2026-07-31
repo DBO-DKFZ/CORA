@@ -1,0 +1,8 @@
+input_json: "/home/t252a/data/derma/medqa_derma_final.json"
+output_csv: "results/question_categories.csv"
+
+model: "claude-sonnet-4-6"
+provider: "anthropic"
+
+verbose: true
+max_workers: 1

@@ -1,0 +1,9 @@
+A <strong>5-year-old girl</strong> is brought to the physician by her mother because of a <strong>1-month history</strong> of a <strong>painful ulcer on her face</strong>. She has developed <strong>painful sunburns</strong> in the past with <strong>minimal UV exposure</strong>. Examination of the skin shows a <strong>2-cm ulcerated nodule</strong> on the <strong>left cheek</strong>. There are <strong>scaly, hyperpigmented papules and plaques</strong> over the skin of the <strong>entire body</strong>. <strong>Ophthalmologic examination</strong> shows <strong>decreased visual acuity</strong>, <strong>clouded corneas</strong>, and <strong>limbal injection</strong>. Examination of a <strong>biopsy specimen</strong> from the <strong>facial lesion</strong> shows <strong>poorly-differentiated squamous cell carcinoma</strong>. Impairment of which of the following <strong>proteins</strong> is the most likely cause of this patient's condition?
+
+A. Excision endonuclease
+B. Rb nuclear protein
+C. Base-specific glycosylase
+D. DNA helicase
+E. ATM serine/threonine kinase
+
+LLM answer: A. Excision endonuclease

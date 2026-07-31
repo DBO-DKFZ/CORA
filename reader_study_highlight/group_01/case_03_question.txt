@@ -1,0 +1,8 @@
+A <strong>35-year-old man</strong> comes to the physician because of an <strong>ulcer on his penis</strong> that he first noticed <strong>4 days ago</strong>. He is currently <strong>sexually active with multiple male partners</strong> and <strong>uses condoms inconsistently</strong>. Genital examination shows a <strong>shallow, nontender ulcer with a smooth base and indurated border</strong> along the <strong>shaft of the penis</strong>. There is <strong>bilateral inguinal lymphadenopathy</strong>. <strong>Darkfield microscopy</strong> of a sample from the lesion shows <strong>gram-negative, spiral-shaped bacteria</strong>. A drug that acts by inhibition of which of the following is the most appropriate treatment for this patient?
+
+A. Transpeptidase
+B. Aminoacyl-tRNA binding
+C. Dihydrofolate reductase
+D. Dihydropteroate synthase
+
+LLM answer: A. Transpeptidase

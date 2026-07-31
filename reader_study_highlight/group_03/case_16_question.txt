@@ -1,0 +1,8 @@
+A <strong>60-year-old man</strong> presented with <strong>itchy tense blisters</strong> on <strong>normal-looking skin</strong> and <strong>urticarial rash</strong>. Investigation done for the diagnosis:
+
+A. Direct immunofluorescence
+B. Indirect immunofluorescence
+C. Histopathology
+D. Cytopathology
+
+LLM answer: A. Direct immunofluorescence

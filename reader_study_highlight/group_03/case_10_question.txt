@@ -1,0 +1,9 @@
+A <strong>17-year-old girl</strong> presents to her <strong>dermatologist</strong> for treatment of <strong>severe acne vulgaris</strong> pictured in <strong>Figure A</strong>. She has tried <strong>multiple topical and oral treatments</strong> but has been unsatisfied with the results. She reports feeling <strong>self-conscious about her appearance</strong>, and would like to resolve her <strong>acne</strong> before she begins her <strong>undergraduate studies in the fall</strong>. One of her friends recently completed a course of <strong>oral isotretinoin</strong> for <strong>acne vulgaris</strong>, and she asks if she would be a candidate for the therapy. The <strong>risks and benefits</strong> of the treatment are reviewed with the patient, and an <strong>in-office urine pregnancy test</strong> is <strong>negative</strong>. <strong>Isotretinoin</strong> is commenced. Which of the following is a <strong>potential consequence</strong> of this treatment?
+
+A. Clostridium difficile infection
+B. Idiopathic intracranial hypertension
+C. Myocarditis
+D. Peripheral edema
+E. Primary pulmonary hypertension
+
+LLM answer: B. Idiopathic intracranial hypertension

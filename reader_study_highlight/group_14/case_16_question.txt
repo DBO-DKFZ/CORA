@@ -1,0 +1,8 @@
+A <strong>67-year-old woman</strong> presents to a surgeon with a <strong>painless, slowly growing ulcer</strong> in the <strong>periauricular region</strong> for the last <strong>2 months</strong>. On physical examination, there is an <strong>irregular-shaped ulcer</strong>, <strong>2 cm x 1 cm</strong> in its dimensions, with <strong>irregular margins</strong> and <strong>crusting over the surface</strong>. The woman is a <strong>fair-skinned individual</strong> who loves to go <strong>sunbathing</strong>. There is <strong>no family history of malignancy</strong>. After a complete physical examination, the surgeon performs a <strong>biopsy</strong> of the lesion under <strong>local anesthesia</strong> and sends the tissue for <strong>histopathological examination</strong>. The pathologist confirms the diagnosis of <strong>squamous cell carcinoma of the skin</strong>. When she asks about the cause, the surgeon explains that there are many possible causes, but it is likely that she has developed <strong>squamous cell carcinoma</strong> on her <strong>face</strong> due to <strong>repeated exposure to ultraviolet rays from the sun</strong>, especially <strong>ultraviolet B (UVB) rays</strong>. If the surgeon’s opinion is correct, which of the following mechanisms is most likely involved in the pathogenesis of the condition?
+
+A. Intrastrand cross-linking of thymidine residues in DNA
+B. Upregulation of expression of cyclin D2
+C. Activation of transcription factor NF-κB
+D. DNA damage caused by the formation of reactive oxygen species
+
+LLM answer: A. Intrastrand cross-linking of thymidine residues in DNA

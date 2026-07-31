@@ -1,0 +1,9 @@
+A <strong>41-year-old woman</strong> presents to urgent care with complaints of a <strong>new rash</strong>. On review of systems, she endorses <strong>ankle pain bilaterally</strong>. Otherwise, she has no additional localized complaints. Physical examination reveals numerous <strong>red subcutaneous nodules</strong> overlying her <strong>shins, bilaterally</strong>. Complete blood count shows leukocytes 7,300, Hct 46.2%, Hgb 18.1 g/dL, mean corpuscular volume (MCV) 88 fL, and platelets 209. Chest radiography demonstrates <strong>bilateral hilar adenopathy</strong> with <strong>clear lungs</strong>. Which of the following is the most likely diagnosis?
+
+A. Coccidioidomycosis
+B. Sarcoidosis
+C. Yersiniosis
+D. Chlamydophila pneumoniae
+E. Histoplasmosis
+
+LLM answer: B. Sarcoidosis

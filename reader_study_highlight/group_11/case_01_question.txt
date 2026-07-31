@@ -1,0 +1,8 @@
+A <strong>65-year-old man</strong> presents with <strong>multiple lesions on his penis</strong> that he has had for <strong>2 months</strong>. Physical examination reveals <strong>shiny, soft, erythematous plaques</strong> on the <strong>glans and foreskin</strong>. Biopsy of <strong>lesional skin</strong> shows <strong>neoplastic epithelial cells</strong>, connected by <strong>intercellular bridges</strong>, with <strong>invasion into the dermis</strong>. Which of the following is the appropriate histologic diagnosis for this patient's <strong>penile neoplasm</strong>?
+
+A. Adenocarcinoma
+B. Lichen planus
+C. Melanoma
+D. Squamous cell carcinoma
+
+LLM answer: D. Squamous cell carcinoma

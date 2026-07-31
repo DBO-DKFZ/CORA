@@ -1,0 +1,8 @@
+A <strong>23-year-old man</strong> comes to the physician because of <strong>lightening of his skin</strong> on <strong>both hands</strong>, <strong>under his eyes</strong>, and on his <strong>neck</strong> for <strong>2 years</strong>. During this period the lesions <strong>slowly grew in size</strong>. There is <strong>no itchiness or pain</strong>. He regularly visits his family in <strong>India</strong>. <strong>Vital signs are within normal limits</strong>. Examination shows <strong>sharply demarcated, depigmented skin patches</strong> on the <strong>dorsum of both hands</strong>, in the <strong>periocular region</strong>, and on the <strong>neck</strong>. <strong>Sensation of the skin is intact</strong>. The lesions <strong>fluoresce blue-white under Wood's lamp</strong>. Which of the following findings is most likely to be associated with this patient's diagnosis?
+
+A. “Spaghetti and meatballs” appearance on KOH scraping
+B. Decreased pigment with normal melanocyte count
+C. Elevated anti-TPO antibody levels
+D. Renal angiomyolipoma on abdominal MRI
+
+LLM answer: C. Elevated anti-TPO antibody levels

@@ -1,0 +1,16 @@
+# Pre-cutoff memorization arm — GPT-5 base (no retrieval), open-ended.
+# Mirrors answerer_gpt5_pubmed_base.yaml exactly except for input/output paths.
+
+# --- Input ---
+rag_mode: false
+open_ended: true
+retrieved_docs_dir: results/retrieved_docs_precutoff_base/
+
+# --- Model ---
+model: "gpt-5"
+provider: "openai"
+
+# --- Output ---
+output_file: "results/gpt5/results_gpt5_precutoff_base.csv"
+verbose: true
+sufficient_only: false

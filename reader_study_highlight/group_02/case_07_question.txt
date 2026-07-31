@@ -1,0 +1,8 @@
+A <strong>4-year-old boy</strong> is presented to the clinic by his mother due to a <strong>peeling erythematous rash</strong> on his <strong>face, back, and buttocks</strong> which started <strong>this morning</strong>. <strong>Two days ago</strong>, the patient’s mother says his skin was <strong>extremely tender</strong> and within <strong>24 hours</strong> progressed to <strong>desquamation</strong>. She also says that, for the <strong>past few weeks</strong>, he was <strong>very irritable</strong> and cried more than usual during <strong>diaper changes</strong>. The patient is <strong>up to date on his vaccinations</strong> and has been <strong>meeting all developmental milestones</strong>. <strong>No significant family history</strong>. On physical examination, the <strong>temperature is 38.4°C (101.1°F)</strong> and the <strong>pulse is 70/min</strong>. The <strong>epidermis separates from the dermis by gentle lateral stroking of the skin</strong>. <strong>Systemic antibiotics</strong> are prescribed, and <strong>adequate fluid replacement</strong> is provided. Which of the following microorganisms most likely caused this patient’s condition?
+
+A. Bacillus anthracis
+B. Clostridium sp.
+C. Streptococcus sp.
+D. Staphylococcus aureus
+
+LLM answer: D. Staphylococcus aureus

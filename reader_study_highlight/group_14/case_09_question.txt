@@ -1,0 +1,9 @@
+A <strong>20-year-old female</strong> presents to the <strong>college health clinic</strong> concerned about a <strong>rash</strong> that has recently developed along her <strong>back and flank</strong>. Aside from a history of <strong>chronic diarrhea</strong> and <strong>flatulence</strong>, she reports being otherwise healthy. She is concerned that this rash could be either from <strong>bed bugs</strong> or possibly be <strong>sexually transmitted</strong>, as she has engaged in <strong>unprotected sex</strong> multiple times over the past <strong>two years</strong>. The physician orders several <strong>lab tests</strong> and finds that the patient does indeed have <strong>chlamydia</strong> and elevated <strong>tissue transglutaminase (tTG)</strong> levels. What is the most likely cause of her <strong>rash</strong>?
+
+A. Disseminated chlamydial infection
+B. Streptococcal meningitis infection
+C. Immunologic response to gluten
+D. Immunologic response to dairy
+E. Bed bug infestation
+
+LLM answer: C. Immunologic response to gluten

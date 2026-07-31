@@ -1,0 +1,8 @@
+A <strong>male patient</strong> presents with <strong>patchy loss of hair</strong> on <strong>scalp</strong>, <strong>eyebrows</strong> and <strong>beard</strong>. He also gives a history of <strong>rapid graying of hair</strong> in a few areas. The likely diagnosis is –
+
+A. Alopecia areata
+B. Anagen effluvium
+C. Telogen effluvium
+D. Androgenic alopecia
+
+LLM answer: A. Alopecia areata

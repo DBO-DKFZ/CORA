@@ -1,0 +1,8 @@
+A <strong>50-year-old woman</strong> develops <strong>pink macules and papules</strong> on her <strong>hands and forearms</strong> in association with a <strong>sore throat</strong>. The lesions are <strong>target-like</strong>, with the centers a <strong>dusky violet</strong>. A diagnosis of <strong>erythema multiforme</strong> is made. The most important information obtained from this patient's history is
+
+A. The patient has been using tampons
+B. The patient is taking phenytoin
+C. The patient has never had measles
+D. No other family members have a sore throat
+
+LLM answer: B. The patient is taking phenytoin

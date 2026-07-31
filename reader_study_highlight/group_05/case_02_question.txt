@@ -1,0 +1,9 @@
+A <strong>42-year-old woman</strong> with <strong>well-controlled HIV</strong> on <strong>antiretroviral therapy</strong> comes to the physician because of a <strong>2-week history</strong> of a <strong>painless lesion</strong> on her <strong>right calf</strong>. Many years ago, she had a <strong>maculopapular rash</strong> over her <strong>trunk, palms, and soles</strong> that <strong>resolved spontaneously</strong>. Physical examination shows a <strong>4-cm firm, non-tender, indurated ulcer</strong> with a <strong>moist, dark base</strong> and <strong>rolled edges</strong>. There is a <strong>similar lesion at the anus</strong>. Results of <strong>rapid plasma reagin testing are positive</strong>. Which of the following findings is most likely on microscopic examination of these lesions?
+
+A. Epithelioid cell infiltrate surrounding acellular, granular core
+B. Epidermal hyperplasia with dermal lymphocytic infiltrate
+C. Lichenoid hyperplasia with superficial neutrophilic infiltrate
+D. Ulcerated epidermis with plasma cell infiltrate
+E. Coagulative necrosis surrounded by fibroblast and macrophage infiltrate
+
+LLM answer: D. Ulcerated epidermis with plasma cell infiltrate

@@ -1,0 +1,12 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_qwenagent_reranked/
+
+# --- Model ---
+model: "accounts/fireworks/models/deepseek-v4-flash"
+provider: "fireworks"  # together | openai | fireworks | local
+local_base_url: "http://localhost:8000/v1"
+
+# --- Output ---
+output_file: "results/deepseekv3.1/results_deepseekv3.1_medqa_rag.csv"
+verbose: true

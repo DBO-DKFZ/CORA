@@ -1,0 +1,8 @@
+A <strong>12-year-old boy</strong> came with complaints of <strong>4 hypopigmented patches</strong> on the <strong>back</strong> and on the <strong>left arm</strong>. The patches had <strong>loss of sensation</strong>. Which of the following is the treatment for this case?
+
+A. Rifampicin (450 mg) + Dapsone (50 mg) + Clofazimine (150 mg) monthly and 50 mg daily
+B. Rifampicin (600 mg) + Dapsone (150 mg) only
+C. Rifampicin (450 mg) + Dapsone (50 mg) + Clofazimine (150 mg) monthly and 50 mg alternate days
+D. Rifampicin (600 mg) + Dapsone (150 mg) + Clofazimine (300 mg) monthly and 50 mg daily
+
+LLM answer: C. Rifampicin (450 mg) + Dapsone (50 mg) + Clofazimine (150 mg) monthly and 50 mg alternate days

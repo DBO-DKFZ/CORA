@@ -1,0 +1,8 @@
+A patient has been diagnosed with <strong>systemic sclerosis</strong>. He has <strong>anti-RNA polymerase III antibodies</strong>. Which of the following is more common in this patient?
+
+A. Reduced risk of scleroderma renal crisis
+B. Acute onset of disease
+C. Reduced risk of malignancy
+D. Increased risk of pulmonary hypertension
+
+LLM answer: B. Acute onset of disease

@@ -1,0 +1,8 @@
+Patient with <strong>pruritic lesion</strong> over <strong>left shoulder</strong> showing <strong>cigarette paper atrophy</strong> and <strong>poikiloderma</strong> with <strong>generalized lymphadenopathy</strong>. Histopathological examination of lesion shows <strong>CD4 positive Sezary-Lutzner cells</strong>. What is the <strong>dermo-epidermal manifestation</strong> of this disease?
+
+A. Pautrier's microabscess
+B. Pin point ulcers
+C. Discharging sinus
+D. Miliaria
+
+LLM answer: A. Pautrier's microabscess

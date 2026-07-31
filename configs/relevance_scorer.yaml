@@ -1,0 +1,7 @@
+model: "Qwen/Qwen3-235B-A22B-Instruct-2507-tput"
+provider: "together"
+input_csv: results/results_minimax2.7_reranked_rag.csv # just need the question ids and the correct choices to compute the relevance scores
+output_csv: results/doc_relevance_minimax2.7_rag.csv
+retrieved_docs_dir: results/retrieved_docs_medqa_snowflakev2_reranked/
+top_k_docs: 62
+verbose: true

@@ -1,0 +1,8 @@
+A patient had <strong>seven irregular hyperpigmented macules</strong> on the <strong>trunk</strong> and <strong>multiple small hyperpigmented macules</strong> in the <strong>axillae</strong> and <strong>groins</strong> since <strong>early childhood</strong>. There were <strong>no other skin lesions</strong>. Which is the most likely investigation to support the diagnosis?
+
+A. Slit lamp examination of eye
+B. Measurement of intraocular tension
+C. Examination of fundus
+D. Retinal artery angiography
+
+LLM answer: A. Slit lamp examination of eye

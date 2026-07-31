@@ -1,0 +1,8 @@
+A <strong>male child</strong> with <strong>cryptorchidism</strong> presents with <strong>large black scales</strong> on <strong>body flexures</strong>. Skin biopsy showed <strong>hypergranulosis</strong> and <strong>steroid sulfatase deficiency</strong>. Probable diagnosis is:
+
+A. Ichthyosis vulgaris
+B. Ichthyosis - lamellar
+C. X-linked ichthyosis nigra
+D. Nonbullous ichthyosiform erythroderma
+
+LLM answer: C. X-linked ichthyosis nigra

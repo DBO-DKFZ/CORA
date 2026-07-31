@@ -1,0 +1,12 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_naiverag_reranked/
+
+# --- Model ---
+model: "bartowski/google_gemma-3-27b-it-GGUF"
+provider: "local"
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/gemma3/results_gemma3_naiverag_reranked.csv"
+verbose: true

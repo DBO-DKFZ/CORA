@@ -1,0 +1,12 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_qwenagent_reranked/
+
+# --- Model ---
+model: "bartowski/Meta-Llama-4"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/llama4/results_llama4_medqa_rag.csv"
+verbose: true

@@ -1,0 +1,10 @@
+A <strong>57-year-old</strong> woman comes to the physician because of <strong>increasing wrinkles</strong> on her <strong>face</strong> and <strong>sagging skin</strong>. She says that her skin used to be <strong>smooth</strong> and <strong>firm</strong>. Examination shows <strong>diffuse xerosis</strong> and <strong>mild atrophy</strong>, <strong>laxity</strong>, and <strong>fine wrinkles</strong> on the <strong>periorbital skin</strong>. Which of the following processes is most likely involved in the development of this patient's <strong>skin findings</strong>?
+
+A. Decrease in lysyl oxidase activity
+B. Increase in collagen biosynthesis
+C. Decrease in elastin fiber assembly
+D. Increase in fibroblast activity
+E. Increase in lipofuscin deposition
+F. Decreased crosslinking of collagen fibrils
+
+LLM answer: C. Decrease in elastin fiber assembly

@@ -1,0 +1,14 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_snowflakev2_reranked/
+
+# --- Model ---
+model: "gpt-5-mini"
+provider: "openai"  # together | openai | local
+local_base_url: "http://localhost:8000/v1"
+
+# --- Output ---
+output_file: "results/gpt5mini/results_gpt5mini_reranked_rag.csv"
+verbose: true
+# --- Filtering ---
+# min_confidence: 0.0  # uncomment to include all sufficient=True cases; set a value to use a custom confidence cutoff

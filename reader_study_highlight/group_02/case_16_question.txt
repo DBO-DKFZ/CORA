@@ -1,0 +1,8 @@
+A patient presented with <strong>scarring alopecia</strong>, <strong>thinned nails</strong>, <strong>hypopigmented macular lesions</strong> over the <strong>trunk</strong> and <strong>oral mucosa</strong>. The diagnosis is –
+
+A. Psoriasis
+B. Leprosy
+C. Lichen planus
+D. None
+
+LLM answer: C. Lichen planus

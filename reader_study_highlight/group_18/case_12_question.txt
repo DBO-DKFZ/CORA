@@ -1,0 +1,11 @@
+A <strong>68-year-old woman</strong> comes to the physician because of a <strong>3-month history</strong> of an <strong>oozing, red area above the left ankle</strong>. She does not recall any trauma to the lower extremity. She has <strong>type 2 diabetes mellitus</strong>, <strong>hypertension</strong>, <strong>atrial fibrillation</strong>, and <strong>ulcerative colitis</strong>. She had a <strong>myocardial infarction</strong> 2 years ago and a <strong>stroke</strong> 7 years ago. She has <strong>smoked 2 packs of cigarettes daily for 48 years</strong> and drinks 2 alcoholic beverages daily. Current medications include <strong>warfarin</strong>, metformin, aspirin, atorvastatin, carvedilol, and mesalamine. She is 165 cm (5 ft 4 in) tall and weighs 67 kg (148 lb); BMI is 24.6 kg/m2. Her temperature is 36.7°C (98°F), pulse is 90/min, respirations are 12/min, and blood pressure is 135/90 mm Hg. Examination shows <strong>yellow-brown spots</strong> and <strong>dilated tortuous veins</strong> over the lower extremities. The <strong>feet and the left calf are edematous</strong>. <strong>Femoral, popliteal, and pedal pulses are palpable bilaterally</strong>. There is a <strong>3-cm (1.2-in) painless, shallow, exudative ulcer surrounded by granulation tissue above the medial left ankle</strong>. There is <strong>slight drooping of the right side of the face</strong>. Which of the following is the most likely cause of this patient's ulcer?
+
+A. Decreased arterial blood flow
+B. Peripheral neuropathy
+C. Neutrophilic dermatosis
+D. Venous insufficiency
+E. Chronic pressure
+F. Drug-induced microvascular occlusion
+G. Vasculitis of small and medium-sized vessels
+
+LLM answer: D. Venous insufficiency

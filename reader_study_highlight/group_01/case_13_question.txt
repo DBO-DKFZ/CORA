@@ -1,0 +1,8 @@
+A <strong>35-year-old man</strong> presents with <strong>large tense blisters</strong> on the <strong>flexor surfaces</strong> of the <strong>upper extremities</strong> and <strong>trunk</strong>. The <strong>histologic findings</strong> show <strong>subepidermal blisters</strong> with an <strong>eosinophil-rich infiltrate</strong>. What is the most likely underlying pathology?
+
+A. Autoantibodies to desmoglein 3
+B. Granular deposits of immunoglobulin A (IgA) in the dermal papilla
+C. Linear band of immunoglobulin G (IgG) in the epidermal basement membrane
+D. Linear band of IgA in the basement membrane
+
+LLM answer: C. Linear band of immunoglobulin G (IgG) in the epidermal basement membrane

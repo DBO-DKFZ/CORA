@@ -1,0 +1,8 @@
+A <strong>preterm baby</strong> developed <strong>bullous lesion</strong> on the <strong>skin</strong> soon after <strong>birth</strong>. The <strong>X-ray</strong> shows <strong>periostitis</strong>. What should be the next investigation?
+
+A. VDRL for mother & baby
+B. ELISA for HIV
+C. PCR for TB
+D. Hepatitis surface antigen for mother
+
+LLM answer: A. VDRL for mother & baby

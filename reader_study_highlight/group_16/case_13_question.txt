@@ -1,0 +1,9 @@
+A <strong>39-year-old woman</strong> with poorly controlled <strong>systemic lupus erythematosus (SLE)</strong> presents to her <strong>rheumatologist</strong> for a <strong>follow-up visit</strong>. She has had intermittent <strong>myalgias</strong>, <strong>arthralgias</strong>, <strong>fatigue</strong>, and <strong>skin rashes</strong> over the past <strong>10 years</strong> that have acutely worsened over the past year. She works as a <strong>school teacher</strong> but reports that she has had to miss several days of work due to her symptoms. She has been on <strong>hydroxychloroquine</strong> for several years but does not feel that it is adequately controlling her symptoms. She does not <strong>smoke</strong> or <strong>drink alcohol</strong>. Her temperature is <strong>99.2°F (37.3°C)</strong>, blood pressure is <strong>130/75 mmHg</strong>, pulse is <strong>80/min</strong>, and respirations are <strong>18/min</strong>. On exam, she is <strong>well-appearing</strong> and in <strong>no acute distress</strong>. She has <strong>erythematous, raised plaques with keratotic scaling and follicular plugging</strong> on her <strong>hands</strong>. The physician decides to trial the patient on <strong>low-dose prednisone</strong> to better control her symptoms. At <strong>2 months of follow-up</strong>, she reports that her <strong>flares have subsided</strong> and she has been able to <strong>return to work full-time</strong>. If this patient continues this <strong>medication regimen</strong>, she will be at an elevated risk for developing which of the following?
+
+A. Femoral neck fracture
+B. Femoral shaft fracture
+C. Meniscal tear
+D. Osgood-Schlatter disease
+E. Proximal phalanx fracture
+
+LLM answer: A. Femoral neck fracture

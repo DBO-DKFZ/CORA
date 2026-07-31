@@ -1,0 +1,14 @@
+A <strong>48-year-old man</strong> comes to the physician because of a <strong>skin lesion on his nose</strong> and <strong>in his mouth</strong>. The lesions have been <strong>gradually increasing in size</strong> and are <strong>not painful or pruritic</strong>. <strong>Two months ago</strong>, he was treated for <strong>esophageal candidiasis</strong>. Physical examination shows one <strong>pinkish-brown papule</strong> on the <strong>right wing of the nose</strong> and two similar <strong>nodular lesions</strong> on the <strong>hard palate</strong> and <strong>buccal mucosa</strong>. A <strong>biopsy</strong> of one of the lesions shows <strong>spindle-shaped endothelial cells</strong> and infiltration of <strong>lymphocytes, plasma cells, and macrophages</strong>. Which of the following is the most likely causal organism of this patient's condition?
+
+A. Polyomavirus
+B. Coccidioides immitis
+C. Poxvirus
+D. Bartonella henselae
+E. Epstein-Barr virus
+F. Human herpes virus 8
+G. Human T-cell leukemia virus type 1
+H. Human papilloma virus 16
+I. Human papilloma virus 6
+J. Mycobacterium avium complex
+
+LLM answer: D. Bartonella henselae

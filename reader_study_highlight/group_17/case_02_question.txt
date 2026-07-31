@@ -1,0 +1,8 @@
+A <strong>42-year-old woman</strong> with <strong>hypertension</strong> comes to the physician because of a <strong>2-month history</strong> of <strong>persistent reddening of her face</strong>, <strong>daytime fatigue</strong>, and <strong>difficulty concentrating</strong>. She has <strong>fallen asleep multiple times during important meetings</strong>. Her only medication is <strong>lisinopril</strong>. She is <strong>170 cm (5 ft 7 in)</strong> tall and weighs <strong>88 kg (194 lb)</strong>; <strong>BMI is 30 kg/m2</strong>. Her <strong>blood pressure is 145/85 mm Hg</strong>. Physical examination shows <strong>erythema of the face</strong> that is especially pronounced around the <strong>cheeks, nose, and ears</strong>. <strong>Serum glucose concentration is 120 mg/dL</strong>. Which of the following is the most likely cause of this patient's <strong>facial discoloration</strong>?
+
+A. Antibody-mediated vasculopathy
+B. Increased cortisol levels
+C. Increased bradykinin production
+D. Increased erythropoietin production
+
+LLM answer: D. Increased erythropoietin production

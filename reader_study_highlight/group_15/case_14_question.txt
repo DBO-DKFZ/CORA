@@ -1,0 +1,9 @@
+A <strong>10-month-old girl</strong> is brought to the clinic by her mother with <strong>skin lesions</strong> on her <strong>chest</strong>. The mother says that she noticed the lesions <strong>24 hours ago</strong> and that they have not improved. The patient has <strong>no significant past medical history</strong>. She was <strong>born at term</strong> by <strong>spontaneous transvaginal delivery</strong> with <strong>no complications</strong>, is in the <strong>90th percentile on her growth curve</strong>, and has <strong>met all developmental milestones</strong>. Upon physical examination, several <strong>skin-colored umbilicated papules</strong> are visible. Which of the following is the most appropriate treatment of this patient's likely diagnosis?
+
+A. Acyclovir
+B. Topical antifungal therapy
+C. Wide-spectrum antibiotics
+D. Cryotherapy or podophyllotoxin (0.15% topically)
+E. Multivitamin supplementation
+
+LLM answer: D. Cryotherapy or podophyllotoxin (0.15% topically)

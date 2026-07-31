@@ -1,0 +1,8 @@
+A <strong>32-year-old woman</strong> presents to the <strong>emergency department</strong> after acutely developing a <strong>high fever</strong>, <strong>lightheadedness on standing</strong>, and a <strong>rash</strong>. At the hospital she develops <strong>vomiting</strong>, <strong>diarrhea</strong>, <strong>confusion</strong>, and <strong>abdominal pain</strong>. She goes on to develop evidence of <strong>multiorgan failure</strong> and is transferred to the <strong>intensive care unit</strong>. <strong>One week after the acute illness</strong> she develops <strong>desquamation of the skin</strong>. On further history, the illness started <strong>3 days after the onset of menstruation</strong>. Which of the following is the most likely diagnosis?
+
+A. S aureus toxic shock syndrome (TSS)
+B. Streptococcal infection (scarlet fever)
+C. Clostridial infection
+D. Rocky Mountain spotted fever (RMSF)
+
+LLM answer: A. S aureus toxic shock syndrome (TSS)

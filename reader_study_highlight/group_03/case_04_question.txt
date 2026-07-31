@@ -1,0 +1,10 @@
+A <strong>4-year-old boy</strong> is brought to the physician because of a <strong>rash</strong> and <strong>difficulty swallowing</strong>. His family emigrated from <strong>Nigeria</strong> <strong>2 months ago</strong>. Examination shows an <strong>erythematous rash with fine yellow scales</strong> on his <strong>eyebrows and nasolabial folds</strong>. Oral examination shows an <strong>erythematous throat</strong> and <strong>swollen tongue</strong>. There is <strong>peeling and fissures of the skin at the corners of the mouth</strong> and <strong>cracking of the lips</strong>. His <strong>hemoglobin concentration is 9.6 g/dL</strong>; <strong>mean corpuscular volume is 89 μm3</strong>. <strong>Erythrocyte glutathione reductase assay shows an increased activity coefficient</strong>. This patient is most likely deficient in a vitamin that is a precursor to which of the following molecules?
+
+A. Thiamine pyrophosphate
+B. Coenzyme A
+C. Flavin adenine dinucleotide
+D. Nicotinamide adenine dinucleotide
+E. Methylcobalamin
+F. Pyridoxal phosphate
+
+LLM answer: C. Flavin adenine dinucleotide

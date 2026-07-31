@@ -1,0 +1,8 @@
+A <strong>28-year-old</strong> patient presents to a medical office for a consultation regarding a <strong>mole</strong> on her <strong>nose</strong> that is <strong>increasing in size</strong>. She also complains of <strong>frequent headaches</strong>, which she associates with <strong>stress</strong> on the job. She works as a <strong>civil engineer</strong> and spends much of her time <strong>outside</strong>. Her past medical history is positive for <strong>bronchial asthma</strong>; nevertheless, her <strong>vitals are stable</strong>. The mole is <strong>8 mm in diameter</strong>, has <strong>irregular borders</strong>, and is <strong>brown in color</strong>. A <strong>biopsy</strong> is performed and sent for <strong>genetic analysis</strong>. A <strong>mutation</strong> is found. A mutation in which <strong>gene</strong> is characteristic of this patient’s main diagnosis?
+
+A. c-MYC
+B. APC
+C. BRAF
+D. BCL-2
+
+LLM answer: C. BRAF

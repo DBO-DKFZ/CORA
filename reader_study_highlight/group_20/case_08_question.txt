@@ -1,0 +1,10 @@
+<strong>Two weeks after</strong> undergoing an <strong>allogeneic skin graft</strong> procedure for <strong>extensive full-thickness burns</strong> involving his <strong>left leg</strong>, a <strong>41-year-old man</strong> develops <strong>redness and swelling</strong> over the <strong>graft site</strong>. He has <strong>not had any fevers or chills</strong>. His <strong>temperature is 36°C (96.8°F)</strong>. Physical examination of the <strong>left lower leg</strong> shows <strong>well-demarcated erythema and edema</strong> around the <strong>skin graft site</strong>. The <strong>graft site is minimally tender</strong> and there is <strong>no exudate</strong>. Which of the following is the most likely underlying mechanism of this patient’s skin condition?
+
+A. Opsonization-induced cell destruction
+B. IgE-mediated mast cell activation
+C. Immune complex-mediated complement activation
+D. Staphylococci-induced neutrophil activation
+E. Antibody-mediated complement activation
+F. Th1-induced macrophage activation
+
+LLM answer: F. Th1-induced macrophage activation

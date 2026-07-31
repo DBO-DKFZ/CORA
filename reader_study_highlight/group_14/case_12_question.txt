@@ -1,0 +1,8 @@
+Two weeks after undergoing <strong>allogeneic stem cell transplant</strong> for <strong>multiple myeloma</strong>, a <strong>55-year-old man</strong> develops a <strong>severely pruritic rash</strong>, <strong>abdominal cramps</strong>, and <strong>profuse diarrhea</strong>. He appears <strong>lethargic</strong>. Physical examination shows <strong>yellow sclerae</strong>. There is a <strong>generalized maculopapular rash</strong> on his <strong>face, trunk, and lower extremities</strong>, and <strong>desquamation of both soles</strong>. His serum <strong>alanine aminotransferase is 115 U/L</strong>, serum <strong>aspartate aminotransferase is 97 U/L</strong>, and serum <strong>total bilirubin is 2.7 mg/dL</strong>. Which of the following is the most likely underlying cause of this patient's condition?
+
+A. Donor T cells in the graft
+B. Newly formed anti-HLA antibodies
+C. Proliferating transplanted B cells
+D. Activated recipient T cells
+
+LLM answer: A. Donor T cells in the graft

@@ -1,0 +1,9 @@
+A <strong>42-year-old woman</strong> presents to the clinic for a <strong>recurrent rash</strong> that has <strong>remitted and relapsed over the last 2 years</strong>. The patient states that she has tried <strong>multiple home remedies</strong> when she has <strong>flare-ups</strong>, to no avail. The patient is <strong>wary of medical care</strong> and has <strong>not seen a doctor in at least 15 years</strong>. On examination, she has <strong>multiple disc-shaped, erythematous lesions</strong> on her <strong>neck</strong>, progressing into her <strong>hairline</strong>. The patient notes <strong>no other symptoms</strong>. Lab work is performed and is <strong>positive for antinuclear antibodies</strong>. What is the most likely diagnosis?
+
+A. Drug-induced lupus
+B. Systemic lupus erythematosus (SLE)
+C. Cutaneous lupus erythematosus (CLE)
+D. Dermatomyositis
+E. Tinea capitis
+
+LLM answer: C. Cutaneous lupus erythematosus (CLE)

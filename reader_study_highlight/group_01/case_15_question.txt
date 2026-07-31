@@ -1,0 +1,8 @@
+A <strong>15-year-old girl</strong> comes to the physician because of a <strong>3-month history of acne</strong>. <strong>Breast and pubic hair development</strong> began at the age of <strong>12 years</strong>. <strong>Menarche</strong> occurred at the age of <strong>14 years</strong>. <strong>Physical examination</strong> shows <strong>scattered open and closed comedones</strong> over the <strong>cheeks and forehead</strong>. <strong>Breast and pubic hair development</strong> are <strong>Tanner stage 5</strong>. Which of the following is the most likely underlying cause of this patient's <strong>acne</strong>?
+
+A. Increased estrogen stimulation of the sebaceous glands
+B. Increased responsiveness of the sebaceous glands to follicle-stimulating hormone
+C. Increased sympathetic stimulation to the sebaceous glands
+D. Stimulation of the sebaceous glands by androgens
+
+LLM answer: D. Stimulation of the sebaceous glands by androgens

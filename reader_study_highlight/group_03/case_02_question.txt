@@ -1,0 +1,11 @@
+A <strong>52-year-old woman</strong> with <strong>type 2 diabetes mellitus</strong> comes to the physician because of a <strong>2-day history</strong> of <strong>blisters on her forearms</strong> and <strong>pain during sexual intercourse</strong>. Her only medications are <strong>metformin</strong> and <strong>glyburide</strong>. Examination reveals <strong>multiple, flaccid blisters</strong> on the <strong>volar surface of the forearms</strong> and <strong>ulcers on the buccal, gingival, and vulvar mucosa</strong>. The <strong>epidermis</strong> on the forearm <strong>separates when the skin is lightly stroked</strong>. Which of the following is the most likely diagnosis?
+
+A. Staphylococcal scalded skin syndrome
+B. Pemphigus vulgaris
+C. Behcet disease
+D. Lichen planus
+E. Dermatitis herpetiformis
+F. Toxic epidermal necrolysis
+G. Bullous pemphigoid
+
+LLM answer: B. Pemphigus vulgaris

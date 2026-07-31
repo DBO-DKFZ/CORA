@@ -1,0 +1,8 @@
+A <strong>40-year-old</strong>, <strong>chronically ill</strong> man from a <strong>Vietnamese village</strong> presents with <strong>painful sores around his mouth</strong>. Physical examination reveals <strong>prominent fissures at the angles of his mouth</strong>. <strong>Cheilosis</strong> in this patient is most likely caused by a deficiency of which of the following <strong>vitamins</strong>?
+
+A. Vitamin A
+B. Vitamin B1 (thiamine)
+C. Vitamin B2 (riboflavin)
+D. Vitamin B12
+
+LLM answer: C. Vitamin B2 (riboflavin)

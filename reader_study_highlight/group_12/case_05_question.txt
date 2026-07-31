@@ -1,0 +1,8 @@
+A <strong>50-year-old man</strong> presents because of a <strong>pruritic rash</strong> of <strong>several years' duration</strong>. The rash is characterized by <strong>erythematous</strong>, <strong>eczematoid patches</strong>, and <strong>raised plaques</strong> and is distributed <strong>asymmetrically</strong> over the <strong>chest</strong> and <strong>abdomen</strong>. <strong>Biopsy</strong> of the plaques reveals <strong>atypical CD4+ T cells</strong> with <strong>cerebriform nuclei</strong>. Further marker studies lead to a diagnosis of <strong>mycosis fungoides</strong>. Which of the following is true of this disease?
+
+A. The disease eventually disseminates to lymph nodes and internal organs.
+B. The neoplastic cells most commonly display cell markers of CD19 and CD20.
+C. The skin rash most commonly disappears over time.
+D. This disease is caused by a chronic fungal infection in the skin.
+
+LLM answer: A. The disease eventually disseminates to lymph nodes and internal organs.

@@ -1,0 +1,8 @@
+A <strong>5-year-old child</strong> predominantly on a <strong>maize-based diet</strong> presents with <strong>recurrent diarrhea</strong>, <strong>dermatitis</strong> with <strong>rashes in the neck area</strong>. What is the most probable diagnosis?
+
+A. Beriberi
+B. Acrodermatitis enteropathica
+C. Pellagra
+D. Tyrosinemia
+
+LLM answer: C. Pellagra

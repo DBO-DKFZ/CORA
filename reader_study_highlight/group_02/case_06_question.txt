@@ -1,0 +1,8 @@
+A <strong>27-year-old female</strong> presents to her <strong>primary care physician</strong> because she is concerned about <strong>lighter colored patches</strong> on her <strong>skin</strong>. She recently went <strong>sunbathing</strong> and noticed that these areas also <strong>did not tan</strong>. Her doctor explains that she has a <strong>fungal infection of the skin</strong> that <strong>damages melanocytes</strong> by producing <strong>acids</strong>. She is prescribed <strong>selenium sulfide</strong> and told to <strong>follow-up in one month</strong>. Which of the following describes the appearance of the most likely <strong>infectious organism under microscopy</strong>?
+
+A. Branching septate hyphae
+B. Broad based budding yeast
+C. Germ tube forming fungus
+D. "Spaghetti and meatballs" fungus
+
+LLM answer: D. "Spaghetti and meatballs" fungus

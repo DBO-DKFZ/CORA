@@ -1,0 +1,8 @@
+A lady presents with <strong>joint pain</strong> in <strong>both knees</strong> and <strong>low-grade fever</strong> off and on. On examination she has a <strong>rash</strong> on <strong>sun-exposed parts</strong>. Clinical diagnosis?
+
+A. SLE
+B. Rheumatoid arthritis
+C. Photo-dermatitis
+D. Porphyria
+
+LLM answer: A. SLE

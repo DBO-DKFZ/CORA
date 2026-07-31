@@ -1,0 +1,118 @@
+# --- I/O ---
+input_csv: ./results/results_llama4_qwenagent_reranked_rag.csv
+categories_csv: ./results/question_categories_cleaned.csv
+output_dir: ./study_demo
+
+# --- Sampling ---
+n_groups: 1       # number of physician groups (3 physicians per group)
+n_correct: 5      # correct LLM answers per group
+n_incorrect: 2     # incorrect LLM answers per group (guaranteed per group)
+random_seed: 42
+max_workers: 8     # parallel LLM calls for source cleaning
+
+# Correct pool: strata key = disease_category x question_type
+correct_strata_dimensions:
+  - question_type
+  - disease_category
+
+# Incorrect pool: strata key = disease_category x question_type
+incorrect_strata_dimensions:
+  - question_type
+  - disease_category
+
+
+# Exclude questions already used in the main reader study
+exclude_ids_from:
+  - ./reader_study/**/*.json
+
+# --- Filtering ---
+# Prioritize questions whose used_sources came from clinical guidelines (eadv_guidelines collection).
+# Set to null to disable. When set, guideline questions are sampled first within every stratum;
+# non-guideline questions fill any remaining slots.
+difficulty_csv: ./results/question_difficulty.csv
+priority_difficulties: [medium, hard]
+guideline_report_csv: ./results/guideline_sourced_questions.csv
+
+exclude_visual: true    # true → exclude questions where requires_visual_reasoning is true
+max_used_sources: 6     # null → no limit; set to e.g. 5 to exclude questions with >5 used sources
+
+# Only include these question types
+allowed_question_types:
+  - diagnosis
+  - treatment
+  - prognosis
+  - mechanism
+  - epidemiology
+
+allowed_question_structures:
+  - short_stem
+  - vignette
+  #- one_liner
+
+
+# Study-level type mix — enforced first (outer constraint).
+# Prognosis is capped by pool size (~10 correct cases total); surplus redistributes to diagnosis.
+question_type_ratios:
+  diagnosis: 0.3
+  treatment: 0.25
+  prognosis: 0.2
+  mechanism: 0.2
+  epidemiology: 0.05
+
+# Applied within each type's budget (inner constraint).
+# Neoplastic is aggressively oversampled per type; surplus from exhausted
+# Neoplastic sub-pools redistributes to other categories within that same type.
+# Leave empty ({}) for proportional allocation across categories.
+category_ratios:
+  Neoplastic: 0.30
+  Inflammatory: 0.175
+  Infectious: 0.175
+  Genetic & Other: 0.175
+  Metabolic & Pigmentation: 0.175
+
+# When true, category_ratios is the outer constraint and question_type_ratios is applied within
+# each category's budget. Use this when the category target (e.g. 50% Neoplastic) is the
+# higher priority and type-pool shortfalls were eroding it.
+# When false (default), question_type_ratios is outer and category_ratios is inner.
+category_first: true
+
+# Merge small disease categories to ensure sufficient pool sizes per stratum
+category_merge_map:
+  Inflammatory: Inflammatory
+  Infectious: Infectious
+  Neoplastic: Neoplastic
+  Genetic Rare: Genetic & Other
+  Other: Genetic & Other
+  Metabolic Systemic: Metabolic & Pigmentation
+  Pigmentation: Metabolic & Pigmentation
+  Hair Nail: Metabolic & Pigmentation
+
+clean_sources: true     # false → skip LLM cleaning and write raw source texts
+
+# --- Model ---
+provider: together      # together | openai | local
+model: Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+local_base_url: http://localhost:8080/v1   # only used when provider: local
+
+# --- Prompt ---
+cleaning_system_prompt: |
+  You are a medical text editor. You receive raw extracted text from a medical textbook or clinical guideline. The text may contain:
+  - Markdown headers (# Header, ## Subheader, ### Subsubheader)
+  - LaTeX-style expressions ($^{x}$, $_{y}$, $$...$$)
+  - HTML tags (<sup>, </sup>, <sub>, </sub>, <br>, etc.)
+  - Incomplete sentences at the start or end from mid-chunk extraction
+  - Excessive whitespace, line breaks, or repeated blank lines
+  - Reference markers like [1], [2], (Table 5-3), (Fig. 12), footnote numbers
+  - Inline image references: ![caption](path)
+
+  Your task: rewrite the text as clean, readable markdown that a human reader can easily evaluate.
+
+  Rules:
+  - KEEP all markdown headers (## and ###) — they are essential for navigation. If the text has no headers but contains clearly distinct sections, add appropriate ## or ### headers to label them.
+  - KEEP bullet lists (- item) and numbered lists for enumerated content such as symptoms, signs, or treatment steps
+  - KEEP **bold** for key medical terms, drug names, and diagnoses
+  - Remove all inline image references (![...](...)  lines) and their captions
+  - Remove all citation/reference markers ([1], [2], (Table 5-3), (Fig. 12), etc.)
+  - Fix spacing: one blank line between paragraphs, no trailing spaces
+  - Do NOT add new medical information or change existing content
+  - Do NOT add disclaimers, commentary, or preamble — output ONLY the cleaned markdown

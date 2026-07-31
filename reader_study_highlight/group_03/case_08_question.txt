@@ -1,0 +1,8 @@
+A <strong>56-year-old male</strong> with a history of <strong>hypertension</strong>, <strong>asthma</strong>, <strong>intravenous drug use</strong>, and <strong>recent incarceration 2 months ago</strong> presents to your office with an <strong>erythematous, itchy rash</strong> on his <strong>arms and chest</strong>. He does not recall exactly when the rash first started but he believes it was <strong>several days ago</strong>. Review of symptoms is notable for <strong>cough</strong>, <strong>runny nose</strong>, and <strong>diarrhea for several weeks</strong>. He is currently taking medications for a <strong>cough</strong> that he developed while he was incarcerated. He does not know the name of his medications and does not remember his diagnosis. <strong>Temperature is 99°F (37.2°C)</strong>, <strong>blood pressure is 145/90 mmHg</strong>, <strong>pulse is 90/min</strong>, <strong>respirations are 20/min</strong>. He has <strong>difficulty remembering his history</strong> and <strong>appears thin</strong>. There is a <strong>scaly, symmetrical rash</strong> on his <strong>arms and neck</strong> with areas of <strong>dusky brown discoloration</strong>. He has <strong>mild abdominal tenderness to palpation</strong> but no rebound or guarding. Physical exam is otherwise unremarkable. Which of the following is associated with this <strong>disease syndrome</strong>?
+
+A. Increased tryptophan
+B. Thiamine deficiency
+C. Homocystinuria
+D. Malignant carcinoid syndrome
+
+LLM answer: A. Increased tryptophan

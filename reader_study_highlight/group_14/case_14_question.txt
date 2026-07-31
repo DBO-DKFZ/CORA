@@ -1,0 +1,8 @@
+A <strong>40-year-old</strong> <strong>diabetic</strong> patient presents with <strong>round lesions</strong> for <strong>2 weeks</strong> on the <strong>abdomen</strong>. <strong>HPE</strong> shows <strong>palisading granuloma</strong>. What is the diagnosis?
+
+A. Granuloma annulare
+B. Pemphigus erythematosus
+C. Leprosy
+D. Tinea
+
+LLM answer: A. Granuloma annulare

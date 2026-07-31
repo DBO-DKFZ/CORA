@@ -1,0 +1,8 @@
+A <strong>24-year-old male</strong> presented with a history of <strong>intensely itchy papules</strong> over the <strong>elbows</strong>. He was diagnosed with <strong>coeliac disease</strong> <strong>2 years ago</strong>. Histopathology shows <strong>papillary tip microabscesses</strong>. Which of the following drugs would you recommend for treatment?
+
+A. Acitretin
+B. Cyclosporine
+C. Dapsone
+D. Rituximab
+
+LLM answer: C. Dapsone

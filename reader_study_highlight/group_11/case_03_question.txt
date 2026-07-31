@@ -1,0 +1,8 @@
+A child with <strong>itchy skin lesions</strong> with <strong>extensor distribution</strong> on skin and <strong>elbows</strong>, whose mother gives a history of <strong>bronchial asthma</strong>. What is the diagnosis?
+
+A. Atopic dermatitis
+B. Air borne contact dermatitis
+C. Scabies
+D. Allergic contact dermatitis
+
+LLM answer: A. Atopic dermatitis

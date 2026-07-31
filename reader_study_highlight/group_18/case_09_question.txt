@@ -1,0 +1,8 @@
+An <strong>excisional biopsy</strong> is performed and the diagnosis of <strong>superficial spreading melanoma</strong> is confirmed. The lesion is <strong>1.1 mm thick</strong>. Which of the following is the most appropriate next step in management?
+
+A. Surgical excision with 0.5-1 cm safety margins only
+B. Surgical excision with 1-2 cm safety margins only
+C. Surgical excision with 1-2 cm safety margins and sentinel lymph node study
+D. Surgical excision with 0.5-1 cm safety margins and sentinel lymph node study
+
+LLM answer: B. Surgical excision with 1-2 cm safety margins only

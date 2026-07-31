@@ -1,0 +1,8 @@
+A <strong>7-day-old newborn boy</strong> presents to the emergency department with a history of <strong>fever</strong>, <strong>irritability</strong>, and <strong>generalized erythema</strong>. During the first <strong>2 days</strong> of clinical manifestations, the parents of the child tried to control the symptoms using <strong>acetaminophen</strong>; however, the newborn continued to be ill, and <strong>blisters</strong> were noticeable around the <strong>buttocks, hands, and feet</strong>. During the physical examination, the vital signs include <strong>body temperature 39.0°C (102.3°F)</strong>, <strong>heart rate 130/min</strong>, and <strong>respiratory rate 45/min</strong>. <strong>Ears, nose, and oral mucosa preserved their integrity</strong>, while the skin presents with <strong>diffuse blanching erythema</strong> and <strong>flaccid blisters</strong> with a <strong>positive Nikolsky’s sign</strong>. What is the most likely diagnosis in this patient?
+
+A. Scarlet fever
+B. Scalded skin syndrome
+C. Impetigo
+D. Pyoderma
+
+LLM answer: B. Scalded skin syndrome

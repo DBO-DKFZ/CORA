@@ -1,0 +1,9 @@
+A <strong>65-year-old man</strong> presents with a <strong>small painless ulcer with a raised border</strong> on his <strong>right forearm</strong> which has persisted for the <strong>last 3 weeks</strong>. His past history is significant for <strong>3 occurrences of basal cell carcinoma</strong> on <strong>different areas of the body</strong> during the <strong>last 4 years</strong>, which have all been <strong>surgically excised</strong>. The morphology of the present lesion is also highly suggestive of <strong>basal cell carcinoma</strong>. The patient says that, if the lesion is a <strong>basal cell carcinoma</strong>, he does not want to undergo <strong>biopsy and surgery</strong> if it can be avoided. The patient is prescribed a <strong>cream</strong>, which is <strong>FDA-approved</strong> for the treatment of <strong>small superficial basal cell carcinomas</strong> in <strong>low-risk areas</strong>. The cream contains a <strong>chemotherapeutic agent</strong>, which is an <strong>antimetabolite</strong> and an <strong>S-phase-specific anticancer drug</strong>. Which of the following best explains the mechanism of action of this cream?
+
+A. Inhibition of ribonucleotide reductase
+B. Inhibition of DNA repair
+C. Inhibition of thymidylate synthase
+D. Inhibition of dihydrofolate reductase
+E. Inhibition of de novo purine nucleotide synthesis
+
+LLM answer: C. Inhibition of thymidylate synthase

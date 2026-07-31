@@ -1,0 +1,9 @@
+A <strong>22-year-old woman</strong> presents to her <strong>primary care physician</strong> complaining of a <strong>red, itchy rash</strong> on her <strong>elbows and shoulders</strong> for <strong>2 months</strong>. She has <strong>no history of medical problems</strong>, and <strong>review of systems</strong> is positive only for <strong>occasional loose stools</strong>. She is appropriately prescribed <strong>dapsone</strong>, which relieves the rash <strong>within hours</strong>. What is the diagnosis?
+
+A. Candida intertrigo
+B. Porphyria cutanea tarda
+C. Systemic lupus erythematosus
+D. Dermatitis herpetiformis
+E. Leprosy
+
+LLM answer: D. Dermatitis herpetiformis

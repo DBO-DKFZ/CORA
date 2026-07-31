@@ -1,0 +1,9 @@
+A <strong>70-year-old man</strong> is at his <strong>dermatologist’s office</strong> for the treatment of a <strong>severely pruritic erythroderma</strong> with <strong>scaling</strong> on his <strong>buttocks</strong> that has been <strong>slowly progressing over the past two weeks</strong>. The patient works as a <strong>truck driver</strong> and has a history of <strong>hypertension</strong> treated with <strong>enalapril</strong>. The patient reports having tried an <strong>over-the-counter cream</strong> on the rash <strong>without improvement</strong>. The <strong>vital signs are within normal range</strong>. On physical exam, he has <strong>multiple confluent and well-demarcated pink patches</strong> on his <strong>buttocks and legs</strong> with some <strong>scaling</strong> and <strong>enlarged inguinal lymph nodes</strong>. The dermatologist orders a <strong>skin biopsy</strong> that reveals <strong>Pautrier microabscesses</strong>. What is the most likely diagnosis?
+
+A. Psoriasis
+B. Lichen planus
+C. Atopic dermatitis
+D. Mycosis fungoides
+E. Kaposi sarcoma
+
+LLM answer: D. Mycosis fungoides

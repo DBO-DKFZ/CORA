@@ -1,0 +1,16 @@
+A <strong>13-month-old boy</strong> is brought to the physician for the evaluation of <strong>rectal bleeding</strong> that occurred earlier that morning. The patient has also had several <strong>itchy and red skin lesions</strong> that started on his <strong>scalp</strong> and spread downwards. The parents report that their son has had <strong>six episodes of bilateral otitis media since birth</strong>. His immunizations are <strong>up-to-date</strong>. He is at the <strong>3rd percentile for height and weight</strong>. His vital signs are <strong>within normal limits</strong>. Examination shows several <strong>eczematous lesions</strong> over the <strong>scalp, neck, and upper and lower extremities</strong>, as well as multiple <strong>red spots that do not blanch on pressure</strong>. The remainder of the physical examination shows <strong>no abnormalities</strong>. Laboratory studies show:
+<strong>Hemoglobin 9.4 g/dL</strong>
+<strong>Leukocyte count 11,500/mm3</strong>
+<strong>Platelet count 30,000/mm3</strong>
+<strong>Prothrombin time 14 sec</strong>
+<strong>Partial thromboplastin time 33 sec</strong>
+Which of the following is the most likely diagnosis?
+
+A. Leukocyte adhesion deficiency
+B. Severe combined immunodeficiency
+C. Chronic granulomatous disease
+D. DiGeorge syndrome
+E. Chediak-Higashi syndrome
+F. Wiskott-Aldrich syndrome
+
+LLM answer: F. Wiskott-Aldrich syndrome

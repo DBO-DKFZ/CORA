@@ -1,0 +1,8 @@
+An <strong>8-year-old girl</strong> with <strong>numerous hypopigmented, ulcerated, and crusted patches</strong> on her <strong>face and forearms</strong> develops an <strong>indurated, crater-like, skin nodule</strong> on the <strong>back of her left hand</strong>. Biopsy of this <strong>skin nodule</strong> discloses a <strong>squamous cell carcinoma</strong>. <strong>Molecular biology studies</strong> reveal that this patient has <strong>germline mutations</strong> in the gene encoding a <strong>nucleotide excision repair enzyme</strong>. What is the appropriate diagnosis?
+
+A. Ataxia telangiectasia
+B. Hereditary albinism
+C. Li-Fraumeni syndrome
+D. Xeroderma pigmentosum
+
+LLM answer: D. Xeroderma pigmentosum

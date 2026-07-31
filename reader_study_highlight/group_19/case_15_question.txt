@@ -1,0 +1,12 @@
+A <strong>4-day-old newborn</strong> is brought to the physician because of a <strong>generalized rash</strong> for <strong>1 day</strong>. He was <strong>born at term</strong>. The mother had <strong>no prenatal care</strong> and has a history of <strong>gonorrhea</strong>, which was <strong>treated 4 years ago</strong>. The newborn is at the <strong>50th percentile for head circumference</strong>, <strong>60th percentile for length</strong>, and <strong>55th percentile for weight</strong>. His temperature is <strong>36.8°C (98.2°F)</strong>, pulse is <strong>152/min</strong>, and respirations are <strong>51/min</strong>. Examination shows an <strong>erythematous maculopapular rash</strong> and <strong>pustules with an erythematous base</strong> over the <strong>trunk and extremities</strong>, <strong>sparing the palms and soles</strong>. The remainder of the examination shows <strong>no abnormalities</strong>. Which of the following is the most likely diagnosis?
+
+A. Congenital candidiasis
+B. Staphylococcal skin scalded syndrome
+C. Acropustulosis
+D. Erythema toxicum
+E. Milia
+F. Pustular melanosis
+G. Cutis marmorata
+H. Congenital syphilis
+
+LLM answer: D. Erythema toxicum

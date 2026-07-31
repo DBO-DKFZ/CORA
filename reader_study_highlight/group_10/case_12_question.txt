@@ -1,0 +1,24 @@
+A <strong>72-year-old man</strong> is seen in the <strong>hospital</strong> for a <strong>sacral rash</strong>. The patient has been <strong>hospitalized for the past 3 weeks</strong> for a <strong>heart failure exacerbation</strong>. When the nurse went to bathe him this morning, she noticed a <strong>red rash over his sacrum</strong>. The patient reports <strong>mild discomfort</strong> and <strong>denies pruritus</strong>. The patient has <strong>chronic kidney disease</strong>, <strong>urinary incontinence</strong>, <strong>ischemic cardiomyopathy</strong>, <strong>gout</strong>, and <strong>poor mobility</strong>. His current medications include <strong>aspirin</strong>, <strong>furosemide</strong>, <strong>metoprolol</strong>, <strong>lisinopril</strong>, <strong>spironolactone</strong>, and <strong>prednisone</strong> that was started for a <strong>recent gout flare</strong>. The patient’s <strong>temperature is 97°F (37.2°C)</strong>, <strong>blood pressure is 110/62 mmHg</strong>, <strong>pulse is 68/min</strong>, and <strong>respirations are 13/min</strong> with an <strong>oxygen saturation of 98% on room air</strong>. On physical examination, there is a <strong>4 cm x 6 cm patch of non-blanchable erythema over the patient’s sacrum</strong> that is <strong>mildly tender to palpation</strong>. Labs are obtained, as shown below:
+
+<strong>Leukocyte count: 10,000/mm^3 with normal differential</strong>
+<strong>Hemoglobin: 15.2 g/dL</strong>
+<strong>Platelet count: 400,000/mm^3</strong>
+
+<strong>Serum:</strong>
+<strong>Na: 138 mEq/L</strong>
+<strong>K+: 4.3 mEq/L</strong>
+<strong>Cl-: 104 mEq/L</strong>
+<strong>HCO3-: 25 mEq/L</strong>
+<strong>BUN: 26 mg/dL</strong>
+<strong>Creatinine: 1.5 mg/dL</strong>
+<strong>Glucose: 185 mg/dL</strong>
+
+A <strong>hemoglobin A1c</strong> is pending. Which of the following is the best management for the patient’s most likely diagnosis?
+
+A. Metformin
+B. Prophylactic oral ciprofloxacin
+C. Repositioning
+D. Surgical debridement
+E. Topical silver sulfadiazine
+
+LLM answer: C. Repositioning

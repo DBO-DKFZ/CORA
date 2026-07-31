@@ -1,0 +1,8 @@
+A <strong>17-year-old male</strong> presents with a lesion on his <strong>face</strong> that measures approximately <strong>1.5 cm</strong> in its greatest dimension. He has a history of <strong>numerous similar skin lesions</strong> that have occurred mainly in <strong>sun-exposed areas</strong>. The present lesion is <strong>biopsied</strong> and given below. This patient most probably has one type of a group of <strong>inherited diseases associated with unstable DNA</strong> and <strong>increased incidence of carcinoma</strong>. What is the diagnosis for this patient?
+
+A. Wiskott-Aldrich syndrome
+B. Familial polyposis
+C. Xeroderma pigmentosum
+D. Sturge-Weber syndrome
+
+LLM answer: C. Xeroderma pigmentosum

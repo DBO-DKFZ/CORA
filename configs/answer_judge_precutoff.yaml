@@ -1,0 +1,8 @@
+# Judge the pre-cutoff GPT-5 base answers (verdict written back into the CSV).
+input_csv: results/gpt5/results_gpt5_precutoff_base.csv
+
+model: "claude-sonnet-4-6"
+provider: "anthropic"
+
+include_question: false   # reference vs candidate only — matches the main run
+verbose: true

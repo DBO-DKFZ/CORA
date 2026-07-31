@@ -1,0 +1,9 @@
+A <strong>58-year-old male</strong> presents to his <strong>primary care physician</strong> complaining of a <strong>painless bump on his penis</strong>. He first noticed the <strong>lesion</strong> <strong>1 year ago</strong> but was too embarrassed to mention the issue at his last annual physical exam. The lesion has since <strong>grown in size</strong> and has recently become more <strong>erythematous</strong>. He has <strong>hypertension</strong> treated with <strong>lisinopril</strong>. At age 45, he was successfully treated for <strong>phimosis</strong> with a <strong>steroid cream</strong>. He first engaged in <strong>sexual intercourse at age 14</strong> and has had <strong>“too many sexual partners to count”</strong> in his lifetime. He <strong>smoked one pack of cigarettes daily for 30 years</strong> but <strong>quit 10 years ago</strong>. He drinks <strong>one alcoholic beverage daily</strong>. Physical examination shows a <strong>nontender</strong> <strong>5 mm x 5 mm ulcerated lesion</strong> with an <strong>erythematous base</strong> on the <strong>dorsum of the glans</strong>. There is <strong>no inguinal lymphadenopathy</strong>. <strong>Excisional biopsy</strong> of the lesion is performed. Which of the following <strong>pathological findings</strong> is most likely to be seen on the <strong>biopsy specimen</strong>?
+
+A. Atypical squamous cells with varying degrees of mitotic activity
+B. Spirochetes on dark-field microscopy
+C. Nonspecific inflammatory features with C. trachomatis amplification on PCR
+D. Multinucleated giant cells on Tzanck smear
+E. Safety pin-shaped intracellular inclusions that appear purple on Giemsa stain
+
+LLM answer: A. Atypical squamous cells with varying degrees of mitotic activity

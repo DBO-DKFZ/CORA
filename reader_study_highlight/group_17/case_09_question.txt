@@ -1,0 +1,8 @@
+A child develops <strong>non-blanching macules and papules</strong> on the <strong>lower extremities</strong>, <strong>mild abdominal pain</strong>, and <strong>skin biopsy showed IgA deposition</strong>. The most appropriate diagnosis is:
+
+A. Drug induced vasculitis
+B. HSP
+C. Wegener's granulomatosis
+D. Kawasaki disease
+
+LLM answer: B. HSP

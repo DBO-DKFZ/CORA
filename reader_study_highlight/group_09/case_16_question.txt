@@ -1,0 +1,8 @@
+A <strong>26-year-old male</strong>, <strong>Vikas</strong> presents to <strong>OPD</strong> complaining of <strong>hair loss</strong> and <strong>itching on the scalp</strong>. Physical examination reveals <strong>moderate patchy hair loss</strong> from the <strong>central portion of the scalp</strong> and the lesions have a <strong>ring-like configuration with central clearing</strong>. Which of the following drugs can be used to treat this patient's condition?
+
+A. Local glucocorticoids
+B. Progesterone
+C. Finasteride
+D. Terbinafine
+
+LLM answer: D. Terbinafine

@@ -1,0 +1,17 @@
+input_json: "/home/t252a/data/derma/medqa_derma_final.json"
+output_dir: "results/retrieved_docs_medqa_naiverag/"
+verbose: true
+
+# ChromaDB
+chroma_path: "chromadb_snowflakev2"
+collection_name: "eadv_guidelines"
+books_collection_name: "books"
+
+# Embedding
+embed_model: "Snowflake/snowflake-arctic-embed-l-v2.0"
+topk: 15  # Per collection (15 from eadv_guidelines + 15 from books = 30 total)
+
+# Query reformulation model (single reformulation pass, no iterative critique)
+reformulation_model: "Qwen/Qwen3-235B-A22B-Instruct-2507-tput"
+provider: "together"  # together | openai | local
+local_base_url: "http://localhost:8000/v1"

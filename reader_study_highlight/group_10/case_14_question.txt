@@ -1,0 +1,9 @@
+A <strong>29-year-old female</strong> presents to her <strong>gynecologist</strong> complaining of a <strong>painful rash</strong> around her <strong>genitals</strong>. She has <strong>multiple sexual partners</strong> and uses <strong>condoms intermittently</strong>. Her last <strong>STD screen</strong> <strong>one year ago</strong> was <strong>negative</strong>. On examination, she has <strong>bilateral erosive vesicles</strong> on her <strong>labia majora</strong> and <strong>painful inguinal lymphadenopathy</strong>. She is started on an <strong>oral medication</strong> that requires a <strong>specific thymidine kinase</strong> for activation. Which of the following <strong>adverse effects</strong> is associated with this <strong>drug</strong>?
+
+A. Gingival hyperplasia
+B. Pulmonary fibrosis
+C. Deafness
+D. Renal failure
+E. Photosensitivity
+
+LLM answer: D. Renal failure

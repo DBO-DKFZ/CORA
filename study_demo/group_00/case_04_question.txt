@@ -1,0 +1,9 @@
+A 56-year-old male with a history of hypertension, asthma, intravenous drug use, and recent incarceration 2 months ago presents to your office with an erythematous, itchy rash on his arms and chest. He does not recall exactly when the rash first started but he believes it was several days ago. Review of symptoms is notable for cough, runny nose, and diarrhea for several weeks. He is currently taking medications for a cough that he developed while he was incarcerated. He does not know the name of his medications and does not remember his diagnosis. Temperature is 99°F (37.2°C), blood pressure is 145/90 mmHg, pulse is 90/min, respirations are 20/min. He has difficulty remembering his history and appears thin. There is a scaly, symmetrical rash on his arms and neck with areas of dusky brown discoloration. He has mild abdominal tenderness to palpation but no rebound or guarding. Physical exam is otherwise unremarkable. Which of the following is associated with this disease syndrome?
+
+A. Increased tryptophan
+B. Facial flushing
+C. Thiamine deficiency
+D. Homocystinuria
+E. Malignant carcinoid syndrome
+
+LLM answer: A. Increased tryptophan

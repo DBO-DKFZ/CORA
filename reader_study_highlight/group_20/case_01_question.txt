@@ -1,0 +1,8 @@
+A patient with <strong>breast carcinoma</strong> was given <strong>3 months of radiation therapy</strong>. After that she was started with <strong>chemotherapy</strong>. Within a few days she developed <strong>rashes</strong> over the areas where <strong>radiation</strong> was given. Which of the following drugs can cause this condition?
+
+A. Actinomycin
+B. Bleomycin
+C. Mitomycin
+D. Busulfan
+
+LLM answer: A. Actinomycin

@@ -1,0 +1,8 @@
+An otherwise healthy <strong>66-year-old man</strong> comes to the physician for evaluation of <strong>rough skin</strong> over his <strong>forehead</strong> and the <strong>back of his hands</strong>. He has tried applying different types of moisturizers with no improvement. He has <strong>worked on a farm all his life</strong>. Physical examination shows <strong>two erythematous papules</strong> with a <strong>gritty texture</strong> and <strong>central scale</strong> over the <strong>left temple</strong> and <strong>three similar lesions</strong> over the <strong>dorsum of his hands</strong>. This patient's <strong>skin lesions</strong> increase his risk of developing a <strong>skin condition</strong> characterized by which of the following findings on histopathology?
+
+A. Keratin pearls
+B. Atypical melanocytes
+C. Noncaseating granulomas
+D. Intraepidermal acantholysis
+
+LLM answer: A. Keratin pearls

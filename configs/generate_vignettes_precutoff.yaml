@@ -1,0 +1,17 @@
+# Pre-cutoff (memorization arm) — generate MedQA-style vignettes from
+# 2005-2024 dermatology case reports (published well before the GPT-5 cutoff).
+# python pubmed/generate_vignettes.py --config configs/generate_vignettes_precutoff.yaml
+
+input_jsonl: "pubmed/case_reports_2005_2024.jsonl"
+output_jsonl: "pubmed/vignettes_precutoff_2005_2024.jsonl"
+
+# same generation + verifier model as the original (post-cutoff) run
+model: "claude-sonnet-4-6"
+provider: "anthropic"
+verifier_model: "claude-sonnet-4-6"
+verifier_provider: "anthropic"
+
+sample_size: 150             # pilot: spread ~150 cases across the corpus
+body_char_limit: 14000
+max_workers: 8
+verbose: true

@@ -1,0 +1,8 @@
+A patient with <strong>borderline tuberculoid leprosy</strong> on <strong>treatment</strong> develops a <strong>reaction</strong>. What will be the best next line of <strong>management</strong> -
+
+A. Stop dapsone immediately
+B. Stop dapsone now and restart after some time
+C. Continue dapsone and give steroids
+D. Stop dapsone forever
+
+LLM answer: C. Continue dapsone and give steroids

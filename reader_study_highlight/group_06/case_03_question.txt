@@ -1,0 +1,11 @@
+A <strong>30-year-old woman</strong> with <strong>HIV</strong> comes to the <strong>emergency department</strong> because of <strong>fever</strong> and <strong>multiple skin lesions</strong> for <strong>1 week</strong>. She also has <strong>nausea</strong>, <strong>anorexia</strong>, and <strong>abdominal pain</strong>. The skin lesions are <strong>non-pruritic</strong> and <strong>painless</strong>. She has smoked <strong>one pack of cigarettes daily for 15 years</strong> and drinks <strong>2 beers daily</strong>. She has been using <strong>intravenous crack cocaine</strong> for <strong>6 years</strong>. She appears <strong>ill</strong>. Her temperature is <strong>38°C (100.4°F)</strong>, pulse is <strong>105/min</strong>, blood pressure is <strong>110/75 mm Hg</strong>. Her <strong>BMI is 19 kg/m2</strong>. Examination shows <strong>track marks</strong> on both cubital fossae. There are <strong>white patches on her palate that can be scraped off</strong>. There are several <strong>red papules</strong> measuring <strong>1 to 2 cm</strong> on her <strong>face and trunk</strong>. Her <strong>CD4+ T-lymphocyte count is 98/mm3</strong> (<strong>N ≥ 500</strong>). <strong>Biopsy of a skin lesion</strong> shows <strong>vascular proliferation</strong> and <strong>small black bacteria on Warthin-Starry stain</strong>. Which of the following is the most appropriate <strong>pharmacotherapy</strong>?
+
+A. Pyrimethamine and sulfadiazine
+B. Vinblastine
+C. Azithromycin and ethambutol
+D. Amphotericin B
+E. Erythromycin
+F. Trimethoprim and sulfamethoxazole
+G. Nitazoxanide
+
+LLM answer: E. Erythromycin

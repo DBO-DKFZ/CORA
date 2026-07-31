@@ -1,0 +1,8 @@
+A <strong>5-year-old boy</strong> with <strong>developmental delays</strong> presents to his pediatrician’s office with an <strong>‘itchy rash’</strong> on the <strong>flexor surfaces</strong> of his <strong>knees</strong>, <strong>elbows</strong>, and around his <strong>eyelids</strong>. The patient’s mother notes that the rashes have had a <strong>relapsing-remitting course</strong> since the child was an <strong>infant</strong>. <strong>Vital signs are within normal limits</strong>. Physical examination shows <strong>hypopigmentation</strong> of the patient’s <strong>skin and hair</strong>, as well as a <strong>musty odor</strong> in his <strong>sweat and urine</strong>. Based on the patient’s <strong>symptoms and history</strong>, which of the following is the most appropriate <strong>dietary recommendation</strong>?
+
+A. Avoid fresh fruits
+B. Avoid meat
+C. Increase intake of bread
+D. Increase intake of dairy products
+
+LLM answer: B. Avoid meat

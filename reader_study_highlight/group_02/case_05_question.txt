@@ -1,0 +1,8 @@
+A <strong>14-month-old boy</strong> is brought to the clinic for evaluation of a <strong>rash</strong>. The rash <strong>started on the face and spread to the trunk</strong>. He also had a <strong>fever</strong> and <strong>cough</strong> for the past <strong>2 days</strong>. His mother says that they <strong>recently immigrated from Asia</strong> and <strong>cannot provide vaccination records</strong>. The physical examination reveals a <strong>maculopapular rash</strong> on the <strong>face, trunk, and proximal limbs</strong> with <strong>no lymphadenopathy</strong>. <strong>Blue-white spots</strong> are noted on the <strong>oral mucosa</strong> and there is <strong>bilateral mild conjunctival injection</strong>. The causative agent of this condition belongs to which of the following <strong>virus families</strong>?
+
+A. ssDNA enveloped viruses
+B. ssRNA naked viruses
+C. dsRNA naked viruses
+D. ssRNA enveloped viruses
+
+LLM answer: D. ssRNA enveloped viruses

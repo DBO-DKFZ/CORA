@@ -1,0 +1,8 @@
+A <strong>35-year-old</strong> patient comes to the clinic because he has a <strong>worsening rash</strong>. He has had a <strong>rash</strong> in the past on his <strong>elbows and knees</strong>, but after finishing a <strong>"steroid pill"</strong> for his <strong>asthma</strong>, his rash suddenly got worse. He also reports <strong>fevers and chills</strong>. On examination he has <strong>erythema involving 90% of his body surface area</strong> and there are some <strong>small pustules</strong> on top of the erythema on his <strong>trunk</strong>. What is the diagnosis?
+
+A. SSSS
+B. TEN
+C. SJS
+D. EM
+
+LLM answer: B. TEN

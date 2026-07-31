@@ -1,0 +1,9 @@
+A <strong>5-month-old</strong> <strong>male infant</strong> from a <strong>consanguineous marriage</strong> presents with <strong>severe sunburns</strong> and <strong>freckling</strong> in <strong>sun-exposed areas</strong>. The mother explains that the infant experiences these <strong>sunburns</strong> every time the infant goes outside despite applying copious amounts of <strong>sunscreen</strong>. Which of the following <strong>DNA repair mechanisms</strong> is defective in this child?
+
+A. Nucleotide excision repair
+B. Base excision repair
+C. Mismatch repair
+D. Homologous recombination
+E. Non-homologous end joining
+
+LLM answer: A. Nucleotide excision repair

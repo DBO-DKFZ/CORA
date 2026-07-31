@@ -1,0 +1,8 @@
+A child with <strong>fever</strong> presents with multiple <strong>tender erythematous skin lesions</strong>. On microscopic examination the skin lesions are seen to have <strong>neutrophilic infiltration in the dermis</strong>. What is the diagnosis?
+
+A. Sweet syndrome
+B. Behçet's syndrome
+C. Pyoderma gangrenosum
+D. Juvenile dermatosis
+
+LLM answer: A. Sweet syndrome

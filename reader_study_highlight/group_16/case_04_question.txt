@@ -1,0 +1,8 @@
+A <strong>35-year-old</strong> <strong>alcoholic</strong> presents with <strong>diarrhoea</strong> and <strong>scaly rash</strong> on his <strong>neck</strong>, <strong>hands</strong> and <strong>feet</strong>. He will improve if he is treated with which one of the following?
+
+A. Vitamin A
+B. Thiamine
+C. Folic acid
+D. Niacin
+
+LLM answer: D. Niacin

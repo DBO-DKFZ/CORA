@@ -1,0 +1,8 @@
+A <strong>56-year-old man</strong> presents seeking treatment for his <strong>baldness</strong>. He says he has noticed a <strong>bald patch in the center of his head</strong> which has increased in size over the <strong>past year</strong>. <strong>Physical examination and diagnostic tests</strong> show <strong>no evidence of an infectious cause</strong>. The patient is prescribed a <strong>drug to be taken daily</strong>. After <strong>4 months</strong>, the patient returns for <strong>follow-up</strong> and says that his <strong>hair growth has increased significantly</strong>. He denies any significant side effects except for a <strong>slight decrease in his sex drive</strong>. Which of the following is most likely the <strong>mechanism of action</strong> of the drug this patient was prescribed?
+
+A. 5α reductase inhibitor
+B. GnRH analog
+C. α1 adrenergic antagonist
+D. Androgen receptor activation
+
+LLM answer: A. 5α reductase inhibitor

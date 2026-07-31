@@ -1,0 +1,8 @@
+A <strong>38-year-old female patient</strong> was on <strong>isoniazid therapy</strong> for <strong>tuberculosis</strong>. She developed <strong>rashes on the exposed parts of her body</strong>. She is <strong>disoriented</strong>. Family members also give a history of <strong>diarrhea</strong>. What is the <strong>diagnosis</strong>?
+
+A. Tuberculosis skin lesions
+B. Niacin deficiency
+C. Isoniazid neuropathy
+D. Some other drug has caused this
+
+LLM answer: B. Niacin deficiency

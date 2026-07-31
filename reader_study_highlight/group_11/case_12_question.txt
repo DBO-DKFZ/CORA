@@ -1,0 +1,8 @@
+A <strong>60-year-old</strong> <strong>farmer</strong> presents with <strong>multiple patches of discoloration</strong> on his <strong>face</strong>. Biopsy of <strong>lesional skin</strong> reveals <strong>actinic keratosis</strong>. Which of the following terms best describes this response of the skin to <strong>chronic sunlight exposure</strong>?
+
+A. Atrophy
+B. Dysplasia
+C. Hyperplasia
+D. Hypertrophy
+
+LLM answer: B. Dysplasia

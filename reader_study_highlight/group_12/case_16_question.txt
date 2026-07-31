@@ -1,0 +1,9 @@
+A <strong>19-year-old</strong> man presents to his <strong>primary care physician</strong> for <strong>evaluation before going off to college</strong>. Specifically, he wants to know how to <strong>stay healthy while living outside his home</strong>. Since <strong>childhood</strong> he has suffered <strong>severe sunburns</strong> even when he goes outside for a <strong>small period of time</strong>. He has also developed many <strong>freckles</strong> and <strong>rough-surfaced growths</strong> starting at the <strong>same age</strong>. Finally, his <strong>eyes are very sensitive</strong> and become <strong>irritated, bloodshot, and painful</strong> after being outside. A defect in a protein with which of the following <strong>functions</strong> is most likely responsible for this patient's <strong>symptoms</strong>?
+
+A. Distinguishing methylated from unmethylated strands
+B. Endonucleolytic removal of bases from backbone
+C. Recognition of chemically dimerized bases
+D. Recognition of mismatched bases
+E. Sister chromatid binding and recombination
+
+LLM answer: C. Recognition of chemically dimerized bases

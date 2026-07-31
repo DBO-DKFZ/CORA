@@ -1,0 +1,8 @@
+A patient is found to have <strong>sun-sensitive dermatitis</strong>, <strong>diarrhea</strong>, and <strong>dementia</strong>. Which of the following deficiencies is he most likely suffering from?
+
+A. Niacin
+B. Riboflavin
+C. Folic acid
+D. Iron
+
+LLM answer: A. Niacin

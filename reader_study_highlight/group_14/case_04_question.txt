@@ -1,0 +1,9 @@
+A <strong>46-year-old man</strong> presents to his <strong>primary care provider</strong> for an <strong>ulcerating skin lesion</strong> on his <strong>leg</strong> for the <strong>past week</strong>. He says that the <strong>week prior</strong> he <strong>slipped while hiking</strong> and <strong>scraped his left leg</strong>. Over the course of the <strong>next week</strong>, he noticed <strong>redness</strong> and <strong>swelling</strong> of the <strong>scraped area</strong> and the development of a <strong>nodule</strong> that eventually <strong>ulcerated</strong>. On exam, his <strong>temperature is 99.5°F (37.5°C)</strong>, <strong>blood pressure is 136/92 mmHg</strong>, <strong>pulse is 88/min</strong>, and <strong>respirations are 12/min</strong>. Over his <strong>left lateral leg</strong> is an <strong>erythematous patch</strong> with a <strong>2-cm nodule with central ulceration</strong>. <strong>Staining</strong> of a sample from the nodule demonstrates <strong>gram-positive organisms</strong> that are also <strong>weakly acid-fast</strong>. Morphologically, the organism appears as <strong>branching filaments</strong>. Which of the following should be used to treat this <strong>infection</strong>?
+
+A. Clindamycin
+B. Doxycycline
+C. Penicillin
+D. Streptomycin
+E. Trimethoprim-sulfamethoxazole
+
+LLM answer: E. Trimethoprim-sulfamethoxazole

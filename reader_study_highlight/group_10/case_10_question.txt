@@ -1,0 +1,9 @@
+A <strong>63-year-old</strong> man comes to the physician because of a <strong>2-day history</strong> of a <strong>painful rash</strong> on his <strong>right flank</strong>. Two years ago, he underwent <strong>cadaveric renal transplantation</strong>. Current medications include <strong>tacrolimus</strong>, <strong>mycophenolate mofetil</strong>, and <strong>prednisone</strong>. Examination shows an <strong>erythematous rash</strong> with <strong>grouped vesicles</strong> in a <strong>band-like distribution</strong> over the patient's <strong>right flank</strong>. This patient is at greatest risk for which of the following complications?
+
+A. Sensory neuropathy
+B. Ascending paralysis
+C. Urinary retention
+D. Loss of vision
+E. Temporal lobe inflammation
+
+LLM answer: A. Sensory neuropathy

@@ -1,0 +1,9 @@
+A <strong>33-year-old</strong> comes to her <strong>dermatologist</strong> complaining of a <strong>rash</strong> that recently started appearing on her <strong>face</strong>. She states that over the past <strong>three months</strong>, she has noticed that her <strong>cheeks</strong> have been getting <strong>darker</strong>, which has been causing her <strong>psychological distress</strong>. She has attempted using <strong>skin lighteners</strong> on her cheeks, but recently noticed more <strong>dark spots</strong> on her <strong>forehead</strong>. Aside from a <strong>first-trimester miscarriage</strong> <strong>5 years ago</strong> and a <strong>15-year history of migraines</strong>, she has no other past medical history. She is currently taking <strong>ibuprofen</strong> and <strong>rizatriptan</strong> for her <strong>migraines</strong>, and is also on <strong>oral contraceptives</strong>. Her mother has a history of <strong>thyroid disease</strong> and <strong>migraines</strong> but was otherwise healthy. On exam, the patient’s temperature is <strong>99.1°F (37.3°C)</strong>, blood pressure is <strong>130/88 mmHg</strong>, pulse is <strong>76/min</strong>, and respirations are <strong>12/min</strong>. The patient has <strong>Fitzpatrick phototype III skin</strong> and marked <strong>confluent hyperpigmented patches</strong> over her <strong>cheeks</strong> <strong>without scarring</strong>. Her <strong>forehead</strong> is also notable for <strong>hyperpigmented macules</strong> that have not yet become confluent. There are <strong>no oral ulcers</strong> nor any other visible skin lesion. The patient has a <strong>negative pregnancy test</strong>, and her <strong>ANA is negative</strong>. Which of the following is the most likely cause of this patient’s disease?
+
+A. Autoantibodies
+B. Enzyme inhibition
+C. Hypersensitivity reaction
+D. Medication
+E. Post-inflammatory changes
+
+LLM answer: B. Enzyme inhibition

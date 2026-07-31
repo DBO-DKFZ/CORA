@@ -1,0 +1,8 @@
+A <strong>72-year-old</strong> man presents to the clinic for the evaluation of a lesion on his <strong>nose</strong> that has been <strong>slowly getting larger</strong> for the past <strong>2 months</strong>. The patient notes <strong>no history of trauma</strong>, <strong>pruritus</strong>, or <strong>pain</strong>, but states that the size of the lesion is making his nose feel uncomfortable. On exam, the nodule is <strong>pink</strong> with <strong>rolled borders</strong>. <strong>Telangiectasias</strong> are also present within the lesion, with <strong>central ulceration</strong>. What is the characteristic histologic appearance of this lesion?
+
+A. Palisading nuclei
+B. Sawtooth lymphocytic infiltrate
+C. Atypical melanocytes
+D. Epidermal hyperplasia with cutaneous darkening
+
+LLM answer: A. Palisading nuclei

@@ -1,0 +1,8 @@
+A <strong>15-year-old girl</strong> is seen by a <strong>dermatologist</strong> for removal of <strong>multiple squamous cell carcinomas of the skin</strong>. The patient has <strong>nearly white hair</strong>, <strong>pink irises</strong>, <strong>very pale skin</strong>, and a history of <strong>burning easily when exposed to the sun</strong>. This patient's condition is caused by a disorder involving which of the following substances?
+
+A. Aromatic amino acids
+B. Branched chain amino acids
+C. Glycolipids
+D. Glycoproteins
+
+LLM answer: A. Aromatic amino acids

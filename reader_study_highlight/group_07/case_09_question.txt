@@ -1,0 +1,11 @@
+A <strong>43-year-old</strong> woman presents to your clinic for the evaluation of an <strong>abnormal skin lesion</strong> on her <strong>forearm</strong>. The patient is worried because her mother passed away from <strong>melanoma</strong>. You believe that the lesion warrants <strong>biopsy</strong> for further evaluation for possible <strong>melanoma</strong>. Your patient is concerned about her risk for <strong>malignant disease</strong>. What is the most important <strong>prognostic factor</strong> of <strong>melanoma</strong>?
+
+A. Diameter > 6 mm
+B. S-100 tumor marker present
+C. Evolution of lesion over time
+D. Genetic factors
+E. Age at presentation
+F. Depth of invasion of atypical cells
+G. Level of irregularity of the borders
+
+LLM answer: F. Depth of invasion of atypical cells

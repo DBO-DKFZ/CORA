@@ -1,0 +1,8 @@
+A lady comes with <strong>melanotic pigmentation of the lip</strong>, presence of <strong>multiple polyps in the intestine</strong>, and a <strong>positive family history</strong>. What is the most probable diagnosis?
+
+A. Peutz-Jeghers Syndrome
+B. Gardner's syndrome
+C. Turcot's syndrome
+D. Lynch syndrome
+
+LLM answer: A. Peutz-Jeghers Syndrome

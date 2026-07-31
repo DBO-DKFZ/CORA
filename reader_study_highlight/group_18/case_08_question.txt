@@ -1,0 +1,9 @@
+A <strong>14-year-old</strong> <strong>Caucasian male</strong> presents with <strong>painful</strong> <strong>erythematous</strong> and <strong>honey-colored crusted lesions</strong> around his <strong>mouth</strong>. Culture of the lesions reveals <strong>gram-positive cocci in clusters</strong>. Further analysis reveals bacteria that are <strong>beta-hemolytic</strong>, <strong>coagulase positive</strong>, <strong>catalase positive</strong>, and appear <strong>golden</strong> on the <strong>blood agar plate</strong>. Which of the following helps the bacterium in this infection bind to <strong>immunoglobulin</strong> and prevent <strong>phagocytosis</strong> when invading its host?
+
+A. Protein A
+B. Staphylokinase
+C. Exfoliatin A
+D. Protein M
+E. Neurotoxin
+
+LLM answer: A. Protein A

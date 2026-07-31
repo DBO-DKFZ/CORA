@@ -1,0 +1,8 @@
+A patient with <strong>multiple hypopigmented and hypesthetic patches</strong> on the <strong>lateral aspect of the forearm</strong> with an <strong>abundance of AFB</strong> and <strong>granulomatous inflammation</strong> on histology. The diagnosis is:
+
+A. Tuberculoid leprosy
+B. Indeterminate leprosy
+C. Borderline leprosy
+D. Lepromatous leprosy
+
+LLM answer: A. Tuberculoid leprosy

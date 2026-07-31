@@ -1,0 +1,9 @@
+A <strong>56-year-old man</strong> presents to his <strong>primary care physician</strong> complaining of a <strong>dark spot</strong> on his <strong>left thigh</strong>. He says that he first noticed the spot about <strong>3 years ago</strong> when he went to the <strong>beach</strong> with his family; however, at the time it was <strong>very small</strong> and he didn't think that it was worth mentioning. Since then, it has been <strong>growing slowly</strong> and he is now concerned about its <strong>size</strong>. He says that he does not have any other symptoms associated with the lesion. Physical exam reveals an <strong>asymmetric</strong> <strong>2.5 centimeter plaque</strong> with <strong>irregular borders</strong> and a <strong>varying pattern of brown coloration</strong>. The lesion is studied and found to have a mutation in a gene that <strong>inhibits cyclin function</strong>. Which of the following is most likely true of this gene?
+
+A. Both copies of the gene encoding the target are non-functional in tumors
+B. Overproduction of the gene product leads to disease
+C. The gene is involved in DNA repair
+D. The gene is located on the X chromosome
+E. The protein experienced gain of function mutation
+
+LLM answer: A. Both copies of the gene encoding the target are non-functional in tumors

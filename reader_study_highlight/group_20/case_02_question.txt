@@ -1,0 +1,8 @@
+A <strong>female patient</strong> presented with complaints of <strong>hair fall</strong>. Her <strong>delivery</strong> was <strong>2 months ago</strong>. The physician diagnosed her condition as <strong>Telogen Effluvium</strong>. All of the following are true regarding <strong>telogen effluvium</strong>, EXCEPT:
+
+A. Scarring
+B. Metabolic stress
+C. Recovery within 6 months
+D. Insidious onset
+
+LLM answer: A. Scarring

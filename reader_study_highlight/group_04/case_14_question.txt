@@ -1,0 +1,8 @@
+Which feature would most likely be found in a patient with <strong>lepromatous leprosy</strong>? <img src=" />
+
+A. No bacteremia
+B. Macrophages with a foamy appearance in the dermis
+C. A positive lepromin reaction
+D. A high cell-mediated response against Mycobacterium leprae
+
+LLM answer: B. Macrophages with a foamy appearance in the dermis

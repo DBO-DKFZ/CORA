@@ -1,0 +1,8 @@
+A <strong>35-year-old female</strong> comes to the physician because of a <strong>2-year history of progressive fatigue and joint pain</strong>. She has a <strong>1-year history of skin problems</strong> and a <strong>4-month history of episodic pallor of her fingers</strong>. She reports that the <strong>skin of her face, neck, and hands is always dry and itchy</strong>; there are also numerous <strong>“red spots” on her face</strong>. She has become more <strong>“clumsy”</strong> and often <strong>drops objects</strong>. She has <strong>gastroesophageal reflux disease</strong> treated with <strong>lansoprazole</strong>. She does not smoke. She occasionally drinks a beer or a glass of wine. Her temperature is <strong>36.5°C (97.7°F)</strong>, <strong>blood pressure is 154/98 mm Hg</strong>, and pulse is <strong>75/min</strong>. Examination shows <strong>hardening and thickening of the skin of face, neck, and hands</strong>. There are <strong>small dilated blood vessels around her mouth and on her oral mucosa</strong>. <strong>Mouth opening is reduced</strong>. <strong>Active and passive range of motion of the proximal and distal interphalangeal joints is limited</strong>. <strong>Cardiopulmonary examination shows no abnormalities</strong>. Her <strong>creatinine is 1.4 mg/dL</strong>. The patient is at increased risk for which of the following complications?
+
+A. Dental caries
+B. Antiphospholipid syndrome
+C. Lung cancer
+D. Urolithiasis
+
+LLM answer: A. Dental caries

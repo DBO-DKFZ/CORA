@@ -1,0 +1,9 @@
+A <strong>58-year-old</strong> <strong>lifeguard</strong> develops <strong>squamous cell carcinoma</strong> of the <strong>skin</strong> on his <strong>forehead</strong>. Which of the following most likely preceded the development of this carcinoma?
+
+A. Hamartomatous lesion of sebaceous glands
+B. Dry, scaly, hyperkeratotic papule
+C. A single, large pink patch
+D. Dermatophyte infection
+E. UVC exposure
+
+LLM answer: B. Dry, scaly, hyperkeratotic papule

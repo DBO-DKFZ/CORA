@@ -1,0 +1,27 @@
+input_json: "/home/t252a/data/derma/pubmed_vignettes_medqa.json"
+output_dir: "results/retrieved_docs_pubmed_qwenagent/"
+verbose: true
+
+# ChromaDB — case reports only (built by ingest_case_reports.py, leakage-excluded)
+chroma_path: "chromadb_snowflakev2"
+case_reports_collection_name: "case_reports"
+
+# Embedding
+embed_model: "Snowflake/snowflake-arctic-embed-l-v2.0"
+topk: 10 # This is the k for each retrieval, so total docs could be higher if multiple query decompositions are generated.
+
+# Agent
+agent_model: "Qwen/Qwen3-235B-A22B-Instruct-2507-tput"
+provider: "together"  # together | openai | local
+local_base_url: "http://localhost:8000/v1"
+max_iterations: 3
+enable_query_decomposition: true
+enable_self_critique: true
+confidence_threshold: 0.5
+
+# Only run agentic retrieval for these question types (next_step dropped — retrieval
+# hit-rate there was ~6-8% regardless of reformulation)
+keep_question_types: ["diagnosis"]
+
+# Set to true to re-run questions that had JSON parse failures in a previous run
+rerun_fallbacks: true

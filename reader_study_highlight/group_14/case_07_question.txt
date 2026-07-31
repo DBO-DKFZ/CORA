@@ -1,0 +1,15 @@
+A <strong>37-year-old man</strong> presents to an <strong>urgent care clinic</strong> with complaints of <strong>speech problems</strong> and <strong>yellowing of his eyes</strong> for <strong>a week</strong>. He admits to using <strong>illicit intravenous drugs</strong>. His vital signs include: <strong>blood pressure 110/60 mm Hg</strong>, <strong>pulse rate 78/min</strong>, and <strong>respiratory rate 22/min</strong>. On examination, the patient appears <strong>jaundiced</strong>, and his <strong>speech is slurred</strong>. His <strong>liver enzymes</strong> had <strong>viral markers</strong> as follows:
+<strong>Aspartate aminotransferase 6,700 IU/L</strong>
+<strong>Alanine aminotransferase 5,000 IU/L</strong>
+<strong>HbsAg Negative</strong>
+<strong>Anti-Hbs Negative</strong>
+<strong>Anti-HCV Ab Positive</strong>
+<strong>HCV RNA Positive</strong>
+He is at risk of developing a <strong>secondary dermatological condition</strong>. A <strong>biopsy</strong> would most likely show which of the following findings?
+
+A. Microabscesses with fibrin and neutrophils
+B. Lymphocytic infiltrate at the dermal-epidermal junction
+C. Intraepithelial cleavage with acantholysis
+D. Noncaseating granulomas
+
+LLM answer: B. Lymphocytic infiltrate at the dermal-epidermal junction

@@ -1,0 +1,8 @@
+A <strong>30-year-old male</strong> had <strong>severely itchy papulovesicular lesions</strong> on <strong>both knees, elbows, upper back and buttocks</strong> for <strong>one year</strong>. <strong>Direct immunofluorescence staining</strong> of the lesions showed <strong>IgA deposition at dermoepidermal junction and dermal papilla</strong>. The most probable diagnosis is :
+
+A. Pemphigus vulgaris
+B. Bullous pemphigoid
+C. Dermatitis herpetiformis
+D. Nummular eczema
+
+LLM answer: C. Dermatitis herpetiformis

@@ -1,0 +1,8 @@
+A <strong>53-year-old male</strong> who consumes <strong>alcohol</strong> in <strong>heavy doses</strong> for a <strong>long time</strong>, with documented evidence of <strong>vitamin B6 deficiency</strong>, presents with a <strong>pigmented rash on sun-exposed areas</strong>, <strong>bright red tongue</strong>, <strong>diarrhea</strong>, <strong>apathy</strong>, <strong>memory loss</strong>, and <strong>disorientation</strong>. What could be the cause of these features?
+
+A. Niacin deficiency
+B. Riboflavin deficiency
+C. Folate deficiency
+D. Thiamine deficiency
+
+LLM answer: A. Niacin deficiency

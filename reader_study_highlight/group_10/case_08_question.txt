@@ -1,0 +1,8 @@
+A <strong>24-year-old woman</strong> presents with an <strong>earache</strong> of <strong>4 days</strong> in duration. She also reports <strong>increased urine production</strong>, a <strong>skin rash</strong>, and <strong>bone pain on her scalp</strong>. Physical examination reveals <strong>otitis media</strong>, <strong>dermatitis</strong>, and <strong>exophthalmos</strong>. An <strong>X-ray of the scalp</strong> shows <strong>calvarial bone defects</strong>. A <strong>fine-needle aspirate</strong> displays <strong>numerous eosinophils</strong>. Which of the following is the most likely diagnosis?
+
+A. Hodgkin lymphoma
+B. Langerhans cell histiocytosis
+C. Malignant melanoma
+D. Metastatic breast carcinoma
+
+LLM answer: B. Langerhans cell histiocytosis

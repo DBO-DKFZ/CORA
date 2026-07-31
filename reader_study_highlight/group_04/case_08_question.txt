@@ -1,0 +1,9 @@
+A <strong>3-year-old boy</strong> is taken to the <strong>ER</strong> by his parents due to his <strong>elevated temperature</strong>. He has had a <strong>fever (>101.1 deg F)</strong> for <strong>a little over a week</strong>, and over that time, his parents noticed his <strong>eyes had gotten a little pink</strong>, and his <strong>palms and soles were red and swollen</strong>. His <strong>lips and tongue are also peeling</strong>. His parents note he has <strong>not taken any new medications</strong>, and they did not notice any <strong>runny nose</strong>, <strong>sore throat</strong>, <strong>cough</strong>, or <strong>changes in his bowel or bladder habits</strong>. In the ER, his vitals are as follows: <strong>temperature is 101.3 deg F (38.5 deg C)</strong>, <strong>blood pressure is 90/60 mmHg</strong>, <strong>pulse is 125/min</strong>, and <strong>respirations are 20/min</strong>. His exam is notable for <strong>bilateral injected conjunctivae</strong>, <strong>right-sided cervical lymphadenopathy</strong>, <strong>erythematous and edematous palms and soles</strong>, and <strong>erythema multiforme-like rash over his trunk</strong>. Appropriate <strong>lab tests and imaging</strong> were performed. Which of the following is the most worrisome complication of this boy's <strong>disease process</strong>?
+
+A. Digital gangrene
+B. Coronary artery aneurysms
+C. Glomerulonephritis
+D. Endocardial valve damage
+E. Toxic epidermal necrolysis
+
+LLM answer: B. Coronary artery aneurysms

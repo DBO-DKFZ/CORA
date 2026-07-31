@@ -1,0 +1,12 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_naiverag_reranked/
+
+# --- Model ---
+model: "deepseek-ai/DeepSeek-V3.1"
+provider: "together"
+local_base_url: "http://localhost:8000/v1"
+
+# --- Output ---
+output_file: "results/deepseekv3.1/results_deepseekv3.1_naiverag_reranked.csv"
+verbose: true

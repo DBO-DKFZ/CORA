@@ -1,0 +1,8 @@
+A young man presents to the emergency department with a <strong>maculopapular rash</strong> <strong>2 weeks after healing</strong> of a <strong>painless genital ulcer</strong>. The most likely etiological agent is:
+
+A. Treponema pallidum
+B. Treponema peunae
+C. Chlamydia trachomatis
+D. Calymmatobacter granulomatis
+
+LLM answer: A. Treponema pallidum

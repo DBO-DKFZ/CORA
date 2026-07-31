@@ -1,0 +1,10 @@
+A <strong>22-year-old male</strong> presents to the physician with a <strong>9-year history</strong> of recurring <strong>acne</strong> on his <strong>face</strong>. He has tried a number of <strong>over-the-counter face washes, gels, and supplements</strong> over the past few years with <strong>temporary relief</strong> but no significant lasting effects. The <strong>acne has gotten worse over time</strong> and now he is especially concerned about his appearance. A physical examination reveals numerous <strong>nodulocystic lesions</strong> over the <strong>face and neck</strong>. <strong>Scarring</strong> is present interspersed between the <strong>pustules</strong>. There are some lesions on the <strong>shoulders and upper back</strong> as well. Which of the following is the most appropriate <strong>treatment option</strong> for this patient at this time?
+
+A. Oral erythromycin
+B. Oral doxycycline
+C. Oral isotretinoin
+D. Topical clindamycin
+E. Topical isotretinoin
+F. Topical salicylic acid
+
+LLM answer: C. Oral isotretinoin

@@ -1,0 +1,8 @@
+A <strong>65-year-old</strong> <strong>light-complexioned</strong> <strong>male</strong> presents with a <strong>solitary</strong> <strong>scaly</strong> <strong>plaque-like lesion</strong> on his <strong>forearm</strong> present for <strong>many years</strong>. The lesion is <strong>0.5 cm in diameter</strong>. <strong>Shave biopsy</strong> reveals <strong>intraepithelial squamous cell carcinoma</strong> (<strong>Bowen's disease</strong>), <strong>incompletely excised</strong>. Further treatment includes:
+
+A. Wide excision of the lesion and sentinel node biopsy
+B. Referral for local radiation therapy
+C. Excision and repair of this area, ensuring clear surgical margins
+D. No further treatment indicated
+
+LLM answer: C. Excision and repair of this area, ensuring clear surgical margins

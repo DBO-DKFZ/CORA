@@ -1,0 +1,8 @@
+An <strong>8-year-old girl</strong> in a <strong>developing country</strong> with significant <strong>corneal scarring</strong> and multiple <strong>cutaneous skin lesions</strong> in <strong>sun-exposed areas</strong>. <strong>Neurodevelopmental delay</strong> had been present since <strong>3 months of age</strong>. What is the probable diagnosis which is due to defective <strong>nucleotide excision repair</strong>?
+
+A. Werner syndrome (WS)
+B. Xeroderma pigmentosum (XP)
+C. Rothmund-Thomson syndrome
+D. Bloom syndrome (BS)
+
+LLM answer: B. Xeroderma pigmentosum (XP)

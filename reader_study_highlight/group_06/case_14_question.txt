@@ -1,0 +1,9 @@
+A <strong>22-year-old female</strong> presents to your clinic for evaluation of "<strong>skin problems</strong>." She complains of <strong>severe acne</strong> and "<strong>spots</strong>" all over her face that have persisted for the last <strong>8 years</strong>, despite innumerable creams and lotions. She reports spending <strong>several hours every morning using make-up</strong> just to go outside. She wishes to learn about <strong>cosmetic procedures or surgeries</strong> that could solve her problem. While you perceive her concern for her skin to be genuine, upon examination, you note a <strong>healthy-appearing</strong>, <strong>well-nourished female</strong> with a <strong>normal complexion</strong>, <strong>minimal acne</strong> and <strong>sparse freckles on the nasal bridge</strong>. You calculate her <strong>BMI</strong> to be <strong>21</strong>. In addition to making a diagnosis, this patient should be screened for which other disorder?
+
+A. Malingering
+B. Munchausen's syndrome
+C. Anorexia
+D. Trichotillomania
+E. Major depressive disorder
+
+LLM answer: E. Major depressive disorder

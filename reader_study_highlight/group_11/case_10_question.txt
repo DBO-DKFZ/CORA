@@ -1,0 +1,8 @@
+A <strong>16-year-old boy</strong> is brought to the <strong>pediatrician</strong> by his mother because she is concerned about the <strong>“spots” on his abdomen and back</strong>. The patient’s mother reports that there are several <strong>“light spots”</strong> on the patient’s <strong>trunk</strong> that have been <strong>slowly increasing in number</strong>. The lesions are <strong>not painful nor pruritic</strong>. The patient’s mother is worried because her nephew had <strong>vitiligo</strong>. The patient reports that he feels <strong>“fine,”</strong> but reports <strong>occasional headaches</strong> and <strong>increasing difficulty with seeing the board at school</strong>. In addition to the patient’s cousin having <strong>vitiligo</strong>, the patient’s <strong>paternal grandfather and uncle have bilateral deafness</strong>, and his mother has <strong>systemic lupus erythematous</strong>. On physical examination, there are <strong>multiple, discrete, 2-3 cm hypopigmented macules</strong> on the <strong>chest, abdomen, back, and posterior shoulders</strong>. Which of the following <strong>head and neck computed tomography findings</strong> is the patient most likely to develop?
+
+A. Bilateral vestibular schwannomas
+B. Optic nerve glioma
+C. Subependymal hamartomas
+D. Thyroid nodule
+
+LLM answer: B. Optic nerve glioma

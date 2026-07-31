@@ -1,0 +1,9 @@
+A <strong>7-year-old boy</strong> is brought to a new pediatrician to establish care. He presents with a history of <strong>extensive eczema</strong>, <strong>recurrent respiratory, skin, and gastrointestinal infections</strong>, and <strong>significant thrombocytopenia</strong>. The boy was born at <strong>39 weeks gestation</strong> via <strong>spontaneous vaginal delivery</strong>. He is <strong>up to date on all vaccines</strong> and is <strong>meeting all developmental milestones</strong>. Given this classic grouping of clinical symptoms in a patient of this age, which of the following represents the most likely underlying medical condition?
+
+A. Wiskott-Aldrich syndrome
+B. Ataxia-telangiectasia
+C. Severe combined immunodeficiency syndrome
+D. Chediak-Higashi syndrome
+E. Hyper-IgE disease
+
+LLM answer: A. Wiskott-Aldrich syndrome

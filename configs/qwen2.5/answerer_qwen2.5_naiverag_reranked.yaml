@@ -1,0 +1,13 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_naiverag_reranked/
+
+# --- Model ---
+model: "Qwen2.5-72B-Instruct"
+provider: "local"
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/qwen2.5/results_qwen2.5_naiverag_reranked.csv"
+verbose: true
+filter_sufficient_from_dir: results/retrieved_docs_medqa_qwenagent/

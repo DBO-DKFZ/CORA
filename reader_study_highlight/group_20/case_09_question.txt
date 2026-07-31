@@ -1,0 +1,9 @@
+A <strong>13-year-old girl</strong> is brought to the physician because of an <strong>itchy rash</strong> on her <strong>knee and elbow creases</strong>. She has had this rash since <strong>early childhood</strong>. Physical examination of the affected skin shows <strong>crusty erythematous papules</strong> with <strong>skin thickening</strong>. She is prescribed <strong>topical pimecrolimus</strong>. The beneficial effect of this drug is best explained by inhibition of which of the following processes?
+
+A. Reduction of ribonucleotides
+B. Oxidation of dihydroorotic acid
+C. Oxidation of inosine-5-monophosphate
+D. Synthesis of tetrahydrofolic acid
+E. Dephosphorylation of serine
+
+LLM answer: E. Dephosphorylation of serine

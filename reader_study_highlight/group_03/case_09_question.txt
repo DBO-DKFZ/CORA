@@ -1,0 +1,8 @@
+A <strong>50-year-old male</strong> presented with a characteristic lesion on the <strong>face</strong> for <strong>5 years</strong> which is <strong>slowly increasing in size</strong> and <strong>bleeds whenever it is scratched</strong>. The patient has a history of <strong>chronic sun exposure</strong>. There is <strong>no evidence of pain or itching</strong> over the lesion. <strong>Biopsy from the lesion</strong>. Which of the following drugs are approved for the above condition?
+
+A. 5-FU, Imiquimod and Vismodegib
+B. 5-FU, Itraconazole and Vismodegib
+C. Imiquimod, Itraconazole and Azathioprine
+D. All of the above
+
+LLM answer: A. 5-FU, Imiquimod and Vismodegib

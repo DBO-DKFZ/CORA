@@ -1,0 +1,9 @@
+A <strong>17-year-old</strong> <strong>Latin American woman</strong> with <strong>no significant past medical history</strong> or <strong>family history</strong> presents to her <strong>pediatrician</strong> with concerns about several <strong>long-standing skin lesions</strong>. She notes that she has had a <strong>light-colored rash</strong> on her <strong>chest</strong> and <strong>abdomen</strong> that has been present for the last <strong>2 years</strong>. The <strong>blood pressure</strong> is <strong>111/81 mm Hg</strong>, <strong>pulse</strong> is <strong>82/min</strong>, <strong>respiratory rate</strong> is <strong>16/min</strong>, and <strong>temperature</strong> is <strong>37.3°C (99.1°F)</strong>. Physical examination reveals numerous <strong>hypopigmented macules</strong> over her <strong>chest</strong> and <strong>abdomen</strong>. <strong>No lesions</strong> are seen on her <strong>palms</strong> or <strong>soles</strong>. When questioned, she states that these lesions <strong>do not tan</strong> like the rest of her skin when <strong>exposed to the sun</strong>. The remainder of her <strong>review of systems is negative</strong>. What is the most likely cause of these lesions?
+
+A. Malassezia yeast
+B. Cutaneous T cell lymphoma
+C. Post-viral immunologic reaction
+D. TYR gene dysfunction in melanocytes
+E. Treponema pallidum infection
+
+LLM answer: A. Malassezia yeast

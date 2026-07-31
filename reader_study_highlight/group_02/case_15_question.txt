@@ -1,0 +1,9 @@
+A <strong>19-year-old</strong> <strong>Caucasian male</strong> presents to your office with <strong>hypopigmented skin</strong>. He undergoes a <strong>skin biopsy</strong> and is found to have an <strong>absence of melanocytes in the epidermis</strong>. Which of the following is the most likely diagnosis?
+
+A. Tinea versicolor
+B. Albinism
+C. Vitiligo
+D. Solar lentigo
+E. Melanoma
+
+LLM answer: C. Vitiligo

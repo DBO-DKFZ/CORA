@@ -1,0 +1,8 @@
+A patient presents with <strong>thrombocytopenia</strong>, <strong>eczema</strong> and <strong>recurrent infections</strong>. What is the most probable diagnosis?
+
+A. Wiskott Aldrich syndrome
+B. Agammaglobulinemia
+C. Chediak-Higashi syndrome
+D. Lazy leukocyte syndrome
+
+LLM answer: A. Wiskott Aldrich syndrome

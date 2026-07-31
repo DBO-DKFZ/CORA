@@ -1,0 +1,8 @@
+A <strong>52-year-old man</strong> presents to the office for evaluation of a <strong>‘weird rash’</strong> that appeared over his <strong>torso</strong> <strong>last week</strong>. The patient states that the rash just seemed to appear, but denies <strong>itching</strong>, <strong>pain</strong>, or <strong>exposure</strong>. On physical examination, the patient has <strong>multiple light brown-colored flat plaques</strong> on the <strong>torso</strong>. They appear to be <strong>‘stuck on’</strong> but do not have associated <strong>erythema</strong> or <strong>swelling</strong>. What is the most likely indication of the patient’s clinical presentation?
+
+A. Basal cell carcinoma (BCC)
+B. Infection with a Poxvirus
+C. Gastric adenocarcinoma
+D. Slow-growing squamous cell carcinoma
+
+LLM answer: B. Infection with a Poxvirus

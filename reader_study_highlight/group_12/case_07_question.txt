@@ -1,0 +1,8 @@
+An <strong>18-year-old female</strong> complains of <strong>recurrent acne</strong> all over her <strong>face and neck</strong>. Which of the following is the <strong>preferred drug</strong> to be applied <strong>topically</strong>?
+
+A. Minocycline
+B. Oxytetracycline
+C. Demeclocycline
+D. Doxycycline
+
+LLM answer: D. Doxycycline

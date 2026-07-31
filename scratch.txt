@@ -1,0 +1,14 @@
+llama-server \
+  -m GLM-5.1-UD-IQ4_NL-00001-of-00009.gguf \
+  --n-gpu-layers 100 \
+  --tensor-split 1,1,1,1 \
+  --port 8000
+
+llama-server -m GLM-5.1-UD-IQ4_NL-00001-of-00009.gguf --port 8000
+
+
+
+
+hf download bartowski/Qwen2.5-72B-Instruct-GGUF \
+  --include "Qwen2.5-72B-Instruct-Q6_K/*" \
+

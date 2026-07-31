@@ -1,0 +1,8 @@
+A <strong>13-year-old boy</strong> is brought to the physician because of <strong>bleeding from his lips</strong> earlier that day. He has a history of <strong>recurrent nosebleeds since childhood</strong>. His <strong>father has a similar history of recurrent nosebleeds</strong>. He is at the <strong>60th percentile for height and weight</strong>. Examination shows <strong>multiple, small dilated capillaries</strong> over the <strong>lips, nose, and fingers</strong>. The remainder of the examination shows <strong>no abnormalities</strong>. Which of the following conditions is this patient at increased risk for?
+
+A. Glaucoma
+B. Renal cell carcinoma
+C. High-output cardiac failure
+D. Gastrointestinal polyps
+
+LLM answer: C. High-output cardiac failure

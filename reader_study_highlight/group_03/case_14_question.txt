@@ -1,0 +1,8 @@
+A <strong>36-year-old man</strong> is admitted to the <strong>emergency department</strong> with a <strong>painful skin rash</strong> on the <strong>dorsum of his nose</strong>. Physical examination reveals that a <strong>herpetic lesion</strong> is affecting the <strong>dorsum of the nose</strong> and the <strong>eyeball</strong>. Which of the following nerves is most likely to be responsible for transmission of the virus to the <strong>eye</strong>?
+
+A. Nasociliary
+B. Supratrochlear
+C. Infraorbital
+D. Posterior ethmoidal
+
+LLM answer: A. Nasociliary

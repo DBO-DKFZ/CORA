@@ -1,0 +1,14 @@
+# --- Input ---
+rag_mode: false
+open_ended: true
+retrieved_docs_dir: results/retrieved_docs_pubmed_qwenagent_reranked/
+
+# --- Model ---
+model: "bartowski/Qwen2.5-72B"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/qwen2.5/results_qwen2.5_pubmed_base.csv"
+verbose: true
+sufficient_only: false

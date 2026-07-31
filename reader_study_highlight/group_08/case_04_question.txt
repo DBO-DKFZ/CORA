@@ -1,0 +1,8 @@
+A <strong>young female</strong> complains of <strong>genital warts</strong>, the <strong>agent implicated</strong> is:
+
+A. Treponema pallidum
+B. Adenovirus
+C. Human papilloma virus
+D. Pox virus
+
+LLM answer: C. Human papilloma virus

@@ -1,0 +1,8 @@
+A child develops <strong>skin tumors</strong> and <strong>blisters</strong> on exposure to <strong>sunlight</strong>. <strong>Irregular dark spots</strong> on the <strong>skin</strong> were also found. He very likely has a defect in which of the following mechanisms?
+
+A. Thymidine dimers repair
+B. Base excision repair
+C. Mismatch repair
+D. Double strand break repair
+
+LLM answer: A. Thymidine dimers repair

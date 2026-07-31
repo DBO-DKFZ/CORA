@@ -1,0 +1,13 @@
+# --- Input ---
+rag_mode: false
+retrieved_docs_dir: results/retrieved_docs_medqa_qwen3/
+
+# --- Model ---
+model: "MiniMaxAI/MiniMax-M2.7"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/minimax2.7/results_minimax2.7_medqa_base.csv"
+verbose: true
+sufficient_only: false

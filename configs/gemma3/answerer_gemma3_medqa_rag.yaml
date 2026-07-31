@@ -1,0 +1,14 @@
+# --- Input ---
+rag_mode: true
+retrieved_docs_dir: results/retrieved_docs_medqa_qwenagent_reranked/
+
+# --- Model ---
+model: "bartowski/google_gemma-3-27b-it-GGUF"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:9500/v1"
+
+# --- Output ---
+output_file: "results/gemma3/results_gemma3_medqa_rag.csv"
+verbose: true
+# --- Filtering ---
+# min_confidence: 0.0  # uncomment to include all sufficient=True cases; set a value to use a custom confidence cutoff

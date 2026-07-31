@@ -1,0 +1,8 @@
+A <strong>25-year-old male</strong> presents with C/O <strong>rash</strong>. There is no <strong>fever</strong> or <strong>myalgia</strong>. A slightly <strong>pruritic maculopapular rash</strong> is noted over the <strong>abdomen</strong>, <strong>trunk</strong>, <strong>palms of the hands</strong> and <strong>soles of the feet</strong>. <strong>Lymphadenopathy</strong> is also noted. <strong>Hypertrophic, flat, wart-like lesions</strong> are noted around the <strong>anal area</strong>. Lab studies show: <strong>PCV: 40%</strong> <strong>HB: 14 g/dL</strong> <strong>WBC: 13,000/ml</strong> <strong>DLC: N50, L50</strong> The most useful laboratory test in this patient is
+
+A. Weil-Felix titer
+B. VDRL test
+C. Chlamydia titer
+D. Blood cultures
+
+LLM answer: B. VDRL test

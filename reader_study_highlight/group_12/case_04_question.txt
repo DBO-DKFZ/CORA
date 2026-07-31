@@ -1,0 +1,10 @@
+A <strong>38-year-old man</strong> with <strong>chronic hepatitis C</strong> comes to the physician because of a <strong>10-day history</strong> of <strong>darkening of his skin</strong> and <strong>painless blisters</strong>. He <strong>started working as a landscaper 2 weeks ago</strong>. He <strong>drinks 2 beers every night</strong> and <strong>occasionally more on the weekends</strong>. Examination shows <strong>bullae</strong> and <strong>oozing erosions</strong> in <strong>different stages of healing</strong> on his <strong>arms, dorsal hands, and face</strong>. There are <strong>atrophic white scars</strong> and patches of <strong>hyperpigmented skin</strong> on the <strong>arms and face</strong>. This patient's <strong>skin findings</strong> are most likely associated with increased concentration of which of the following?
+
+A. Protoporphyrin
+B. Porphobilinogen
+C. Delta-aminolevulinic acid
+D. Uroporphyrinogen III
+E. Unconjugated bilirubin
+F. Conjugated bilirubin
+
+LLM answer: D. Uroporphyrinogen III

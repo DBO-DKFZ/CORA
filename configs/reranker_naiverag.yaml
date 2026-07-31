@@ -1,0 +1,10 @@
+input_dir: ./results/retrieved_docs_medqa_naive_rag/
+output_dir: ./results/retrieved_docs_medqa_naive_rag_reranked/
+reranker_model: mixedbread-ai/mxbai-rerank-large-v1
+
+# Keep only the top N docs after reranking (omit or set null to keep all)
+top_k: 10
+
+batch_size: 16
+verbose: true
+sufficient_only: false  # all naive RAG records have final_sufficient=True, so this has no effect

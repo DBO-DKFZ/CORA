@@ -1,0 +1,8 @@
+A female presents with history of <strong>color change from pallor to cyanosis</strong> on exposure to <strong>cold</strong> in <strong>fingers</strong>. This condition is mostly associated with?
+
+A. Scleroderma
+B. Leukemia
+C. Lung infections
+D. Hepatosplenomegaly
+
+LLM answer: A. Scleroderma

@@ -1,0 +1,8 @@
+<strong>Child</strong> presents with <strong>linear verrucous plaques</strong> on the <strong>trunk</strong> with <strong>vacuolization of keratinocytes</strong> in <strong>S. spinosum</strong> and <strong>S. granulosum</strong>. Diagnosis is?
+
+A. Incontinentia pigmenti
+B. Delayed hypersensitivity reaction
+C. Verrucous epidermal nevus
+D. Linear Darier's disease
+
+LLM answer: C. Verrucous epidermal nevus

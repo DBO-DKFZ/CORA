@@ -1,0 +1,8 @@
+A <strong>40-year-old male</strong> had <strong>multiple blisters</strong> over the <strong>trunk and extremities</strong>. <strong>Direct immunofluorescence</strong> studies showed <strong>linear IgG deposits along the basement membrane</strong>. Which of the following is the most likely diagnosis?
+
+A. Pemphigus vulgaris
+B. Bullous pemphigoid
+C. Pemphigus foliaceus
+D. Dermatitis herpetiformis
+
+LLM answer: B. Bullous pemphigoid

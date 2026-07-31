@@ -1,0 +1,9 @@
+A <strong>42-year-old woman</strong> comes to the physician with a <strong>rash</strong> on the <strong>dorsal surfaces of her hands and feet</strong> for the <strong>past month</strong>. The rash began as <strong>blisters</strong> that developed a <strong>few days after she had been sunbathing on the beach</strong>. Photographs of the rash are shown. She has <strong>no history of similar symptoms</strong>, <strong>takes no medications</strong>, and has <strong>no history of recent travels</strong>. She has <strong>consumed excess alcohol</strong> several times over the <strong>past 2 months</strong>. Her <strong>temperature is 37.1°C (98.8°F)</strong>. The remainder of the physical examination shows <strong>no abnormalities</strong>. Laboratory studies show <strong>elevated plasma porphyrins</strong>, with <strong>normal urinary 5-aminolevulinic acid</strong> and <strong>porphobilinogen</strong>. Which of the following is the most appropriate next step in management?
+
+A. Afamelanotide
+B. Carbohydrate loading
+C. Intravenous hemin
+D. Phlebotomy
+E. Splenectomy
+
+LLM answer: D. Phlebotomy

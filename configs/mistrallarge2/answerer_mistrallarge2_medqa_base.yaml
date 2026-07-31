@@ -1,0 +1,13 @@
+# --- Input ---
+rag_mode: false
+retrieved_docs_dir: results/retrieved_docs_medqa_qwenagent_reranked/
+
+# --- Model ---
+model: "bartowski/Mistral-Large-Instruct-2411-GGUF"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+
+# --- Output ---
+output_file: "results/mistrallarge2/results_mistrallarge2_medqa_base.csv"
+verbose: true
+sufficient_only: false

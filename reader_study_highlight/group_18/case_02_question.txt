@@ -1,0 +1,8 @@
+A patient presented with multiple <strong>nodulocystic lesions</strong> on the <strong>face</strong>. The <strong>drug of choice</strong> is:
+
+A. Retinoids
+B. Antibiotics
+C. Steroids
+D. UV light
+
+LLM answer: A. Retinoids

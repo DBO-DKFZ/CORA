@@ -1,0 +1,8 @@
+A <strong>patient</strong> has <strong>multiple, pearly papules</strong> on the <strong>face</strong>. <strong>Biopsy</strong> shows a <strong>malignant tumor</strong>. Which of the following features would most likely be seen on microscopic examination?
+
+A. Cytoplasmic viral inclusions
+B. Keratin
+C. Melanin
+D. Palisading nuclei
+
+LLM answer: D. Palisading nuclei

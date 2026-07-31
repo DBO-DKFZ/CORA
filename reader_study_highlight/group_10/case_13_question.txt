@@ -1,0 +1,9 @@
+A <strong>5-year-old</strong> child whose family recently <strong>immigrated from Africa</strong> is brought in for a <strong>wellness visit</strong>. The boy appears <strong>indifferent</strong>, doesn’t seem to make <strong>eye contact</strong>, and keeps to himself. Upon examination, it is noted that his <strong>height and weight are below the 5th percentile</strong>. Furthermore, his <strong>abdomen is protuberant</strong>, and there are multiple zones of <strong>hyper- and hypopigmentation</strong> and <strong>desquamation of the skin</strong>. Upon palpation of the abdomen, he is found to have <strong>hepatomegaly</strong>, and lower extremity inspection reveals <strong>pitting edema</strong>. Which of the following is the cause of this child’s condition?
+
+A. Total caloric deprivation
+B. Hypothyroidism
+C. Secondary protein-energy malnutrition
+D. Vitamin A deficiency
+E. Severe protein malnutrition
+
+LLM answer: E. Severe protein malnutrition

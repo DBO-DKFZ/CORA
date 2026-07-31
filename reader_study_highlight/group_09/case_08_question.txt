@@ -1,0 +1,8 @@
+An <strong>11-month-old boy</strong> presents with a <strong>scaly erythematous rash</strong> on his <strong>back</strong> for the <strong>past 2 days</strong>. <strong>No significant past medical history</strong>. <strong>Family history</strong> is significant for the fact that the patient’s <strong>parents are first-degree cousins</strong>. In addition, his <strong>older sibling had similar symptoms</strong> and was <strong>diagnosed with a rare unknown skin disorder</strong>. On <strong>physical examination</strong>, <strong>whitish granulomatous plaques</strong> are present in the <strong>oral mucosa</strong>, which exhibit a <strong>tendency to ulcerate</strong>, as well as a <strong>scaly erythematous rash</strong> on his <strong>back</strong>. A <strong>complete blood count</strong> reveals that the patient is <strong>anemic</strong>. A <strong>plain radiograph of the skull</strong> shows <strong>lytic bone lesions</strong>. Which of the following <strong>immunohistochemical markers</strong>, if positive, would <strong>confirm the diagnosis</strong> in this patient?
+
+A. CD21
+B. CD1a
+C. CD15
+D. CD30
+
+LLM answer: B. CD1a

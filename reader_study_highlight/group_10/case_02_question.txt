@@ -1,0 +1,8 @@
+A <strong>neonate</strong> has a <strong>large</strong>, <strong>purplish</strong>, <strong>slightly raised lesion</strong> on the <strong>skin of the forehead</strong> near the <strong>temporal area</strong>. As the <strong>child grows</strong>, the <strong>lesion grows</strong> as well and becomes increasingly <strong>prominent</strong>. This lesion may be a component of which of the following <strong>syndromes</strong> or <strong>diseases</strong>?
+
+A. Buerger's disease
+B. Milroy's disease
+C. Osler-Weber-Rendu disease
+D. Sturge-Weber syndrome
+
+LLM answer: D. Sturge-Weber syndrome

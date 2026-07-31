@@ -1,0 +1,8 @@
+A <strong>42-year-old man</strong> presents to a <strong>free dermatology clinic</strong>, complaining of <strong>itchy skin</strong> over the past <strong>several days</strong>. He has <strong>no insurance</strong> and lives in a <strong>homeless shelter</strong>. The patient has <strong>no significant medical history</strong>. Physical evaluation reveals <strong>2 mm erythematous papules and vesicles</strong> on his <strong>back and groin</strong>, with <strong>linear excoriation marks</strong>. Careful observation of his hands reveals <strong>serpiginous, grayish, threadlike elevations</strong> in the <strong>superficial epidermis</strong>, ranging from <strong>3–9 mm in length</strong> in the <strong>webbing between several digits</strong>. What should be the suggested treatment in this case?
+
+A. No medication should be administered, only proper hygiene.
+B. Antiviral medication
+C. Permethrin
+D. Broad-spectrum antibiotic
+
+LLM answer: C. Permethrin

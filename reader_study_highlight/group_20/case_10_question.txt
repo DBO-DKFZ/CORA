@@ -1,0 +1,8 @@
+A child develops <strong>blisters</strong> on exposure to <strong>sunlight</strong>. <strong>Irregular dark spots</strong> on the <strong>skin</strong> are also found. He is very likely to have a defect in which of the following mechanisms?
+
+A. Nucleotide excision repair
+B. Mismatch repair
+C. Recombination repair
+D. Thymine dimers
+
+LLM answer: A. Nucleotide excision repair

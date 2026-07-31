@@ -1,0 +1,8 @@
+An <strong>18-year-old girl</strong> presents with predominantly <strong>comedonal acne</strong>. <strong>First-line treatment</strong> will be:
+
+A. Topical retinoids
+B. Systemic retinoids
+C. Systemic antibiotics
+D. Topical steroids
+
+LLM answer: A. Topical retinoids

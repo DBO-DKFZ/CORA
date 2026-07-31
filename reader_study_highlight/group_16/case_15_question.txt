@@ -1,0 +1,9 @@
+A <strong>7-month-old boy</strong> presents to the family physician with extensive <strong>scaliness</strong> and <strong>pigmentation</strong> of <strong>sun-exposed skin areas</strong>. His mother says that these symptoms were absent until <strong>mid-spring</strong> and then became significantly worse after their trip to <strong>California in the summer</strong>. The child was born in <strong>December</strong> to a <strong>consanguineous couple</strong> after an uncomplicated pregnancy. He is <strong>breastfed</strong> and receives <strong>mashed potatoes, bananas, and carrots</strong> as complementary foods. His weight is <strong>8.5 kg (18.7 lb)</strong> and length is <strong>70 cm (2 ft 96 in)</strong>. The patient’s vital signs are within normal limits for his age. On physical examination, there is <strong>freckling</strong>, <strong>scaling</strong>, and <strong>erythema</strong> on the <strong>sunlight-exposed areas</strong> of the <strong>face, trunk, and upper and lower extremities</strong>. No <strong>blistering</strong>, <strong>scarring</strong>, <strong>hypertrichosis</strong>, or <strong>alopecia</strong> is noted. The rest of the exam is unremarkable. Which process is most likely disrupted in this patient?
+
+A. Conversion of uroporphyrinogen III to coproporphyrinogen III
+B. Hydroxylation of proline and lysine in the procollagen molecule
+C. Base-excision DNA repair
+D. NAD production
+E. Nucleotide-excision DNA repair
+
+LLM answer: E. Nucleotide-excision DNA repair

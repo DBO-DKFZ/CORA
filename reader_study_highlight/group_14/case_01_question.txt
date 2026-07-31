@@ -1,0 +1,8 @@
+A <strong>27-year-old</strong> man with <strong>AIDS</strong> develops a <strong>reddish, slightly raised rash</strong> on his <strong>face, neck, and mouth</strong>, consistent in appearance with <strong>Kaposi's sarcoma</strong>. Microscopically, the proliferating cells in this <strong>malignancy</strong> most closely resemble which of the following?
+
+A. Angiosarcoma
+B. Carcinosarcoma
+C. Lymphoma
+D. Malignant fibrous histiocytoma
+
+LLM answer: A. Angiosarcoma

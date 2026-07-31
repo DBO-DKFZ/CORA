@@ -1,0 +1,8 @@
+A patient presents with a <strong>single hypopigmented anaesthetic patch</strong> with a <strong>satellite lesion</strong> on the <strong>forearm</strong>. The most likely diagnosis is:
+
+A. Indeterminate leprosy
+B. Neuritic leprosy
+C. Lepromatous leprosy
+D. Tuberculoid leprosy
+
+LLM answer: D. Tuberculoid leprosy

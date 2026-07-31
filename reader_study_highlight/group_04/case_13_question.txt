@@ -1,0 +1,9 @@
+A <strong>25-year-old man</strong> presents with a <strong>nodule</strong> on his <strong>right foot</strong>. He says that he first noticed the nodule <strong>last week</strong>. It has <strong>not undergone any change in size and color</strong>. He denies any history of <strong>trauma</strong> or <strong>fever</strong>. <strong>Past medical history</strong> is significant for <strong>HIV</strong>, diagnosed <strong>6 years ago</strong>. He is currently <strong>not on antiretroviral therapy</strong>. His last <strong>CD4+ T cell count</strong> was <strong>0.19 x 109/L</strong>. He is <strong>afebrile</strong>, and his <strong>vital signs are within normal limits</strong>. On <strong>physical examination</strong>, there is a <strong>3 cm x 4 cm nodule</strong> on the <strong>right foot</strong>, <strong>tan brown</strong> in color, <strong>non-tender</strong>, and covered with a <strong>fine scale</strong>. A <strong>biopsy</strong> of the nodule is performed and <strong>histopathological analysis</strong> reveals the <strong>proliferation of blood vessels with overgrown endothelial cells</strong>. <strong>Histological staining</strong> of the biopsy tissue reveals <strong>gram-negative bacilli</strong>. Which of the following is the best course of treatment for this patient?
+
+A. Cefazolin
+B. Penicillin
+C. Vancomycin
+D. Erythromycin
+E. Interferon-α
+
+LLM answer: D. Erythromycin

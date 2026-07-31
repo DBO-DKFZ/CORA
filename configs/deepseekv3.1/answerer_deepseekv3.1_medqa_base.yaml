@@ -1,0 +1,12 @@
+# --- Input ---
+rag_mode: false
+retrieved_docs_dir: results/retrieved_docs_medqa_qwen3/
+
+# --- Model ---
+model: "deepseek-ai/DeepSeek-V3.1"
+provider: "together"  # together | openai | local
+local_base_url: "http://localhost:8000/v1"
+
+# --- Output ---
+output_file: "results/deepseekv3.1/results_deepseekv3.1_medqa_base.csv"
+verbose: true

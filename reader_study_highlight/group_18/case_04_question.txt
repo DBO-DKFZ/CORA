@@ -1,0 +1,8 @@
+A <strong>middle-aged</strong> man presented with <strong>multiple flaccid bullae</strong> and <strong>oral mucosal lesions</strong>. The most likely finding would be:
+
+A. Granular IgA in reticular dermis
+B. Fishnet IgG in epidermis
+C. Linear IgG at the dermoepidermal junction
+D. Linear IgA in dermal papillae
+
+LLM answer: B. Fishnet IgG in epidermis

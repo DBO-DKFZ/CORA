@@ -1,0 +1,8 @@
+A <strong>50-year-old woman</strong> comes to the physician for the evaluation of <strong>excessive hair growth</strong> on her <strong>chin</strong> over the past <strong>2 weeks</strong>. She also reports progressive enlargement of her <strong>gums</strong>. <strong>Three months ago</strong>, she underwent a <strong>liver transplantation</strong> due to <strong>Wilson disease</strong>. Following the procedure, the patient was started on <strong>transplant rejection prophylaxis</strong>. She has a history of <strong>poorly-controlled type 2 diabetes mellitus</strong>. Temperature is <strong>37°C (98.6°F)</strong>, pulse is <strong>80/min</strong>, respirations are <strong>22/min</strong>, and blood pressure is <strong>150/80 mm Hg</strong>. Physical examination shows <strong>dark-pigmented, coarse hair</strong> on the <strong>chin</strong>, <strong>upper lip</strong>, and <strong>chest</strong>. The <strong>gingiva</strong> and the <strong>labial mucosa</strong> are <strong>swollen</strong>. There is a <strong>well-healed scar</strong> on her <strong>right lower abdomen</strong>. Which of the following drugs is the most likely cause of this patient's findings?
+
+A. Daclizumab
+B. Cyclosporine
+C. Tacrolimus
+D. Methotrexate
+
+LLM answer: B. Cyclosporine

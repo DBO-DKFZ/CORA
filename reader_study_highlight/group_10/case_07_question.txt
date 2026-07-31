@@ -1,0 +1,9 @@
+A <strong>32-year-old</strong> <strong>obese</strong> man visits your <strong>dermatology clinic</strong> after his barber saw a <strong>darkened area</strong> on the <strong>back of his neck</strong>. He has not seen his <strong>primary care physician</strong> in <strong>many years</strong> and does not know if he has <strong>diabetes</strong>. A <strong>rapid blood glucose test</strong> showed a <strong>normal glucose level</strong>. Otherwise, he reports <strong>recent loss of appetite</strong> with <strong>slight weight loss</strong>. What could be causing this patient’s <strong>newly-discovered dermatologic change</strong>?
+
+A. Hypothyroidism
+B. Gastric adenocarcinoma
+C. Diabetes insipidus
+D. Diabetes mellitus
+E. Barrett’s esophagus
+
+LLM answer: D. Diabetes mellitus

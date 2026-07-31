@@ -1,0 +1,11 @@
+A <strong>13-year-old boy</strong> is brought to the physician because of a <strong>5-day history</strong> of a <strong>rash</strong> on his <strong>chest and back</strong>. His mother initially noticed only a few <strong>lesions</strong> on his back, but since then the rash has spread to his chest. His family returned from a trip to the <strong>Caribbean</strong> <strong>2 weeks ago</strong>. His mother started using a <strong>new laundry detergent</strong> <strong>8 days ago</strong>. He has <strong>type 1 diabetes mellitus</strong> controlled with <strong>insulin</strong>. His mother has <strong>Hashimoto thyroiditis</strong> and his brother has <strong>severe facial acne</strong>. His <strong>temperature is 37.2°C (99°F)</strong>, <strong>pulse is 81/min</strong>, and <strong>blood pressure is 115/74 mm Hg</strong>. Examination of the skin shows <strong>multiple</strong>, <strong>nontender</strong>, <strong>round</strong>, <strong>white macules</strong> on the <strong>chest and trunk</strong>. There is <strong>fine scaling</strong> when the lesions are scraped with a spatula. There are <strong>no excoriation marks</strong>. The remainder of the examination shows <strong>no abnormalities</strong>. Which of the following is the most likely <strong>underlying mechanism</strong> of this patient's symptoms?
+
+A. Autoimmune destruction of melanocytes
+B. Increased sebum production
+C. Infection with Trichophyton rubrum
+D. Increased growth of Malassezia globosa
+E. Exposure to human herpes virus 7
+F. Increased growth of Corynebacterium minutissimum
+G. Antigen uptake by Langerhans cells
+
+LLM answer: G. Antigen uptake by Langerhans cells

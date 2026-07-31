@@ -1,0 +1,8 @@
+A <strong>40-year-old woman</strong> presents to the clinic for <strong>hair loss</strong>. She was in her usual state of health until <strong>earlier this month</strong> when she started noticing <strong>more and more hair on her pillow in the morning</strong>. The problem has only been getting worse since then; she's even started <strong>pulling out clumps of hair when she shampoos</strong> in the morning. She has <strong>no other symptoms</strong>, and her <strong>past medical history is unremarkable</strong>. The physical exam is notable for <strong>smooth, circular, non-scarring, hairless patches across her scalp</strong>. A firm tug on a bundle of hair causes <strong>almost all of the hair to be removed</strong>. Which of the following is the most likely diagnosis?
+
+A. Alopecia areata
+B. Secondary syphilis
+C. Tinea capitis
+D. Trichotillomania
+
+LLM answer: A. Alopecia areata

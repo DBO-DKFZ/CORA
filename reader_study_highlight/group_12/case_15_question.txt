@@ -1,0 +1,8 @@
+A <strong>35-year-old</strong> woman with <strong>no significant past medical, past surgical, family or social history</strong> presents to clinic with a <strong>recently identified</strong> area of <strong>flat</strong>, <strong>intact</strong>, <strong>pigmented skin</strong>. The patient believes that this is a <strong>large freckle</strong>, and she states that it <strong>becomes darker during the summer</strong> when she is outdoors. On physical examination, you measure the lesion to be <strong>6 mm in diameter</strong>. Which of the following is the best descriptor of this patient’s skin finding?
+
+A. Papule
+B. Macule
+C. Plaque
+D. Ulcer
+
+LLM answer: B. Macule

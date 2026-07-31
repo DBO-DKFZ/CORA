@@ -1,0 +1,8 @@
+A child presented with a complaint of <strong>severe itching</strong> over the <strong>web of fingers</strong>, <strong>more at night</strong>. Examination revealed <strong>burrows</strong>. Most probable diagnosis is:September 2009
+
+A. Tinea cruris
+B. Scabies
+C. Infantile eczema
+D. Papular urticaria
+
+LLM answer: B. Scabies

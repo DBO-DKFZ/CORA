@@ -1,0 +1,8 @@
+A <strong>41-year-old man</strong> presents to his <strong>primary care provider</strong> complaining of a <strong>blistering skin rash</strong>. He was out in the <strong>sun</strong> with his family at a <strong>baseball game</strong> several days ago. Later that evening he developed a <strong>severe blistering rash</strong> on his <strong>forearms</strong>, <strong>back of his neck</strong>, and <strong>legs</strong>. He denies <strong>fevers</strong>, <strong>chills</strong>, <strong>malaise</strong>, <strong>abdominal pain</strong>, or <strong>chest pain</strong>. He denies <strong>dysuria</strong> or a <strong>change in his bowel patterns</strong> but does report that his <strong>urine has occasionally appeared brown</strong> over the past few months. His <strong>family history</strong> is notable for <strong>hemochromatosis</strong> in his father. He does not <strong>smoke</strong> or <strong>drink alcohol</strong>. On examination, he has <strong>small ruptured blisters</strong> diffusely across his <strong>forearms</strong>, <strong>back of his neck</strong>, and <strong>lower legs</strong>. This patient most likely has a condition caused by a defect in an enzyme that metabolizes which of the following compounds?
+
+A. Aminolevulinic acid
+B. Hydroxymethylbilane
+C. Protoporphyrin
+D. Uroporphyrinogen
+
+LLM answer: D. Uroporphyrinogen

@@ -1,0 +1,8 @@
+A <strong>35-year-old man</strong> presents to the <strong>general practitioner</strong> with a <strong>skin rash</strong> that has been present for <strong>2 days</strong>. The rash <strong>appeared suddenly</strong> and has <strong>progressively gotten worse</strong>. It started off as an <strong>erythematous lesion</strong> on the <strong>back of his hands</strong> and also over his <strong>nose</strong>. The lesions over his hands have become <strong>bullous</strong> and <strong>tense</strong>. He has <strong>never experienced similar symptoms before</strong>. He just got back from a <strong>canoeing trip</strong> during a <strong>very hot and sunny weekend</strong>. <strong>Physical exam</strong> is significant for <strong>erythematous, vesicular lesions</strong> over the <strong>nape of the neck</strong> and <strong>bridge of the nose</strong> as well as <strong>tense bullae</strong> over the <strong>dorsum of both hands</strong>. The <strong>attending physician</strong> suspects a <strong>defect in the synthesis of heme</strong> and orders some <strong>blood tests</strong>. Which of the following <strong>precursors</strong> will most likely be elevated in this patient?
+
+A. Uroporphyrinogen III
+B. Hydroxymethylbilane
+C. Porphobilinogen
+D. δ-Aminolevulinic acid
+
+LLM answer: C. Porphobilinogen

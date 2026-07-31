@@ -1,0 +1,8 @@
+A <strong>30-year-old woman</strong> presents to the office with chief complaints of <strong>skin pigmentation</strong> and <strong>fragility</strong> of the <strong>extensor sides of both hands</strong> for <strong>a month</strong>. The lesions are <strong>progressive</strong> and are <strong>not directly sensitive to light</strong>. The patient is otherwise healthy and only uses an <strong>oral contraceptive</strong>. There is <strong>no skin disease</strong> or <strong>similar skin symptoms in family members</strong>. She consumes <strong>1 glass of wine twice a week</strong>. <strong>Dermatological examination</strong> reveals <strong>erosions</strong>, <strong>erythematous macules</strong>, <strong>pigmentation</strong>, and <strong>atrophic scarring</strong>. <strong>Blood analysis</strong> reveals <strong>elevated CRP (34 mg/L)</strong>, <strong>AST (91 U/L)</strong>, <strong>ALT (141 U/L)</strong>, and <strong>serum ferritin (786 ng/mL compared to the normal value of 350 ng/mL)</strong>. Her <strong>BMI is 21 kg/m2</strong>. <strong>Urine porphyrin test results are negative</strong>. <strong>Autoimmune laboratory analysis</strong>, <strong>hepatic panel</strong>, and <strong>HIV serology are negative</strong> with a <strong>normal liver ultrasound</strong>. <strong>Genetic analysis</strong> shows a <strong>homozygous missense mutation of the HFE gene</strong>. What could be the <strong>long-term effect</strong> of her condition on her <strong>liver</strong>?
+
+A. Hepatocellular carcinoma
+B. Fatty liver
+C. Alcoholic cirrhosis
+D. OCP related hepatitis
+
+LLM answer: A. Hepatocellular carcinoma

@@ -1,0 +1,15 @@
+# --- Input ---
+rag_mode: false
+open_ended: true
+retrieved_docs_dir: results/retrieved_docs_pubmed_qwenagent_reranked/
+
+# --- Model ---
+model: "bartowski/Meta-Llama-4"
+provider: "local"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+max_tokens: 512
+
+# --- Output ---
+output_file: "results/llama4/results_llama4_pubmed_base.csv"
+verbose: true
+sufficient_only: false

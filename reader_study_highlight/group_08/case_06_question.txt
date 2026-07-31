@@ -1,0 +1,8 @@
+A <strong>32-year-old</strong> <strong>female</strong> is suffering from <strong>scabies</strong> due to <strong>sarcoptic mites</strong>. The physician prescribed her the following <strong>drug</strong>
+
+A. DEC 6 mg/kg BW for 12 days
+B. DEC 9 mg/kg BW for 12 days
+C. Ivermectin 200mcg/kg BW
+D. Ivermectin 100mg/kg BW
+
+LLM answer: C. Ivermectin 200mcg/kg BW

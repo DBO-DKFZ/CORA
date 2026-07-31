@@ -1,0 +1,8 @@
+A <strong>26-year-old male</strong> came with a <strong>single hypopigmented skin lesion</strong> over the <strong>forearm</strong> with <strong>loss of sensation</strong>. <strong>Split skin smear</strong> was done and it was <strong>negative</strong>. How do you treat this patient?
+
+A. T-Rifampicin 600 mg & T-clofazimine 600 mg once a month and T-clofazimine 50 mg daily + T. Dapsone 100 mg daily for 10 months
+B. T-Rifampicin 600 mg & T-clofazimine 300 mg once a month and T-clofazimine 100 mg daily + T. Dapsone 50 mg daily for 6 months
+C. T-Rifampicin 600 mg & T-clofazimine 300 mg once a month and T-clofazimine 100 mg daily + T. Dapsone 100 mg daily for 12 months
+D. T-Rifampicin 600 mg & T-clofazimine 300 mg once a month and T-clofazimine 50 mg daily + T. Dapsone 100 mg daily for 6 months
+
+LLM answer: D. T-Rifampicin 600 mg & T-clofazimine 300 mg once a month and T-clofazimine 50 mg daily + T. Dapsone 100 mg daily for 6 months

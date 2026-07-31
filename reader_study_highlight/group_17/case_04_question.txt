@@ -1,0 +1,8 @@
+A patient has <strong>pink papules and plaques</strong> over the <strong>genitals</strong>. What <strong>serotype</strong> of <strong>human papillomavirus (HPV)</strong> is the most likely cause?
+
+A. HPV 1
+B. HPV 2
+C. HPV 5
+D. HPV 6
+
+LLM answer: D. HPV 6

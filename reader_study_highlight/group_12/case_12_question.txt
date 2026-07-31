@@ -1,0 +1,8 @@
+A <strong>newborn infant</strong> is noted to have <strong>numerous, light brown macules</strong> dispersed across her skin. The significance of this feature is due to its strong association with the development of which of the following <strong>tumors</strong>?
+
+A. Basal cell carcinoma
+B. Neuroblastoma
+C. Neurofibroma
+D. Retinoblastoma
+
+LLM answer: C. Neurofibroma

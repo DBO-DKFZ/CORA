@@ -1,0 +1,8 @@
+A child presents with <strong>seborrheic dermatitis</strong>, <strong>lytic skull lesions</strong>, <strong>ear discharge</strong> and <strong>hepatosplenomegaly</strong>; likely diagnosis:
+
+A. Leukemia
+B. Lymphoma
+C. Histiocytosis X
+D. Multiple myeloma
+
+LLM answer: C. Histiocytosis X

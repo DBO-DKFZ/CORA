@@ -1,0 +1,8 @@
+A <strong>16-year-old girl</strong> is brought to the <strong>emergency department</strong> by her parents because of <strong>fever</strong>, <strong>vomiting</strong>, <strong>rash</strong>, and <strong>worsening confusion</strong> since this morning. On questioning, her mother reports that her <strong>last menstrual period was 1 week ago</strong> and that she <strong>recently started using tampons</strong>. She appears <strong>lethargic</strong> and is only <strong>oriented to person</strong>. Her <strong>temperature is 40.4°C (104.7°F)</strong>, <strong>pulse 174/minute</strong>, and <strong>blood pressure is 62/44 mm Hg</strong>. Examination shows <strong>oropharyngeal hyperemia</strong> and <strong>diffuse macular erythroderma</strong>. Which of the following is the most likely cause of this patient's condition?
+
+A. Erythrogenic toxin production
+B. Lipooligosaccharide expression
+C. Unregulated B cell proliferation
+D. Polyclonal T cell activation
+
+LLM answer: D. Polyclonal T cell activation

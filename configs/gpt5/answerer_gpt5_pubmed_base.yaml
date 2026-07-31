@@ -1,0 +1,15 @@
+# --- Input ---
+rag_mode: false
+open_ended: true
+retrieved_docs_dir: results/retrieved_docs_pubmed_qwenagent_reranked/
+
+# --- Model ---
+model: "gpt-5"
+provider: "openai"  # together | openai | local
+local_base_url: "http://localhost:8080/v1"
+# max_tokens: 512
+
+# --- Output ---
+output_file: "results/gpt5/results_gpt5_pubmed_base.csv"
+verbose: true
+sufficient_only: false

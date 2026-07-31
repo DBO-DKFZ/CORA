@@ -1,0 +1,8 @@
+A concerned mother brings her <strong>7-day-old</strong> son to his pediatrician after he develops a <strong>rash</strong>. Examination reveals a cluster of <strong>erythematous vesicles</strong> localized to the child's <strong>mouth</strong>. The child's <strong>vital signs</strong> are all <strong>within normal limits</strong>, and aside from the <strong>rash</strong> and <strong>mild irritability</strong> he appears <strong>healthy</strong>. A sample of tissue is taken from the base of a <strong>ruptured vesicle</strong> and subjected to the <strong>Tzanck test</strong>. The child is treated with the <strong>most commonly prescribed agent</strong> for this condition. Which of the following is a <strong>serious adverse effect</strong> associated with this <strong>drug</strong>?
+
+A. Agranulocytosis
+B. Fulminant liver failure
+C. Osteopenia
+D. Renal toxicity
+
+LLM answer: D. Renal toxicity

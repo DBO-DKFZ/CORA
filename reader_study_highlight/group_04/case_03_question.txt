@@ -1,0 +1,10 @@
+A <strong>3-year-old boy</strong> is brought to the physician for evaluation of a <strong>generalized, pruritic rash</strong>. The rash <strong>began during infancy</strong> and did not resolve despite initiating treatment with <strong>topical corticosteroids</strong>. <strong>Three months ago</strong>, he was treated for several <strong>asymptomatic soft tissue abscesses</strong> on his <strong>legs</strong>. He has been admitted to the hospital <strong>three times during the past two years for pneumonia</strong>. Physical examination shows a <strong>prominent forehead</strong> and a <strong>wide nasal bridge</strong>. Examination of the skin shows a <strong>diffuse eczematous rash</strong> and <strong>white plaques</strong> on the <strong>face, scalp, and shoulders</strong>. Laboratory studies show a <strong>leukocyte count of 6,000/mm3 with 25% eosinophils</strong> and a <strong>serum IgE concentration of 2,300 IU/mL</strong> (<strong>N = 0–380</strong>). Flow cytometry shows a <strong>deficiency of T helper 17 cells</strong>. The patient’s <strong>increased susceptibility to infection</strong> is most likely due to which of the following?
+
+A. Impaired chemotaxis of neutrophils
+B. Impaired DNA repair in lymphocytes
+C. Impaired respiratory burst in neutrophils
+D. Impaired actin assembly in lymphocytes
+E. Impaired Ig class-switching in lymphocytes
+F. Impaired interferon-γ secretion by Th1 cells
+
+LLM answer: A. Impaired chemotaxis of neutrophils

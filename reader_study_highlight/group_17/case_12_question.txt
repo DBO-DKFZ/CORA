@@ -1,0 +1,8 @@
+A <strong>9 year-old</strong> has multiple <strong>itchy erythematous wheals</strong> all over the body for <strong>2 days</strong>. There is <strong>no respiratory difficulty</strong>. Which is the <strong>best treatment</strong>?
+
+A. Antihelminthics
+B. Systemic corticosteroids
+C. Antihistamines
+D. Adrenaline
+
+LLM answer: C. Antihistamines

@@ -1,0 +1,14 @@
+# --- Input (verdict columns are written back into THIS file — no separate output) ---
+input_csv: results/qwen2.5/results_qwen2.5_pubmed_rag.csv
+
+# --- Judge model ---
+model: "claude-sonnet-4-6"
+provider: "anthropic"       # anthropic | together | openai | local
+base_url: "http://127.0.0.1:8080/v1"   # used when provider is "local"
+
+# --- Judging ---
+include_question: false   # true = show the clinical question to the judge; false = reference vs candidate only
+
+# --- Output ---
+# output_csv: (omit to write verdict columns in place; set a path to write a copy instead)
+verbose: true

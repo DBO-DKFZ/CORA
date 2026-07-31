@@ -1,0 +1,10 @@
+A <strong>74-year-old man</strong> comes to the physician for evaluation of a <strong>skin lesion</strong> on his <strong>right arm</strong>. The lesion first appeared <strong>3 months ago</strong> and has since been <strong>slowly enlarging</strong>. Physical examination shows a <strong>1.5-centimeter</strong>, <strong>faintly erythematous</strong>, <strong>raised lesion</strong> with <strong>irregular borders</strong> on the <strong>dorsum of the right forearm</strong>. A <strong>biopsy specimen</strong> is obtained. If present, which of the following <strong>histopathological features</strong> would be most consistent with <strong>carcinoma in situ</strong>?
+
+A. Pleomorphism of cells in the stratum corneum
+B. Irreversible nuclear changes in the stratum basale
+C. Full-thickness basal to apical cell polarity
+D. Increased nuclear to cytoplasmic ratio in the stratum spinosum
+E. Presence of epithelial cells in the dermis
+F. High mitotic activity in the stratum granulosum
+
+LLM answer: D. Increased nuclear to cytoplasmic ratio in the stratum spinosum

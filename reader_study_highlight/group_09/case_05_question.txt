@@ -1,0 +1,8 @@
+A <strong>15-year-old girl</strong> has developed <strong>multiple nodules on her skin</strong> over the past <strong>10 years</strong>. On physical examination, there are <strong>20 scattered, 0.3-cm to 1-cm, firm nodules</strong> on the patient's <strong>trunk and extremities</strong>. There are <strong>12 light brown macules averaging 2 to 5 cm in diameter</strong> on the skin of the <strong>trunk</strong>. <strong>Slit-lamp examination</strong> shows <strong>pigmented nodules in the iris</strong>. A <strong>sibling and a parent are similarly affected</strong>. <strong>Genetic analysis shows a loss-of-function mutation</strong>. Which of the following <strong>inheritance patterns</strong> is most likely to be present in this family?
+
+A. Autosomal dominant
+B. Autosomal recessive
+C. Mitochondrial
+D. Multifactorial
+
+LLM answer: A. Autosomal dominant

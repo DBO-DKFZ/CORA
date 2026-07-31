@@ -1,0 +1,9 @@
+A <strong>56-year-old man</strong> comes to the physician because of a <strong>painless blistering rash</strong> on his <strong>hands, forearms, and face</strong> for <strong>2 weeks</strong>. The rash is <strong>not itchy</strong> and seems to get worse in the <strong>sunlight</strong>. He has also noticed that his <strong>urine is darker than usual</strong>. His <strong>aunt and sister</strong> have a history of <strong>similar skin lesions</strong>. Examination of the skin shows multiple <strong>fluid-filled blisters</strong> and <strong>oozing erosions</strong> on the <strong>forearms</strong>, <strong>dorsal side of both hands</strong>, and <strong>forehead</strong>. There are areas of <strong>hyperpigmented scarring</strong> and patches of <strong>bald skin</strong> along the sides of the blisters. Which of the following is the most appropriate <strong>pharmacotherapy</strong> to treat this patient's condition?
+
+A. Hemin
+B. Prednisone
+C. Fexofenadine
+D. Acyclovir
+E. Hydroxychloroquine
+
+LLM answer: A. Hemin

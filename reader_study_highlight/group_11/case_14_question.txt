@@ -1,0 +1,8 @@
+A <strong>3-year-old male child</strong> is found to have a disease involving <strong>DNA repair</strong>. Specifically, he is found to have a defect in the <strong>endonucleases</strong> involved in the <strong>nucleotide excision repair</strong> of <strong>pyrimidine dimers</strong>. Which of the following is a unique <strong>late-stage complication</strong> of this child's disease?
+
+A. Colorectal cancer
+B. Endometrial cancer
+C. Lymphomas
+D. Malignant melanoma
+
+LLM answer: A. Colorectal cancer

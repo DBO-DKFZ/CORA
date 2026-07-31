@@ -1,0 +1,8 @@
+A <strong>7-year-old male patient</strong> presented with certain <strong>lesions on the face</strong> and the <strong>lumbosacral region</strong>. Patient also gave a history of <strong>frequent episodes of seizures</strong> for which <strong>NCCT head</strong> was done. Which of the following <strong>chromosomes</strong> is involved in the above <strong>disease</strong>: -
+
+A. 22q
+B. 17q
+C. 9p
+D. 9q
+
+LLM answer: D. 9q

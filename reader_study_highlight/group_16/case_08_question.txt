@@ -1,0 +1,9 @@
+A <strong>31-year-old male</strong> comes to the physician because of a <strong>2-day history</strong> of <strong>blisters</strong> and <strong>brownish discoloration of urine</strong>. His symptoms appeared after he returned from a <strong>4-day trip</strong> with his friends in <strong>Florida</strong>. He has had <strong>similar episodes of blistering</strong> twice in the past <strong>three years</strong>. Each episode <strong>resolved spontaneously after a few weeks</strong>. Examination shows <strong>vesicles and bullae</strong> on the <strong>face</strong> and the <strong>dorsal surfaces of his hands and forearms</strong>. His condition is most likely caused by a defect in which of the following enzymes?
+
+A. Aminolevulinic acid dehydratase
+B. Uroporphyrinogen III synthase
+C. Porphobilinogen deaminase
+D. Uroporphyrinogen III decarboxylase
+E. Aminolevulinic acid synthase
+
+LLM answer: D. Uroporphyrinogen III decarboxylase

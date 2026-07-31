@@ -1,0 +1,8 @@
+A <strong>50-year-old</strong> <strong>construction worker</strong> with a history of <strong>tobacco use</strong> for the last <strong>20 years</strong> presents with a growth on his <strong>lower lip</strong>. The biopsy confirms a <strong>carcinoma</strong>. What is the most likely cancer?
+
+A. Basal cell carcinoma
+B. Squamous cell carcinoma
+C. Malignant melanoma
+D. Verrucous carcinoma
+
+LLM answer: B. Squamous cell carcinoma
