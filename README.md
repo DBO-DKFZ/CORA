@@ -63,4 +63,6 @@ statement in the paper.
 
 ## Data
 
-Benchmark question sets, model outputs and de-identified reader-study data are on figshare at https://figshare.com/s/fa2ff8eb45984acfecf6.
+LLM results files in results/
+
+Question sets and de-identified reader-study data are on figshare at https://figshare.com/s/fa2ff8eb45984acfecf6.
