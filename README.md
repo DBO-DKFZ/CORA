@@ -18,8 +18,6 @@ export FIREWORKS_API_KEY=...
 export NCBI_API_KEY=...        # PubMed/PMC corpus building
 ```
 
-Local vLLM/TGI endpoints are configured with `LOCAL_BASE_URL` and `LOCAL_API_KEY`.
-
 ## Pipeline
 
 Every stage is driven by a YAML config in [configs/](configs/); model-specific configs live
