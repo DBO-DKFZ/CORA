@@ -48,13 +48,11 @@ python run_answer_judge.py       --config configs/answer_judge.yaml
 | [pubmed/](pubmed/) | Case-report retrieval from PMC and question generation |
 | [scripts/](scripts/) | Question metadata annotation, error typing, auxiliary analyses |
 | [scripts/reader_study/](scripts/reader_study/) | Reader-study analysis and figures |
-| [fairness/](fairness/) | Counterfactual demographic-perturbation experiment |
-| [guideline_adherence/](guideline_adherence/) | Guideline-answerability pipeline (see its README) |
 | [notebooks/](notebooks/) | Figure generation |
-| [results/](results/) | Retrieved passages, model outputs, judge ratings |
+| [results/](results/) | Retrieved documents, model outputs, judge ratings |
 
 The retrieval corpora (`Data/`) are not distributed here: the EADV guidelines are publicly
-available and the four dermatology textbooks are copyrighted. See the data availability
+available and the dermatology textbooks are copyrighted. See the data availability
 statement in the paper.
 
 ## Data
