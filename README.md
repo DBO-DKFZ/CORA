@@ -31,7 +31,6 @@ python build_index.py
 
 # 2. Retrieval — agentic (multi-step, gap-driven) or naive single-shot
 python run_agentic_retrieval_gaps.py --config configs/agentic_retrieval_gaps.yaml
-python run_naive_retrieval.py        --config configs/naive_retrieval.yaml
 
 # 3. Rerank the pooled passages
 python run_reranker.py --config configs/reranker_mixedbread.yaml
@@ -41,7 +40,6 @@ python run_answerer.py --config configs/gpt5/answerer_gpt5_pubmed_rag.yaml
 
 # 5. Score
 python run_answer_judge.py       --config configs/answer_judge.yaml
-python run_faithfulness_judge.py --config configs/faithfulness_judge.yaml
 ```
 
 ## Layout
