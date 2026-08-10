@@ -224,7 +224,9 @@ chromadb
 chromadb_snowflakev2
 .claude
 .venv
-results
+results/*
+!results/question_categories_cleaned.csv
+!results/question_categories_pubmed_cleaned.csv
 fairness
 reader_study_de
 reader_study
@@ -233,7 +235,6 @@ plots
 guideline_adherence
 recruitment/
 recruitmentresults/*.csv
-results/*.csv
 study_demo
 study_demo_highlight
 

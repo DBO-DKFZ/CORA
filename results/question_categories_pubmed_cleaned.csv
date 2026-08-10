@@ -1,0 +1,999 @@
+question_id,disease_category,disease_prevalence,question_type,requires_visual_reasoning,original_disease,canonical_disease,disease_subcategory
+3,Other,moderate,diagnosis,False,Stage Iv Pressure Injury With Osteomyelitis,Stage IV Pressure Injury With Osteomyelitis,Traumatic & Environmental
+1,Pigmentation,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Vitiligo,Immune Checkpoint Inhibitor-Induced Vitiligo,Hypopigmentation
+2,Other,moderate,diagnosis,False,Massive Ventral Hernia With Abdominal Loss Of Domain,Massive Ventral Hernia With Abdominal Loss Of Domain,Traumatic & Environmental
+0,Inflammatory,common,diagnosis,True,Drug-Induced Urticaria,Drug-Induced Urticaria,Vascular & Urticarial
+6,Inflammatory,rare,diagnosis,False,Iga Pemphigus,IgA Pemphigus,Autoimmune
+5,Neoplastic,rare,diagnosis,False,Adrenocortical Carcinoma,Adrenocortical Carcinoma,Malignant
+4,Neoplastic,rare,diagnosis,False,Rreb1::Mrtfb Fusion-Positive Extra-Glossal Mesenchymal Neoplasm,RREB1::MRTFB Fusion-Positive Extra-Glossal Mesenchymal Neoplasm,Benign
+7,Inflammatory,moderate,diagnosis,False,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+8,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+9,Inflammatory,rare,diagnosis,False,Evans Syndrome,Evans Syndrome,Autoimmune
+11,Neoplastic,moderate,diagnosis,False,"Diffuse Large B-Cell Lymphoma, Non-Germinal Center B-Cell Subtype","Diffuse Large B-Cell Lymphoma, Non-Germinal Center B-Cell Subtype",Malignant
+10,Inflammatory,moderate,diagnosis,True,Nail Lichen Planus,Nail Lichen Planus,Papulosquamous
+13,Infectious,common,diagnosis,False,Recurrent Furunculosis With Carbuncle Formation,Recurrent Furunculosis,Bacterial
+14,Inflammatory,common,diagnosis,True,Chronic Venous Ulcer,Chronic Venous Ulcer,Vascular & Urticarial
+12,Inflammatory,rare,diagnosis,True,Sweet Syndrome,Sweet's Syndrome,Neutrophilic
+16,Genetic Rare,rare,diagnosis,True,Aplasia Cutis Congenita Type V,Aplasia Cutis Congenita Type V,Syndromic
+17,Other,moderate,diagnosis,False,Chronic Traumatic Ulcer,Chronic Traumatic Ulcer,Traumatic & Environmental
+15,Inflammatory,rare,diagnosis,False,Photo Recall Dermatitis,Radiation Recall Dermatitis,Eczematous
+18,Infectious,rare,diagnosis,False,Trichophyton Indotineae Infection (Tinea Corporis/Cruris),Trichophyton Indotineae Infection,Fungal
+19,Other,rare,diagnosis,False,Capillary Leak Syndrome,Capillary Leak Syndrome,Unclassified
+20,Inflammatory,rare,diagnosis,False,Lenvatinib-Induced Hematologic Toxicity,Lenvatinib-Induced Hematologic Toxicity,Neutrophilic
+21,Neoplastic,common,diagnosis,False,Cutaneous Squamous Cell Carcinoma,Cutaneous Squamous Cell Carcinoma,Malignant
+22,Neoplastic,moderate,diagnosis,False,Acral Lentiginous Melanoma,Acral Lentiginous Melanoma,Malignant
+23,Genetic Rare,rare,diagnosis,False,Keratitis-Ichthyosis-Deafness Syndrome,Keratitis-Ichthyosis-Deafness Syndrome,Syndromic
+25,Genetic Rare,rare,diagnosis,False,Mainzer-Saldino Syndrome,Mainzer-Saldino Syndrome,Syndromic
+24,Genetic Rare,rare,diagnosis,False,Epidermolysis Bullosa Simplex,Epidermolysis Bullosa Simplex,Genodermatoses
+27,Inflammatory,moderate,diagnosis,True,Pemphigus Vulgaris,Pemphigus Vulgaris,Autoimmune
+26,Neoplastic,rare,diagnosis,False,Blastic Plasmacytoid Dendritic Cell Neoplasm,Blastic Plasmacytoid Dendritic Cell Neoplasm,Malignant
+29,Inflammatory,moderate,diagnosis,False,Drug-Induced Erythema Multiforme,Drug-Induced Erythema Multiforme,Vascular & Urticarial
+30,Inflammatory,moderate,diagnosis,False,Sweet Syndrome,Sweet's Syndrome,Neutrophilic
+31,Metabolic Systemic,rare,diagnosis,False,Adult-Onset Immunodeficiency Syndrome Due To Anti-Interferon-Gamma Autoantibodies,Adult-Onset Immunodeficiency Syndrome Due To Anti-Interferon-Gamma Autoantibodies,Systemic Disease Manifestations
+33,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+28,Metabolic Systemic,moderate,diagnosis,False,Löfgren'S Syndrome,Löfgren's Syndrome,Systemic Disease Manifestations
+32,Neoplastic,rare,diagnosis,False,Primary Pure Squamous Cell Carcinoma Of The Breast,Primary Pure Squamous Cell Carcinoma Of The Breast,Malignant
+34,Inflammatory,moderate,diagnosis,False,Systemic Lupus Erythematosus,Systemic Lupus Erythematosus,Autoimmune
+35,Neoplastic,moderate,diagnosis,False,Lymphangitic Carcinomatosis From Metastatic Breast Carcinoma,Lymphangitic Carcinomatosis From Metastatic Breast Carcinoma,Malignant
+36,Neoplastic,common,diagnosis,False,Infantile Hemangioma,Infantile Hemangioma,Vascular Tumours
+37,Inflammatory,rare,diagnosis,True,Dissecting Cellulitis Of The Scalp,Dissecting Cellulitis of the Scalp,Neutrophilic
+38,Inflammatory,moderate,diagnosis,False,Acne Keloidalis Nuchae,Acne Keloidalis Nuchae,Neutrophilic
+39,Neoplastic,rare,diagnosis,True,Intradermal Melanocytic Nevus With Neurotization,Intradermal Melanocytic Nevus With Neurotization,Benign
+40,Neoplastic,rare,diagnosis,False,Blastic Plasmacytoid Dendritic Cell Neoplasm,Blastic Plasmacytoid Dendritic Cell Neoplasm,Malignant
+44,Inflammatory,moderate,diagnosis,True,Alopecia Areata,Alopecia Areata,Autoimmune
+41,Metabolic Systemic,moderate,mechanism,False,Idiopathic Pulmonary Fibrosis,Idiopathic Pulmonary Fibrosis,Systemic Disease Manifestations
+45,Infectious,moderate,diagnosis,False,Sporotrichosis,Sporotrichosis,Fungal
+43,Genetic Rare,rare,diagnosis,False,Atrichia With Papular Lesions,Atrichia with Papular Lesions,Genodermatoses
+47,Genetic Rare,rare,diagnosis,False,Acute Intermittent Porphyria,Acute Intermittent Porphyria,Metabolic-Genetic
+48,Genetic Rare,rare,diagnosis,False,Cranioectodermal Dysplasia,Cranioectodermal Dysplasia,Syndromic
+50,Neoplastic,rare,diagnosis,False,Meningeal Melanocytosis,Meningeal Melanocytosis,Malignant
+49,Neoplastic,rare,diagnosis,True,Metaplastic Melanoma With Heterologous Osseous Differentiation,Metaplastic Melanoma With Heterologous Osseous Differentiation,Malignant
+51,Inflammatory,rare,diagnosis,False,Neuromyelitis Optica Spectrum Disorder,Neuromyelitis Optica Spectrum Disorder,Autoimmune
+52,Neoplastic,common,diagnosis,False,Breast Cancer Metastasis,Breast Cancer Metastasis,Malignant
+53,Neoplastic,common,mechanism,False,Metastatic Breast Cancer,Metastatic Breast Carcinoma,Malignant
+54,Inflammatory,moderate,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+55,Genetic Rare,rare,diagnosis,True,Blue Rubber Bleb Nevus Syndrome,Blue Rubber Bleb Nevus Syndrome,Syndromic
+56,Inflammatory,rare,diagnosis,False,Annular Lichenoid Dermatitis Of Youth,Annular Lichenoid Dermatitis of Youth,Papulosquamous
+58,Inflammatory,moderate,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+59,Neoplastic,rare,diagnosis,False,Metaplastic Breast Carcinoma,Metaplastic Breast Carcinoma,Malignant
+57,Metabolic Systemic,rare,diagnosis,False,Hyperosmolar Hyperglycemic State Due To Pi3Kα Inhibitor-Induced Insulin Resistance,Hyperosmolar Hyperglycemic State Due To PI3Kα Inhibitor-Induced Insulin Resistance,Endocrine-Associated
+61,Neoplastic,moderate,diagnosis,False,Infiltrative Hepatic Metastases From Breast Cancer,Infiltrative Hepatic Metastases From Breast Cancer,Malignant
+62,Neoplastic,rare,diagnosis,False,Hodgkinoid Histiocytosis,Hodgkinoid Histiocytosis,Benign
+63,Neoplastic,moderate,diagnosis,False,Melanoma With Central Nervous System Metastases,Melanoma With Central Nervous System Metastases,Malignant
+60,Infectious,rare,diagnosis,False,Invasive Fusariosis,Invasive Fusariosis,Fungal
+64,Neoplastic,rare,diagnosis,False,Metastatic Spindle Cell Melanoma,Metastatic Spindle Cell Melanoma,Malignant
+65,Neoplastic,moderate,diagnosis,False,Disseminated Melanoma,Disseminated Melanoma,Malignant
+67,Inflammatory,moderate,diagnosis,False,Drug-Induced Atopic Dermatitis,Drug-Induced Atopic Dermatitis,Eczematous
+68,Inflammatory,rare,diagnosis,False,Behçet Syndrome,Behçet's Disease,Neutrophilic
+66,Infectious,moderate,diagnosis,True,Coccidioidomycosis,Coccidioidomycosis,Fungal
+69,Inflammatory,moderate,diagnosis,False,Celiac Disease,Celiac Disease,Autoimmune
+70,Pigmentation,rare,diagnosis,True,Penile Melanosis,Penile Melanosis,Hyperpigmentation
+71,Neoplastic,rare,diagnosis,True,Atypical Fibroxanthoma,Atypical Fibroxanthoma,Malignant
+72,Metabolic Systemic,common,diagnosis,False,Diabetic Foot Ulcer,Diabetic Foot Ulcer,Endocrine-Associated
+73,Inflammatory,moderate,diagnosis,False,Autoimmune Hemolytic Anemia,Autoimmune Hemolytic Anemia,Autoimmune
+74,Neoplastic,rare,diagnosis,False,Metastatic Breast Carcinoma Within An Adrenocortical Adenoma,Metastatic Breast Carcinoma Within An Adrenocortical Adenoma,Malignant
+75,Inflammatory,rare,diagnosis,False,Takayasu'S Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+76,Neoplastic,rare,diagnosis,False,Giant Juvenile Fibroadenoma,Giant Juvenile Fibroadenoma,Benign
+78,Other,rare,diagnosis,False,Lymphatic Malformation,Lymphatic Malformation,Unclassified
+77,Neoplastic,rare,diagnosis,False,Alk-Rearranged Melanoma,ALK-Rearranged Melanoma,Malignant
+80,Inflammatory,rare,diagnosis,True,Eosinophilic Annular Erythema,Eosinophilic Annular Erythema,Vascular & Urticarial
+79,Inflammatory,rare,diagnosis,False,Angiolymphoid Hyperplasia With Eosinophilia,Angiolymphoid Hyperplasia With Eosinophilia,Vascular & Urticarial
+82,Inflammatory,rare,diagnosis,False,Generalized Pustular Psoriasis,Generalized Pustular Psoriasis,Papulosquamous
+83,Neoplastic,common,diagnosis,False,Melanoma,Melanoma,Malignant
+84,Neoplastic,moderate,diagnosis,False,Metastatic Melanoma,Metastatic Melanoma,Malignant
+81,Genetic Rare,rare,diagnosis,False,Nlrp12-Associated Autoinflammatory Disease,NLRP12-Associated Autoinflammatory Disease,Syndromic
+85,Other,rare,diagnosis,False,Vanishing Bile Duct Syndrome,Vanishing Bile Duct Syndrome,Drug-Induced
+86,Infectious,rare,diagnosis,False,Cystic Neutrophilic Granulomatous Mastitis,Cystic Neutrophilic Granulomatous Mastitis,Bacterial
+87,Other,rare,diagnosis,True,Benign Foveal Depigmentation Of The Retinal Pigment Epithelium,Benign Foveal Depigmentation Of The Retinal Pigment Epithelium,Unclassified
+88,Inflammatory,moderate,diagnosis,False,Pilonidal Sinus Disease,Pilonidal Sinus Disease,Neutrophilic
+89,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+90,Inflammatory,rare,diagnosis,True,Gestational Pemphigoid,Pemphigoid Gestationis,Autoimmune
+91,Inflammatory,rare,diagnosis,False,Paradoxical Eczema Induced By Il-23 Inhibitor,Paradoxical Eczema Induced By IL-23 Inhibitor,Eczematous
+93,Infectious,moderate,diagnosis,False,Cutaneous Leishmaniasis,Cutaneous Leishmaniasis,Parasitic & Other
+92,Neoplastic,moderate,diagnosis,False,Metastatic Melanoma Of Unknown Primary,Metastatic Melanoma of Unknown Primary,Malignant
+97,Inflammatory,rare,diagnosis,False,Erythrodermic Psoriasis,Erythrodermic Psoriasis,Papulosquamous
+96,Neoplastic,moderate,diagnosis,False,Acute Myeloid Leukemia Fab M2,Acute Myeloid Leukemia FAB M2,Malignant
+95,Inflammatory,rare,diagnosis,False,Juvenile Dermatomyositis,Juvenile Dermatomyositis,Autoimmune
+94,Neoplastic,rare,diagnosis,False,Metastatic Melanoma With Osteosarcomatous Differentiation,Metastatic Melanoma with Osteosarcomatous Differentiation,Malignant
+98,Other,rare,diagnosis,False,Systemic Capillary Leak Syndrome,Systemic Capillary Leak Syndrome,Unclassified
+99,Inflammatory,rare,diagnosis,False,Cocaine-Levamisole-Associated Vasculopathy,Cocaine-Levamisole-Associated Vasculopathy,Vascular & Urticarial
+101,Inflammatory,common,mechanism,False,Drug-Induced Urticaria,Drug-Induced Urticaria,Vascular & Urticarial
+100,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+103,Inflammatory,moderate,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+102,Neoplastic,moderate,diagnosis,True,Acral Lentiginous Malignant Melanoma,Acral Lentiginous Melanoma,Malignant
+104,Genetic Rare,rare,diagnosis,True,Blue Rubber Bleb Nevus Syndrome,Blue Rubber Bleb Nevus Syndrome,Syndromic
+105,Neoplastic,moderate,diagnosis,False,Esophageal Squamous Cell Carcinoma,Esophageal Squamous Cell Carcinoma,Malignant
+106,Neoplastic,rare,diagnosis,False,Uveal Melanoma,Uveal Melanoma,Malignant
+107,Neoplastic,common,diagnosis,False,Infiltrating Lobular Carcinoma,Invasive Lobular Carcinoma,Malignant
+108,Neoplastic,rare,diagnosis,False,Merkel Cell Carcinoma,Merkel Cell Carcinoma,Malignant
+109,Neoplastic,rare,diagnosis,True,Eccrine Porocarcinoma,Eccrine Porocarcinoma,Malignant
+110,Infectious,rare,diagnosis,False,Leishmaniasis-Associated Immune Reconstitution Inflammatory Syndrome,Leishmaniasis-Associated Immune Reconstitution Inflammatory Syndrome,Parasitic & Other
+111,Neoplastic,common,diagnosis,False,Seborrheic Keratosis,Seborrheic Keratosis,Benign
+112,Infectious,rare,diagnosis,False,Petrous Apex Cholesteatoma With Secondary Actinomyces Infection,Petrous Apex Cholesteatoma With Secondary Actinomyces Infection,Bacterial
+113,Infectious,common,diagnosis,True,Nodular Scabies,Nodular Scabies,Parasitic & Other
+114,Other,rare,diagnosis,False,Lymphangioma Circumscriptum,Lymphatic Malformation,Unclassified
+116,Genetic Rare,rare,diagnosis,False,Hermansky-Pudlak Syndrome,Hermansky-Pudlak Syndrome,Syndromic
+115,Inflammatory,rare,diagnosis,True,Lupus Erythematosus-Specific Bullous Lesions,Lupus Erythematosus-Specific Bullous Lesions,Autoimmune
+117,Inflammatory,rare,diagnosis,False,Gastrocutaneous Fistula,Gastrocutaneous Fistula,Neutrophilic
+120,Infectious,common,diagnosis,True,Plantar Wart,Plantar Wart,Viral
+119,Other,rare,diagnosis,False,Cutaneous Ciliated Cyst,Cutaneous Ciliated Cyst,Unclassified
+121,Inflammatory,rare,diagnosis,True,Diffuse Cutaneous Mastocytosis,Diffuse Cutaneous Mastocytosis,Vascular & Urticarial
+118,Infectious,moderate,diagnosis,False,Varicella-Zoster Virus Reactivation With Cutaneous Small Vessel Vasculitis,Varicella-Zoster Virus Reactivation With Cutaneous Small Vessel Vasculitis,Viral
+123,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Associated Dermatitis,Immune Checkpoint Inhibitor-Associated Dermatitis,Eczematous
+122,Inflammatory,moderate,diagnosis,True,Lichenoid Interface Dermatitis (Immune Checkpoint Inhibitor-Related Adverse Event),Lichenoid Interface Dermatitis,Papulosquamous
+124,Inflammatory,moderate,diagnosis,True,Morphea,Morphea,Autoimmune
+128,Genetic Rare,rare,diagnosis,False,Sjögren–Larsson Syndrome,Sjögren–Larsson Syndrome,Metabolic-Genetic
+127,Neoplastic,moderate,diagnosis,False,Clear Cell Renal Cell Carcinoma,Clear Cell Renal Cell Carcinoma,Malignant
+126,Infectious,common,diagnosis,False,Diabetic Foot Ulcer With Osteomyelitis,Diabetic Foot Ulcer With Osteomyelitis,Bacterial
+125,Neoplastic,common,diagnosis,False,Lung Adenocarcinoma,Lung Adenocarcinoma,Malignant
+131,Inflammatory,rare,diagnosis,False,Generalized Pustular Psoriasis,Generalized Pustular Psoriasis,Papulosquamous
+129,Neoplastic,moderate,diagnosis,False,Invasive Lobular Carcinoma Of The Breast,Invasive Lobular Carcinoma,Malignant
+130,Neoplastic,common,diagnosis,False,Invasive Lobular Carcinoma Of The Breast,Invasive Lobular Carcinoma,Malignant
+132,Inflammatory,moderate,diagnosis,False,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+133,Inflammatory,moderate,diagnosis,False,Sweet Syndrome,Sweet's Syndrome,Neutrophilic
+134,Inflammatory,moderate,diagnosis,True,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+135,Inflammatory,rare,diagnosis,False,Pustulotic Arthro-Osteitis,Pustulotic Arthro-Osteitis,Neutrophilic
+136,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+137,Inflammatory,rare,diagnosis,False,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+140,Metabolic Systemic,rare,diagnosis,False,Al Amyloidosis,AL Amyloidosis,Systemic Disease Manifestations
+139,Inflammatory,rare,diagnosis,False,Cryoglobulinemia-Associated Glomerulonephritis,Cryoglobulinemic Membranoproliferative Glomerulonephritis,Vascular & Urticarial
+141,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+142,Inflammatory,moderate,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+143,Neoplastic,rare,diagnosis,False,Metastatic Breast Carcinoma,Metastatic Breast Carcinoma,Malignant
+138,Other,moderate,diagnosis,False,Drug-Induced Liver Injury,Drug-Induced Liver Injury,Drug-Induced
+144,Neoplastic,moderate,diagnosis,False,Metastatic Invasive Lobular Breast Carcinoma,Metastatic Invasive Lobular Carcinoma of the Breast,Malignant
+145,Neoplastic,rare,diagnosis,False,Papular Mycosis Fungoides,Papular Mycosis Fungoides,Malignant
+146,Neoplastic,rare,diagnosis,False,Primary Malignant Melanoma Of The Uterine Cervix,Primary Cervical Melanoma,Malignant
+147,Inflammatory,moderate,diagnosis,False,Kawasaki Disease,Kawasaki Disease,Vascular & Urticarial
+149,Neoplastic,rare,diagnosis,False,Atypical Fibroxanthoma With Osseous Metaplasia,Atypical Fibroxanthoma,Malignant
+148,Pigmentation,moderate,diagnosis,True,Longitudinal Melanonychia,Longitudinal Melanonychia,Hyperpigmentation
+150,Neoplastic,rare,diagnosis,False,Pleomorphic Dermal Sarcoma,Pleomorphic Dermal Sarcoma,Malignant
+151,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+152,Inflammatory,rare,diagnosis,False,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+154,Neoplastic,moderate,diagnosis,False,Myelodysplastic Neoplasm With Mutated Sf3B1,Myelodysplastic Neoplasm With Mutated SF3B1,Malignant
+153,Neoplastic,rare,diagnosis,True,Encapsulated Papillary Carcinoma,Encapsulated Papillary Carcinoma,Malignant
+155,Inflammatory,moderate,diagnosis,True,Dermatomyositis,Dermatomyositis,Autoimmune
+156,Neoplastic,moderate,diagnosis,False,Mycosis Fungoides,Mycosis Fungoides,Malignant
+157,Neoplastic,rare,diagnosis,False,Epithelioid Hemangioendothelioma,Epithelioid Hemangioendothelioma,Vascular Tumours
+158,Metabolic Systemic,moderate,diagnosis,False,Chemotherapy-Induced Cardiomyopathy,Chemotherapy-Induced Cardiomyopathy,Systemic Disease Manifestations
+160,Neoplastic,moderate,diagnosis,False,Metastatic Triple-Negative Breast Cancer,Metastatic Triple-Negative Breast Cancer,Malignant
+161,Inflammatory,moderate,diagnosis,False,Pemphigus Foliaceus,Pemphigus Foliaceus,Autoimmune
+163,Other,rare,diagnosis,False,Harlequin Syndrome,Harlequin Syndrome,Unclassified
+162,Infectious,rare,diagnosis,False,Actinomycotic Mycetoma,Actinomycetoma,Bacterial
+159,Neoplastic,rare,diagnosis,False,Sarcomatoid Squamous Cell Carcinoma,Sarcomatoid Squamous Cell Carcinoma,Malignant
+164,Inflammatory,rare,diagnosis,False,Localized Hyperinflammatory Bullous Reaction To Mosquito Bites In Systemic Autoimmune Disease,Localized Hyperinflammatory Bullous Reaction To Mosquito Bites In Systemic Autoimmune Disease,Autoimmune
+166,Genetic Rare,rare,diagnosis,True,Porokeratosis Ptychotropica,Porokeratosis Ptychotropica,Genodermatoses
+167,Neoplastic,moderate,diagnosis,False,Solitary Neurofibroma,Solitary Neurofibroma,Benign
+165,Pigmentation,rare,diagnosis,False,Esophageal Melanosis,Esophageal Melanosis,Hyperpigmentation
+169,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Hepatitis,Immune Checkpoint Inhibitor-Induced Hepatitis,Autoimmune
+168,Neoplastic,moderate,diagnosis,False,Metastatic Melanoma,Metastatic Melanoma,Malignant
+171,Other,rare,diagnosis,False,Cronkhite–Canada Syndrome,Cronkhite–Canada Syndrome,Unclassified
+170,Inflammatory,rare,mechanism,False,Anca-Associated Vasculitis,ANCA-Associated Vasculitis,Vascular & Urticarial
+172,Inflammatory,moderate,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+174,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Myositis,Immune Checkpoint Inhibitor-Induced Myositis,Autoimmune
+177,Inflammatory,rare,diagnosis,True,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+173,Neoplastic,rare,diagnosis,False,Intravascular Large B-Cell Lymphoma,Intravascular Large B-Cell Lymphoma,Malignant
+178,Inflammatory,rare,diagnosis,False,Kawasaki Disease Shock Syndrome,Kawasaki Disease Shock Syndrome,Vascular & Urticarial
+175,Inflammatory,rare,diagnosis,False,Juvenile Systemic Sclerosis,Juvenile Systemic Sclerosis,Autoimmune
+179,Inflammatory,rare,diagnosis,True,Grisel'S Syndrome,Grisel's Syndrome,Unclassified
+176,Inflammatory,moderate,diagnosis,False,Kawasaki Disease,Kawasaki Disease,Vascular & Urticarial
+181,Metabolic Systemic,moderate,diagnosis,True,Lichen Amyloidosis,Lichen Amyloidosis,Systemic Disease Manifestations
+180,Genetic Rare,rare,diagnosis,True,Disseminated Superficial Porokeratosis With Secondary Localized Cutaneous Amyloidosis,Disseminated Superficial Porokeratosis With Secondary Localized Cutaneous Amyloidosis,Genodermatoses
+182,Neoplastic,rare,diagnosis,False,Pulmonary Tumor Thrombotic Microangiopathy,Pulmonary Tumor Thrombotic Microangiopathy,Malignant
+184,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+183,Metabolic Systemic,rare,diagnosis,False,Type Ii Cryoglobulinemia,Type II Cryoglobulinemia,Systemic Disease Manifestations
+185,Inflammatory,rare,diagnosis,True,Lupus Miliaris Disseminatus Faciei,Lupus Miliaris Disseminatus Faciei,Autoimmune
+186,Neoplastic,rare,diagnosis,False,Dermatofibrosarcoma Protuberans,Dermatofibrosarcoma Protuberans,Malignant
+187,Neoplastic,rare,diagnosis,False,Dermatofibrosarcoma Protuberans With Fibrosarcomatous Transformation,Dermatofibrosarcoma Protuberans With Fibrosarcomatous Transformation,Malignant
+188,Neoplastic,moderate,diagnosis,False,Triple-Negative Breast Carcinoma,Triple-Negative Breast Cancer,Malignant
+189,Inflammatory,moderate,diagnosis,False,Leukocytoclastic Vasculitis,Leukocytoclastic Vasculitis,Vascular & Urticarial
+190,Neoplastic,moderate,diagnosis,False,Metastatic Invasive Lobular Carcinoma Of The Breast,Metastatic Invasive Lobular Carcinoma of the Breast,Malignant
+191,Inflammatory,rare,diagnosis,False,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+192,Inflammatory,moderate,diagnosis,True,Psoriasiform Dermatitis (Immune-Related Adverse Event),Psoriasiform Cutaneous Immune-Related Adverse Event,Papulosquamous
+193,Metabolic Systemic,rare,diagnosis,False,Verruciform Xanthoma,Verruciform Xanthoma,Nutritional
+194,Genetic Rare,rare,diagnosis,False,Rela-Associated Inflammatory Disease,RELA-Associated Inflammatory Disease,Syndromic
+195,Genetic Rare,rare,diagnosis,False,Rela-Associated Inflammatory Disease,RELA-Associated Inflammatory Disease,Syndromic
+196,Neoplastic,rare,diagnosis,True,Pigmented Epithelioid Melanocytoma,Pigmented Epithelioid Melanocytoma,Benign
+197,Inflammatory,common,diagnosis,False,Atopic Dermatitis,Atopic Dermatitis,Eczematous
+198,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+199,Neoplastic,rare,diagnosis,True,Spitzoid Melanoma,Spitzoid Melanoma,Malignant
+200,Neoplastic,moderate,diagnosis,False,Pilomatricoma,Pilomatricoma,Benign
+201,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+202,Inflammatory,moderate,diagnosis,False,Drug-Induced Interstitial Pneumonitis,Drug-Induced Interstitial Pneumonitis,Autoimmune
+203,Inflammatory,rare,diagnosis,True,Alopecia Universalis,Alopecia Universalis,Autoimmune
+204,Inflammatory,rare,diagnosis,True,Pityriasis Rubra Pilaris,Pityriasis Rubra Pilaris,Papulosquamous
+205,Inflammatory,rare,diagnosis,False,Cryptococcoid Sweet Syndrome,Cryptococcoid Sweet Syndrome,Neutrophilic
+206,Inflammatory,rare,diagnosis,False,Anti-Mda5 Antibody-Associated Dermatomyositis,Anti-MDA5 Antibody-Associated Dermatomyositis,Autoimmune
+208,Genetic Rare,rare,diagnosis,False,Familial Partial Lipodystrophy,Familial Partial Lipodystrophy,Metabolic-Genetic
+207,Genetic Rare,rare,diagnosis,False,Near-Generalized Lipodystrophy Due To Biallelic Lmna Variants,Near-Generalized Lipodystrophy Due to Biallelic LMNA Variants,Metabolic-Genetic
+209,Inflammatory,rare,diagnosis,False,Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis,Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis,Autoimmune
+210,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+212,Metabolic Systemic,common,mechanism,False,Acute Kidney Injury,Acute Kidney Injury,Systemic Disease Manifestations
+211,Metabolic Systemic,moderate,mechanism,False,Fenofibrate-Induced Reversible Reduction In Glomerular Filtration Rate,Fenofibrate-Induced Reversible Reduction In Glomerular Filtration Rate,Systemic Disease Manifestations
+213,Inflammatory,rare,diagnosis,False,Polyarteritis Nodosa,Polyarteritis Nodosa,Vascular & Urticarial
+215,Neoplastic,rare,diagnosis,False,Primary Cutaneous Aggressive Epidermotropic Cd8+ Cytotoxic T-Cell Lymphoma,Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma,Malignant
+214,Inflammatory,moderate,diagnosis,False,Systemic Sclerosis,Systemic Sclerosis,Autoimmune
+216,Neoplastic,common,diagnosis,True,Superficial Spreading Malignant Melanoma,Superficial Spreading Melanoma,Malignant
+217,Inflammatory,moderate,diagnosis,False,Exfoliative Dermatitis,Exfoliative Dermatitis,Eczematous
+218,Inflammatory,moderate,diagnosis,False,Acne Excoriée,Acne Excoriée,Eczematous
+220,Inflammatory,rare,diagnosis,False,Voriconazole-Induced Hypersensitivity Interstitial Pulmonary Edema,Voriconazole-Induced Hypersensitivity Interstitial Pulmonary Edema,Vascular & Urticarial
+219,Neoplastic,rare,diagnosis,False,Mucoepidermoid Carcinoma,Mucoepidermoid Carcinoma,Malignant
+221,Inflammatory,moderate,diagnosis,False,Primary Sjögren'S Syndrome,Primary Sjögren's Syndrome,Autoimmune
+222,Inflammatory,moderate,diagnosis,False,Subacute Cutaneous Lupus Erythematosus,Subacute Cutaneous Lupus Erythematosus,Autoimmune
+223,Neoplastic,moderate,diagnosis,False,Metastatic Breast Carcinoma To The Ovary,Metastatic Breast Carcinoma To The Ovary,Malignant
+224,Neoplastic,rare,diagnosis,False,Primary Small-Cell Neuroendocrine Carcinoma Of The Breast,Primary Small-Cell Neuroendocrine Carcinoma Of The Breast,Malignant
+225,Genetic Rare,rare,diagnosis,False,Familial Partial Lipodystrophy Type 3,Familial Partial Lipodystrophy Type 3,Metabolic-Genetic
+226,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Associated Brachial Plexopathy,Immune Checkpoint Inhibitor-Associated Brachial Plexopathy,Autoimmune
+228,Neoplastic,rare,diagnosis,False,Glycogen-Rich Clear Cell Carcinoma Of The Breast,Glycogen-Rich Clear Cell Carcinoma of the Breast,Malignant
+227,Inflammatory,moderate,diagnosis,False,Anca-Associated Vasculitis (Anti-Mpo),ANCA-Associated Vasculitis,Vascular & Urticarial
+229,Neoplastic,rare,diagnosis,False,Glycogen-Rich Clear Cell Carcinoma Of The Breast,Glycogen-Rich Clear Cell Carcinoma of the Breast,Malignant
+230,Inflammatory,rare,diagnosis,True,Deep Morphea (Morphea Profunda),Morphea Profunda,Autoimmune
+231,Infectious,moderate,diagnosis,False,Cutaneous Leishmaniasis,Cutaneous Leishmaniasis,Parasitic & Other
+233,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+234,Infectious,rare,diagnosis,False,Osteoarticular Sporotrichosis,Osteoarticular Sporotrichosis,Fungal
+232,Neoplastic,rare,diagnosis,False,Basal Cell Carcinoma With Matrical Differentiation,Basal Cell Carcinoma With Matrical Differentiation,Malignant
+235,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Neutropenia,Immune Checkpoint Inhibitor-Induced Neutropenia,Autoimmune
+236,Neoplastic,moderate,diagnosis,False,Invasive Lobular Breast Carcinoma,Invasive Lobular Carcinoma,Malignant
+237,Infectious,rare,diagnosis,False,Herpes Zoster Myelitis,Herpes Zoster Myelitis,Viral
+240,Inflammatory,rare,diagnosis,False,Neuro-Behçet'S Disease,Neuro-Behçet's Disease,Vascular & Urticarial
+238,Inflammatory,rare,diagnosis,False,Idiopathic Granulomatous Mastitis,Idiopathic Granulomatous Mastitis,Neutrophilic
+241,Metabolic Systemic,moderate,diagnosis,False,Syndrome Of Inappropriate Antidiuretic Hormone Secretion,Syndrome of Inappropriate Antidiuretic Hormone Secretion,Endocrine-Associated
+242,Genetic Rare,rare,diagnosis,False,Pik3Ca-Related Overgrowth Spectrum / Facial Infiltrating Lipomatosis,PIK3CA-Related Overgrowth Spectrum,Syndromic
+243,Inflammatory,rare,diagnosis,False,Radiation Recall Dermatitis,Radiation Recall Dermatitis,Eczematous
+244,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+245,Neoplastic,rare,diagnosis,True,Kaposiform Hemangioendothelioma,Kaposiform Hemangioendothelioma,Vascular Tumours
+246,Neoplastic,common,diagnosis,False,Metastatic Breast Carcinoma,Metastatic Breast Carcinoma,Malignant
+239,Genetic Rare,rare,diagnosis,False,Phakomatosis Pigmentokeratotica,Phakomatosis Pigmentokeratotica,Syndromic
+247,Genetic Rare,rare,diagnosis,False,Pachyonychia Congenita,Pachyonychia Congenita,Genodermatoses
+248,Inflammatory,moderate,diagnosis,False,Giant Cell Arteritis,Giant Cell Arteritis,Vascular & Urticarial
+250,Inflammatory,moderate,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+249,Neoplastic,rare,diagnosis,False,Primary Spinal Melanocytoma,Primary Spinal Melanocytoma,Benign
+251,Infectious,moderate,diagnosis,True,Malassezia Folliculitis,Malassezia Folliculitis,Fungal
+252,Inflammatory,rare,diagnosis,False,Anca-Associated Vasculitis With Concurrent Anti-Gbm Disease,ANCA-Associated Vasculitis With Concurrent Anti-GBM Disease,Vascular & Urticarial
+253,Inflammatory,rare,diagnosis,False,Silicone-Induced Lymphadenitis,Silicone-Induced Lymphadenitis,Autoimmune
+254,Inflammatory,moderate,diagnosis,True,Foreign Body Granuloma Due To Dermal Filler,Foreign Body Granuloma Due To Dermal Filler,Autoimmune
+256,Neoplastic,moderate,diagnosis,True,Glomus Tumor,Glomus Tumor,Benign
+255,Neoplastic,common,diagnosis,False,Melanoma,Melanoma,Malignant
+257,Metabolic Systemic,rare,diagnosis,False,Iatrogenic Calcinosis Cutis,Iatrogenic Calcinosis Cutis,Systemic Disease Manifestations
+260,Inflammatory,moderate,diagnosis,False,Kawasaki Disease,Kawasaki Disease,Vascular & Urticarial
+259,Inflammatory,rare,diagnosis,False,Lymphocytic Mastopathy,Lymphocytic Mastopathy,Autoimmune
+258,Neoplastic,rare,diagnosis,False,Primary Mediastinal Malignant Melanoma,Primary Mediastinal Malignant Melanoma,Malignant
+261,Inflammatory,rare,diagnosis,False,Takayasu Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+262,Infectious,moderate,diagnosis,False,Cryptococcal Meningitis,Cryptococcal Meningitis,Fungal
+263,Genetic Rare,rare,diagnosis,False,Hereditary Angioedema Type Ii,Hereditary Angioedema Due To C1-Inhibitor Deficiency,Metabolic-Genetic
+264,Genetic Rare,rare,diagnosis,False,Hypohidrotic Ectodermal Dysplasia,Hypohidrotic Ectodermal Dysplasia,Syndromic
+265,Metabolic Systemic,common,diagnosis,False,Diabetic Foot Infection,Diabetic Foot Infection,Endocrine-Associated
+267,Neoplastic,moderate,diagnosis,False,Metastatic Breast Cancer With Biliary Infiltration,Metastatic Breast Carcinoma With Biliary Infiltration,Malignant
+268,Inflammatory,rare,diagnosis,False,Hck-Associated Autoinflammatory Disease,HCK-Associated Autoinflammatory Disease,Autoimmune
+269,Neoplastic,common,diagnosis,True,Nodular Melanoma,Nodular Melanoma,Malignant
+266,Infectious,rare,diagnosis,False,Para-Kala-Azar Dermal Leishmaniasis,Post-Kala-Azar Dermal Leishmaniasis,Parasitic & Other
+272,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+270,Inflammatory,moderate,diagnosis,False,Drug-Induced Oral Lichenoid Lesion,Drug-Induced Oral Lichenoid Lesion,Papulosquamous
+273,Genetic Rare,rare,diagnosis,False,Werner Syndrome,Werner Syndrome,Metabolic-Genetic
+274,Genetic Rare,rare,diagnosis,False,Adams-Oliver Syndrome,Adams-Oliver Syndrome,Syndromic
+271,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+276,Inflammatory,rare,diagnosis,False,Epidermolysis Bullosa Acquisita,Epidermolysis Bullosa Acquisita,Autoimmune
+275,Other,rare,diagnosis,False,Sneddon Syndrome,Sneddon Syndrome,Unclassified
+277,Inflammatory,moderate,diagnosis,False,Immune Thrombocytopenic Purpura,Immune Thrombocytopenic Purpura,Vascular & Urticarial
+279,Other,rare,diagnosis,False,Cronkhite-Canada Syndrome,Cronkhite–Canada Syndrome,Unclassified
+280,Inflammatory,rare,diagnosis,False,Intestinal Behçet'S Disease,Intestinal Behçet's Disease,Neutrophilic
+282,Neoplastic,rare,diagnosis,False,Blastic Plasmacytoid Dendritic Cell Neoplasm,Blastic Plasmacytoid Dendritic Cell Neoplasm,Malignant
+283,Infectious,common,diagnosis,False,Condyloma Acuminatum,Condylomata Acuminata,Viral
+284,Inflammatory,rare,diagnosis,False,Juvenile Xanthogranuloma,Juvenile Xanthogranuloma,Autoimmune
+285,Inflammatory,rare,diagnosis,False,Pemphigus Vegetans,Pemphigus Vegetans,Autoimmune
+286,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+281,Genetic Rare,rare,diagnosis,False,Vascular Ehlers-Danlos Syndrome,Vascular Ehlers-Danlos Syndrome,Syndromic
+287,Inflammatory,moderate,diagnosis,False,Anca-Associated Vasculitis,ANCA-Associated Vasculitis,Vascular & Urticarial
+278,Genetic Rare,rare,diagnosis,False,Poikiloderma With Neutropenia (Clericuzio-Type),Poikiloderma with Neutropenia,Genodermatoses
+288,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+289,Neoplastic,rare,diagnosis,False,Primary Well-Differentiated Neuroendocrine Tumor Of The Breast,Primary Well-Differentiated Neuroendocrine Tumor Of The Breast,Benign
+290,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Hypophysitis,Immune Checkpoint Inhibitor-Induced Hypophysitis,Autoimmune
+291,Inflammatory,rare,diagnosis,False,Immunotherapy-Induced Hypophysitis,Immune Checkpoint Inhibitor-Induced Hypophysitis,Autoimmune
+292,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+293,Neoplastic,rare,diagnosis,False,Malignant Pleural Mesothelioma,Malignant Pleural Mesothelioma,Malignant
+294,Neoplastic,rare,diagnosis,False,Mucinous Cystadenocarcinoma Of The Breast,Mucinous Cystadenocarcinoma Of The Breast,Malignant
+296,Genetic Rare,rare,diagnosis,True,Hailey-Hailey Disease,Hailey-Hailey Disease,Genodermatoses
+297,Genetic Rare,rare,diagnosis,False,Hereditary Angioedema Type Ii,Hereditary Angioedema Due To C1-Inhibitor Deficiency,Metabolic-Genetic
+295,Infectious,moderate,diagnosis,False,Ramsay Hunt Syndrome,Ramsay Hunt Syndrome,Viral
+299,Neoplastic,rare,diagnosis,True,Cutaneous Angiosarcoma,Cutaneous Angiosarcoma,Malignant
+301,Inflammatory,moderate,diagnosis,False,Dystrophic Calcinosis Cutis,Dystrophic Calcinosis Cutis,Autoimmune
+302,Neoplastic,moderate,diagnosis,False,Breast Cancer Brain Metastases,Breast Cancer Brain Metastases,Malignant
+300,Neoplastic,rare,diagnosis,False,Upper Tract Urothelial Carcinoma,Upper Tract Urothelial Carcinoma,Malignant
+303,Inflammatory,rare,diagnosis,False,Seronegative Spondyloarthropathy And Takayasu'S Arteritis,Seronegative Spondyloarthropathy And Takayasu's Arteritis,Vascular & Urticarial
+304,Other,rare,diagnosis,False,Multicentric Castleman Disease,Multicentric Castleman Disease,Unclassified
+306,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+305,Neoplastic,moderate,diagnosis,False,Mycosis Fungoides,Mycosis Fungoides,Malignant
+307,Genetic Rare,rare,diagnosis,False,Xeroderma Pigmentosum,Xeroderma Pigmentosum,Genodermatoses
+309,Inflammatory,rare,diagnosis,False,Idiopathic Granulomatous Mastitis,Idiopathic Granulomatous Mastitis,Neutrophilic
+308,Neoplastic,moderate,diagnosis,False,Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,Malignant
+311,Neoplastic,moderate,diagnosis,False,Metastatic Carcinoma To The Skull,Metastatic Carcinoma To The Skull,Malignant
+310,Infectious,moderate,diagnosis,True,Cutaneous Leishmaniasis,Cutaneous Leishmaniasis,Parasitic & Other
+312,Neoplastic,moderate,diagnosis,False,Oncocytic Follicular Thyroid Carcinoma,Oncocytic Follicular Thyroid Carcinoma,Malignant
+313,Inflammatory,rare,diagnosis,False,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+314,Other,moderate,diagnosis,True,Capillary Hemangioma,Capillary Hemangioma,Unclassified
+315,Neoplastic,moderate,diagnosis,False,Mycosis Fungoides,Mycosis Fungoides,Malignant
+316,Inflammatory,rare,diagnosis,False,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+317,Inflammatory,moderate,diagnosis,False,Ulcerative Colitis,Ulcerative Colitis,Neutrophilic
+318,Neoplastic,rare,diagnosis,False,Primary Cutaneous Myoepithelial Carcinoma,Primary Cutaneous Myoepithelial Carcinoma,Malignant
+319,Neoplastic,rare,diagnosis,False,Nodal Cellular Blue Nevus,Nodal Cellular Blue Nevus,Benign
+320,Other,rare,diagnosis,False,Giant Emphysematous Bulla,Giant Emphysematous Bulla,Unclassified
+322,Infectious,rare,diagnosis,True,Kaposi'S Varicelliform Eruption,Kaposi's Varicelliform Eruption,Viral
+323,Neoplastic,rare,diagnosis,False,Primary Cutaneous Peripheral T-Cell Lymphoma With T-Follicular Helper Phenotype,Primary Cutaneous Peripheral T-Cell Lymphoma With T-Follicular Helper Phenotype,Malignant
+321,Genetic Rare,rare,diagnosis,False,Acrodermatitis Enteropathica,Acrodermatitis Enteropathica,Metabolic-Genetic
+325,Infectious,rare,diagnosis,True,Actinomycetoma,Actinomycetoma,Bacterial
+324,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Hepatitis,Immune Checkpoint Inhibitor-Induced Hepatitis,Autoimmune
+326,Neoplastic,rare,diagnosis,False,Metastatic Breast Carcinoma To The Vagina,Metastatic Breast Carcinoma To The Vagina,Malignant
+327,Genetic Rare,rare,diagnosis,True,Griscelli Syndrome Type 2,Griscelli Syndrome Type 2,Syndromic
+328,Neoplastic,common,diagnosis,False,Basal Cell Carcinoma,Basal Cell Carcinoma,Malignant
+330,Inflammatory,moderate,diagnosis,False,Chronic Spontaneous Urticaria,Chronic Spontaneous Urticaria,Vascular & Urticarial
+329,Inflammatory,moderate,diagnosis,False,Bladder Pain Syndrome (Interstitial Cystitis),Interstitial Cystitis,Autoimmune
+332,Other,moderate,diagnosis,False,Drug-Induced Liver Injury,Drug-Induced Liver Injury,Drug-Induced
+331,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+333,Neoplastic,common,diagnosis,False,Metastatic Ductal Breast Carcinoma,Metastatic Invasive Ductal Carcinoma of the Breast,Malignant
+334,Inflammatory,moderate,diagnosis,False,Acute Febrile Neutrophilic Dermatosis,Sweet's Syndrome,Neutrophilic
+335,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Associated Exfoliative Cutaneous Adverse Reaction,Immune Checkpoint Inhibitor-Associated Exfoliative Cutaneous Adverse Reaction,Papulosquamous
+336,Inflammatory,moderate,diagnosis,False,Erosive Lichen Planus,Erosive Lichen Planus,Papulosquamous
+337,Metabolic Systemic,rare,diagnosis,False,Marasmic-Kwashiorkor,Marasmic Kwashiorkor,Nutritional
+338,Inflammatory,moderate,diagnosis,False,Cryoglobulinemic Vasculitis Type Ii,Cryoglobulinemic Vasculitis Type II,Vascular & Urticarial
+339,Inflammatory,moderate,diagnosis,False,Incomplete Kawasaki Disease,Incomplete Kawasaki Disease,Vascular & Urticarial
+340,Metabolic Systemic,rare,diagnosis,False,Acquired Generalized Lipodystrophy,Acquired Generalized Lipodystrophy,Endocrine-Associated
+341,Infectious,moderate,diagnosis,False,Disseminated Coccidioidomycosis,Disseminated Coccidioidomycosis,Fungal
+342,Neoplastic,moderate,diagnosis,False,Multiple Myeloma,Multiple Myeloma,Malignant
+343,Inflammatory,rare,diagnosis,False,Langerhans Cell Histiocytosis,Langerhans Cell Histiocytosis,Eczematous
+344,Neoplastic,rare,diagnosis,False,Disseminated Juvenile Xanthogranuloma,Disseminated Juvenile Xanthogranuloma,Benign
+345,Genetic Rare,rare,diagnosis,False,X-Linked Hypohidrotic Ectodermal Dysplasia,X-Linked Hypohidrotic Ectodermal Dysplasia,Syndromic
+346,Genetic Rare,rare,diagnosis,False,Kyphoscoliotic Ehlers-Danlos Syndrome Due To Fkbp14 Mutation,Kyphoscoliotic Ehlers-Danlos Syndrome,Syndromic
+347,Neoplastic,rare,diagnosis,True,Reticulated Acanthoma With Sebaceous Differentiation,Reticulated Acanthoma with Sebaceous Differentiation,Benign
+349,Other,rare,diagnosis,False,Epiploic Appendagitis,Epiploic Appendagitis,Unclassified
+348,Pigmentation,rare,diagnosis,False,Idiopathic Confetti-Like Leukoderma,Idiopathic Confetti-Like Leukoderma,Hypopigmentation
+350,Inflammatory,moderate,diagnosis,False,Postpartum Thyroiditis,Postpartum Thyroiditis,Autoimmune
+351,Infectious,rare,diagnosis,False,Nocardiosis,Nocardiosis,Bacterial
+352,Neoplastic,common,diagnosis,True,Basal Cell Carcinoma,Basal Cell Carcinoma,Malignant
+353,Neoplastic,common,diagnosis,True,Squamous Cell Carcinoma,Squamous Cell Carcinoma,Malignant
+354,Neoplastic,rare,diagnosis,False,Primary Cutaneous Cribriform Tumor,Primary Cutaneous Cribriform Tumor,Benign
+355,Neoplastic,rare,diagnosis,False,Invasive Lobular Carcinoma With Somatic Erbb2 Mutations,Invasive Lobular Carcinoma With Somatic ERBB2 Mutations,Malignant
+356,Inflammatory,rare,diagnosis,False,Erythema Elevatum Diutinum,Erythema Elevatum Diutinum,Neutrophilic
+357,Metabolic Systemic,rare,diagnosis,False,Cutaneous Immunoglobulin Light Chain Amyloidosis,Cutaneous Immunoglobulin Light Chain Amyloidosis,Systemic Disease Manifestations
+358,Inflammatory,rare,diagnosis,False,Polyarteritis Nodosa,Polyarteritis Nodosa,Vascular & Urticarial
+361,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Pancreatitis,Immune Checkpoint Inhibitor-Induced Pancreatitis,Autoimmune
+359,Inflammatory,rare,diagnosis,False,Acute Generalized Exanthematous Pustulosis,Acute Generalized Exanthematous Pustulosis,Neutrophilic
+360,Inflammatory,moderate,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+363,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+365,Inflammatory,rare,diagnosis,False,G-Csf-Induced Large-Vessel Vasculitis (Aortitis),G-CSF-Induced Large-Vessel Vasculitis,Vascular & Urticarial
+366,Inflammatory,rare,diagnosis,True,Lupus Miliaris Disseminatus Faciei,Lupus Miliaris Disseminatus Faciei,Autoimmune
+367,Inflammatory,rare,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+364,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+362,Metabolic Systemic,rare,diagnosis,False,Acquired Lipodystrophy,Acquired Generalized Lipodystrophy,Endocrine-Associated
+368,Inflammatory,rare,diagnosis,False,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+370,Other,moderate,diagnosis,False,Raynaud'S Phenomenon,Raynaud's Phenomenon,Unclassified
+369,Neoplastic,rare,diagnosis,True,Metaplastic Carcinoma Of The Breast,Metaplastic Breast Carcinoma,Malignant
+371,Other,rare,diagnosis,False,Pseudoangiomatous Stromal Hyperplasia,Pseudoangiomatous Stromal Hyperplasia,Unclassified
+372,Neoplastic,rare,diagnosis,False,Metastatic Breast Carcinoma Within A Parathyroid Adenoma,Metastatic Breast Carcinoma Within A Parathyroid Adenoma,Malignant
+373,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+375,Infectious,rare,diagnosis,True,Nasal Leishmaniasis,Mucosal Leishmaniasis,Parasitic & Other
+374,Metabolic Systemic,rare,diagnosis,False,Light And Heavy Chain Deposition Disease,Light And Heavy Chain Deposition Disease,Systemic Disease Manifestations
+376,Infectious,rare,diagnosis,False,Pulmonary Chromomycosis,Pulmonary Chromomycosis,Fungal
+377,Inflammatory,rare,diagnosis,True,Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis,Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis,Autoimmune
+378,Infectious,moderate,diagnosis,True,Sycosis Barbae,Sycosis Barbae,Bacterial
+379,Inflammatory,moderate,diagnosis,False,Iatrogenic Cushing'S Syndrome,Iatrogenic Cushing's Syndrome,Unclassified
+381,Inflammatory,rare,diagnosis,False,Anti-Mda5 Dermatomyositis,Anti-MDA5 Antibody-Associated Dermatomyositis,Autoimmune
+382,Inflammatory,moderate,diagnosis,False,Primary Biliary Cholangitis,Primary Biliary Cholangitis,Autoimmune
+380,Neoplastic,common,diagnosis,True,Metastatic Malignant Melanoma,Metastatic Melanoma,Malignant
+384,Neoplastic,moderate,mechanism,False,General,General,Unclassified
+386,Metabolic Systemic,moderate,diagnosis,False,Chronic Limb-Threatening Ischemia,Chronic Limb-Threatening Ischemia,Systemic Disease Manifestations
+385,Inflammatory,moderate,diagnosis,False,Sarcoidosis,Sarcoidosis,Autoimmune
+383,Pigmentation,moderate,diagnosis,True,Vitiligo,Vitiligo,Hypopigmentation
+388,Inflammatory,rare,diagnosis,False,Anca-Associated Vasculitis With Lupus Nephritis Overlap,ANCA-Associated Vasculitis With Lupus Nephritis Overlap,Vascular & Urticarial
+389,Neoplastic,moderate,diagnosis,False,Mycosis Fungoides,Mycosis Fungoides,Malignant
+390,Metabolic Systemic,rare,diagnosis,True,Combined Central Retinal Vein Occlusion And Central Retinal Artery Occlusion,Combined Central Retinal Vein Occlusion And Central Retinal Artery Occlusion,Systemic Disease Manifestations
+392,Neoplastic,rare,diagnosis,False,Undifferentiated Melanoma,Undifferentiated Melanoma,Malignant
+391,Neoplastic,rare,diagnosis,True,Large Cell Neuroendocrine Carcinoma Of The Breast,Large Cell Neuroendocrine Carcinoma Of The Breast,Malignant
+393,Inflammatory,moderate,diagnosis,True,Hand-Foot Skin Reaction,Hand-Foot Skin Reaction,Eczematous
+394,Inflammatory,rare,diagnosis,False,Klhl11 Autoimmune Encephalitis,KLHL11 Autoimmune Encephalitis,Autoimmune
+396,Inflammatory,moderate,diagnosis,True,Dermatomyositis,Dermatomyositis,Autoimmune
+397,Neoplastic,moderate,diagnosis,False,Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,Malignant
+395,Neoplastic,moderate,diagnosis,False,Primary Cutaneous Follicle Center Lymphoma,Primary Cutaneous Follicle Center Lymphoma,Malignant
+398,Other,rare,diagnosis,False,Plastic Bronchitis,Plastic Bronchitis,Unclassified
+400,Neoplastic,rare,diagnosis,False,Cutaneous Analog Of Cribriform Adenocarcinoma Of Salivary Glands,Cutaneous Analog of Cribriform Adenocarcinoma of Salivary Glands,Malignant
+401,Metabolic Systemic,common,diagnosis,True,Diabetic Foot Ulcer,Diabetic Foot Ulcer,Endocrine-Associated
+399,Other,rare,diagnosis,False,Tracheal Duplication Cyst With Steatocystomatous Histology,Tracheal Duplication Cyst With Steatocystomatous Histology,Unclassified
+402,Neoplastic,rare,diagnosis,False,Gamma Delta T-Cell Acute Lymphoblastic Leukemia,Gamma Delta T-Cell Acute Lymphoblastic Leukemia,Malignant
+403,Inflammatory,rare,diagnosis,True,Generalised Bullous Fixed Drug Eruption,Generalized Bullous Fixed Drug Eruption,Eczematous
+407,Inflammatory,moderate,diagnosis,False,Secondary Adrenal Insufficiency,Secondary Adrenal Insufficiency,Autoimmune
+405,Genetic Rare,rare,diagnosis,False,Hermansky–Pudlak Syndrome,Hermansky-Pudlak Syndrome,Syndromic
+406,Inflammatory,rare,diagnosis,False,Cutaneous Polyarteritis Nodosa,Cutaneous Polyarteritis Nodosa,Vascular & Urticarial
+404,Other,rare,diagnosis,True,Yellow Nail Syndrome,Yellow Nail Syndrome,Unclassified
+410,Neoplastic,moderate,diagnosis,False,Metastatic Breast Carcinoma,Metastatic Breast Carcinoma,Malignant
+409,Genetic Rare,rare,diagnosis,False,Nail-Patella Syndrome,Nail-Patella Syndrome,Syndromic
+408,Hair Nail,moderate,diagnosis,True,Anagen Effluvium,Anagen Effluvium,Hair Loss
+411,Inflammatory,rare,diagnosis,True,Juvenile Dermatomyositis,Juvenile Dermatomyositis,Autoimmune
+414,Inflammatory,moderate,diagnosis,False,Sarcoidosis,Sarcoidosis,Autoimmune
+413,Inflammatory,rare,diagnosis,True,Scar Sarcoidosis,Scar Sarcoidosis,Autoimmune
+412,Inflammatory,rare,diagnosis,False,Psoriasiform Alopecia Secondary To Anti-Tnf-Alpha Therapy,Psoriasiform Alopecia Secondary To Anti-TNF-Alpha Therapy,Papulosquamous
+415,Inflammatory,rare,diagnosis,True,Verrucous Psoriasis,Verrucous Psoriasis,Papulosquamous
+416,Infectious,common,diagnosis,False,Diabetic Foot Ulcer With Osteomyelitis,Diabetic Foot Ulcer With Osteomyelitis,Bacterial
+417,Neoplastic,rare,diagnosis,True,Combined Nevus,Combined Nevus,Benign
+418,Genetic Rare,rare,diagnosis,False,Cornelia De Lange Syndrome Type 4,Cornelia De Lange Syndrome Type 4,Syndromic
+419,Inflammatory,rare,diagnosis,True,Generalized Pustular Psoriasis,Generalized Pustular Psoriasis,Papulosquamous
+420,Inflammatory,rare,diagnosis,False,Inflammatory Cardiomyopathy,Inflammatory Cardiomyopathy,Autoimmune
+423,Inflammatory,rare,diagnosis,True,Multiple Eruptive Dermatofibromas,Multiple Eruptive Dermatofibromas,Autoimmune
+421,Genetic Rare,rare,diagnosis,False,Keratitis-Ichthyosis-Deafness (Kid) Syndrome,Keratitis-Ichthyosis-Deafness Syndrome,Syndromic
+422,Other,moderate,diagnosis,False,Drug-Induced Liver Injury,Drug-Induced Liver Injury,Drug-Induced
+424,Inflammatory,rare,diagnosis,False,Chronic Chemical-Induced Dermatosis,Chronic Chemical-Induced Dermatosis,Eczematous
+425,Inflammatory,rare,diagnosis,True,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+427,Genetic Rare,rare,diagnosis,False,Classic Ehlers-Danlos Syndrome,Classic Ehlers-Danlos Syndrome,Genodermatoses
+426,Genetic Rare,rare,diagnosis,False,Spondylodysplastic Ehlers-Danlos Syndrome,Spondylodysplastic Ehlers-Danlos Syndrome,Syndromic
+428,Other,rare,diagnosis,False,Gastropleurocutaneous Fistula,Gastropleurocutaneous Fistula,Traumatic & Environmental
+429,Inflammatory,rare,diagnosis,True,Stevens-Johnson Syndrome,Stevens-Johnson Syndrome,Autoimmune
+430,Infectious,common,diagnosis,False,Condylomata Acuminata,Condylomata Acuminata,Viral
+433,Neoplastic,moderate,diagnosis,False,Small Lymphocytic Lymphoma,Small Lymphocytic Lymphoma,Malignant
+432,Infectious,rare,diagnosis,False,Purulent Pericarditis With Pericardio-Cutaneous Fistula,Purulent Pericarditis With Pericardio-Cutaneous Fistula,Bacterial
+434,Inflammatory,rare,diagnosis,False,Paraneoplastic Pemphigus,Paraneoplastic Pemphigus,Autoimmune
+435,Inflammatory,moderate,diagnosis,False,Occupational Allergic Contact Dermatitis,Occupational Allergic Contact Dermatitis,Eczematous
+436,Neoplastic,moderate,diagnosis,False,Leptomeningeal Metastases,Leptomeningeal Metastasis,Malignant
+437,Neoplastic,common,diagnosis,False,Invasive Breast Carcinoma Of No Special Type,Invasive Breast Carcinoma,Malignant
+438,Infectious,common,diagnosis,False,Osteomyelitis,Osteomyelitis,Bacterial
+439,Genetic Rare,moderate,diagnosis,False,Ichthyosis Vulgaris,Ichthyosis Vulgaris,Genodermatoses
+431,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+441,Inflammatory,rare,diagnosis,False,Takayasu Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+442,Inflammatory,moderate,diagnosis,False,Psoriasiform Cutaneous Immune-Related Adverse Event,Psoriasiform Cutaneous Immune-Related Adverse Event,Papulosquamous
+443,Neoplastic,common,diagnosis,True,Infantile Hemangioma,Infantile Hemangioma,Vascular Tumours
+440,Neoplastic,rare,diagnosis,False,Alk-Negative Anaplastic Large Cell Lymphoma,ALK-Negative Anaplastic Large Cell Lymphoma,Malignant
+445,Genetic Rare,rare,diagnosis,False,Striate Palmoplantar Keratoderma,Striate Palmoplantar Keratoderma,Genodermatoses
+444,Infectious,rare,diagnosis,False,Disseminated Cryptococcus Gattii Infection,Disseminated Cryptococcus gattii Infection,Fungal
+447,Inflammatory,rare,diagnosis,False,Stevens-Johnson Syndrome,Stevens-Johnson Syndrome,Autoimmune
+448,Inflammatory,rare,diagnosis,False,Desquamative Interstitial Pneumonia,Desquamative Interstitial Pneumonia,Autoimmune
+446,Neoplastic,rare,diagnosis,True,Poikilodermatous Mycosis Fungoides,Poikilodermatous Mycosis Fungoides,Malignant
+449,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+450,Metabolic Systemic,moderate,diagnosis,False,Recalcitrant Diabetic Foot Ulcer With Critical Limb Ischemia,Diabetic Foot Ulcer,Endocrine-Associated
+452,Neoplastic,moderate,diagnosis,False,Metastatic Malignant Melanoma,Metastatic Melanoma,Malignant
+451,Inflammatory,rare,diagnosis,False,Lupus Mesenteric Vasculitis,Lupus Mesenteric Vasculitis,Vascular & Urticarial
+453,Infectious,rare,diagnosis,True,Cutaneous Tuberculosis,Cutaneous Tuberculosis,Bacterial
+454,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+455,Neoplastic,rare,diagnosis,False,Undifferentiated High-Grade Pleomorphic Sarcoma,Undifferentiated Pleomorphic Sarcoma,Malignant
+456,Inflammatory,rare,diagnosis,False,Cocaine-Induced Plasma Cell Orificial Mucositis,Cocaine-Induced Plasma Cell Orificial Mucositis,Neutrophilic
+457,Neoplastic,rare,diagnosis,True,Dermal Cylindroma,Dermal Cylindroma,Benign
+458,Neoplastic,common,diagnosis,False,Invasive Breast Carcinoma,Invasive Breast Carcinoma,Malignant
+459,Inflammatory,rare,diagnosis,False,Kawasaki Disease Shock Syndrome,Kawasaki Disease Shock Syndrome,Vascular & Urticarial
+461,Inflammatory,rare,diagnosis,False,Relapsing Polychondritis,Relapsing Polychondritis,Autoimmune
+462,Inflammatory,moderate,diagnosis,False,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+463,Neoplastic,common,diagnosis,True,Cutaneous Squamous Cell Carcinoma,Cutaneous Squamous Cell Carcinoma,Malignant
+460,Inflammatory,moderate,diagnosis,False,Immunoglobulin A Vasculitis (Henoch-Schönlein Purpura),IgA Vasculitis,Vascular & Urticarial
+466,Neoplastic,moderate,diagnosis,False,Follicular Lymphoma,Follicular Lymphoma,Malignant
+465,Inflammatory,common,diagnosis,False,Acne Vulgaris,Acne Vulgaris,Neutrophilic
+467,Neoplastic,rare,diagnosis,False,Primary Pulmonary Malignant Melanoma,Primary Pulmonary Malignant Melanoma,Malignant
+468,Neoplastic,rare,diagnosis,False,Primary Malignant Melanoma Of The Esophagus,Primary Malignant Melanoma Of The Esophagus,Malignant
+470,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+469,Neoplastic,moderate,diagnosis,False,Gastric Cardia Adenocarcinoma,Gastric Cardia Adenocarcinoma,Malignant
+471,Other,moderate,diagnosis,False,Secondary Raynaud'S Phenomenon,Secondary Raynaud's Phenomenon,Unclassified
+474,Inflammatory,rare,diagnosis,False,Acquired Hemophilia A,Acquired Hemophilia A,Autoimmune
+473,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Enterocolitis,Immune Checkpoint Inhibitor-Induced Enterocolitis,Autoimmune
+464,Neoplastic,rare,diagnosis,False,"Extranodal Nk/T-Cell Lymphoma, Nasal Type (Non-Nasal)",Extranodal NK/T-Cell Lymphoma,Malignant
+475,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+476,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Associated Myositis,Immune Checkpoint Inhibitor-Induced Myositis,Autoimmune
+472,Neoplastic,rare,diagnosis,True,Sinonasal Mucosal Melanoma,Sinonasal Mucosal Melanoma,Malignant
+477,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Associated Hypophysitis,Immune Checkpoint Inhibitor-Induced Hypophysitis,Autoimmune
+478,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Related Hypophysitis,Immune Checkpoint Inhibitor-Induced Hypophysitis,Autoimmune
+479,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+480,Neoplastic,common,diagnosis,False,Metastatic Malignant Melanoma,Metastatic Melanoma,Malignant
+481,Infectious,common,diagnosis,True,Onychomycosis,Onychomycosis,Fungal
+482,Inflammatory,rare,diagnosis,False,Takayasu Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+483,Inflammatory,moderate,diagnosis,True,Behçet'S Disease,Behçet's Disease,Neutrophilic
+484,Neoplastic,rare,diagnosis,False,Metastatic Invasive Ductal Carcinoma Of The Breast,Metastatic Invasive Ductal Carcinoma of the Breast,Malignant
+486,Neoplastic,rare,diagnosis,True,Cutaneous Metastasis From Poorly Differentiated Thyroid Carcinoma,Cutaneous Metastasis From Poorly Differentiated Thyroid Carcinoma,Malignant
+485,Neoplastic,moderate,diagnosis,False,Hereditary Breast Cancer,Hereditary Breast And Ovarian Cancer Syndrome,Premalignant
+487,Inflammatory,rare,diagnosis,False,Behçet'S Syndrome,Behçet's Disease,Neutrophilic
+488,Inflammatory,moderate,diagnosis,False,Foreign Body Granuloma,Foreign Body Granuloma,Autoimmune
+489,Neoplastic,rare,diagnosis,False,"Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type","Primary Cutaneous Diffuse Large B-Cell Lymphoma, Leg Type",Malignant
+491,Inflammatory,moderate,diagnosis,False,Urticarial Dermatitis,Urticarial Dermatitis,Vascular & Urticarial
+493,Infectious,moderate,diagnosis,True,Lupus Vulgaris,Lupus Vulgaris,Bacterial
+490,Inflammatory,moderate,diagnosis,False,Primary Sclerosing Cholangitis,Primary Sclerosing Cholangitis,Autoimmune
+494,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+492,Other,rare,diagnosis,False,Solitary Peutz–Jeghers Polyp,Solitary Peutz–Jeghers Polyp,Unclassified
+495,Metabolic Systemic,common,diagnosis,False,Chronic Venous Insufficiency,Chronic Venous Insufficiency,Systemic Disease Manifestations
+496,Inflammatory,rare,diagnosis,False,Generalized Pustular Psoriasis,Generalized Pustular Psoriasis,Papulosquamous
+497,Neoplastic,rare,diagnosis,False,Merkel Cell Carcinoma,Merkel Cell Carcinoma,Malignant
+498,Neoplastic,rare,diagnosis,False,Dermatofibrosarcoma Protuberans,Dermatofibrosarcoma Protuberans,Malignant
+499,Inflammatory,moderate,diagnosis,False,Hidradenitis Suppurativa,Hidradenitis Suppurativa,Neutrophilic
+501,Infectious,rare,diagnosis,False,Cutaneous Coccidioidomycosis,Cutaneous Coccidioidomycosis,Fungal
+502,Inflammatory,rare,diagnosis,False,Statin-Induced Angioedema,Statin-Induced Angioedema,Vascular & Urticarial
+500,Infectious,rare,diagnosis,False,White Piedra,White Piedra,Fungal
+503,Neoplastic,rare,diagnosis,False,Apocrine Carcinoma,Apocrine Carcinoma,Malignant
+504,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+505,Neoplastic,common,diagnosis,False,Metastatic Breast Cancer,Metastatic Breast Carcinoma,Malignant
+507,Inflammatory,moderate,diagnosis,False,Drug-Induced Myopathy,Drug-Induced Myopathy,Autoimmune
+506,Other,common,diagnosis,False,General,General,Unclassified
+508,Inflammatory,moderate,diagnosis,False,Iga Nephropathy,IgA Nephropathy,Autoimmune
+509,Genetic Rare,rare,diagnosis,True,Nonbullous Congenital Ichthyosiform Erythroderma,Nonbullous Congenital Ichthyosiform Erythroderma,Genodermatoses
+511,Metabolic Systemic,rare,diagnosis,False,Hypocalcemia-Related Pustulosis,Hypocalcemia-Related Pustulosis,Endocrine-Associated
+510,Other,rare,diagnosis,False,Bleb Leak With Ocular Hypotony Following Trabeculectomy Needling,Bleb Leak With Ocular Hypotony Following Trabeculectomy Needling,Traumatic & Environmental
+513,Other,moderate,diagnosis,False,Postoperative Exudative Pleural Effusion,Postoperative Exudative Pleural Effusion,Traumatic & Environmental
+512,Other,rare,diagnosis,False,Lipomatous Hypertrophy Of The Interatrial Septum,Lipomatous Hypertrophy Of The Interatrial Septum,Unclassified
+515,Inflammatory,rare,diagnosis,False,Pseudo-Pseudo Meigs Syndrome,Pseudo-Pseudo Meigs Syndrome,Unclassified
+514,Infectious,rare,diagnosis,True,Mpox (Monkeypox),Mpox,Viral
+518,Inflammatory,moderate,diagnosis,False,Kawasaki Disease Complicated By Macrophage Activation Syndrome,Kawasaki Disease Complicated By Macrophage Activation Syndrome,Vascular & Urticarial
+516,Inflammatory,rare,diagnosis,False,Iga Vasculitis Nephritis With Seronegative Anti-Gbm Antibody-Mediated Glomerulonephritis,IgA Vasculitis with Nephritis,Vascular & Urticarial
+520,Infectious,moderate,diagnosis,False,Disseminated Blastomycosis,Disseminated Blastomycosis,Fungal
+519,Inflammatory,rare,diagnosis,False,Sclerosing Orbital Inflammatory Pseudotumor Associated With Anca-Associated Vasculitis,Sclerosing Orbital Inflammatory Pseudotumor Associated With ANCA-Associated Vasculitis,Vascular & Urticarial
+521,Inflammatory,moderate,diagnosis,False,Crohn'S Disease,Crohn's Disease,Neutrophilic
+522,Genetic Rare,rare,diagnosis,False,Nagashima-Type Palmoplantar Keratoderma,Nagashima-Type Palmoplantar Keratoderma,Genodermatoses
+525,Inflammatory,rare,diagnosis,False,Idiopathic Granulomatous Lobular Mastitis,Idiopathic Granulomatous Mastitis,Neutrophilic
+526,Neoplastic,rare,diagnosis,True,Metaplastic Breast Carcinoma,Metaplastic Breast Carcinoma,Malignant
+523,Genetic Rare,rare,diagnosis,False,Netherton Syndrome,Netherton Syndrome,Genodermatoses
+524,Neoplastic,rare,diagnosis,True,Subungual Amelanotic Melanoma,Subungual Amelanotic Melanoma,Malignant
+527,Other,rare,diagnosis,False,Yellow Nail Syndrome,Yellow Nail Syndrome,Unclassified
+528,Neoplastic,rare,diagnosis,False,Blue Nevus Melanoma,Blue Nevus Melanoma,Malignant
+530,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+529,Neoplastic,rare,diagnosis,False,Hereditary Breast Cancer Associated With Heterozygous Mutyh Pathogenic Variant,Hereditary Breast Cancer Associated With Heterozygous MUTYH Pathogenic Variant,Premalignant
+534,Neoplastic,moderate,diagnosis,False,Follicular Lymphoma,Follicular Lymphoma,Malignant
+533,Neoplastic,rare,diagnosis,True,Invasive Apocrine Carcinoma,Invasive Apocrine Carcinoma,Malignant
+532,Inflammatory,rare,diagnosis,False,Drug Reaction With Eosinophilia And Systemic Symptoms,Drug Reaction With Eosinophilia And Systemic Symptoms (DRESS) Syndrome,Eczematous
+531,Neoplastic,rare,diagnosis,False,Desmoplastic Fibroblastoma,Desmoplastic Fibroblastoma,Benign
+535,Inflammatory,moderate,diagnosis,True,Hidradenitis Suppurativa,Hidradenitis Suppurativa,Neutrophilic
+537,Other,rare,diagnosis,False,Ross Syndrome,Ross Syndrome,Unclassified
+538,Inflammatory,moderate,diagnosis,True,Dermatomyositis,Dermatomyositis,Autoimmune
+536,Inflammatory,moderate,diagnosis,True,Hidradenitis Suppurativa,Hidradenitis Suppurativa,Neutrophilic
+540,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+542,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+541,Metabolic Systemic,common,diagnosis,False,Diabetic Foot Ulcer,Diabetic Foot Ulcer,Endocrine-Associated
+543,Neoplastic,rare,diagnosis,False,Invasive Solid Papillary Carcinoma,Invasive Solid Papillary Carcinoma,Malignant
+544,Neoplastic,rare,diagnosis,False,Solid Papillary Carcinoma Of The Breast,Solid Papillary Carcinoma Of The Breast,Malignant
+545,Neoplastic,common,diagnosis,False,Lobular Invasive Carcinoma Of The Breast,Invasive Lobular Carcinoma,Malignant
+546,Neoplastic,rare,diagnosis,False,Hereditary Diffuse Gastric Cancer Syndrome,Hereditary Diffuse Gastric Cancer Syndrome,Premalignant
+547,Inflammatory,moderate,diagnosis,False,Systemic Sclerosis,Systemic Sclerosis,Autoimmune
+548,Metabolic Systemic,rare,diagnosis,False,Al Amyloidosis,AL Amyloidosis,Systemic Disease Manifestations
+550,Inflammatory,moderate,diagnosis,True,Lichen Planus,Lichen Planus,Papulosquamous
+549,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+551,Other,rare,diagnosis,True,Esophageal Epidermoid Metaplasia,Esophageal Epidermoid Metaplasia,Unclassified
+539,Inflammatory,rare,diagnosis,False,Reactive Infectious Mucocutaneous Eruption,Reactive Infectious Mucocutaneous Eruption,Vascular & Urticarial
+552,Infectious,common,diagnosis,True,Tinea Capitis,Tinea Capitis,Fungal
+553,Inflammatory,rare,diagnosis,True,Drug-Induced Acute Febrile Neutrophilic Dermatosis,Drug-Induced Acute Febrile Neutrophilic Dermatosis,Neutrophilic
+554,Inflammatory,rare,diagnosis,False,Pemphigus Erythematosus,Pemphigus Erythematosus,Autoimmune
+555,Inflammatory,rare,diagnosis,False,Histiocytoid Sweet Syndrome,Histiocytoid Sweet Syndrome,Neutrophilic
+556,Infectious,rare,diagnosis,False,Chromoblastomycosis,Chromoblastomycosis,Fungal
+557,Infectious,rare,diagnosis,False,Eumycetoma,Eumycetoma,Fungal
+558,Inflammatory,moderate,diagnosis,True,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+560,Inflammatory,rare,diagnosis,False,Paraneoplastic Variable-Vessel Vasculitis,Paraneoplastic Variable-Vessel Vasculitis,Vascular & Urticarial
+561,Infectious,rare,diagnosis,False,Eumycetoma,Eumycetoma,Fungal
+559,Metabolic Systemic,common,diagnosis,False,Diabetic Foot Ulcer With Peripheral Arterial Disease,Diabetic Foot Ulcer With Peripheral Arterial Disease,Endocrine-Associated
+562,Infectious,rare,diagnosis,False,Actinomycetoma,Actinomycetoma,Bacterial
+563,Neoplastic,rare,diagnosis,False,Primary Cervical Melanoma,Primary Cervical Melanoma,Malignant
+565,Neoplastic,rare,diagnosis,False,Primary Cutaneous Cd8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma,Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma,Malignant
+564,Neoplastic,rare,diagnosis,False,Extranodal Nk/T-Cell Lymphoma,Extranodal NK/T-Cell Lymphoma,Malignant
+566,Neoplastic,rare,diagnosis,False,Paraneoplastic Limbic Encephalitis,Paraneoplastic Limbic Encephalitis,Malignant
+568,Genetic Rare,rare,diagnosis,False,Cryopyrin-Associated Periodic Syndrome,Cryopyrin-Associated Periodic Syndrome,Syndromic
+567,Infectious,rare,diagnosis,False,Cutaneous Mucormycosis,Cutaneous Mucormycosis,Fungal
+569,Inflammatory,moderate,diagnosis,False,Kawasaki Disease,Kawasaki Disease,Vascular & Urticarial
+570,Inflammatory,moderate,diagnosis,False,Incomplete Kawasaki Disease,Incomplete Kawasaki Disease,Vascular & Urticarial
+571,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+573,Inflammatory,moderate,diagnosis,False,Exanthematous Drug Eruption,Exanthematous Drug Eruption,Eczematous
+572,Metabolic Systemic,rare,diagnosis,True,Acral Persistent Papular Mucinosis,Acral Persistent Papular Mucinosis,Systemic Disease Manifestations
+575,Neoplastic,rare,diagnosis,True,Primary Cutaneous Marginal Zone Lymphoma,Primary Cutaneous Marginal Zone Lymphoma,Malignant
+574,Metabolic Systemic,common,diagnosis,False,Diabetic Foot Gangrene,Diabetic Foot Gangrene,Endocrine-Associated
+577,Inflammatory,moderate,diagnosis,False,Systemic Sclerosis,Systemic Sclerosis,Autoimmune
+578,Inflammatory,rare,diagnosis,True,Drug-Induced Pseudocyanosis,Drug-Induced Pseudocyanosis,Vascular & Urticarial
+579,Infectious,rare,diagnosis,False,Parvovirus B19-Induced Pure Red Cell Aplasia,Parvovirus B19-Induced Pure Red Cell Aplasia,Viral
+576,Metabolic Systemic,rare,diagnosis,False,Barraquer–Simons Syndrome,Barraquer–Simons Syndrome,Endocrine-Associated
+580,Other,rare,diagnosis,False,Pseudoangiomatous Stromal Hyperplasia,Pseudoangiomatous Stromal Hyperplasia,Unclassified
+581,Neoplastic,common,diagnosis,True,Superficial Spreading Melanoma,Superficial Spreading Melanoma,Malignant
+582,Inflammatory,moderate,diagnosis,False,Ulcerative Colitis,Ulcerative Colitis,Neutrophilic
+583,Neoplastic,rare,diagnosis,False,Primary Vaginal Malignant Melanoma,Primary Vaginal Malignant Melanoma,Malignant
+585,Inflammatory,rare,diagnosis,False,Bullous Hemorrhagic Dermatosis,Bullous Hemorrhagic Dermatosis,Vascular & Urticarial
+587,Infectious,moderate,diagnosis,True,Tinea Incognito,Tinea Incognito,Fungal
+588,Infectious,common,diagnosis,False,Bacterial Folliculitis,Bacterial Folliculitis,Bacterial
+584,Neoplastic,rare,diagnosis,False,Occult Breast Cancer,Occult Breast Cancer,Malignant
+586,Inflammatory,common,diagnosis,False,General,General,Unclassified
+590,Neoplastic,common,diagnosis,False,Invasive Ductal Carcinoma,Invasive Ductal Carcinoma,Malignant
+589,Neoplastic,rare,diagnosis,False,Radiation-Induced Sarcoma / Second Primary Malignancy,Radiation-Induced Sarcoma,Malignant
+591,Neoplastic,rare,diagnosis,False,Atypical Lipomatous Tumor/Well-Differentiated Liposarcoma,Atypical Lipomatous Tumor/Well-Differentiated Liposarcoma,Malignant
+593,Inflammatory,rare,diagnosis,False,Loeffler Endocarditis,Löffler Endocarditis,Autoimmune
+595,Neoplastic,rare,diagnosis,False,Fumarate Hydratase-Deficient Renal Cell Carcinoma,Fumarate Hydratase-Deficient Renal Cell Carcinoma,Malignant
+594,Infectious,moderate,diagnosis,True,Malassezia Folliculitis,Malassezia Folliculitis,Fungal
+596,Neoplastic,moderate,diagnosis,True,Conventional Malignant Melanoma,Melanoma,Malignant
+597,Other,moderate,diagnosis,False,Primary Raynaud Syndrome,Primary Raynaud Syndrome,Unclassified
+598,Inflammatory,rare,diagnosis,False,Antisynthetase Syndrome,Antisynthetase Syndrome,Autoimmune
+599,Inflammatory,rare,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+600,Metabolic Systemic,rare,diagnosis,False,Paraneoplastic Opsoclonus-Myoclonus-Ataxia Syndrome,Paraneoplastic Opsoclonus-Myoclonus-Ataxia Syndrome,Systemic Disease Manifestations
+602,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+603,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Pancreatitis,Immune Checkpoint Inhibitor-Induced Pancreatitis,Autoimmune
+604,Inflammatory,moderate,diagnosis,True,Drug-Induced Psoriasis,Drug-Induced Psoriasis,Papulosquamous
+605,Inflammatory,moderate,diagnosis,False,Immune-Related Adverse Events (Pd-1 Inhibitor),Immune-Related Adverse Events,Autoimmune
+607,Genetic Rare,rare,diagnosis,False,Common Variable Immunodeficiency Due To Nfkb1 Haploinsufficiency,Common Variable Immunodeficiency Due To NFKB1 Haploinsufficiency,Syndromic
+606,Genetic Rare,rare,diagnosis,False,Whim Syndrome,WHIM Syndrome,Syndromic
+608,Infectious,rare,diagnosis,False,Onychomycosis,Onychomycosis,Fungal
+592,Neoplastic,rare,diagnosis,False,Mucinous Cystadenocarcinoma Of The Breast,Mucinous Cystadenocarcinoma Of The Breast,Malignant
+610,Inflammatory,rare,mechanism,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+611,Neoplastic,rare,diagnosis,False,Subcutaneous Panniculitis-Like T-Cell Lymphoma,Subcutaneous Panniculitis-Like T-Cell Lymphoma,Malignant
+609,Metabolic Systemic,common,diagnosis,False,Diabetic Foot Ulcer,Diabetic Foot Ulcer,Endocrine-Associated
+613,Inflammatory,rare,diagnosis,False,Drug Reaction With Eosinophilia And Systemic Symptoms,Drug Reaction With Eosinophilia And Systemic Symptoms (DRESS) Syndrome,Eczematous
+614,Genetic Rare,rare,diagnosis,False,Congenital Generalized Lipodystrophy,Congenital Generalized Lipodystrophy,Metabolic-Genetic
+615,Neoplastic,moderate,diagnosis,False,Ductal Carcinoma In Situ,Ductal Carcinoma In Situ,Premalignant
+616,Other,rare,diagnosis,False,Neutropenic Enterocolitis (Typhlitis),Neutropenic Enterocolitis,Unclassified
+617,Inflammatory,moderate,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+618,Neoplastic,rare,diagnosis,False,Cutaneous Ewing Sarcoma,Cutaneous Ewing Sarcoma,Malignant
+612,Inflammatory,rare,diagnosis,False,Hypocomplementemic Urticarial Vasculitis Syndrome,Hypocomplementemic Urticarial Vasculitis Syndrome,Vascular & Urticarial
+620,Other,rare,diagnosis,True,Pelvic Lipomatosis,Pelvic Lipomatosis,Unclassified
+619,Infectious,rare,diagnosis,False,Actinomycotic Mycetoma Caused By Nocardia Otitidiscaviarum,Actinomycetoma,Bacterial
+622,Inflammatory,moderate,diagnosis,True,Alopecia Areata,Alopecia Areata,Autoimmune
+623,Neoplastic,moderate,diagnosis,False,Metastatic Breast Carcinoma,Metastatic Breast Carcinoma,Malignant
+621,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+624,Infectious,common,diagnosis,False,Verruca Vulgaris,Verruca Vulgaris,Viral
+625,Genetic Rare,rare,diagnosis,False,Zap70 Deficiency,ZAP-70 Deficiency,Syndromic
+626,Hair Nail,common,diagnosis,False,Androgenetic Alopecia,Androgenetic Alopecia,Hair Loss
+627,Hair Nail,moderate,diagnosis,False,Scarring Alopecia Secondary To Trauma,Scarring Alopecia Secondary To Trauma,Hair Loss
+630,Neoplastic,rare,diagnosis,True,Langerhans Cell Sarcoma,Langerhans Cell Sarcoma,Malignant
+629,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+632,Inflammatory,common,diagnosis,False,Allergic Contact Dermatitis,Allergic Contact Dermatitis,Eczematous
+631,Pigmentation,moderate,diagnosis,True,Segmental Vitiligo,Segmental Vitiligo,Hypopigmentation
+633,Inflammatory,common,diagnosis,False,Allergic Contact Dermatitis,Allergic Contact Dermatitis,Eczematous
+634,Infectious,rare,diagnosis,False,Ludwig'S Angina,Ludwig's Angina,Bacterial
+636,Inflammatory,moderate,diagnosis,False,Limited Cutaneous Systemic Sclerosis,Limited Cutaneous Systemic Sclerosis,Autoimmune
+635,Other,rare,diagnosis,False,Idiopathic Portal Hypertension,Idiopathic Portal Hypertension,Unclassified
+638,Neoplastic,rare,diagnosis,False,Therapy-Related Myelodysplastic Syndrome,Therapy-Related Myelodysplastic Syndrome,Malignant
+637,Inflammatory,moderate,diagnosis,False,Sweet Syndrome,Sweet's Syndrome,Neutrophilic
+639,Inflammatory,common,diagnosis,True,Atopic Dermatitis,Atopic Dermatitis,Eczematous
+640,Other,common,diagnosis,False,Epidermoid Cyst,Epidermoid Cyst,Unclassified
+641,Neoplastic,common,diagnosis,False,Basal Cell Carcinoma,Basal Cell Carcinoma,Malignant
+642,Neoplastic,moderate,diagnosis,False,Cancer Therapy-Induced Thrombocytopenia,Cancer Therapy-Induced Thrombocytopenia,Unclassified
+643,Neoplastic,common,diagnosis,False,"Invasive Ductal Carcinoma, No Special Type",Invasive Ductal Carcinoma,Malignant
+644,Metabolic Systemic,common,diagnosis,False,Diabetic Ketoacidosis,Diabetic Ketoacidosis,Endocrine-Associated
+645,Other,common,diagnosis,False,Acute Depression,Acute Depression,Psychocutaneous
+646,Neoplastic,moderate,diagnosis,False,Metastatic Melanoma,Metastatic Melanoma,Malignant
+647,Inflammatory,moderate,diagnosis,True,Frontal Fibrosing Alopecia,Frontal Fibrosing Alopecia,Autoimmune
+648,Neoplastic,rare,diagnosis,False,Metastatic Lobular Breast Carcinoma,Metastatic Invasive Lobular Carcinoma of the Breast,Malignant
+649,Other,rare,diagnosis,True,Subungual Epidermoid Inclusion Cyst,Subungual Epidermoid Inclusion Cyst,Traumatic & Environmental
+650,Genetic Rare,rare,diagnosis,False,X-Linked Hypohidrotic Ectodermal Dysplasia,X-Linked Hypohidrotic Ectodermal Dysplasia,Syndromic
+651,Other,rare,diagnosis,False,Cutaneous Collagenous Vasculopathy,Cutaneous Collagenous Vasculopathy,Unclassified
+652,Infectious,moderate,diagnosis,False,Secondary Syphilis,Secondary Syphilis,Bacterial
+653,Genetic Rare,rare,diagnosis,False,Junctional Epidermolysis Bullosa,Junctional Epidermolysis Bullosa,Genodermatoses
+655,Inflammatory,moderate,diagnosis,False,Incomplete Kawasaki Disease,Incomplete Kawasaki Disease,Vascular & Urticarial
+657,Metabolic Systemic,rare,diagnosis,False,Cryoglobulinemia,Cryoglobulinemia,Systemic Disease Manifestations
+654,Inflammatory,moderate,diagnosis,False,Fixed Drug Eruption,Fixed Drug Eruption,Eczematous
+658,Other,moderate,diagnosis,False,Port Wine Stain With Nodular Transformation,Port-Wine Stain with Nodular Transformation,Unclassified
+659,Neoplastic,rare,diagnosis,False,"Dermatofibrosarcoma Protuberans, Fibrosarcomatous Type",Dermatofibrosarcoma Protuberans With Fibrosarcomatous Transformation,Malignant
+660,Infectious,rare,diagnosis,False,Talaromycosis (Talaromyces Marneffei Infection),Talaromycosis,Fungal
+662,Neoplastic,rare,diagnosis,False,Inflammatory Myofibroblastic Tumor,Inflammatory Myofibroblastic Tumor,Benign
+661,Neoplastic,moderate,diagnosis,False,Lymphoma,Lymphoma,Malignant
+656,Metabolic Systemic,rare,diagnosis,False,Smoldering Multiple Myeloma,Smoldering Multiple Myeloma,Systemic Disease Manifestations
+664,Inflammatory,rare,diagnosis,False,Behcet'S Disease,Behçet's Disease,Neutrophilic
+665,Neoplastic,rare,diagnosis,True,Myofibroblastoma,Myofibroblastoma,Benign
+663,Neoplastic,common,diagnosis,False,Squamous Cell Carcinoma Of The Lung,Squamous Cell Carcinoma Of The Lung,Malignant
+667,Neoplastic,common,diagnosis,False,Cutaneous Squamous Cell Carcinoma,Cutaneous Squamous Cell Carcinoma,Malignant
+668,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Related Diabetes Mellitus,Immune Checkpoint Inhibitor-Related Diabetes Mellitus,Autoimmune
+666,Inflammatory,rare,diagnosis,False,Esophageal Lichen Planus,Esophageal Lichen Planus,Papulosquamous
+669,Neoplastic,rare,mechanism,False,Melanoma-Associated Depigmentation / Immunotherapy-Induced Melanocyte Destruction,Melanoma-Associated Depigmentation,Malignant
+670,Infectious,moderate,diagnosis,False,Hepatitis B Virus Reactivation,Hepatitis B Virus Reactivation,Viral
+671,Neoplastic,common,diagnosis,False,Colorectal Adenocarcinoma,Colorectal Adenocarcinoma,Malignant
+675,Neoplastic,rare,diagnosis,True,Pagetoid Bowen'S Disease,Bowen's Disease,Premalignant
+673,Neoplastic,rare,diagnosis,False,Anorectal Malignant Melanoma,Anorectal Malignant Melanoma,Malignant
+672,Inflammatory,moderate,diagnosis,False,Calcium Hydroxylapatite Filler Nodule,Calcium Hydroxylapatite Filler Nodule,Neutrophilic
+678,Genetic Rare,rare,diagnosis,False,Nevoid Basal Cell Carcinoma Syndrome,Nevoid Basal Cell Carcinoma Syndrome,Syndromic
+679,Genetic Rare,rare,diagnosis,False,Peutz-Jeghers Syndrome,Peutz-Jeghers Syndrome,Syndromic
+680,Genetic Rare,moderate,diagnosis,True,Multicystic Dysplastic Kidney,Multicystic Dysplastic Kidney,Syndromic
+681,Inflammatory,moderate,diagnosis,False,Hidradenitis Suppurativa,Hidradenitis Suppurativa,Neutrophilic
+682,Neoplastic,moderate,diagnosis,True,Nodular Melanoma,Nodular Melanoma,Malignant
+683,Neoplastic,rare,diagnosis,False,Invasive Pleomorphic Lobular Carcinoma,Invasive Pleomorphic Lobular Carcinoma,Malignant
+674,Infectious,moderate,diagnosis,False,Chronic Diabetic Foot Osteomyelitis,Diabetic Foot Osteomyelitis,Bacterial
+685,Neoplastic,moderate,diagnosis,False,Triple-Negative Breast Cancer,Triple-Negative Breast Cancer,Malignant
+684,Neoplastic,common,diagnosis,False,Invasive Ductal Carcinoma,Invasive Ductal Carcinoma,Malignant
+686,Other,rare,diagnosis,False,Idiopathic Cd4+ T Lymphocytopenia,Idiopathic CD4+ T-Lymphocytopenia,Unclassified
+687,Inflammatory,moderate,diagnosis,False,Lupus Nephritis,Lupus Nephritis,Autoimmune
+688,Neoplastic,rare,diagnosis,False,Extraskeletal Ewing Sarcoma,Extraskeletal Ewing Sarcoma,Malignant
+689,Other,rare,diagnosis,False,General,General,Unclassified
+690,Inflammatory,moderate,diagnosis,False,Juvenile Xanthogranuloma,Juvenile Xanthogranuloma,Autoimmune
+691,Inflammatory,rare,diagnosis,False,Acquired Angioedema Due To C1-Inhibitor Deficiency,Acquired Angioedema Due To C1-Inhibitor Deficiency,Vascular & Urticarial
+693,Neoplastic,rare,diagnosis,True,Lymphomatoid Papulosis,Lymphomatoid Papulosis,Premalignant
+692,Neoplastic,moderate,diagnosis,False,Extranodal Marginal Zone Lymphoma,Extranodal Marginal Zone Lymphoma,Malignant
+696,Inflammatory,rare,diagnosis,True,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+697,Inflammatory,rare,diagnosis,False,Eosinophilic Pustular Folliculitis,Eosinophilic Pustular Folliculitis,Neutrophilic
+694,Infectious,rare,diagnosis,False,Cutaneous Anthrax,Cutaneous Anthrax,Bacterial
+698,Neoplastic,rare,diagnosis,False,Gastric-Type Endocervical Adenocarcinoma In Situ,Gastric-Type Endocervical Adenocarcinoma In Situ,Premalignant
+699,Inflammatory,moderate,diagnosis,False,Systemic Sclerosis,Systemic Sclerosis,Autoimmune
+700,Inflammatory,rare,diagnosis,False,Sapho Syndrome,SAPHO Syndrome,Neutrophilic
+701,Other,rare,diagnosis,False,Nicolau Syndrome,Nicolau Syndrome,Drug-Induced
+702,Infectious,rare,diagnosis,True,Crusted (Norwegian) Scabies,Crusted Scabies,Parasitic & Other
+703,Neoplastic,rare,diagnosis,False,Pleural Mesothelioma,Pleural Mesothelioma,Malignant
+704,Neoplastic,rare,diagnosis,False,Epidermotropic Metastatic Melanoma,Epidermotropic Metastatic Melanoma,Malignant
+705,Inflammatory,rare,diagnosis,False,Crohn'S Disease Induced By Il-17A Inhibitor Therapy,Crohn's Disease Induced by IL-17A Inhibitor Therapy,Neutrophilic
+706,Inflammatory,moderate,diagnosis,True,Oral Lichen Planus,Oral Lichen Planus,Papulosquamous
+707,Infectious,common,diagnosis,True,Candidal Stomatitis,Oral Candidiasis,Fungal
+708,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+710,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+709,Infectious,moderate,diagnosis,True,Cutaneous Leishmaniasis,Cutaneous Leishmaniasis,Parasitic & Other
+711,Genetic Rare,rare,diagnosis,False,Familial Partial Lipodystrophy Type 2 (Dunnigan Syndrome),Familial Partial Lipodystrophy Type 2,Metabolic-Genetic
+712,Genetic Rare,rare,diagnosis,False,Nail-Patella Syndrome,Nail-Patella Syndrome,Syndromic
+714,Infectious,moderate,diagnosis,False,Hcv-Related Mixed Cryoglobulinemia,HCV-Related Mixed Cryoglobulinemia,Viral
+713,Inflammatory,rare,diagnosis,False,Dapsone Hypersensitivity Syndrome,Dapsone Hypersensitivity Syndrome,Eczematous
+715,Inflammatory,rare,diagnosis,False,Hypocomplementemic Urticarial Vasculitis Syndrome,Hypocomplementemic Urticarial Vasculitis Syndrome,Vascular & Urticarial
+717,Infectious,rare,diagnosis,True,Trichodysplasia Spinulosa,Trichodysplasia Spinulosa,Viral
+719,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Myositis,Immune Checkpoint Inhibitor-Induced Myositis,Autoimmune
+718,Metabolic Systemic,rare,diagnosis,False,Aa Amyloidosis,AA Amyloidosis,Systemic Disease Manifestations
+720,Infectious,common,diagnosis,False,Tinea Pedis,Tinea Pedis,Fungal
+721,Infectious,common,diagnosis,False,Onychomycosis,Onychomycosis,Fungal
+722,Inflammatory,rare,diagnosis,True,Pyodermatitis-Pyostomatitis Vegetans,Pyodermatitis-Pyostomatitis Vegetans,Neutrophilic
+723,Inflammatory,moderate,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+724,Genetic Rare,rare,diagnosis,True,Dowling–Degos Disease,Dowling–Degos Disease,Genodermatoses
+726,Neoplastic,moderate,diagnosis,False,Glioblastoma,Glioblastoma,Malignant
+727,Infectious,common,diagnosis,True,Condyloma Acuminata,Condylomata Acuminata,Viral
+725,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Related Dysautonomia,Immune Checkpoint Inhibitor-Related Dysautonomia,Autoimmune
+730,Inflammatory,common,diagnosis,False,Psoriasis,Psoriasis,Papulosquamous
+728,Inflammatory,rare,diagnosis,False,Takayasu Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+731,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Hepatic Sarcoidosis-Like Reaction,Immune Checkpoint Inhibitor-Induced Hepatic Sarcoidosis-Like Reaction,Autoimmune
+732,Genetic Rare,rare,diagnosis,False,Hermansky-Pudlak Syndrome,Hermansky-Pudlak Syndrome,Syndromic
+733,Neoplastic,rare,diagnosis,False,Squamous Cell Carcinoma Arising In Hidradenitis Suppurativa,Squamous Cell Carcinoma Arising In Hidradenitis Suppurativa,Malignant
+734,Neoplastic,rare,diagnosis,False,Proliferating Trichilemmal Tumor,Proliferating Trichilemmal Tumor,Premalignant
+736,Inflammatory,rare,diagnosis,False,Takayasu Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+737,Inflammatory,rare,diagnosis,False,Sapho Syndrome,SAPHO Syndrome,Neutrophilic
+738,Inflammatory,moderate,diagnosis,False,Iga Vasculitis,IgA Vasculitis,Vascular & Urticarial
+740,Inflammatory,moderate,diagnosis,False,Acute Graft-Versus-Host Disease,Acute Graft-Versus-Host Disease,Autoimmune
+741,Neoplastic,rare,diagnosis,True,In Situ Vulvar Melanoma,Vulvar Melanoma In Situ,Premalignant
+742,Inflammatory,rare,diagnosis,False,Anca-Associated Vasculitis,ANCA-Associated Vasculitis,Vascular & Urticarial
+743,Other,moderate,diagnosis,False,Pulmonary Bulla,Pulmonary Bulla,Unclassified
+744,Inflammatory,rare,diagnosis,False,Acne Fulminans,Acne Fulminans,Neutrophilic
+745,Inflammatory,moderate,diagnosis,True,Discoid Lupus Erythematosus,Discoid Lupus Erythematosus,Autoimmune
+746,Pigmentation,moderate,diagnosis,False,Vitiligo,Vitiligo,Hypopigmentation
+748,Neoplastic,rare,diagnosis,True,Large Congenital Melanocytic Nevus,Large Congenital Melanocytic Nevus,Premalignant
+749,Neoplastic,rare,diagnosis,False,Congenital Melanocytic Nevus With Proliferative Nodule,Congenital Melanocytic Nevus With Proliferative Nodule,Benign
+750,Inflammatory,moderate,diagnosis,False,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+747,Infectious,rare,diagnosis,False,Trichophyton Indotineae,Trichophyton Indotineae Infection,Fungal
+751,Infectious,moderate,diagnosis,True,Cutaneous Leishmaniasis,Cutaneous Leishmaniasis,Parasitic & Other
+753,Infectious,moderate,diagnosis,False,Disseminated Leishmaniasis,Disseminated Leishmaniasis,Parasitic & Other
+754,Inflammatory,moderate,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+752,Neoplastic,moderate,diagnosis,False,Follicular Lymphoma,Follicular Lymphoma,Malignant
+755,Inflammatory,moderate,diagnosis,True,Dermatomyositis,Dermatomyositis,Autoimmune
+756,Neoplastic,common,diagnosis,False,Basal Cell Carcinoma,Basal Cell Carcinoma,Malignant
+757,Inflammatory,rare,diagnosis,False,Serum Sickness,Serum Sickness,Vascular & Urticarial
+758,Inflammatory,rare,diagnosis,False,Cryoglobulinemic Membranoproliferative Glomerulonephritis,Cryoglobulinemic Membranoproliferative Glomerulonephritis,Vascular & Urticarial
+759,Infectious,rare,diagnosis,False,Mycobacterium Abscessus Infection,Mycobacterium Abscessus Infection,Bacterial
+762,Inflammatory,moderate,diagnosis,False,Anca-Associated Vasculitis (Pauci-Immune Glomerulonephritis),ANCA-Associated Vasculitis,Vascular & Urticarial
+760,Pigmentation,rare,diagnosis,True,Mitragyna Speciosa-Induced Hyperpigmentation,Mitragyna Speciosa-Induced Hyperpigmentation,Hyperpigmentation
+763,Neoplastic,rare,diagnosis,True,Schwannoma,Schwannoma,Benign
+761,Infectious,moderate,diagnosis,False,Non-Tuberculous Mycobacterial Skin Infection,Non-Tuberculous Mycobacterial Skin Infection,Bacterial
+765,Inflammatory,rare,diagnosis,True,Toxic Epidermal Necrolysis,Toxic Epidermal Necrolysis,Autoimmune
+764,Genetic Rare,rare,diagnosis,True,Xeroderma Pigmentosum,Xeroderma Pigmentosum,Genodermatoses
+767,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+768,Neoplastic,rare,diagnosis,False,Verrucous Carcinoma,Verrucous Carcinoma,Malignant
+766,Inflammatory,rare,diagnosis,False,Stevens-Johnson Syndrome,Stevens-Johnson Syndrome,Autoimmune
+769,Other,moderate,diagnosis,False,Minoxidil-Induced Hypertrichosis,Minoxidil-Induced Hypertrichosis,Drug-Induced
+771,Metabolic Systemic,rare,diagnosis,False,Insulinoma,Insulinoma,Endocrine-Associated
+770,Inflammatory,rare,diagnosis,False,Systemic Necrotizing Vasculitis (Pr3-Anca-Associated),Systemic Necrotizing Vasculitis,Vascular & Urticarial
+773,Neoplastic,rare,diagnosis,False,Malignant Phyllodes Tumor,Malignant Phyllodes Tumor,Malignant
+772,Neoplastic,common,diagnosis,False,"Breast Cancer, Her-2 Overexpression Subtype","Breast Cancer, HER2-Positive Subtype",Malignant
+774,Neoplastic,rare,diagnosis,False,Borderline Phyllodes Tumor,Borderline Phyllodes Tumor,Premalignant
+776,Inflammatory,moderate,diagnosis,False,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+777,Inflammatory,rare,diagnosis,False,Vogt-Koyanagi-Harada-Like Syndrome,Vogt-Koyanagi-Harada Syndrome,Autoimmune
+775,Genetic Rare,rare,diagnosis,False,Junctional Epidermolysis Bullosa,Junctional Epidermolysis Bullosa,Genodermatoses
+778,Other,rare,diagnosis,False,Cocaine-Induced Midline Destructive Lesion (Cimdl) / Cocaine-Levamisole-Associated Autoimmune Syndrome,Cocaine-Levamisole-Associated Autoimmune Syndrome,Drug-Induced
+779,Inflammatory,rare,diagnosis,False,Cocaine/Levamisole-Associated Autoimmune Syndrome (Claas),Cocaine-Levamisole-Associated Vasculopathy,Vascular & Urticarial
+781,Inflammatory,moderate,diagnosis,False,Iga Vasculitis Nephritis,IgA Vasculitis with Nephritis,Vascular & Urticarial
+780,Metabolic Systemic,common,diagnosis,False,Primary Hypertension With Hypertensive Nephrosclerosis,Primary Hypertension With Hypertensive Nephrosclerosis,Systemic Disease Manifestations
+782,Other,rare,diagnosis,False,Primary Mastoid Congenital Cholesteatoma,Primary Mastoid Congenital Cholesteatoma,Unclassified
+783,Inflammatory,moderate,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+784,Inflammatory,rare,diagnosis,False,Ticagrelor-Induced Drug Eruption,Ticagrelor-Induced Drug Eruption,Vascular & Urticarial
+785,Inflammatory,rare,diagnosis,False,Satoyoshi Syndrome,Satoyoshi Syndrome,Autoimmune
+786,Other,rare,diagnosis,False,Giant Emphysematous Bulla,Giant Emphysematous Bulla,Unclassified
+788,Infectious,rare,diagnosis,False,Progressive Multifocal Leukoencephalopathy,Progressive Multifocal Leukoencephalopathy,Viral
+787,Inflammatory,rare,diagnosis,False,Pemphigoid Gestationis,Pemphigoid Gestationis,Autoimmune
+789,Neoplastic,common,diagnosis,False,Invasive Ductal Carcinoma With Focal Mucinous Differentiation,Invasive Ductal Carcinoma With Focal Mucinous Differentiation,Malignant
+790,Metabolic Systemic,rare,diagnosis,False,Gastric Antral Vascular Ectasia,Gastric Antral Vascular Ectasia,Systemic Disease Manifestations
+791,Inflammatory,moderate,diagnosis,False,Systemic Sclerosis (Limited Cutaneous),Systemic Sclerosis,Autoimmune
+794,Neoplastic,common,diagnosis,False,Malignant Melanoma,Melanoma,Malignant
+793,Neoplastic,moderate,diagnosis,True,Pilomatrixoma,Pilomatricoma,Benign
+798,Neoplastic,rare,diagnosis,True,Mucinous Cystadenocarcinoma Of The Breast,Mucinous Cystadenocarcinoma Of The Breast,Malignant
+799,Infectious,common,diagnosis,False,Tinea Faciei,Tinea Faciei,Fungal
+800,Inflammatory,rare,diagnosis,False,Behçet Syndrome,Behçet's Disease,Neutrophilic
+797,Inflammatory,rare,diagnosis,False,Anti-Mda5 Antibody-Positive Dermatomyositis,Anti-MDA5 Antibody-Associated Dermatomyositis,Autoimmune
+802,Inflammatory,rare,diagnosis,False,Pustular Psoriasis With Polymyositis,Pustular Psoriasis With Polymyositis,Neutrophilic
+801,Inflammatory,moderate,diagnosis,False,Iga Vasculitis With Nephritis,IgA Vasculitis with Nephritis,Vascular & Urticarial
+804,Metabolic Systemic,moderate,diagnosis,False,Porphyria Cutanea Tarda,Porphyria Cutanea Tarda,Endocrine-Associated
+803,Genetic Rare,rare,diagnosis,False,Epidermolytic Ichthyosis,Epidermolytic Ichthyosis,Genodermatoses
+805,Inflammatory,moderate,diagnosis,False,Systemic Lupus Erythematosus,Systemic Lupus Erythematosus,Autoimmune
+806,Genetic Rare,rare,diagnosis,False,Congenital Erosive And Vesicular Dermatosis,Congenital Erosive And Vesicular Dermatosis,Genodermatoses
+807,Inflammatory,rare,diagnosis,False,Drug Reaction With Eosinophilia And Systemic Symptoms,Drug Reaction With Eosinophilia And Systemic Symptoms (DRESS) Syndrome,Eczematous
+808,Hair Nail,rare,diagnosis,True,Trichostasis Spinulosa,Trichostasis Spinulosa,Hair Excess
+811,Other,moderate,diagnosis,False,Secondary Raynaud'S Phenomenon Due To Local Cold Injury,Secondary Raynaud's Phenomenon,Unclassified
+812,Infectious,rare,diagnosis,False,Mycobacterium Marinum Infection,Mycobacterium Marinum Infection,Bacterial
+810,Genetic Rare,rare,diagnosis,False,Cardiofaciocutaneous Syndrome,Cardiofaciocutaneous Syndrome,Syndromic
+813,Infectious,moderate,diagnosis,False,Furunculosis Due To Panton-Valentine Leukocidin-Positive Staphylococcus Aureus,Furunculosis Due To Panton-Valentine Leukocidin-Positive Staphylococcus Aureus,Bacterial
+814,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+815,Infectious,rare,diagnosis,True,Mucosal Leishmaniasis,Mucosal Leishmaniasis,Parasitic & Other
+809,Other,rare,diagnosis,False,Granulomatous Variant Of Centrifugal Miliaria Profunda,Granulomatous Variant Of Centrifugal Miliaria Profunda,Traumatic & Environmental
+817,Neoplastic,rare,diagnosis,False,Melanoma Of Unknown Primary,Melanoma Of Unknown Primary,Malignant
+818,Neoplastic,rare,diagnosis,True,Atypical Perilobular Hemangioma,Atypical Perilobular Hemangioma,Vascular Tumours
+820,Neoplastic,rare,diagnosis,True,Primary Anorectal Malignant Melanoma,Primary Anorectal Malignant Melanoma,Malignant
+819,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+821,Inflammatory,rare,diagnosis,False,Takayasu'S Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+823,Inflammatory,rare,diagnosis,False,Generalized Pustular Psoriasis,Generalized Pustular Psoriasis,Papulosquamous
+822,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Bilateral Carpal Tunnel Syndrome,Immune Checkpoint Inhibitor-Induced Bilateral Carpal Tunnel Syndrome,Autoimmune
+824,Inflammatory,rare,diagnosis,False,Acrodermatitis Continua Of Hallopeau,Acrodermatitis Continua of Hallopeau,Neutrophilic
+825,Infectious,rare,diagnosis,False,Melioidosis,Melioidosis,Bacterial
+829,Inflammatory,moderate,diagnosis,False,Palmoplantar Psoriasis,Palmoplantar Psoriasis,Papulosquamous
+826,Neoplastic,rare,diagnosis,False,Smoldering Multiple Myeloma With Paraneoplastic Leukocytoclastic Vasculitis,Smoldering Multiple Myeloma With Paraneoplastic Leukocytoclastic Vasculitis,Malignant
+828,Inflammatory,rare,diagnosis,False,Chronic Recurrent Multifocal Osteomyelitis,Chronic Recurrent Multifocal Osteomyelitis,Neutrophilic
+830,Pigmentation,moderate,diagnosis,True,Acanthosis Nigricans,Acanthosis Nigricans,Hyperpigmentation
+831,Inflammatory,moderate,diagnosis,True,Iga Vasculitis,IgA Vasculitis,Vascular & Urticarial
+832,Inflammatory,moderate,diagnosis,True,Pustular Psoriasis,Pustular Psoriasis,Neutrophilic
+833,Inflammatory,moderate,diagnosis,True,Hidradenitis Suppurativa,Hidradenitis Suppurativa,Neutrophilic
+837,Neoplastic,rare,diagnosis,False,Trans-Differentiated Melanoma With Rhabdomyosarcomatous Differentiation,Trans-Differentiated Melanoma With Rhabdomyosarcomatous Differentiation,Malignant
+834,Inflammatory,rare,diagnosis,False,"Asia Syndrome With Silicosis, Systemic Sclerosis, And Sjögren'S Syndrome","ASIA Syndrome with Silicosis, Systemic Sclerosis, and Sjögren's Syndrome",Autoimmune
+838,Metabolic Systemic,common,diagnosis,False,Iron Deficiency Anemia,Iron Deficiency Anemia,Nutritional
+836,Inflammatory,moderate,diagnosis,True,Dermatomyositis,Dermatomyositis,Autoimmune
+839,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+840,Neoplastic,rare,diagnosis,False,Cutaneous Angiosarcoma,Cutaneous Angiosarcoma,Malignant
+841,Neoplastic,rare,diagnosis,False,Alk-Negative Anaplastic Large Cell Lymphoma,ALK-Negative Anaplastic Large Cell Lymphoma,Malignant
+842,Inflammatory,moderate,diagnosis,False,Discoid Lupus Erythematosus,Discoid Lupus Erythematosus,Autoimmune
+844,Inflammatory,rare,diagnosis,False,Insulin Autoimmune Syndrome,Insulin Autoimmune Syndrome,Autoimmune
+846,Neoplastic,rare,diagnosis,False,Encapsulated Papillary Carcinoma,Encapsulated Papillary Carcinoma,Malignant
+847,Neoplastic,rare,diagnosis,False,Encapsulated Papillary Carcinoma,Encapsulated Papillary Carcinoma,Malignant
+848,Neoplastic,moderate,diagnosis,True,Nodular Malignant Melanoma,Nodular Melanoma,Malignant
+851,Infectious,rare,diagnosis,True,Crusted Scabies,Crusted Scabies,Parasitic & Other
+849,Infectious,rare,diagnosis,False,Naganishia Albida (Cryptococcus Albidus) Infection,Naganishia Albida Infection,Fungal
+850,Infectious,rare,diagnosis,True,Crusted Scabies,Crusted Scabies,Parasitic & Other
+845,Inflammatory,moderate,diagnosis,False,Subacute Cutaneous Lupus Erythematosus,Subacute Cutaneous Lupus Erythematosus,Autoimmune
+852,Infectious,rare,diagnosis,False,Disseminated Bartonella Henselae Infection,Disseminated Bartonella henselae Infection,Bacterial
+853,Neoplastic,rare,diagnosis,False,Primary Oral Mucosal Melanoma,Primary Oral Mucosal Melanoma,Malignant
+854,Neoplastic,rare,diagnosis,False,Dermatofibrosarcoma Protuberans,Dermatofibrosarcoma Protuberans,Malignant
+855,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+857,Inflammatory,moderate,diagnosis,True,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+856,Infectious,rare,diagnosis,False,Pediculus Humanus Capitis Infestation Of The Eyelashes,Pediculus Humanus Capitis Infestation of the Eyelashes,Parasitic & Other
+858,Inflammatory,rare,diagnosis,False,Systemic Contact Dermatitis,Systemic Contact Dermatitis,Eczematous
+859,Inflammatory,rare,diagnosis,True,Linear Psoriasis,Linear Psoriasis,Papulosquamous
+861,Neoplastic,common,diagnosis,False,Papillary Thyroid Carcinoma,Papillary Thyroid Carcinoma,Malignant
+860,Infectious,moderate,diagnosis,False,Erysipelas,Erysipelas,Bacterial
+863,Neoplastic,rare,diagnosis,False,Dermatofibrosarcoma Protuberans,Dermatofibrosarcoma Protuberans,Malignant
+862,Neoplastic,rare,diagnosis,True,Corneoscleral Mixed Hemangioma,Corneoscleral Mixed Hemangioma,Vascular Tumours
+865,Inflammatory,rare,diagnosis,False,Drug Reaction With Eosinophilia And Systemic Symptoms (Dress) Syndrome,Drug Reaction With Eosinophilia And Systemic Symptoms (DRESS) Syndrome,Eczematous
+866,Inflammatory,moderate,diagnosis,True,Dermatomyositis,Dermatomyositis,Autoimmune
+864,Inflammatory,moderate,diagnosis,False,Iga Vasculitis (Henoch-Schönlein Purpura) Nephritis,IgA Vasculitis with Nephritis,Vascular & Urticarial
+869,Genetic Rare,rare,diagnosis,False,Muir–Torre Syndrome,Muir–Torre Syndrome,Syndromic
+867,Inflammatory,moderate,diagnosis,True,Alopecia Areata,Alopecia Areata,Autoimmune
+868,Inflammatory,rare,diagnosis,False,Serum Sickness,Serum Sickness,Vascular & Urticarial
+870,Infectious,rare,diagnosis,True,Cutaneous Protothecosis,Cutaneous Protothecosis,Parasitic & Other
+871,Neoplastic,rare,diagnosis,False,Primary Nasal Mucosal Melanoma,Primary Nasal Mucosal Melanoma,Malignant
+873,Neoplastic,common,diagnosis,False,"Invasive Ductal Carcinoma, Her2-Positive","Invasive Ductal Carcinoma, HER2-Positive",Malignant
+875,Inflammatory,moderate,diagnosis,False,Hydroxychloroquine-Induced Pigmentation,Hydroxychloroquine-Induced Pigmentation,Unclassified
+876,Other,moderate,diagnosis,True,Central Venous Catheter Malposition,Central Venous Catheter Malposition,Traumatic & Environmental
+874,Neoplastic,rare,diagnosis,False,Hereditary Breast And Ovarian Cancer Syndrome,Hereditary Breast And Ovarian Cancer Syndrome,Premalignant
+877,Metabolic Systemic,rare,diagnosis,True,Necrobiosis Lipoidica,Necrobiosis Lipoidica,Endocrine-Associated
+878,Inflammatory,moderate,diagnosis,True,Pyoderma Gangrenosum,Pyoderma Gangrenosum,Neutrophilic
+872,Other,rare,diagnosis,False,Port-Wine Stain With Ipsilateral Dural Vascular Malformation,Port-Wine Stain with Ipsilateral Dural Vascular Malformation,Unclassified
+879,Neoplastic,common,diagnosis,False,Invasive Ductal Carcinoma Of The Breast,Invasive Ductal Carcinoma,Malignant
+880,Neoplastic,common,other,False,Invasive Ductal Carcinoma (Metastatic Breast Cancer),Invasive Ductal Carcinoma,Malignant
+881,Neoplastic,moderate,diagnosis,False,Multiple Myeloma,Multiple Myeloma,Malignant
+883,Infectious,rare,diagnosis,True,Actinomadura Madurae Actinomycetoma,Actinomycetoma,Bacterial
+885,Neoplastic,rare,diagnosis,False,Ectopic Acth Syndrome,Ectopic ACTH Syndrome,Malignant
+882,Neoplastic,moderate,diagnosis,False,Follicular Lymphoma,Follicular Lymphoma,Malignant
+884,Inflammatory,moderate,diagnosis,True,Bursitis,Bursitis,Neutrophilic
+887,Neoplastic,rare,diagnosis,False,Squamoid Eccrine Ductal Carcinoma,Squamoid Eccrine Ductal Carcinoma,Malignant
+888,Genetic Rare,rare,diagnosis,False,Recessive Dystrophic Epidermolysis Bullosa,Recessive Dystrophic Epidermolysis Bullosa,Genodermatoses
+886,Neoplastic,rare,diagnosis,True,Benign Cutaneous Plexiform Hybrid Tumor Of Perineurioma And Cellular Neurothekeoma,Benign Cutaneous Plexiform Hybrid Tumor Of Perineurioma And Cellular Neurothekeoma,Benign
+889,Inflammatory,moderate,diagnosis,False,Kawasaki Disease,Kawasaki Disease,Vascular & Urticarial
+890,Infectious,moderate,diagnosis,True,Secondary Syphilis,Secondary Syphilis,Bacterial
+891,Neoplastic,rare,diagnosis,True,Dermatofibrosarcoma Protuberans,Dermatofibrosarcoma Protuberans,Malignant
+892,Inflammatory,moderate,diagnosis,False,Pemphigus Vulgaris,Pemphigus Vulgaris,Autoimmune
+893,Inflammatory,moderate,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+894,Inflammatory,moderate,diagnosis,False,Neuropsychiatric Systemic Lupus Erythematosus,Neuropsychiatric Systemic Lupus Erythematosus,Autoimmune
+896,Inflammatory,moderate,diagnosis,True,Erythema Multiforme,Erythema Multiforme,Vascular & Urticarial
+895,Metabolic Systemic,moderate,diagnosis,False,Corticosteroid-Induced Osteonecrosis,Corticosteroid-Induced Osteonecrosis,Endocrine-Associated
+897,Metabolic Systemic,rare,diagnosis,False,Variegate Porphyria,Variegate Porphyria,Systemic Disease Manifestations
+899,Inflammatory,rare,diagnosis,False,Anti-Lgi1 Autoimmune Limbic Encephalitis,Anti-LGI1 Autoimmune Limbic Encephalitis,Autoimmune
+901,Infectious,moderate,diagnosis,True,Cutaneous Sporotrichosis,Cutaneous Sporotrichosis,Fungal
+900,Infectious,moderate,diagnosis,True,Cutaneous Sporotrichosis,Cutaneous Sporotrichosis,Fungal
+902,Inflammatory,rare,diagnosis,False,Takayasu Arteritis,Takayasu's Arteritis,Vascular & Urticarial
+904,Inflammatory,moderate,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+903,Inflammatory,rare,diagnosis,False,Anti-Pf4-Mediated Immunothrombosis (Spontaneous Hit),Anti-PF4-Mediated Immunothrombosis,Vascular & Urticarial
+906,Inflammatory,moderate,diagnosis,True,Sweet Syndrome,Sweet's Syndrome,Neutrophilic
+905,Neoplastic,rare,diagnosis,False,Acute Myeloid Leukemia With Dek::Nup214 Fusion,Acute Myeloid Leukemia With DEK::NUP214 Fusion,Malignant
+907,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+908,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+912,Genetic Rare,moderate,diagnosis,True,Neurofibromatosis Type 1,Neurofibromatosis Type 1,Syndromic
+910,Neoplastic,rare,diagnosis,True,Primary Cutaneous Adenoid Cystic Carcinoma,Primary Cutaneous Adenoid Cystic Carcinoma,Malignant
+913,Neoplastic,moderate,diagnosis,True,Acral Lentiginous Melanoma,Acral Lentiginous Melanoma,Malignant
+915,Inflammatory,moderate,diagnosis,False,Amoxicillin-Induced Exanthema In The Setting Of Active Ebv Infection,Amoxicillin-Induced Exanthema In The Setting Of Active EBV Infection,Vascular & Urticarial
+917,Neoplastic,rare,diagnosis,False,Hydroa Vacciniforme-Like Lymphoproliferative Disorder,Hydroa Vacciniforme-Like Lymphoproliferative Disorder,Malignant
+916,Infectious,moderate,diagnosis,True,Cutaneous Leishmaniasis,Cutaneous Leishmaniasis,Parasitic & Other
+914,Inflammatory,moderate,diagnosis,True,Subacute Cutaneous Lupus Erythematosus,Subacute Cutaneous Lupus Erythematosus,Autoimmune
+919,Inflammatory,rare,diagnosis,False,Eosinophilic Granulomatosis With Polyangiitis,Eosinophilic Granulomatosis with Polyangiitis,Vascular & Urticarial
+921,Neoplastic,moderate,diagnosis,True,Choroidal Melanoma,Choroidal Melanoma,Malignant
+924,Inflammatory,moderate,diagnosis,True,Palmoplantar Pustulosis,Palmoplantar Pustulosis,Neutrophilic
+928,Other,rare,diagnosis,False,Ileocecal Lipomatosis,Ileocecal Lipomatosis,Unclassified
+926,Genetic Rare,rare,diagnosis,True,Self-Improving Collodion Ichthyosis,Self-Improving Collodion Ichthyosis,Genodermatoses
+929,Inflammatory,moderate,diagnosis,False,Systemic Lupus Erythematosus,Systemic Lupus Erythematosus,Autoimmune
+931,Inflammatory,moderate,diagnosis,False,Hemorrhagic Cystitis,Hemorrhagic Cystitis,Unclassified
+932,Metabolic Systemic,moderate,diagnosis,False,Cancer-Therapy-Related Cardiotoxicity,Cancer Therapy-Related Cardiotoxicity,Systemic Disease Manifestations
+936,Infectious,rare,diagnosis,False,Chronic Cutaneous Mucormycosis,Cutaneous Mucormycosis,Fungal
+937,Infectious,rare,diagnosis,False,Chronic Mucosal Mucormycosis,Mucosal Mucormycosis,Fungal
+933,Infectious,rare,diagnosis,False,Leishmaniasis,Leishmaniasis,Parasitic & Other
+939,Inflammatory,moderate,diagnosis,False,Kawasaki Disease,Kawasaki Disease,Vascular & Urticarial
+940,Neoplastic,rare,diagnosis,False,Eruptive Keratoacanthoma-Like Lesions,Eruptive Keratoacanthoma,Premalignant
+938,Inflammatory,rare,diagnosis,True,Cutaneous Plasmacytosis,Cutaneous Plasmacytosis,Autoimmune
+942,Neoplastic,rare,diagnosis,False,Primary Melanoma Of The Lacrimal Gland,Primary Melanoma Of The Lacrimal Gland,Malignant
+943,Inflammatory,common,diagnosis,True,Psoriasis,Psoriasis,Papulosquamous
+941,Infectious,rare,diagnosis,False,Legionella Micdadei Pneumonia,Legionella Micdadei Pneumonia,Bacterial
+944,Infectious,rare,diagnosis,False,Pulmonary Blastomycosis,Pulmonary Blastomycosis,Fungal
+945,Inflammatory,rare,diagnosis,False,Microscopic Polyangiitis,Microscopic Polyangiitis,Vascular & Urticarial
+947,Inflammatory,rare,diagnosis,False,Aseptic Lymphocytic Vasculitis-Associated Lesion (Alval),Aseptic Lymphocytic Vasculitis-Associated Lesion,Vascular & Urticarial
+948,Genetic Rare,rare,diagnosis,False,Hermansky-Pudlak Syndrome,Hermansky-Pudlak Syndrome,Syndromic
+946,Neoplastic,rare,diagnosis,False,Cutaneous Metastasis Of Colorectal Signet Ring Cell Adenocarcinoma,Cutaneous Metastasis Of Colorectal Signet Ring Cell Adenocarcinoma,Malignant
+952,Infectious,rare,diagnosis,False,Scrofuloderma,Scrofuloderma,Bacterial
+953,Infectious,moderate,diagnosis,False,Lupus Vulgaris,Lupus Vulgaris,Bacterial
+955,Neoplastic,rare,diagnosis,True,Nodular Hidradenoma,Nodular Hidradenoma,Benign
+956,Neoplastic,rare,diagnosis,True,Collision Tumor: Metastatic Melanoma Within Meningioma,Collision Tumor: Metastatic Melanoma Within Meningioma,Malignant
+951,Inflammatory,moderate,diagnosis,True,Sweet'S Syndrome,Sweet's Syndrome,Neutrophilic
+954,Inflammatory,moderate,diagnosis,True,Cutaneous Sarcoidosis,Cutaneous Sarcoidosis,Autoimmune
+957,Genetic Rare,rare,diagnosis,False,Porokeratosis Palmaris Et Plantaris Disseminata,Porokeratosis Palmaris et Plantaris Disseminata,Genodermatoses
+958,Other,rare,diagnosis,False,Giant Emphysematous Bulla,Giant Emphysematous Bulla,Unclassified
+960,Inflammatory,rare,diagnosis,False,Pemphigus Erythematosus,Pemphigus Erythematosus,Autoimmune
+959,Inflammatory,moderate,diagnosis,False,Pemphigus Vulgaris,Pemphigus Vulgaris,Autoimmune
+962,Neoplastic,moderate,diagnosis,False,Mycosis Fungoides,Mycosis Fungoides,Malignant
+964,Infectious,moderate,diagnosis,False,Babesia Microti Infection,Babesia Microti Infection,Parasitic & Other
+965,Inflammatory,moderate,diagnosis,False,Giant Cell Arteritis With Polymyalgia Rheumatica,Giant Cell Arteritis,Vascular & Urticarial
+966,Neoplastic,moderate,diagnosis,False,Metastatic Melanoma,Metastatic Melanoma,Malignant
+971,Neoplastic,moderate,diagnosis,False,Intraductal Papilloma,Intraductal Papilloma,Benign
+969,Inflammatory,rare,diagnosis,False,Bullous Pemphigoid-Like Localized Toxic Reaction,Bullous Pemphigoid-Like Localized Toxic Reaction,Eczematous
+972,Metabolic Systemic,rare,diagnosis,False,Type I Cryoglobulinemia,Type I Cryoglobulinemia,Systemic Disease Manifestations
+973,Inflammatory,rare,diagnosis,False,Generalized Pustular Psoriasis,Generalized Pustular Psoriasis,Papulosquamous
+974,Inflammatory,rare,diagnosis,False,Paraneoplastic Systemic Sclerosis,Paraneoplastic Systemic Sclerosis,Autoimmune
+963,Infectious,rare,diagnosis,True,Primary Cutaneous Tuberculosis With Concurrent Cryptococcosis,Primary Cutaneous Tuberculosis With Concurrent Cryptococcosis,Bacterial
+977,Inflammatory,common,diagnosis,False,Papulopustular Rosacea,Papulopustular Rosacea,Neutrophilic
+975,Inflammatory,rare,diagnosis,False,Toxic Epidermal Necrolysis-Like Acute Graft-Versus-Host Disease,Toxic Epidermal Necrolysis-Like Acute Graft-Versus-Host Disease,Autoimmune
+978,Inflammatory,common,diagnosis,True,Erythematotelangiectatic Rosacea,Erythematotelangiectatic Rosacea,Vascular & Urticarial
+976,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Related Myelitis,Immune Checkpoint Inhibitor-Related Myelitis,Autoimmune
+979,Inflammatory,rare,diagnosis,False,Immune Checkpoint Inhibitor-Induced Myositis With Mononeuritis Multiplex,Immune Checkpoint Inhibitor-Induced Myositis With Mononeuritis Multiplex,Autoimmune
+980,Genetic Rare,rare,diagnosis,False,Hereditary Angioedema Due To C1-Inhibitor Deficiency,Hereditary Angioedema Due To C1-Inhibitor Deficiency,Metabolic-Genetic
+982,Infectious,rare,diagnosis,False,Mucosal Leishmaniasis,Mucosal Leishmaniasis,Parasitic & Other
+983,Neoplastic,common,diagnosis,True,Infiltrating Ductal Carcinoma,Invasive Ductal Carcinoma,Malignant
+984,Inflammatory,rare,diagnosis,False,Fasciitis-Panniculitis Syndrome,Fasciitis-Panniculitis Syndrome,Neutrophilic
+986,Infectious,moderate,diagnosis,False,Cytomegalovirus Gastroduodenitis,Cytomegalovirus Gastroduodenitis,Viral
+987,Inflammatory,rare,diagnosis,False,Anti-Mda5 Antibody-Positive Dermatomyositis,Anti-MDA5 Antibody-Associated Dermatomyositis,Autoimmune
+985,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+988,Neoplastic,rare,diagnosis,False,Carcinoma En Cuirasse,Carcinoma En Cuirasse,Malignant
+990,Other,rare,diagnosis,False,Intestinal Angioedema With Normal C1-Inhibitor Function,Intestinal Angioedema With Normal C1-Inhibitor Function,Unclassified
+991,Neoplastic,rare,diagnosis,False,Inflammatory Myofibroblastic Tumor,Inflammatory Myofibroblastic Tumor,Benign
+992,Neoplastic,rare,diagnosis,True,Primary Cutaneous Mucoepidermoid Carcinoma,Primary Cutaneous Mucoepidermoid Carcinoma,Malignant
+993,Inflammatory,moderate,diagnosis,False,Atrioventricular Reentrant Tachycardia,Atrioventricular Reentrant Tachycardia,Unclassified
+994,Neoplastic,moderate,diagnosis,False,Triple-Negative Breast Cancer,Triple-Negative Breast Cancer,Malignant
+997,Neoplastic,moderate,diagnosis,False,Leptomeningeal Metastasis,Leptomeningeal Metastasis,Malignant
+998,Other,rare,diagnosis,True,Nevus Lipomatosus Superficialis,Nevus Lipomatosus Superficialis,Unclassified
+999,Inflammatory,moderate,diagnosis,False,Systemic Sclerosis,Systemic Sclerosis,Autoimmune
+1000,Inflammatory,moderate,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+1002,Genetic Rare,rare,diagnosis,True,Trichothiodystrophy,Trichothiodystrophy,Syndromic
+1001,Inflammatory,moderate,diagnosis,True,Bullous Pemphigoid,Bullous Pemphigoid,Autoimmune
+1006,Inflammatory,rare,diagnosis,False,Stevens-Johnson Syndrome,Stevens-Johnson Syndrome,Autoimmune
+1005,Infectious,moderate,diagnosis,False,Mycobacterium Avium Complex Pulmonary Disease,Mycobacterium Avium Complex Pulmonary Disease,Bacterial
+1008,Inflammatory,rare,diagnosis,False,Behçet'S Disease,Behçet's Disease,Neutrophilic
+1007,Genetic Rare,rare,diagnosis,False,Acute Intermittent Porphyria,Acute Intermittent Porphyria,Metabolic-Genetic
+1009,Genetic Rare,rare,diagnosis,False,Classical Ehlers-Danlos Syndrome,Classic Ehlers-Danlos Syndrome,Genodermatoses
+1010,Neoplastic,moderate,diagnosis,False,Schwannoma,Schwannoma,Benign
+1011,Infectious,moderate,diagnosis,False,Sporotrichosis,Sporotrichosis,Fungal
+1013,Inflammatory,rare,diagnosis,False,Radiation-Induced Morphea,Radiation-Induced Morphea,Autoimmune
+1018,Inflammatory,rare,diagnosis,False,Pemphigus Vegetans,Pemphigus Vegetans,Autoimmune
+1016,Genetic Rare,rare,diagnosis,True,Nevoid Basal Cell Carcinoma Syndrome,Nevoid Basal Cell Carcinoma Syndrome,Syndromic
+1017,Other,moderate,diagnosis,False,Gynecomastia,Gynecomastia,Unclassified
+1020,Neoplastic,rare,diagnosis,False,Primary Cutaneous Aggressive Epidermotropic Cd8+ Cytotoxic T-Cell Lymphoma,Primary Cutaneous CD8-Positive Aggressive Epidermotropic Cytotoxic T-Cell Lymphoma,Malignant
+1022,Neoplastic,rare,diagnosis,False,Malignant Pleural Mesothelioma,Malignant Pleural Mesothelioma,Malignant
+1023,Inflammatory,moderate,diagnosis,False,Alopecia Areata,Alopecia Areata,Autoimmune
+1021,Inflammatory,moderate,diagnosis,False,Acute Febrile Neutrophilic Dermatosis,Sweet's Syndrome,Neutrophilic
+1025,Neoplastic,rare,diagnosis,False,Hypopigmented Mycosis Fungoides,Hypopigmented Mycosis Fungoides,Malignant
+1026,Genetic Rare,rare,diagnosis,False,Li-Fraumeni Syndrome,Li-Fraumeni Syndrome,Syndromic
+1027,Genetic Rare,rare,diagnosis,True,Dyskeratosis Congenita,Dyskeratosis Congenita,Genodermatoses
+1028,Other,rare,diagnosis,False,Porto-Sinusoidal Vascular Disease,Porto-Sinusoidal Vascular Disease,Unclassified
+1019,Neoplastic,rare,diagnosis,False,Methotrexate-Associated Cutaneous Peripheral T-Cell Lymphoma,Methotrexate-Associated Cutaneous Peripheral T-Cell Lymphoma,Malignant
+1029,Neoplastic,rare,diagnosis,False,Medullary Thyroid Carcinoma,Medullary Thyroid Carcinoma,Malignant
+1030,Inflammatory,rare,diagnosis,False,Granulomatosis With Polyangiitis,Granulomatosis With Polyangiitis,Vascular & Urticarial
+1031,Inflammatory,moderate,diagnosis,False,Undifferentiated Spondyloarthritis,Undifferentiated Spondyloarthritis,Autoimmune
+1032,Inflammatory,moderate,diagnosis,False,Immune Checkpoint Inhibitor-Induced Hepatitis,Immune Checkpoint Inhibitor-Induced Hepatitis,Autoimmune
+1034,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+1037,Infectious,rare,diagnosis,True,Conjunctival Sporotrichosis,Conjunctival Sporotrichosis,Fungal
+1036,Other,rare,diagnosis,False,Lactolith,Lactolith,Unclassified
+1038,Inflammatory,rare,diagnosis,False,Concurrent Mpo-Anca-Associated Vasculitis And Igg4-Related Disease,Concurrent MPO-ANCA-Associated Vasculitis And IgG4-Related Disease,Autoimmune
+1039,Neoplastic,rare,diagnosis,False,Cutaneous Metastasis Of Squamous Cell Cervical Carcinoma,Cutaneous Metastasis Of Squamous Cell Cervical Carcinoma,Malignant
+1040,Inflammatory,rare,diagnosis,False,Acute Generalized Exanthematous Pustulosis,Acute Generalized Exanthematous Pustulosis,Neutrophilic
+1035,Inflammatory,moderate,diagnosis,False,Dermatomyositis,Dermatomyositis,Autoimmune
+1044,Neoplastic,rare,diagnosis,False,Smarcb1-Deficient Malignant Intraocular Tumor With Melanocytic Differentiation,SMARCB1-Deficient Malignant Intraocular Tumor With Melanocytic Differentiation,Malignant
+1046,Inflammatory,moderate,diagnosis,False,Postradiation Skin Contracture With Breast Asymmetry,Postradiation Skin Contracture With Breast Asymmetry,Unclassified
+1048,Neoplastic,rare,diagnosis,False,Intraocular Metastasis From Cutaneous Melanoma,Intraocular Metastasis From Cutaneous Melanoma,Malignant
+1045,Inflammatory,moderate,diagnosis,False,Immunoglobulin A Vasculitis (Henoch-Schönlein Purpura),IgA Vasculitis,Vascular & Urticarial
+1055,Neoplastic,rare,diagnosis,False,Adenoid Cystic Carcinoma Of The Breast,Adenoid Cystic Carcinoma of the Breast,Malignant
+1058,Other,rare,diagnosis,False,Tracheal Mucosal Keratosis,Tracheal Mucosal Keratosis,Unclassified
+898,Inflammatory,rare,mechanism,False,Botulinum Toxin Hypersensitivity Reaction,Botulinum Toxin Hypersensitivity Reaction,Vascular & Urticarial
