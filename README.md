@@ -16,12 +16,43 @@ checklist.
 
 **Contents**
 
+- [Quick check: reader-study numbers](#quick-check-reader-study-numbers)
 - [1. System requirements](#1-system-requirements)
 - [2. Installation guide](#2-installation-guide)
 - [3. Demo](#3-demo)
 - [4. Instructions for use](#4-instructions-for-use)
 - [Repository layout](#repository-layout)
 - [Data availability](#data-availability)
+
+---
+
+## Quick check: reader-study numbers
+
+The fastest way to verify the manuscript's headline results — **no GPU, no LLM API
+key, no data download, under a minute total.** The de-identified reader-study data
+ships with the repo (`results/reader_study/{responses,source_ratings}.csv`), and the
+analysis script only needs five common Python packages, not the full pipeline
+environment:
+
+```bash
+git clone <repository-url> dermrag && cd dermrag
+pip install pandas numpy scipy scikit-learn statsmodels
+python scripts/reader_study_analysis.py
+```
+
+This prints every reader-study statistic reported in the manuscript, in order:
+
+- the primary result — accuracy improvement, unaided vs. LLM-assisted (Wilcoxon
+  signed-rank)
+- descriptive change rates and citation metrics
+- inter-rater agreement
+- RAIR / RSR, overall and stratified by citation support
+- the secondary hypotheses (A/B/C)
+
+Everything below this section — system requirements, full install, the pipeline
+demo, and re-running the RAG pipeline itself — is for reviewers who additionally
+want to exercise the retrieval/answering pipeline, not just check the reader-study
+numbers.
 
 ---
 
@@ -322,17 +353,41 @@ interrupted runs are safe to restart.
 
 ### Reproducing the manuscript results
 
-Download the question sets and de-identified reader-study data from figshare (see
-[Data availability](#data-availability)) and place the question-set JSONs under
+**Reader-study numbers.** Covered above in [Quick check: reader-study
+numbers](#quick-check-reader-study-numbers) — `python
+scripts/reader_study_analysis.py`, no download, no API key, no GPU. See that
+section first if this is what you're after. `--responses`/`--source_ratings`
+point the script at a different CSV pair (e.g. a downloaded figshare copy);
+`--llm_judge_csv` and `--alt_responses_csv`/`--alt_source_ratings_csv` add the
+optional LLM-judge validation and agentic-vs-simple-RAG comparison when those
+files are available.
+
+**Benchmark (MedQA / PubMed-vignette) accuracy and everything downstream of it.**
+The retrieval corpora (`Data/`) cannot be redistributed (see
+[below](#data-availability)), so the retrieval stage cannot be re-run verbatim.
+The result CSVs for five of the eight models (`gpt5`, `llama4`, `mistrallarge2`,
+`qwen2.5`, `gemma3`) are committed in [results/](results/), so the
+benchmark-accuracy analysis reproduces **with no API key and no cost** by reading
+those CSVs directly — this is the recommended path for verifying the reported
+numbers. `gpt5mini`, `deepseekv3.1`, and `minimax2.7` are not committed, so their
+numbers aren't independently reproducible from this repo alone.
+
+Re-running any stage from scratch instead — e.g. to sanity-check the pipeline
+itself rather than just the numbers — requires the reviewer's own API key(s) for
+whichever provider(s) the chosen model(s) use (see [API access](#api-access));
+no keys are shipped with the repo, and we haven't computed a dollar estimate for
+a full re-run (per-token pricing varies by provider and changes over time, and
+scales with however many of the 8 models × 2 benchmarks × 2–3 conditions you
+choose to re-run — one LLM call per question per stage, so the row count of the
+corresponding CSV in [results/](results/) is a lower bound on calls for that
+model/benchmark/condition). `provider: local` (self-hosted vLLM/TGI) avoids API
+cost entirely but needs a GPU. To re-run, first download the question sets from
+figshare (see [Data availability](#data-availability)) and place them under
 `data/derma/`, which is where the configs in `configs/` expect them:
 
 ```bash
 mkdir -p data/derma   # then copy medqa_derma_final.json, pubmed_vignettes_medqa.json, … here
 ```
-
-The retrieval corpora (`Data/`) cannot be redistributed (see below), so the retrieval
-stage cannot be re-run verbatim; every downstream stage can be reproduced from the
-committed per-model result CSVs in [results/](results/).
 
 Full pipeline, per benchmark (`medqa` = curated exam-style questions, `pubmed` =
 case-report vignettes):
@@ -365,6 +420,8 @@ Analyses and figures, once the result CSVs exist:
 
 | Analysis | Entry point |
 |---|---|
+| Reader-study numbers (accuracy, RAIR/RSR, RAIR/RSR by citation support, inter-rater agreement) | [scripts/reader_study_analysis.py](scripts/reader_study_analysis.py) — see [Quick check](#quick-check-reader-study-numbers) above |
+| Reader-study figures (accuracy, reliance, change flows, agreement) | [notebooks/reader_study_accuracy.ipynb](notebooks/reader_study_accuracy.ipynb), [notebooks/reader_study_reliance.ipynb](notebooks/reader_study_reliance.ipynb), [notebooks/reader_study_change_flows.ipynb](notebooks/reader_study_change_flows.ipynb), [notebooks/rsr_by_citation_support.ipynb](notebooks/rsr_by_citation_support.ipynb) |
 | Benchmark accuracy, base vs RAG, per model | [notebooks/llm_accuracy.ipynb](notebooks/llm_accuracy.ipynb) |
 | Question metadata (disease category, type, structure, quality) | [scripts/categorize_questions.py](scripts/categorize_questions.py), [scripts/label_question_structure.py](scripts/label_question_structure.py), [scripts/flag_question_quality.py](scripts/flag_question_quality.py), [scripts/assign_subcategories.py](scripts/assign_subcategories.py), [scripts/dedup_diseases.py](scripts/dedup_diseases.py) |
 | Question-type and disease-category distributions | [notebooks/question_type_distribution.ipynb](notebooks/question_type_distribution.ipynb), [notebooks/dermatology_radial_tree.ipynb](notebooks/dermatology_radial_tree.ipynb) |
@@ -372,26 +429,7 @@ Analyses and figures, once the result CSVs exist:
 | Citation faithfulness | [run_faithfulness_judge.py](run_faithfulness_judge.py) → [analyze_faithfulness.py](analyze_faithfulness.py); counterfactual evidence swaps: [analyze_counterfactual.py](analyze_counterfactual.py) |
 | Citation precision / support vs correctness | [notebooks/citation_precision_support_plots.ipynb](notebooks/citation_precision_support_plots.ipynb), [notebooks/support_correctness_relationship.ipynb](notebooks/support_correctness_relationship.ipynb), [notebooks/citation_agreement_accuracy.ipynb](notebooks/citation_agreement_accuracy.ipynb) |
 | Error taxonomy of wrong answers | [scripts/classify_error_types.py](scripts/classify_error_types.py) |
-| Reader-study numbers (accuracy, RAIR/RSR, RAIR/RSR by citation support, inter-rater agreement) | [scripts/reader_study_analysis.py](scripts/reader_study_analysis.py) — prints every statistic in the reader-study section of the manuscript; see below |
-| Reader-study figures (accuracy, reliance, change flows, agreement) | [notebooks/reader_study_accuracy.ipynb](notebooks/reader_study_accuracy.ipynb), [notebooks/reader_study_reliance.ipynb](notebooks/reader_study_reliance.ipynb), [notebooks/reader_study_change_flows.ipynb](notebooks/reader_study_change_flows.ipynb), [notebooks/rsr_by_citation_support.ipynb](notebooks/rsr_by_citation_support.ipynb) |
 | Skin-tone and sex subgroup analyses | [scripts/classify_skin_tone.py](scripts/classify_skin_tone.py), [scripts/analyze_skin_gender_llm.py](scripts/analyze_skin_gender_llm.py) |
-
-The de-identified reader-study data (`results/reader_study/responses.csv`,
-`source_ratings.csv`) ships with the repo, so the numbers reproduce with no
-download and no API key:
-
-```bash
-python scripts/reader_study_analysis.py
-```
-
-This prints the primary accuracy-improvement test, descriptive change rates,
-RAIR/RSR (overall and by citation support), inter-rater agreement, and the
-secondary hypotheses (A/B/C) directly to stdout. Pass
-`--responses`/`--source_ratings` to point it at a different CSV pair (e.g. to
-re-run on a downloaded figshare copy); `--llm_judge_csv` and
-`--alt_responses_csv`/`--alt_source_ratings_csv` add the optional LLM-judge
-validation and agentic-vs-simple-RAG comparison when those files are
-available.
 
 Free-text answers from open-weight models occasionally arrive with commentary around
 the answer; [clean_llm_outputs.py](clean_llm_outputs.py) extracts the selected answer into a
