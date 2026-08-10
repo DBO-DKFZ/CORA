@@ -328,6 +328,274 @@ def descriptive_citation_metrics(src: pd.DataFrame, bootstrap_n: int, seed: int)
     print(f"    Proportion = {mean_s:.4f}  95 % CI [{lo_s:.4f}, {hi_s:.4f}]")
 
 
+# ─────────────────────────── RAIR / RSR (appropriate reliance) ──────────────
+
+def reliance_metrics(ini: np.ndarray, fin: np.ndarray, llm: np.ndarray,
+                     adopt: np.ndarray) -> dict:
+    """RAIR/RSR and related reliance metrics (Schemmer et al. 2023, CHI) on a
+    (sub)sample. The two conflict quadrants are where the physician's unaided
+    answer and the LLM disagree — RAIR is measured on qA, RSR on qB."""
+    a = (~ini) & llm            # RAIR denominator: unaided wrong, LLM right
+    b =  ini  & (~llm)          # RSR  denominator: unaided right, LLM wrong
+    return {
+        "acc_unaided":  ini.mean(),
+        "acc_assisted": fin.mean(),
+        "acc_llm":      llm.mean(),
+        "rair":         adopt[a].mean() if a.sum() else np.nan,   # adopt correct advice
+        "rsr":          fin[b].mean()   if b.sum() else np.nan,   # keep correct answer
+        "adopt_wrong":  adopt[b].mean() if b.sum() else np.nan,   # adopt incorrect advice
+    }
+
+
+def _cluster_bootstrap(pid: np.ndarray, n: int, seed: int):
+    """Yield n physician-clustered resamples of row indices."""
+    pids = np.unique(pid)
+    idx_by_pid = {p: np.where(pid == p)[0] for p in pids}
+    rng = np.random.default_rng(seed)
+    for _ in range(n):
+        draw = rng.choice(pids, size=len(pids), replace=True)
+        yield np.concatenate([idx_by_pid[p] for p in draw])
+
+
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float, float]:
+    """Wilson score 95 % CI for a binomial proportion; returns (p, lo, hi)."""
+    if n == 0:
+        return (np.nan, np.nan, np.nan)
+    p = k / n
+    d = 1 + z * z / n
+    centre = (p + z * z / (2 * n)) / d
+    half = z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n)) / d
+    return p, max(0.0, centre - half), min(1.0, centre + half)
+
+
+def newcombe_diff(k1: int, n1: int, k2: int, n2: int,
+                  z: float = 1.96) -> tuple[float, float, float]:
+    """Newcombe (1998) method 10 hybrid-score 95 % CI for p1 - p2 (independent props)."""
+    if n1 == 0 or n2 == 0:
+        return (np.nan, np.nan, np.nan)
+    p1, l1, u1 = wilson(k1, n1, z)
+    p2, l2, u2 = wilson(k2, n2, z)
+    d = p1 - p2
+    return (d,
+            d - np.sqrt((p1 - l1) ** 2 + (u2 - p2) ** 2),
+            d + np.sqrt((u1 - p1) ** 2 + (p2 - l2) ** 2))
+
+
+def gwet_ac1_binary(subject_ratings) -> tuple[float, int]:
+    """Gwet's (2008) AC1 for a binary label with multiple raters per subject and
+    an unequal rater count across subjects. Returns (AC1, n_subjects_used)."""
+    pas, pis, used = [], [], 0
+    for r in subject_ratings:
+        r = np.asarray(r, float)
+        r = r[~np.isnan(r)]
+        ri = r.size
+        if ri < 2:                       # need >=2 raters to observe agreement
+            continue
+        used += 1
+        n1 = r.sum()
+        n0 = ri - n1
+        pas.append((n1 * (n1 - 1) + n0 * (n0 - 1)) / (ri * (ri - 1)))
+        pis.append(n1 / ri)
+    if used == 0:
+        return np.nan, 0
+    pa, pi1 = np.mean(pas), np.mean(pis)
+    pe = 2 * pi1 * (1 - pi1)             # K=2 categories
+    return ((pa - pe) / (1 - pe) if pe < 1 else np.nan), used
+
+
+def rair_rsr_overall(resp: pd.DataFrame, bootstrap_n: int, seed: int):
+    """RAIR / RSR (Schemmer et al. 2023, CHI): appropriate reliance on the
+    physician-LLM conflict quadrants. Returns the answered-only frame plus the
+    reliance arrays, for reuse by the citation-support stratification below."""
+    section("RAIR / RSR: Appropriate Reliance (Schemmer et al. 2023, CHI)")
+
+    d = resp[resp["answered"]].copy()
+    ini   = d["initial_correct"].to_numpy(bool)
+    fin   = d["final_correct"].to_numpy(bool)
+    llm   = d["llm_is_correct"].to_numpy(bool)
+    adopt = d["final_eq_llm"].to_numpy(bool)
+    pid   = d["pid"].to_numpy()
+
+    qA = (~ini) &  llm   # unaided wrong, LLM right   -> should adopt      (RAIR)
+    qB =  ini  & (~llm)  # unaided right, LLM wrong   -> should self-rely  (RSR)
+
+    print(f"\n  N = {len(d)} answered questions, {d['pid'].nunique()} physicians")
+    print(f"  RAIR quadrant (unaided wrong & LLM right): {int(qA.sum())}")
+    print(f"  RSR  quadrant (unaided right & LLM wrong): {int(qB.sum())}")
+
+    pt = reliance_metrics(ini, fin, llm, adopt)
+    keys = ["acc_unaided", "acc_assisted", "acc_llm", "rair", "rsr", "adopt_wrong"]
+    boot = {k: [] for k in keys}
+    for ridx in _cluster_bootstrap(pid, bootstrap_n, seed):
+        m = reliance_metrics(ini[ridx], fin[ridx], llm[ridx], adopt[ridx])
+        for k in keys:
+            boot[k].append(m[k])
+    boot = {k: np.array(v, float) for k, v in boot.items()}
+
+    def _ci(k):
+        a = boot[k][~np.isnan(boot[k])]
+        return np.percentile(a, 2.5), np.percentile(a, 97.5)
+
+    def _show(label, k):
+        lo, hi = _ci(k)
+        print(f"    {label:<28} {pt[k]*100:5.1f}%   95 % CI [{lo*100:4.1f}, {hi*100:4.1f}]")
+
+    print("\n  Accuracy")
+    _show("Physician unaided", "acc_unaided")
+    _show("Physician + RAG",   "acc_assisted")
+    _show("LLM (RAG) alone",   "acc_llm")
+    print("\n  Appropriate reliance")
+    _show("RAIR  (adopt good advice)", "rair")
+    _show("RSR   (resist bad advice)", "rsr")
+
+    return d, ini, fin, llm, adopt, qA, qB
+
+
+def rair_rsr_by_citation_support(d: pd.DataFrame, ini: np.ndarray, fin: np.ndarray,
+                                 llm: np.ndarray, adopt: np.ndarray, qA: np.ndarray,
+                                 qB: np.ndarray, bootstrap_n: int, seed: int):
+    """EXPLORATORY (not preregistered): RAIR/RSR stratified by whether the
+    physician's own source ratings show >=1 citation supporting CORA's advice.
+    RAIR is recomputed on qA, RSR on qB, within each stratum; pooling the two
+    strata must exactly reproduce the overall values from rair_rsr_overall()."""
+    section("EXPLORATORY: RAIR / RSR by CORA Citation-Support Level")
+    print("\n  Not part of the preregistered confirmatory hypothesis family (A1/B1/C1).")
+    print("  No confirmatory p-values; 95 % CIs only, hypothesis-generating.")
+
+    MIN_DENOM = 10
+    precision = (d["n_support"] / d["n_support_rated"]).to_numpy(float)
+
+    hi = d["any_source_supports"].to_numpy(bool)   # >=1 cited source rated Supports
+    lo = ~hi                                        # none of the cited sources support
+    STRATIFIER_LABEL = "any cited source supports (n_support >= 1)"
+
+    print(f"\n  Stratifier: {STRATIFIER_LABEL} -- ANY vs NO citation support")
+    print(f"    any-support rows: {int(hi.sum()):4d}   no-support rows: {int(lo.sum()):4d}")
+    print(f"    RAIR subset qA -> any {int((qA & hi).sum())} / none {int((qA & lo).sum())}")
+    print(f"    RSR  subset qB -> any {int((qB & hi).sum())} / none {int((qB & lo).sum())}"
+          f"   (CORA-wrong subset is small)")
+
+    strata = {"high": hi, "low": lo}
+    rows = []
+    for s, mask in strata.items():
+        cnt = {
+            "rair": (int(adopt[qA & mask].sum()), int((qA & mask).sum())),
+            "rsr":  (int(fin[qB & mask].sum()),   int((qB & mask).sum())),
+        }
+        for metric, (num, den) in cnt.items():
+            est, clo, chi = wilson(num, den)
+            rows.append({"metric": metric.upper(), "stratum": s,
+                        "numerator": num, "denominator": den,
+                        "estimate": est, "wilson_lo": clo, "wilson_hi": chi,
+                        "too_small": den < MIN_DENOM})
+    strat_tbl = pd.DataFrame(rows)
+
+    # Reconciliation: pooled strata must equal the overall RAIR / RSR exactly.
+    for metric, onum, oden in [("RAIR", int(adopt[qA].sum()), int(qA.sum())),
+                               ("RSR",  int(fin[qB].sum()),   int(qB.sum()))]:
+        sub = strat_tbl[strat_tbl.metric == metric]
+        pnum, pden = int(sub.numerator.sum()), int(sub.denominator.sum())
+        assert pnum == onum and pden == oden, \
+            f"{metric} strata don't pool to the overall value"
+
+    # Reader-clustered bootstrap for each stratum + the high-minus-low differences.
+    bkeys = ["rair_high", "rair_low", "rsr_high", "rsr_low", "rair_diff", "rsr_diff"]
+    sboot = {k: [] for k in bkeys}
+    for ridx in _cluster_bootstrap(d["pid"].to_numpy(), bootstrap_n, seed):
+        m_hi, m_lo = hi[ridx], lo[ridx]
+        qA_r, qB_r = qA[ridx], qB[ridx]
+        ad, fn = adopt[ridx], fin[ridx]
+        e = {}
+        for name, sub in [("high", m_hi), ("low", m_lo)]:
+            da, db = qA_r & sub, qB_r & sub
+            e[f"rair_{name}"] = ad[da].mean() if da.sum() else np.nan
+            e[f"rsr_{name}"]  = fn[db].mean() if db.sum() else np.nan
+        e["rair_diff"] = e["rair_high"] - e["rair_low"]
+        e["rsr_diff"]  = e["rsr_high"]  - e["rsr_low"]
+        for k in bkeys:
+            sboot[k].append(e[k])
+    sboot = {k: np.array(v, float) for k, v in sboot.items()}
+
+    def _boot_ci(k):
+        a = sboot[k][~np.isnan(sboot[k])]
+        if a.size == 0:
+            return (np.nan, np.nan, np.nan)
+        return a.mean(), np.percentile(a, 2.5), np.percentile(a, 97.5)
+
+    bmap = {("RAIR", "high"): "rair_high", ("RAIR", "low"): "rair_low",
+           ("RSR", "high"): "rsr_high",   ("RSR", "low"): "rsr_low"}
+    strat_tbl["boot_lo"] = np.nan
+    strat_tbl["boot_hi"] = np.nan
+    for i, r in strat_tbl.iterrows():
+        _, blo, bhi = _boot_ci(bmap[(r["metric"], r["stratum"])])
+        strat_tbl.at[i, "boot_lo"] = blo
+        strat_tbl.at[i, "boot_hi"] = bhi
+
+    diff_rows = []
+    for metric in ("RAIR", "RSR"):
+        sub = strat_tbl[strat_tbl.metric == metric].set_index("stratum")
+        kh, nh = int(sub.loc["high", "numerator"]), int(sub.loc["high", "denominator"])
+        kl, nl = int(sub.loc["low",  "numerator"]), int(sub.loc["low",  "denominator"])
+        dv, nlo, nhi = newcombe_diff(kh, nh, kl, nl)
+        _, blo, bhi = _boot_ci("rair_diff" if metric == "RAIR" else "rsr_diff")
+        diff_rows.append({"metric": metric, "diff_high_minus_low": dv,
+                          "newcombe_lo": nlo, "newcombe_hi": nhi,
+                          "boot_lo": blo, "boot_hi": bhi,
+                          "high_n": nh, "low_n": nl})
+    diff_tbl = pd.DataFrame(diff_rows).set_index("metric")
+
+    # Threshold sensitivity: is the RSR effect's direction stable across cuts?
+    SENS = [("any (>=1 source)", 1e-9), ("majority (>=50%)", 0.5), ("unanimous (all)", 1.0)]
+    sens_rows = []
+    for label, thr in SENS:
+        mh = precision >= thr
+        ml = ~mh
+        rh = adopt[qA & mh].mean() if (qA & mh).sum() else np.nan
+        rl = adopt[qA & ml].mean() if (qA & ml).sum() else np.nan
+        sh = fin[qB & mh].mean()   if (qB & mh).sum() else np.nan
+        sl = fin[qB & ml].mean()   if (qB & ml).sum() else np.nan
+        sens_rows.append({"threshold": label, "rsr_diff": sh - sl, "rair_diff": rh - rl})
+    sens_tbl = pd.DataFrame(sens_rows)
+    signs = np.sign(sens_tbl["rsr_diff"].dropna())
+    stable = len(signs) > 0 and signs.nunique() == 1
+
+    # Gwet's AC1: inter-rater reliability of the stratifier itself.
+    q_ratings = (d.groupby("question_id")["any_source_supports"]
+                  .apply(lambda s: s.astype(float).to_numpy()))
+    ac1, n_used = gwet_ac1_binary(list(q_ratings))
+    print(f"\n  Support IRR: Gwet's AC1 = {ac1:.3f} on 'any_source_supports' "
+          f"({n_used} of {q_ratings.size} questions, >=2 raters)")
+
+    def _p(x):
+        return "  n/a" if (x is None or (isinstance(x, float) and np.isnan(x))) else f"{x*100:5.1f}%"
+
+    stratum_name = {"high": "any ", "low": "none"}
+    for metric in ("RAIR", "RSR"):
+        print(f"\n  {metric}:")
+        for _, r in strat_tbl[strat_tbl.metric == metric].iterrows():
+            flag = "   <-- n<10: TOO SMALL for stable estimation" if r.too_small else ""
+            print(f"    {stratum_name[r.stratum]} {int(r.numerator):3d}/{int(r.denominator):3d}"
+                  f" = {_p(r.estimate)}   Wilson [{_p(r.wilson_lo)},{_p(r.wilson_hi)}]"
+                  f"   reader-boot [{_p(r.boot_lo)},{_p(r.boot_hi)}]{flag}")
+        dr = diff_tbl.loc[metric]
+        print(f"    any-none: {dr.diff_high_minus_low*100:+5.1f} pts"
+              f"   Newcombe [{dr.newcombe_lo*100:+.1f},{dr.newcombe_hi*100:+.1f}]"
+              f"   reader-boot [{dr.boot_lo*100:+.1f},{dr.boot_hi*100:+.1f}]")
+
+    print(f"\n  Threshold sensitivity (RSR direction across any/majority/unanimous "
+          f"support cuts): {'STABLE' if stable else 'NOT stable'}")
+
+    rsr_dir = diff_tbl.loc["RSR", "diff_high_minus_low"]
+    print("\n  Interpretation (RSR is the target of this analysis):")
+    if rsr_dir < 0:
+        print("    RSR is LOWER when >=1 source supports -- consistent with well-cited WRONG")
+        print("    advice depressing appropriate self-reliance. Hypothesis-generating only:")
+        print("    the CORA-wrong (qB) subset is small; see the sensitivity check above.")
+    else:
+        print("    RSR is NOT lower under any citation support in this sample -- no RSR-")
+        print("    collapse signal here.")
+
+
 def _agreement_stats(df: pd.DataFrame, unit_cols, cat_col: str) -> dict:
     """Inter-rater agreement for a binary rating across a rotating set of
     physicians. The design is not fully crossed (each unit is rated by a
@@ -654,6 +922,7 @@ def main():
     # Descriptive
     descriptive_change_rates(resp, args.bootstrap_n, args.seed)
     descriptive_citation_metrics(src, args.bootstrap_n, args.seed)
+    d, ini, fin, llm, adopt, qA, qB = rair_rsr_overall(resp, args.bootstrap_n, args.seed)
     inter_rater_agreement(resp, src)
 
     # Secondary hypotheses
@@ -662,6 +931,8 @@ def main():
     hypothesis_c(resp)
 
     # Exploratory
+    rair_rsr_by_citation_support(d, ini, fin, llm, adopt, qA, qB,
+                                 args.bootstrap_n, args.seed)
     mean_k = llm_judge_validation(src, args.llm_judge_csv)
     agentic_vs_simple_rag(src, args.alt_responses_csv, args.alt_source_ratings_csv,
                           mean_k, args.bootstrap_n, args.seed)
