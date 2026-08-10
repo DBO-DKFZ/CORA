@@ -231,5 +231,9 @@ reader_study
 pubmed
 plots
 guideline_adherence
+recruitment/
 recruitmentresults/*.csv
 results/*.csv
+
+# demo/ ships with the repo (reviewer demo); only the rebuildable index is ignored
+demo/chromadb_demo/
