@@ -128,9 +128,11 @@ cached in `~/.cache/huggingface`).
 
 ## 3. Demo
 
-The demo runs the complete pipeline — index → agentic retrieval → rerank → answer →
-LLM judge — on a **small real slice of the study's own data, shipped in
-[demo/](demo/)**, so a reviewer needs no external downloads:
+The demo runs the complete pipeline — index → agentic retrieval → rerank → answer —
+on a **small real slice of the study's own data, shipped in [demo/](demo/)**, so a
+reviewer needs no external downloads. The demo questions are multiple-choice, so it
+stops at answer generation; the LLM judge (§4) grades free-text answers and has
+nothing to do on a fixed answer set.
 
 - [demo/corpus/](demo/corpus/) — two real EADV acne guideline documents copied
   verbatim from `Data/EADV/Acne/` (the European S3 guideline on acne treatment, and a
@@ -146,14 +148,11 @@ LLM judge — on a **small real slice of the study's own data, shipped in
   cross-encoder, and `gpt-5-mini` for the agent/answerer/judge.
 
 Because this is real guideline text rather than a passage written to guarantee a
-clean retrieval, the demo also shows the pipeline's real failure modes: on one
-question the planning step routed to the (empty) `books` collection and came back
-with zero documents, and the open-ended condition disagrees with the multiple-choice
-gold answer on several questions where the model's free-text answer is clinically
-reasonable but phrased at a different level of specificity than the keyed answer.
-That is expected — see [Expected output](#expected-output) below.
+clean retrieval, the demo also shows a real failure mode: on one question the
+planning step routed to the (empty) `books` collection and came back with zero
+documents. That is expected — see [Expected output](#expected-output) below.
 
-Requires `OPENAI_API_KEY` (about 30 LLM calls in total, all with `gpt-5-mini`).
+Requires `OPENAI_API_KEY` (about 20 LLM calls in total, all with `gpt-5-mini`).
 
 ```bash
 # 1. Build the demo ChromaDB index (CPU)
@@ -175,10 +174,6 @@ python run_answerer.py --config demo/configs/answerer_demo_base.yaml
 # 5. Score the two conditions
 python demo/score_demo.py demo/outputs/results_demo_rag.csv \
                           demo/outputs/results_demo_base.csv
-
-# 6. Open-ended condition + LLM judge (the reader-study format)
-python run_answerer.py    --config demo/configs/answerer_demo_openended.yaml
-python run_answer_judge.py --config demo/configs/answer_judge_demo.yaml
 ```
 
 Single questions can be put through the same pipeline interactively:
@@ -227,33 +222,23 @@ answered: 6   correct: 6   accuracy: 100.00%
            ...
 ```
 
-Both the RAG and no-retrieval-baseline conditions score 6/6 on the multiple-choice
-format in our run — these are real MedQA-style questions with a small, fixed answer
-set, and `gpt-5-mini` has enough general medical knowledge to get isotretinoin
-management right from the options alone. RAG earns its keep more clearly in the
-open-ended condition (step 6), where the model can't rely on option elimination.
-
-Step 6 adds `verdict`, `verdict_explanation`, and `verdict_raw` columns to
-`demo/outputs/results_demo_openended.csv`; our run gave 2 × `Correct` and 4 ×
-`Incorrect` (strict/lenient accuracy 0.333). Reading the four "incorrect" rows
-matters more than the number: in most of them the free-text answer is clinically
-reasonable (e.g. "counsel on teratogenicity and initiate strict pregnancy
-prevention") but doesn't name the specific procedural step the multiple-choice gold
-answer keys on (e.g. "measure serum beta-hCG"). That is a genuine property of
-grading open-ended answers against a single keyed action, present in the real
-reader-study data too — see the judge's `verdict_explanation` column for its
-reasoning on each row.
+Both the RAG and no-retrieval-baseline conditions score 6/6 in our run — these are
+real MedQA-style questions with a small, fixed answer set, and `gpt-5-mini` has
+enough general medical knowledge to get isotretinoin management right from the
+options alone. That the baseline matches RAG here is expected on multiple-choice
+questions the model already knows; the manuscript's RAG-vs-base comparison is run on
+the full open-ended reader-study format (§4), where the model can't rely on option
+elimination and grading requires the LLM judge (`run_answer_judge.py`).
 
 Reference outputs from our run are committed under [demo/outputs/](demo/outputs/) for
 comparison. Exact agreement is not expected: the retrieval agent and the answerer are
 non-deterministic LLM calls (only the sampling code is seeded), so the retrieved
-documents, the wording of sub-queries, and individual judge verdicts can differ
-between runs. What should reproduce is the shape of the output — six records at
-every stage, cited `used_sources` for the RAG condition — and roughly this pattern of
-results: strong multiple-choice accuracy in both conditions, a visibly harder
-open-ended condition, and at least one record that is not perfectly retrieved. The
-demo verifies that the pipeline runs end to end on real data, not the manuscript's
-effect size.
+documents and the wording of sub-queries can differ between runs. What should
+reproduce is the shape of the output — six records at every stage, cited
+`used_sources` for the RAG condition — and roughly this pattern of results: strong
+multiple-choice accuracy in both conditions, and at least one record that is not
+perfectly retrieved. The demo verifies that the pipeline runs end to end on real
+data, not the manuscript's effect size.
 
 ### Expected run time
 
@@ -266,8 +251,7 @@ On a normal desktop (CPU-only, models already downloaded), measured end to end:
 | 3 — rerank | ~15 s |
 | 4a/4b — answer, MCQ + baseline | ~10 s each |
 | 5 — scoring | instant |
-| 6 — open-ended answer + judge | ~20 s |
-| **Total** | **~4 minutes** |
+| **Total** | **~3.5 minutes** |
 
 Add ~2–5 minutes on the first run for the Hugging Face model downloads.
 
