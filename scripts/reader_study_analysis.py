@@ -67,7 +67,14 @@ def parse_args():
     p.add_argument("--alt_source_ratings_csv", default=None,
                    help="Optional source_ratings CSV for the comparison RAG system")
     p.add_argument("--bootstrap_n",  type=int, default=10_000)
-    p.add_argument("--seed",         type=int, default=42)
+    p.add_argument("--seed",         type=int, default=42,
+                   help="Bootstrap seed for the descriptive change-rate / "
+                        "citation-metric CIs")
+    p.add_argument("--reliance_seed", type=int, default=12345,
+                   help="Bootstrap seed for RAIR/RSR (matches "
+                        "notebooks/reader_study_reliance.ipynb's SEED, which is "
+                        "what the manuscript's reported reliance CIs were computed "
+                        "with)")
     return p.parse_args()
 
 # ─────────────────────────── helpers ────────────────────────────────────────
@@ -922,7 +929,8 @@ def main():
     # Descriptive
     descriptive_change_rates(resp, args.bootstrap_n, args.seed)
     descriptive_citation_metrics(src, args.bootstrap_n, args.seed)
-    d, ini, fin, llm, adopt, qA, qB = rair_rsr_overall(resp, args.bootstrap_n, args.seed)
+    d, ini, fin, llm, adopt, qA, qB = rair_rsr_overall(resp, args.bootstrap_n,
+                                                       args.reliance_seed)
     inter_rater_agreement(resp, src)
 
     # Secondary hypotheses
@@ -932,7 +940,7 @@ def main():
 
     # Exploratory
     rair_rsr_by_citation_support(d, ini, fin, llm, adopt, qA, qB,
-                                 args.bootstrap_n, args.seed)
+                                 args.bootstrap_n, args.reliance_seed)
     mean_k = llm_judge_validation(src, args.llm_judge_csv)
     agentic_vs_simple_rag(src, args.alt_responses_csv, args.alt_source_ratings_csv,
                           mean_k, args.bootstrap_n, args.seed)
