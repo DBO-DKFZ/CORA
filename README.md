@@ -372,8 +372,26 @@ Analyses and figures, once the result CSVs exist:
 | Citation faithfulness | [run_faithfulness_judge.py](run_faithfulness_judge.py) → [analyze_faithfulness.py](analyze_faithfulness.py); counterfactual evidence swaps: [analyze_counterfactual.py](analyze_counterfactual.py) |
 | Citation precision / support vs correctness | [notebooks/citation_precision_support_plots.ipynb](notebooks/citation_precision_support_plots.ipynb), [notebooks/support_correctness_relationship.ipynb](notebooks/support_correctness_relationship.ipynb), [notebooks/citation_agreement_accuracy.ipynb](notebooks/citation_agreement_accuracy.ipynb) |
 | Error taxonomy of wrong answers | [scripts/classify_error_types.py](scripts/classify_error_types.py) |
+| Reader-study numbers (accuracy, RAIR/RSR, RAIR/RSR by citation support, inter-rater agreement) | [scripts/reader_study_analysis.py](scripts/reader_study_analysis.py) — prints every statistic in the reader-study section of the manuscript; see below |
 | Reader-study figures (accuracy, reliance, change flows, agreement) | [notebooks/reader_study_accuracy.ipynb](notebooks/reader_study_accuracy.ipynb), [notebooks/reader_study_reliance.ipynb](notebooks/reader_study_reliance.ipynb), [notebooks/reader_study_change_flows.ipynb](notebooks/reader_study_change_flows.ipynb), [notebooks/rsr_by_citation_support.ipynb](notebooks/rsr_by_citation_support.ipynb) |
 | Skin-tone and sex subgroup analyses | [scripts/classify_skin_tone.py](scripts/classify_skin_tone.py), [scripts/analyze_skin_gender_llm.py](scripts/analyze_skin_gender_llm.py) |
+
+The de-identified reader-study data (`results/reader_study/responses.csv`,
+`source_ratings.csv`) ships with the repo, so the numbers reproduce with no
+download and no API key:
+
+```bash
+python scripts/reader_study_analysis.py
+```
+
+This prints the primary accuracy-improvement test, descriptive change rates,
+RAIR/RSR (overall and by citation support), inter-rater agreement, and the
+secondary hypotheses (A/B/C) directly to stdout. Pass
+`--responses`/`--source_ratings` to point it at a different CSV pair (e.g. to
+re-run on a downloaded figshare copy); `--llm_judge_csv` and
+`--alt_responses_csv`/`--alt_source_ratings_csv` add the optional LLM-judge
+validation and agentic-vs-simple-RAG comparison when those files are
+available.
 
 Free-text answers from open-weight models occasionally arrive with commentary around
 the answer; [clean_llm_outputs.py](clean_llm_outputs.py) extracts the selected answer into a
