@@ -35,7 +35,7 @@ analysis script only needs five common Python packages, not the full pipeline
 environment:
 
 ```bash
-git clone <repository-url> dermrag && cd dermrag
+git clone https://github.com/DBO-DKFZ/CORA cora && cd cora
 pip install pandas numpy scipy scikit-learn statsmodels
 python scripts/reader_study_analysis.py
 ```
@@ -124,8 +124,8 @@ defaults when no `base_url` is passed explicitly.
 ## 2. Installation guide
 
 ```bash
-git clone <repository-url> dermrag
-cd dermrag
+git clone https://github.com/DBO-DKFZ/CORA cora
+cd cora
 
 poetry install          # creates ./.venv from poetry.lock
 poetry run pip install anthropic==0.104.1   # see note below
@@ -213,6 +213,44 @@ Single questions can be put through the same pipeline interactively:
 python query.py --config demo/configs/query_demo.yaml \
   "What is the first-line topical treatment for mild to moderate papulopustular acne?"
 ```
+
+### Using the paper's actual embedding model
+
+Step 1 above defaults to `all-MiniLM-L6-v2` — small and CPU-fast, but not the model
+the paper actually uses. To build the demo index with the real embedder
+(`Snowflake/snowflake-arctic-embed-l-v2.0`, the same one `build_index.py` defaults
+to for the full pipeline), build into a separate `--chroma-path` so it doesn't
+collide with the MiniLM index, then generate a matching retrieval config (the
+`embed_model` **must** match what the index was built with):
+
+```bash
+# 1'. Build the demo index with the paper's real embedder
+python build_index.py --data-dir demo/corpus --chroma-path demo/chromadb_demo_snowflake \
+                      --embed-model Snowflake/snowflake-arctic-embed-l-v2.0 \
+                      --device cuda --batch-size 2   # --device cpu if no GPU; keep batch-size small
+
+# Point a copy of the retrieval config at that index/model
+sed -e 's|demo/chromadb_demo|demo/chromadb_demo_snowflake|g' \
+    -e 's|sentence-transformers/all-MiniLM-L6-v2|Snowflake/snowflake-arctic-embed-l-v2.0|g' \
+    demo/configs/agentic_retrieval_demo.yaml > demo/configs/agentic_retrieval_demo_snowflake.yaml
+
+# 2'. Retrieval against the real-embedder index
+python run_agentic_retrieval_gaps.py --config demo/configs/agentic_retrieval_demo_snowflake.yaml
+```
+
+Steps 3–5 are unchanged (`reranker_demo.yaml`, `answerer_demo_rag.yaml`,
+`answerer_demo_base.yaml` don't reference the embedder). Step 2' writes to the same
+`demo/outputs/retrieved_docs_demo/` as step 2, so it overwrites the MiniLM-based
+retrieval output — the same as any repeated run of the demo.
+
+`Snowflake/snowflake-arctic-embed-l-v2.0` is a much larger model than
+`all-MiniLM-L6-v2` — `build_index.py`'s own default batch size is `2` precisely
+because large embedders are memory-heavy (see the comment next to
+`DEFAULT_BATCH_SIZE` in [build_index.py](build_index.py)). **If this OOMs** (CPU RAM
+or GPU memory), lower `--batch-size` further (`1` if needed) or add `--device cpu`;
+if it still doesn't fit, fall back to the default `all-MiniLM-L6-v2` command above —
+the demo's purpose is to verify the pipeline runs end to end, not to reproduce the
+paper's retrieval quality on this two-document corpus.
 
 ### Expected output
 
