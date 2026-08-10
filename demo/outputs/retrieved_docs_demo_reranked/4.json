@@ -1,0 +1,108 @@
+{
+  "question_id": "4",
+  "question": "A patient reports itchy skin lesions. Which feature argues against urticaria and should prompt a lesional biopsy?",
+  "question_prompt": "A patient reports itchy skin lesions. Which feature argues against urticaria and should prompt a lesional biopsy?\n\nA. Individual lesions persisting beyond 24 hours and resolving with pigmentation\nB. Weals that migrate over the trunk within hours\nC. Accompanying angioedema of the lips\nD. Symptoms lasting longer than six weeks\n",
+  "answer_options": {
+    "A": "Individual lesions persisting beyond 24 hours and resolving with pigmentation",
+    "B": "Weals that migrate over the trunk within hours",
+    "C": "Accompanying angioedema of the lips",
+    "D": "Symptoms lasting longer than six weeks"
+  },
+  "correct_choice": "A",
+  "answer_source": "agentic_rag_insufficient",
+  "retrieval_result": {
+    "plan": {
+      "collections": [
+        "primary",
+        "books"
+      ],
+      "decomposed": true,
+      "sub_queries": [
+        "Clinical features that argue against ordinary urticaria and should prompt biopsy: persistent lesions lasting >24–48 hours, painful or burning (rather than purely pruritic) lesions, palpable purpura/petechiae, residual hyperpigmentation or bruising/staining, scarring or scale, systemic symptoms (fever, arthralgia), or fixed distribution — list and prioritize these red flags.",
+        "Indications and practical guidance for lesional skin biopsy in suspected urticarial vasculitis: optimal timing relative to lesion onset, recommended biopsy technique (punch depth, number of specimens), and adjunctive laboratory tests to order (C3/C4, ESR/CRP, ANA, ANCA).",
+        "Histopathologic and direct immunofluorescence findings that distinguish urticaria from urticarial vasculitis and other mimics: leukocytoclastic vasculitis, fibrinoid necrosis of vessel walls, neutrophil nuclear dust, red blood cell extravasation, and granular IgG/IgM/C3 deposition — sensitivity/specificity and differential diagnoses."
+      ],
+      "key_concepts": [
+        "urticaria (hives) clinical features",
+        "lesion duration >24 hours / fixed lesions",
+        "blanching vs non-blanching lesions",
+        "palpable purpura / purpura",
+        "residual hyperpigmentation or bruising",
+        "urticarial vasculitis",
+        "indications for lesional biopsy in suspected vasculitis",
+        "differential diagnoses of pruritic eruptions (e.g., urticarial vasculitis, bullous disease, dermatitis)"
+      ],
+      "reasoning": "Textbooks give core definitions/typical features of urticaria (transient, blanching wheals <24 h) while primary literature/guidelines detail atypical features (fixed, non-blanching, purpura, lasting >24 h) that mandate biopsy; decomposing into definition + red flags + biopsy indications will yield precise retrievals."
+    },
+    "conditions": [
+      "urticaria (hives) clinical features",
+      "lesion duration >24 hours / fixed lesions",
+      "blanching vs non-blanching lesions",
+      "palpable purpura / purpura",
+      "residual hyperpigmentation or bruising",
+      "urticarial vasculitis",
+      "indications for lesional biopsy in suspected vasculitis",
+      "differential diagnoses of pruritic eruptions (e.g., urticarial vasculitis, bullous disease, dermatitis)"
+    ],
+    "retrieval_history": [
+      {
+        "iteration": 1,
+        "query": [
+          "Clinical features that argue against ordinary urticaria and should prompt biopsy: persistent lesions lasting >24–48 hours, painful or burning (rather than purely pruritic) lesions, palpable purpura/petechiae, residual hyperpigmentation or bruising/staining, scarring or scale, systemic symptoms (fever, arthralgia), or fixed distribution — list and prioritize these red flags.",
+          "Indications and practical guidance for lesional skin biopsy in suspected urticarial vasculitis: optimal timing relative to lesion onset, recommended biopsy technique (punch depth, number of specimens), and adjunctive laboratory tests to order (C3/C4, ESR/CRP, ANA, ANCA).",
+          "Histopathologic and direct immunofluorescence findings that distinguish urticaria from urticarial vasculitis and other mimics: leukocytoclastic vasculitis, fibrinoid necrosis of vessel walls, neutrophil nuclear dust, red blood cell extravasation, and granular IgG/IgM/C3 deposition — sensitivity/specificity and differential diagnoses."
+        ],
+        "docs_retrieved": 9,
+        "total_docs": 9,
+        "critique": {
+          "sufficient": false,
+          "confidence": 0.35,
+          "gaps": [
+            "Doc 4 is truncated and does not fully state the features that argue against urticaria (the sentence cuts off after 'burns rather ...').",
+            "No document explicitly links the abnormal features (e.g., lesions persisting >24 hours, painful/burning lesions, residual pigmentation, palpable purpura or systemic features) to a diagnosis such as urticarial vasculitis or to the clear indication for a lesional biopsy.",
+            "Lack of a concise list or guideline statement specifying which specific clinical findings should prompt biopsy (e.g., persistent lesions >24 hours, pain/burning rather than pruritus, non-blanching/purpuric lesions, systemic symptoms)."
+          ],
+          "recommendation": "retrieve_more",
+          "reasoning": "Doc 4 partially addresses the key point (lesions persisting >24 hours argue against urticaria) but is incomplete and truncated, and no retrieved document explicitly states that such features should prompt a lesional biopsy or provides the full differential (urticarial vasculitis, palpable purpura, painful lesions). More targeted sources are needed to answer accurately."
+        }
+      },
+      {
+        "iteration": 2,
+        "query": [
+          "Which clinical features most strongly argue against ordinary urticaria and warrant a lesional skin biopsy—provide a prioritized list with evidence/guideline statements (lesion duration >24–48 hours, painful/burning vs pruritic lesions, fixed distribution, non‑blanching palpable purpura/petechiae, residual hyperpigmentation or bruising/staining, scarring or scale, systemic symptoms such as fever, arthralgia, renal/ocular involvement) and explain how each feature correlates with diagnoses like urticarial vasculitis/leukocytoclastic vasculitis, recommended biopsy timing and site, and expected histopathologic findings?",
+          "Indications and practical guidance for lesional skin biopsy in suspected urticarial vasculitis (urticaria vs leukocytoclastic vasculitis): which clinical features should prompt biopsy (e.g., individual urticarial lesions persisting >24 hours, painful/burning rather than pruritic lesions, non‑blanching/palpable purpura, residual hyperpigmentation or purpuric staining, systemic features such as fever, arthralgia/myalgia, abdominal pain or renal involvement); optimal timing of biopsy relative to lesion onset for routine H&E (leukocytoclastic vasculitis) and for direct immunofluorescence (hours/days window to maximize diagnostic yield); biopsy site selection (lesional vs perilesional skin) and recommended technique (punch biopsy size and depth—dermal and subcutis inclusion, e.g., 4–6 mm to mid/deep dermis vs deeper), number of specimens (separate specimens for H&E and DIF), specimen handling and transport (FFPE vs fresh for DIF, fixation media); and recommended adjunctive laboratory investigations to order at presentation (complement levels C3, C4, CH50; ESR, CRP; ANA, ANCA; CBC, serum creatinine/urinalysis for renal involvement; hepatitis B/C serology; cryoglobulins and other relevant serologies) to support diagnosis and guide workup.",
+          "Histopathologic and direct immunofluorescence (DIF) criteria that distinguish acute urticaria from urticarial vasculitis and other mimics (cutaneous leukocytoclastic/small‑vessel vasculitis, urticarial dermatitis, early bullous disease): specific histologic features (fibrinoid necrosis of vessel walls, leukocytoclasia/karyorrhexis, perivascular neutrophilic infiltrate, endothelial swelling, red blood cell extravasation, leukocyte margination) and DIF findings (granular perivascular deposition of IgG, IgM, IgA, C3) — reported sensitivity, specificity, positive/negative predictive values or likelihood ratios for each feature and for combinations. Include differences between hypocomplementemic vs normocomplementemic urticarial vasculitis and frequency of immune‑complex/DIF positivity in urticarial vasculitis versus ordinary urticaria. Provide evidence‑based clinical indications for performing lesional skin biopsy in suspected urticarial vasculitis (e.g., individual lesions persisting >24 hours, painful/burning rather than pruritic lesions, non‑blanching/palpable purpura, residual hyperpigmentation, systemic symptoms such as fever/arthralgia/renal involvement, hypocomplementemia), recommended biopsy timing and site (age of lesion, edge vs center), and common interpretation pitfalls. Also list major differential diagnoses and the distinguishing clinicopathologic features for each."
+        ],
+        "docs_retrieved": 8,
+        "total_docs": 10,
+        "critique": {
+          "sufficient": false,
+          "confidence": 0.35,
+          "gaps": [
+            "Doc 4 is truncated and does not complete the sentence describing the abnormal features (e.g., burning/pain, residual pigmentation) or explicitly link them to urticarial vasculitis or biopsy.",
+            "No retrieved document explicitly states that a lesional biopsy is indicated (or recommended) when lesions persist >24 hours or describes biopsy findings/indications.",
+            "Other features that argue against ordinary urticaria (palpable purpura, fixed lesions, systemic signs) are not clearly described across the set."
+          ],
+          "recommendation": "retrieve_more",
+          "reasoning": "Doc 4 contains the key clue that typical urticarial weals resolve within 24 hours and that persistence beyond 24 hours is atypical, but the text is truncated and there is no explicit statement about biopsy or urticarial vasculitis. Additional documents that explicitly describe red flags (persistent lesions >24 h, pain/burning, residual pigmentation/purpura) and biopsy indications are needed to answer confidently."
+        }
+      }
+    ],
+    "documents": [
+      "## Clinical features\n\nUrticaria presents with transient, intensely pruritic weals that individually resolve\nwithin 24 hours and leave no residual pigmentation. Angioedema, a deeper swelling of\nthe dermis and subcutis, accompanies weals in roughly 40% of cases in this demo\nchapter. Chronic spontaneous urticaria is defined by weals, angioedema, or both\nrecurring for more than six weeks without an identifiable external trigger.\n\nA lesion that persists at the same site beyond 24 hours, burns rather than itches, or\nresolves with bruising or pigmentation argues against urticaria and raises the\npossibility of urticarial vasculitis, in which case a lesional biopsy is indicated.",
+      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
+      "## Comorbidity screening\n\nAll patients are screened for psoriatic arthritis at diagnosis and annually\nthereafter, and for cardiovascular and metabolic comorbidity.",
+      "## Severity assessment\n\nDisease is considered **moderate to severe** in this demo document when the affected\nbody surface area exceeds 10%, or when the Psoriasis Area and Severity Index (PASI)\nexceeds 10, or when disease at a visible or functionally critical site causes a\nDermatology Life Quality Index (DLQI) above 10.",
+      "## Topical therapy\n\nMild plaque psoriasis is managed topically. The preferred option is a **fixed-dose\ncombination of calcipotriol and betamethasone dipropionate** once daily for up to\nfour weeks, followed by intermittent maintenance."
+    ],
+    "final_sufficient": false,
+    "reranker_scores": [
+      0.46918785572052,
+      0.2184470146894455,
+      0.20003552734851837,
+      0.18810217082500458,
+      0.16692385077476501
+    ],
+    "final_doc_count": 5
+  }
+}

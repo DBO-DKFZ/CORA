@@ -1,0 +1,24 @@
+# Overrides that point the interactive tool (query.py) at the demo index and the
+# small CPU-friendly models:
+#   python query.py --config demo/configs/query_demo.yaml "your question"
+
+# retrieval
+chroma_path: "demo/chromadb_demo"
+collection_name: "eadv_guidelines"
+books_collection_name: "books"
+embed_model: "sentence-transformers/all-MiniLM-L6-v2"
+agent_model: "gpt-5-mini"
+agent_provider: "openai"
+retrieval_top_k: 3
+max_iterations: 2
+confidence_threshold: 0.5
+
+# rerank
+rerank: true
+reranker_model: "mixedbread-ai/mxbai-rerank-xsmall-v1"
+rerank_top_k: 5
+rerank_batch_size: 8
+
+# answer
+answer_model: "gpt-5-mini"
+answer_provider: "openai"

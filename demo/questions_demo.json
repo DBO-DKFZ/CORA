@@ -1,0 +1,107 @@
+{
+  "_comment": "Six synthetic demo questions in the same schema as the study question sets (medqa_derma_final.json / pubmed_vignettes_medqa.json). Every answer is stated in demo/corpus/, so the demo exercises retrieval end-to-end without the licensed corpora. These are NOT study questions and carry no clinical authority.",
+  "questions": {
+    "0": {
+      "id": "demo-0001",
+      "question": "A 19-year-old man has comedones together with inflammatory papules and pustules on the face, without nodules or scarring. Which of the following is the recommended first-line topical treatment?",
+      "correct_choice": ["A"],
+      "answer_options": {
+        "A": "Fixed-dose combination of adapalene and benzoyl peroxide once daily",
+        "B": "Topical clindamycin monotherapy twice daily",
+        "C": "Oral isotretinoin for 20 weeks",
+        "D": "Topical hydrocortisone once daily"
+      },
+      "correct_answer": "Fixed-dose combination of adapalene and benzoyl peroxide once daily",
+      "metadata": {"dermatology": true, "demo": true},
+      "choice_type": "single",
+      "explanation": null,
+      "topic": "acne vulgaris",
+      "source": "synthetic_demo"
+    },
+    "1": {
+      "id": "demo-0002",
+      "question": "A 45-year-old woman has plaque psoriasis affecting 18% of her body surface area. She has no contraindications to systemic therapy and has not been treated systemically before. Which first-line conventional systemic agent is recommended?",
+      "correct_choice": ["C"],
+      "answer_options": {
+        "A": "Acitretin",
+        "B": "An interleukin-17 inhibitor",
+        "C": "Methotrexate once weekly with folic acid",
+        "D": "Long-term oral prednisolone"
+      },
+      "correct_answer": "Methotrexate once weekly with folic acid",
+      "metadata": {"dermatology": true, "demo": true},
+      "choice_type": "single",
+      "explanation": null,
+      "topic": "plaque psoriasis",
+      "source": "synthetic_demo"
+    },
+    "2": {
+      "id": "demo-0003",
+      "question": "A 32-year-old woman has had recurrent pruritic weals for four months, each individual lesion resolving within a day and leaving no mark. No external trigger is identifiable. What is the recommended first-line pharmacotherapy?",
+      "correct_choice": ["B"],
+      "answer_options": {
+        "A": "A first-generation sedating H1 antihistamine",
+        "B": "A second-generation H1 antihistamine at the standard licensed dose",
+        "C": "Omalizumab",
+        "D": "Ciclosporin"
+      },
+      "correct_answer": "A second-generation H1 antihistamine at the standard licensed dose",
+      "metadata": {"dermatology": true, "demo": true},
+      "choice_type": "single",
+      "explanation": null,
+      "topic": "chronic spontaneous urticaria",
+      "source": "synthetic_demo"
+    },
+    "3": {
+      "id": "demo-0004",
+      "question": "A 7-year-old boy has an expanding scaly patch of hair loss on the scalp with broken hairs, and culture grows a Trichophyton species. Which treatment approach is required?",
+      "correct_choice": ["D"],
+      "answer_options": {
+        "A": "Topical terbinafine cream alone for two weeks",
+        "B": "Topical ketoconazole shampoo alone",
+        "C": "Topical corticosteroid alone",
+        "D": "Oral terbinafine, with antifungal shampoo only as an adjunct"
+      },
+      "correct_answer": "Oral terbinafine, with antifungal shampoo only as an adjunct",
+      "metadata": {"dermatology": true, "demo": true},
+      "choice_type": "single",
+      "explanation": null,
+      "topic": "tinea capitis",
+      "source": "synthetic_demo"
+    },
+    "4": {
+      "id": "demo-0005",
+      "question": "A patient reports itchy skin lesions. Which feature argues against urticaria and should prompt a lesional biopsy?",
+      "correct_choice": ["A"],
+      "answer_options": {
+        "A": "Individual lesions persisting beyond 24 hours and resolving with pigmentation",
+        "B": "Weals that migrate over the trunk within hours",
+        "C": "Accompanying angioedema of the lips",
+        "D": "Symptoms lasting longer than six weeks"
+      },
+      "correct_answer": "Individual lesions persisting beyond 24 hours and resolving with pigmentation",
+      "metadata": {"dermatology": true, "demo": true},
+      "choice_type": "single",
+      "explanation": null,
+      "topic": "urticarial vasculitis",
+      "source": "synthetic_demo"
+    },
+    "5": {
+      "id": "demo-0006",
+      "question": "An adult with severe nodular acne and early scarring has not responded to 12 weeks of an appropriate topical regimen. Which systemic option is indicated, and what precaution is mandatory?",
+      "correct_choice": ["C"],
+      "answer_options": {
+        "A": "Topical clindamycin monotherapy, no precaution needed",
+        "B": "Doxycycline indefinitely, with annual liver enzymes",
+        "C": "Isotretinoin, with mandatory pregnancy prevention for patients who can become pregnant",
+        "D": "Methotrexate weekly, with folic acid"
+      },
+      "correct_answer": "Isotretinoin, with mandatory pregnancy prevention for patients who can become pregnant",
+      "metadata": {"dermatology": true, "demo": true},
+      "choice_type": "single",
+      "explanation": null,
+      "topic": "acne vulgaris",
+      "source": "synthetic_demo"
+    }
+  }
+}

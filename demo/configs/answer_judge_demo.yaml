@@ -1,0 +1,20 @@
+# Demo LLM-as-judge grading of the open-ended demo answers.
+# The verdict columns (verdict, verdict_explanation, verdict_raw) are written back
+# into input_csv unless output_csv is set.
+
+# --- Input ---
+input_csv: "demo/outputs/results_demo_openended.csv"
+
+# --- Judge model ---
+# The paper used claude-sonnet-4-6 (provider: anthropic). The demo uses an OpenAI
+# model so it needs only OPENAI_API_KEY.
+model: "gpt-5-mini"
+provider: "openai"          # anthropic | together | openai | local
+base_url: "http://127.0.0.1:8080/v1"   # used when provider is "local"
+
+# --- Judging ---
+include_question: false     # true = also show the clinical question to the judge
+
+# --- Output ---
+# output_csv: (omit to write verdict columns in place)
+verbose: true

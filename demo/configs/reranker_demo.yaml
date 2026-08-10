@@ -1,0 +1,14 @@
+# Demo reranking. Uses the xsmall cross-encoder (~80 MB) instead of the paper's
+# mixedbread-ai/mxbai-rerank-large-v1 (~1.5 GB) so it runs quickly on CPU.
+
+input_dir: "demo/outputs/retrieved_docs_demo/"
+output_dir: "demo/outputs/retrieved_docs_demo_reranked/"
+reranker_model: "mixedbread-ai/mxbai-rerank-xsmall-v1"
+
+top_k: 5
+batch_size: 8
+verbose: true
+
+# Rerank every record, including ones the agent flagged as insufficient — the demo
+# corpus is tiny, so keeping all records makes the demo output deterministic in size.
+sufficient_only: false

@@ -234,6 +234,8 @@ guideline_adherence
 recruitment/
 recruitmentresults/*.csv
 results/*.csv
+study_demo
+study_demo_highlight
 
 # demo/ ships with the repo (reviewer demo); only the rebuildable index is ignored
 demo/chromadb_demo/

@@ -1,0 +1,78 @@
+{
+  "question_id": "2",
+  "question": "A 32-year-old woman has had recurrent pruritic weals for four months, each individual lesion resolving within a day and leaving no mark. No external trigger is identifiable. What is the recommended first-line pharmacotherapy?",
+  "question_prompt": "A 32-year-old woman has had recurrent pruritic weals for four months, each individual lesion resolving within a day and leaving no mark. No external trigger is identifiable. What is the recommended first-line pharmacotherapy?\n\nA. A first-generation sedating H1 antihistamine\nB. A second-generation H1 antihistamine at the standard licensed dose\nC. Omalizumab\nD. Ciclosporin\n",
+  "answer_options": {
+    "A": "A first-generation sedating H1 antihistamine",
+    "B": "A second-generation H1 antihistamine at the standard licensed dose",
+    "C": "Omalizumab",
+    "D": "Ciclosporin"
+  },
+  "correct_choice": "B",
+  "answer_source": "agentic_rag",
+  "retrieval_result": {
+    "plan": {
+      "collections": [
+        "primary",
+        "books"
+      ],
+      "decomposed": true,
+      "sub_queries": [
+        "Chronic spontaneous urticaria (CSU) diagnostic criteria and differential diagnosis: recurrent pruritic wheals >6 weeks, individual lesions resolving <24 hours, no identifiable external trigger",
+        "First-line pharmacotherapy for adult CSU: recommended second‑generation non‑sedating H1‑antihistamines (examples, standard dosing, contraindications; avoid first‑generation antihistamines)",
+        "Treatment escalation for CSU refractory to standard-dose second‑generation H1‑antihistamines: up‑dosing to 4× licensed dose, and next‑line options (omalizumab, ciclosporin, short courses of systemic corticosteroids)"
+      ],
+      "key_concepts": [
+        "chronic spontaneous/idiopathic urticaria",
+        "urticaria diagnostic criteria (lesion duration <24 hours, recurrent >6 weeks)",
+        "first-line pharmacotherapy",
+        "second-generation non-sedating H1-antihistamines (e.g., cetirizine, loratadine, fexofenadine)",
+        "dose escalation (up to 4x standard dose) and guideline recommendations"
+      ],
+      "reasoning": "Confirm diagnosis/definition (chronic spontaneous urticaria) and then retrieve guideline-based treatment recommendations—guidelines/reviews in primary literature plus textbooks for background are both useful."
+    },
+    "conditions": [
+      "chronic spontaneous/idiopathic urticaria",
+      "urticaria diagnostic criteria (lesion duration <24 hours, recurrent >6 weeks)",
+      "first-line pharmacotherapy",
+      "second-generation non-sedating H1-antihistamines (e.g., cetirizine, loratadine, fexofenadine)",
+      "dose escalation (up to 4x standard dose) and guideline recommendations"
+    ],
+    "retrieval_history": [
+      {
+        "iteration": 1,
+        "query": [
+          "Chronic spontaneous urticaria (CSU) diagnostic criteria and differential diagnosis: recurrent pruritic wheals >6 weeks, individual lesions resolving <24 hours, no identifiable external trigger",
+          "First-line pharmacotherapy for adult CSU: recommended second‑generation non‑sedating H1‑antihistamines (examples, standard dosing, contraindications; avoid first‑generation antihistamines)",
+          "Treatment escalation for CSU refractory to standard-dose second‑generation H1‑antihistamines: up‑dosing to 4× licensed dose, and next‑line options (omalizumab, ciclosporin, short courses of systemic corticosteroids)"
+        ],
+        "docs_retrieved": 10,
+        "total_docs": 10,
+        "critique": {
+          "sufficient": true,
+          "confidence": 0.9,
+          "gaps": [
+            "Specific example drug names and their standard licensed doses (e.g., cetirizine 10 mg daily, loratadine 10 mg daily, fexofenadine dosing)",
+            "Explicit instructions on management if symptoms persist (e.g., up-dosing to 4×, second-line agents such as omalizumab or ciclosporin)",
+            "Pregnancy, breastfeeding or comorbidity-specific cautions and contraindications"
+          ],
+          "recommendation": "answer",
+          "reasoning": "The retrieved urticaria chapter defines chronic spontaneous urticaria (>6 weeks) and the pharmacotherapy section explicitly states the first-line treatment is a second‑generation H1 antihistamine at the standard licensed dose. While dosing examples and escalation details are referenced but not fully listed, the core first-line recommendation is present."
+        }
+      }
+    ],
+    "documents": [
+      "## Topical therapy\n\nMild plaque psoriasis is managed topically. The preferred option is a **fixed-dose\ncombination of calcipotriol and betamethasone dipropionate** once daily for up to\nfour weeks, followed by intermittent maintenance.",
+      "## Conventional systemic therapy\n\nFor moderate to severe plaque psoriasis in an adult without contraindications, the\nrecommended first-line conventional systemic agent in this demo document is\n**methotrexate**, given once weekly with folic acid supplementation. Baseline and\nperiodic monitoring of full blood count, liver enzymes, and renal function is\nrequired, and pregnancy is a contraindication.\n\nAlternative conventional systemic agents are ciclosporin, for short-term control of\nunstable disease, and acitretin, which is preferred in pustular variants.",
+      "## Severity assessment\n\nDisease is considered **moderate to severe** in this demo document when the affected\nbody surface area exceeds 10%, or when the Psoriasis Area and Severity Index (PASI)\nexceeds 10, or when disease at a visible or functionally critical site causes a\nDermatology Life Quality Index (DLQI) above 10.",
+      "## Clinical features\n\nUrticaria presents with transient, intensely pruritic weals that individually resolve\nwithin 24 hours and leave no residual pigmentation. Angioedema, a deeper swelling of\nthe dermis and subcutis, accompanies weals in roughly 40% of cases in this demo\nchapter. Chronic spontaneous urticaria is defined by weals, angioedema, or both\nrecurring for more than six weeks without an identifiable external trigger.\n\nA lesion that persists at the same site beyond 24 hours, burns rather than itches, or\nresolves with bruising or pigmentation argues against urticaria and raises the\npossibility of urticarial vasculitis, in which case a lesional biopsy is indicated.",
+      "## Pharmacotherapy\n\nThe recommended first-line pharmacotherapy for chronic spontaneous urticaria in this\ndemo chapter is a **second-generation H1 antihistamine at the standard licensed\ndose**. First-generation sedating antihistamines are not recommended as first-line\ntherapy because of sedation and anticholinergic effects.\n\nStepwise escalation:\n\n1. Second-generation H1 antihistamine at standard dose for two to four weeks.\n2. If symptoms persist, increase the same antihistamine up to fourfold the standard\n   dose.\n3. If symptoms still persist, add **omalizumab**, an anti-IgE monoclonal antibody.\n4. Ciclosporin is considered for omalizumab-refractory disease.\n\nSystemic glucocorticoids are limited to short courses of no more than ten days for\nacute exacerbations and have no role in long-term control.",
+      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
+      "## Topical treatment of mild to moderate papulopustular acne\n\nFor mild to moderate papulopustular acne, the recommended first-line treatment in\nthis demo document is a **topical fixed-dose combination of adapalene and benzoyl\nperoxide**, applied once daily in the evening. The combination targets both\ncomedogenesis and inflammatory lesions, and benzoyl peroxide limits the emergence of\nantibiotic-resistant *Cutibacterium acnes*.\n\nTopical antibiotic monotherapy is **not** recommended at any severity because of\nresistance selection. If a topical antibiotic is used, it must always be combined\nwith benzoyl peroxide.",
+      "## Tinea capitis\n\nTinea capitis requires **oral** antifungal therapy; topical agents do not penetrate\nthe hair follicle and are used only as adjunctive sporicidal shampoo to reduce\ntransmission. Griseofulvin remains the reference agent for *Microsporum* infection,\nwhereas terbinafine is preferred for *Trichophyton* infection in this demo chapter.",
+      "# Urticaria — demo textbook chapter (SYNTHETIC)\n\nThis chapter is synthetic text written solely to exercise the CORA pipeline in the\ndemo. It is **not** a medical textbook and must not be used for patient care.",
+      "## Onychomycosis\n\nConfirm the diagnosis mycologically before starting systemic therapy, because roughly\nhalf of dystrophic nails in this demo chapter have a non-fungal cause such as\npsoriasis or trauma. Oral terbinafine is the first-line systemic agent for\ndermatophyte onychomycosis."
+    ],
+    "final_sufficient": true
+  }
+}

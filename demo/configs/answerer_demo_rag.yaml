@@ -1,0 +1,17 @@
+# Demo answer generation, RAG condition (retrieved passages in context).
+
+# --- Input ---
+rag_mode: true
+open_ended: false      # multiple-choice, as in the MedQA-derm condition
+retrieved_docs_dir: "demo/outputs/retrieved_docs_demo_reranked/"
+sufficient_only: false # answer all 6 demo questions regardless of the agent's critique
+
+# --- Model ---
+model: "gpt-5-mini"
+provider: "openai"                          # together | openai | local
+local_base_url: "http://localhost:8000/v1"  # only used when provider: local
+max_tokens: 1024
+
+# --- Output ---
+output_file: "demo/outputs/results_demo_rag.csv"
+verbose: true

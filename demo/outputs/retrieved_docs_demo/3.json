@@ -1,0 +1,84 @@
+{
+  "question_id": "3",
+  "question": "A 7-year-old boy has an expanding scaly patch of hair loss on the scalp with broken hairs, and culture grows a Trichophyton species. Which treatment approach is required?",
+  "question_prompt": "A 7-year-old boy has an expanding scaly patch of hair loss on the scalp with broken hairs, and culture grows a Trichophyton species. Which treatment approach is required?\n\nA. Topical terbinafine cream alone for two weeks\nB. Topical ketoconazole shampoo alone\nC. Topical corticosteroid alone\nD. Oral terbinafine, with antifungal shampoo only as an adjunct\n",
+  "answer_options": {
+    "A": "Topical terbinafine cream alone for two weeks",
+    "B": "Topical ketoconazole shampoo alone",
+    "C": "Topical corticosteroid alone",
+    "D": "Oral terbinafine, with antifungal shampoo only as an adjunct"
+  },
+  "correct_choice": "D",
+  "answer_source": "agentic_rag",
+  "retrieval_result": {
+    "plan": {
+      "collections": [
+        "primary",
+        "books"
+      ],
+      "decomposed": true,
+      "sub_queries": [
+        "Clinical features and diagnostic criteria of tinea capitis in school-aged children presenting with an expanding scaly alopecic patch and broken hairs, and typical mycology for Trichophyton species (culture/KOH findings).",
+        "Recommended first-line systemic therapy for tinea capitis caused by Trichophyton species in a 7-year-old: comparative efficacy of oral terbinafine vs griseofulvin, recommended agent, dosing, and treatment duration.",
+        "Adjunctive management for tinea capitis: role of topical antifungal shampoos to reduce transmission, household contact screening/treatment, and indications for oral corticosteroids or other interventions for inflammatory complications (kerion)."
+      ],
+      "key_concepts": [
+        "tinea capitis",
+        "Trichophyton species",
+        "scaly patch with broken hairs (black dot alopecia)",
+        "oral antifungal therapy in children",
+        "griseofulvin (pediatric dosing, duration)",
+        "terbinafine (pediatric dosing, duration)",
+        "topical adjunctive therapy (selenium sulfide or ketoconazole shampoo)",
+        "species-specific treatment recommendations/guidelines"
+      ],
+      "reasoning": "This is a clinical treatment question where textbooks give standard teaching (books) and recent guidelines/evidence (primary literature) may influence drug choice (griseofulvin vs terbinafine), so decompose into diagnosis confirmation, need for systemic vs topical therapy, and species-specific drug/duration recommendations."
+    },
+    "conditions": [
+      "tinea capitis",
+      "Trichophyton species",
+      "scaly patch with broken hairs (black dot alopecia)",
+      "oral antifungal therapy in children",
+      "griseofulvin (pediatric dosing, duration)",
+      "terbinafine (pediatric dosing, duration)",
+      "topical adjunctive therapy (selenium sulfide or ketoconazole shampoo)",
+      "species-specific treatment recommendations/guidelines"
+    ],
+    "retrieval_history": [
+      {
+        "iteration": 1,
+        "query": [
+          "Clinical features and diagnostic criteria of tinea capitis in school-aged children presenting with an expanding scaly alopecic patch and broken hairs, and typical mycology for Trichophyton species (culture/KOH findings).",
+          "Recommended first-line systemic therapy for tinea capitis caused by Trichophyton species in a 7-year-old: comparative efficacy of oral terbinafine vs griseofulvin, recommended agent, dosing, and treatment duration.",
+          "Adjunctive management for tinea capitis: role of topical antifungal shampoos to reduce transmission, household contact screening/treatment, and indications for oral corticosteroids or other interventions for inflammatory complications (kerion)."
+        ],
+        "docs_retrieved": 10,
+        "total_docs": 10,
+        "critique": {
+          "sufficient": true,
+          "confidence": 0.9,
+          "gaps": [
+            "No specific pediatric dosing or treatment duration for oral terbinafine provided.",
+            "No detailed safety/contraindication information for systemic antifungals in children.",
+            "Limited information on alternative regimens if terbinafine is unavailable or contraindicated (e.g., when to use griseofulvin for Trichophyton)."
+          ],
+          "recommendation": "answer",
+          "reasoning": "Doc 4 explicitly states that tinea capitis requires oral antifungal therapy and that terbinafine is preferred for Trichophyton infections, which directly answers the clinical question. The retrieved set lacks dose/duration and safety details, but contains the key therapeutic approach."
+        }
+      }
+    ],
+    "documents": [
+      "## Definition and classification\n\nAcne vulgaris is a chronic inflammatory disorder of the pilosebaceous unit. For the\npurposes of this demo document, severity is graded as:\n\n- **Comedonal acne**: open and closed comedones only, no inflammatory lesions.\n- **Mild to moderate papulopustular acne**: comedones plus inflammatory papules and\n  pustules, without nodules.\n- **Severe papulopustular or nodular acne**: numerous inflammatory lesions, nodules,\n  or scarring.",
+      "## Monitoring\n\nResponse is assessed after 8 to 12 weeks. Maintenance with a topical retinoid is\nrecommended after clearance to prevent relapse.",
+      "## Topical treatment of mild to moderate papulopustular acne\n\nFor mild to moderate papulopustular acne, the recommended first-line treatment in\nthis demo document is a **topical fixed-dose combination of adapalene and benzoyl\nperoxide**, applied once daily in the evening. The combination targets both\ncomedogenesis and inflammatory lesions, and benzoyl peroxide limits the emergence of\nantibiotic-resistant *Cutibacterium acnes*.\n\nTopical antibiotic monotherapy is **not** recommended at any severity because of\nresistance selection. If a topical antibiotic is used, it must always be combined\nwith benzoyl peroxide.",
+      "## Tinea capitis\n\nTinea capitis requires **oral** antifungal therapy; topical agents do not penetrate\nthe hair follicle and are used only as adjunctive sporicidal shampoo to reduce\ntransmission. Griseofulvin remains the reference agent for *Microsporum* infection,\nwhereas terbinafine is preferred for *Trichophyton* infection in this demo chapter.",
+      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
+      "## Onychomycosis\n\nConfirm the diagnosis mycologically before starting systemic therapy, because roughly\nhalf of dystrophic nails in this demo chapter have a non-fungal cause such as\npsoriasis or trauma. Oral terbinafine is the first-line systemic agent for\ndermatophyte onychomycosis.",
+      "## Topical therapy\n\nMild plaque psoriasis is managed topically. The preferred option is a **fixed-dose\ncombination of calcipotriol and betamethasone dipropionate** once daily for up to\nfour weeks, followed by intermittent maintenance.",
+      "## Systemic treatment\n\nSystemic treatment is reserved for severe papulopustular, nodular, or scarring acne,\nor for moderate disease that has failed an adequate topical trial of at least\n12 weeks.\n\n- **Oral doxycycline** 100 mg once daily, always combined with a topical retinoid and\n  benzoyl peroxide, and limited to a maximum of 12 weeks.\n- **Oral isotretinoin** for severe nodular or scarring acne, or for relapsing disease.\n  Pregnancy prevention is mandatory for patients who can become pregnant.",
+      "## Pharmacotherapy\n\nThe recommended first-line pharmacotherapy for chronic spontaneous urticaria in this\ndemo chapter is a **second-generation H1 antihistamine at the standard licensed\ndose**. First-generation sedating antihistamines are not recommended as first-line\ntherapy because of sedation and anticholinergic effects.\n\nStepwise escalation:\n\n1. Second-generation H1 antihistamine at standard dose for two to four weeks.\n2. If symptoms persist, increase the same antihistamine up to fourfold the standard\n   dose.\n3. If symptoms still persist, add **omalizumab**, an anti-IgE monoclonal antibody.\n4. Ciclosporin is considered for omalizumab-refractory disease.\n\nSystemic glucocorticoids are limited to short courses of no more than ten days for\nacute exacerbations and have no role in long-term control.",
+      "## Biologic therapy\n\nBiologic therapy is indicated when a conventional systemic agent has failed, is\ncontraindicated, or is not tolerated. Classes include tumour necrosis factor\ninhibitors, interleukin-17 inhibitors, and interleukin-23 inhibitors. Latent\ntuberculosis screening is required before starting a tumour necrosis factor\ninhibitor."
+    ],
+    "final_sufficient": true
+  }
+}

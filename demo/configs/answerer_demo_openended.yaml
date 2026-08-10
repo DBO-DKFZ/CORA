@@ -1,0 +1,19 @@
+# Demo answer generation, open-ended condition: the answer options are withheld and
+# the model answers in free text. This is the condition the reader study used, and it
+# is what run_answer_judge.py grades.
+
+# --- Input ---
+rag_mode: true
+open_ended: true
+retrieved_docs_dir: "demo/outputs/retrieved_docs_demo_reranked/"
+sufficient_only: false
+
+# --- Model ---
+model: "gpt-5-mini"
+provider: "openai"
+local_base_url: "http://localhost:8000/v1"
+max_tokens: 1024
+
+# --- Output ---
+output_file: "demo/outputs/results_demo_openended.csv"
+verbose: true

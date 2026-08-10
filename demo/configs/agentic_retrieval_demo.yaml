@@ -1,0 +1,28 @@
+# Demo agentic retrieval — small synthetic corpus, CPU-friendly models.
+# Same script and same config schema as configs/agentic_retrieval_gaps.yaml.
+
+input_json: "demo/questions_demo.json"
+output_dir: "demo/outputs/retrieved_docs_demo/"
+verbose: true
+
+# ChromaDB — built by:
+#   python build_index.py --data-dir demo/corpus --chroma-path demo/chromadb_demo \
+#                         --embed-model sentence-transformers/all-MiniLM-L6-v2 --device cpu
+chroma_path: "demo/chromadb_demo"
+collection_name: "eadv_guidelines"
+books_collection_name: "books"
+
+# Embedding — MUST match the model the index was built with.
+embed_model: "sentence-transformers/all-MiniLM-L6-v2"
+topk: 3          # per retrieval call; the agent may issue several
+
+# Agent (small, cheap model — the demo makes a handful of LLM calls per question)
+agent_model: "gpt-5-mini"
+provider: "openai"                          # together | openai | local
+local_base_url: "http://localhost:8000/v1"  # only used when provider: local
+max_iterations: 2
+enable_query_decomposition: true
+enable_self_critique: true
+confidence_threshold: 0.5
+
+rerun_fallbacks: false

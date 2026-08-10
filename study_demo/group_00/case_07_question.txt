@@ -1,8 +1,0 @@
-A 5-year-old girl is brought to the physician by her mother because of a 1-month history of a painful ulcer on her face. She has developed painful sunburns in the past with minimal UV exposure. Examination of the skin shows a 2-cm ulcerated nodule on the left cheek. There are scaly, hyperpigmented papules and plaques over the skin of the entire body. Ophthalmologic examination shows decreased visual acuity, clouded corneas, and limbal injection. Examination of a biopsy specimen from the facial lesion shows poorly-differentiated squamous cell carcinoma. Impairment of which of the following proteins is the most likely cause of this patient's condition?
-
-A. Excision endonuclease
-B. Rb nuclear protein
-C. Base-specific glycosylase
-D. DNA helicase
-
-LLM answer: A. Excision endonuclease

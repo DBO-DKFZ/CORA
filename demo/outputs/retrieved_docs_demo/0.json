@@ -1,0 +1,80 @@
+{
+  "question_id": "0",
+  "question": "A 19-year-old man has comedones together with inflammatory papules and pustules on the face, without nodules or scarring. Which of the following is the recommended first-line topical treatment?",
+  "question_prompt": "A 19-year-old man has comedones together with inflammatory papules and pustules on the face, without nodules or scarring. Which of the following is the recommended first-line topical treatment?\n\nA. Fixed-dose combination of adapalene and benzoyl peroxide once daily\nB. Topical clindamycin monotherapy twice daily\nC. Oral isotretinoin for 20 weeks\nD. Topical hydrocortisone once daily\n",
+  "answer_options": {
+    "A": "Fixed-dose combination of adapalene and benzoyl peroxide once daily",
+    "B": "Topical clindamycin monotherapy twice daily",
+    "C": "Oral isotretinoin for 20 weeks",
+    "D": "Topical hydrocortisone once daily"
+  },
+  "correct_choice": "A",
+  "answer_source": "agentic_rag",
+  "retrieval_result": {
+    "plan": {
+      "collections": [
+        "primary",
+        "books"
+      ],
+      "decomposed": true,
+      "sub_queries": [
+        "Guideline-recommended first-line topical pharmacologic treatment for mild-to-moderate acne vulgaris (presence of comedones with inflammatory papules and pustules, no nodules or scarring) in adolescents/adults",
+        "Comparative effectiveness and guideline recommendations for topical retinoids (adapalene, tretinoin) versus benzoyl peroxide and topical antibiotics for inflammatory papulopustular acne without nodules",
+        "Recommended topical combination therapies (e.g., topical retinoid + benzoyl peroxide) vs monotherapy for comedonal + inflammatory acne: efficacy, dosing, duration, and safety"
+      ],
+      "key_concepts": [
+        "acne vulgaris",
+        "comedonal acne",
+        "inflammatory papules and pustules",
+        "mild to moderate acne (severity classification)",
+        "first-line topical therapy",
+        "topical retinoids (adapalene, tretinoin, tazarotene)",
+        "benzoyl peroxide",
+        "topical antibiotics (clindamycin) — role and resistance"
+      ],
+      "reasoning": "Search both primary sources (guidelines/reviews) for current first-line recommendations and textbooks for established teaching; decompose to 1) confirm severity classification (no nodules/scarring = mild–moderate) and 2) identify guideline-recommended first-line topical agent(s)."
+    },
+    "conditions": [
+      "acne vulgaris",
+      "comedonal acne",
+      "inflammatory papules and pustules",
+      "mild to moderate acne (severity classification)",
+      "first-line topical therapy",
+      "topical retinoids (adapalene, tretinoin, tazarotene)",
+      "benzoyl peroxide",
+      "topical antibiotics (clindamycin) — role and resistance"
+    ],
+    "retrieval_history": [
+      {
+        "iteration": 1,
+        "query": [
+          "Guideline-recommended first-line topical pharmacologic treatment for mild-to-moderate acne vulgaris (presence of comedones with inflammatory papules and pustules, no nodules or scarring) in adolescents/adults",
+          "Comparative effectiveness and guideline recommendations for topical retinoids (adapalene, tretinoin) versus benzoyl peroxide and topical antibiotics for inflammatory papulopustular acne without nodules",
+          "Recommended topical combination therapies (e.g., topical retinoid + benzoyl peroxide) vs monotherapy for comedonal + inflammatory acne: efficacy, dosing, duration, and safety"
+        ],
+        "docs_retrieved": 7,
+        "total_docs": 7,
+        "critique": {
+          "sufficient": true,
+          "confidence": 0.95,
+          "gaps": [
+            "No specific concentrations or commercial product examples for the adapalene–benzoyl peroxide combination (e.g., % strengths).",
+            "Limited discussion of alternative first-line topical options or patient-specific contraindications/sensitivity guidance."
+          ],
+          "recommendation": "answer",
+          "reasoning": "The retrieved documents explicitly classify the patient's acne as mild-to-moderate papulopustular and state the recommended first-line topical therapy is a fixed-dose combination of adapalene and benzoyl peroxide applied once daily. That directly answers the question, though minor formulation/dosing specifics and alternatives are not provided."
+        }
+      }
+    ],
+    "documents": [
+      "## Definition and classification\n\nAcne vulgaris is a chronic inflammatory disorder of the pilosebaceous unit. For the\npurposes of this demo document, severity is graded as:\n\n- **Comedonal acne**: open and closed comedones only, no inflammatory lesions.\n- **Mild to moderate papulopustular acne**: comedones plus inflammatory papules and\n  pustules, without nodules.\n- **Severe papulopustular or nodular acne**: numerous inflammatory lesions, nodules,\n  or scarring.",
+      "## Topical treatment of mild to moderate papulopustular acne\n\nFor mild to moderate papulopustular acne, the recommended first-line treatment in\nthis demo document is a **topical fixed-dose combination of adapalene and benzoyl\nperoxide**, applied once daily in the evening. The combination targets both\ncomedogenesis and inflammatory lesions, and benzoyl peroxide limits the emergence of\nantibiotic-resistant *Cutibacterium acnes*.\n\nTopical antibiotic monotherapy is **not** recommended at any severity because of\nresistance selection. If a topical antibiotic is used, it must always be combined\nwith benzoyl peroxide.",
+      "## Systemic treatment\n\nSystemic treatment is reserved for severe papulopustular, nodular, or scarring acne,\nor for moderate disease that has failed an adequate topical trial of at least\n12 weeks.\n\n- **Oral doxycycline** 100 mg once daily, always combined with a topical retinoid and\n  benzoyl peroxide, and limited to a maximum of 12 weeks.\n- **Oral isotretinoin** for severe nodular or scarring acne, or for relapsing disease.\n  Pregnancy prevention is mandatory for patients who can become pregnant.",
+      "## Tinea capitis\n\nTinea capitis requires **oral** antifungal therapy; topical agents do not penetrate\nthe hair follicle and are used only as adjunctive sporicidal shampoo to reduce\ntransmission. Griseofulvin remains the reference agent for *Microsporum* infection,\nwhereas terbinafine is preferred for *Trichophyton* infection in this demo chapter.",
+      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
+      "## Onychomycosis\n\nConfirm the diagnosis mycologically before starting systemic therapy, because roughly\nhalf of dystrophic nails in this demo chapter have a non-fungal cause such as\npsoriasis or trauma. Oral terbinafine is the first-line systemic agent for\ndermatophyte onychomycosis.",
+      "## Pharmacotherapy\n\nThe recommended first-line pharmacotherapy for chronic spontaneous urticaria in this\ndemo chapter is a **second-generation H1 antihistamine at the standard licensed\ndose**. First-generation sedating antihistamines are not recommended as first-line\ntherapy because of sedation and anticholinergic effects.\n\nStepwise escalation:\n\n1. Second-generation H1 antihistamine at standard dose for two to four weeks.\n2. If symptoms persist, increase the same antihistamine up to fourfold the standard\n   dose.\n3. If symptoms still persist, add **omalizumab**, an anti-IgE monoclonal antibody.\n4. Ciclosporin is considered for omalizumab-refractory disease.\n\nSystemic glucocorticoids are limited to short courses of no more than ten days for\nacute exacerbations and have no role in long-term control."
+    ],
+    "final_sufficient": true
+  }
+}

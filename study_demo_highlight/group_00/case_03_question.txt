@@ -1,8 +1,0 @@
-A <strong>45 year old</strong> <strong>farmer</strong> has <strong>itchy erythematous papular lesions</strong> on <strong>face, neck, 'V' area of chest, dorsum of hands and forearms</strong> for <strong>3 years</strong>. The lesions are <strong>more severe in summers</strong> and <strong>improve by 75% in winters</strong>. The most appropriate test to diagnose the condition would be –
-
-A. Skin biopsy
-B. Estimation of IgE levels in blood
-C. Patch test
-D. Intradermal prick test
-
-LLM answer: A. Skin biopsy
