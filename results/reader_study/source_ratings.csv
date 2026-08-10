@@ -1,0 +1,1779 @@
+pid,group,case_index,question_id,source_position,document_id,rating,supports_llm,llm_answer,correct_choice,llm_is_correct
+p02,1,1,1254,1,1,Does not support,False,C,C,True
+p02,1,1,1254,2,2,Supports,True,C,C,True
+p02,1,1,1254,3,7,Supports,True,C,C,True
+p02,1,2,4915,1,1,Does not support,False,B,B,True
+p02,1,3,554,1,3,Does not support,False,A,A,True
+p02,1,3,554,2,5,Does not support,False,A,A,True
+p02,1,3,554,3,9,Does not support,False,A,A,True
+p02,1,4,83,1,2,Supports,True,A,A,True
+p02,1,4,83,2,5,Does not support,False,A,A,True
+p02,1,4,83,3,7,Supports,True,A,A,True
+p02,1,4,83,4,9,Does not support,False,A,A,True
+p02,1,5,59,1,2,Supports,True,B,B,True
+p02,1,5,59,2,7,Supports,True,B,B,True
+p02,1,6,9946,1,10,Supports,True,C,C,True
+p02,1,7,8111,1,3,Supports,True,A,C,False
+p02,1,7,8111,2,8,Does not support,False,A,C,False
+p02,1,8,6933,1,5,Supports,True,B,B,True
+p02,1,9,3376,1,1,Supports,True,C,C,True
+p02,1,9,3376,2,3,Supports,True,C,C,True
+p02,1,10,2518,1,1,Supports,True,D,D,True
+p02,1,10,2518,2,5,Supports,True,D,D,True
+p02,1,10,2518,3,6,Supports,True,D,D,True
+p02,1,11,3245,1,1,Supports,True,C,C,True
+p02,1,11,3245,2,6,Does not support,False,C,C,True
+p02,1,12,2068,1,6,Supports,True,A,A,True
+p02,1,13,463,1,1,Does not support,False,C,C,True
+p02,1,13,463,2,4,Supports,True,C,C,True
+p02,1,14,260,1,2,Supports,True,C,D,False
+p02,1,15,586,1,1,Supports,True,D,D,True
+p02,1,15,586,2,2,Supports,True,D,D,True
+p02,1,15,586,3,4,Supports,True,D,D,True
+p02,1,15,586,4,6,Supports,True,D,D,True
+p02,1,16,302,1,7,Supports,True,C,C,True
+p02,1,16,302,2,6,Does not support,False,C,C,True
+p03,1,1,1254,1,1,Does not support,False,C,C,True
+p03,1,1,1254,2,2,Supports,True,C,C,True
+p03,1,1,1254,3,7,Supports,True,C,C,True
+p03,1,2,4915,1,1,Supports,True,B,B,True
+p03,1,3,554,1,3,Supports,True,A,A,True
+p03,1,3,554,2,5,Supports,True,A,A,True
+p03,1,3,554,3,9,Supports,True,A,A,True
+p03,1,4,83,1,2,Supports,True,A,A,True
+p03,1,4,83,2,5,Does not support,False,A,A,True
+p03,1,4,83,3,7,Supports,True,A,A,True
+p03,1,4,83,4,9,Supports,True,A,A,True
+p03,1,5,59,1,2,Supports,True,B,B,True
+p03,1,5,59,2,7,Supports,True,B,B,True
+p03,1,6,9946,1,10,Supports,True,C,C,True
+p03,1,7,8111,1,3,Supports,True,A,C,False
+p03,1,7,8111,2,8,Supports,True,A,C,False
+p03,1,8,6933,1,5,Supports,True,B,B,True
+p03,1,9,3376,1,1,Supports,True,C,C,True
+p03,1,9,3376,2,3,Supports,True,C,C,True
+p03,1,10,2518,1,1,Supports,True,D,D,True
+p03,1,10,2518,2,5,Supports,True,D,D,True
+p03,1,10,2518,3,6,Supports,True,D,D,True
+p03,1,11,3245,1,1,Supports,True,C,C,True
+p03,1,11,3245,2,6,Supports,True,C,C,True
+p03,1,12,2068,1,6,Supports,True,A,A,True
+p03,1,13,463,1,1,Supports,True,C,C,True
+p03,1,13,463,2,4,Supports,True,C,C,True
+p03,1,14,260,1,2,Supports,True,C,D,False
+p03,1,15,586,1,1,Supports,True,D,D,True
+p03,1,15,586,2,2,Supports,True,D,D,True
+p03,1,15,586,3,4,Supports,True,D,D,True
+p03,1,15,586,4,6,Supports,True,D,D,True
+p03,1,16,302,1,7,Does not support,False,C,C,True
+p03,1,16,302,2,6,Supports,True,C,C,True
+p01,1,1,1254,1,1,Does not support,False,C,C,True
+p01,1,1,1254,2,2,Does not support,False,C,C,True
+p01,1,1,1254,3,7,Supports,True,C,C,True
+p01,1,2,4915,1,1,Supports,True,B,B,True
+p01,1,3,554,1,3,Supports,True,A,A,True
+p01,1,3,554,2,5,Does not support,False,A,A,True
+p01,1,3,554,3,9,Does not support,False,A,A,True
+p01,1,4,83,1,2,Supports,True,A,A,True
+p01,1,4,83,2,5,Does not support,False,A,A,True
+p01,1,4,83,3,7,Supports,True,A,A,True
+p01,1,4,83,4,9,Supports,True,A,A,True
+p01,1,5,59,1,2,Supports,True,B,B,True
+p01,1,5,59,2,7,Does not support,False,B,B,True
+p01,1,6,9946,1,10,Does not support,False,C,C,True
+p01,1,7,8111,1,3,Supports,True,A,C,False
+p01,1,7,8111,2,8,Supports,True,A,C,False
+p01,1,8,6933,1,5,Supports,True,B,B,True
+p01,1,9,3376,1,1,Supports,True,C,C,True
+p01,1,9,3376,2,3,Supports,True,C,C,True
+p01,1,10,2518,1,1,Supports,True,D,D,True
+p01,1,10,2518,2,5,Supports,True,D,D,True
+p01,1,10,2518,3,6,Supports,True,D,D,True
+p01,1,11,3245,1,1,Supports,True,C,C,True
+p01,1,11,3245,2,6,Does not support,False,C,C,True
+p01,1,12,2068,1,6,Supports,True,A,A,True
+p01,1,13,463,1,1,Supports,True,C,C,True
+p01,1,13,463,2,4,Does not support,False,C,C,True
+p01,1,14,260,1,2,Does not support,False,C,D,False
+p01,1,15,586,1,1,Supports,True,D,D,True
+p01,1,15,586,2,2,Supports,True,D,D,True
+p01,1,15,586,3,4,Supports,True,D,D,True
+p01,1,15,586,4,6,Supports,True,D,D,True
+p01,1,16,302,1,7,Supports,True,C,C,True
+p01,1,16,302,2,6,Does not support,False,C,C,True
+p05,2,1,4129,1,1,Supports,True,B,B,True
+p05,2,1,4129,2,2,Supports,True,B,B,True
+p05,2,1,4129,3,5,Does not support,False,B,B,True
+p05,2,2,1275,1,1,Supports,True,A,A,True
+p05,2,2,1275,2,3,Supports,True,A,A,True
+p05,2,2,1275,3,5,Does not support,False,A,A,True
+p05,2,2,1275,4,6,Does not support,False,A,A,True
+p05,2,2,1275,5,7,Supports,True,A,A,True
+p05,2,3,506,1,1,Supports,True,C,C,True
+p05,2,3,506,2,3,Supports,True,C,C,True
+p05,2,3,506,3,5,Supports,True,C,C,True
+p05,2,4,1144,1,1,Supports,True,C,C,True
+p05,2,4,1144,2,4,Does not support,False,C,C,True
+p05,2,4,1144,3,5,Supports,True,C,C,True
+p05,2,5,122,1,4,Supports,True,D,D,True
+p05,2,5,122,2,8,Does not support,False,D,D,True
+p05,2,5,122,3,9,Does not support,False,D,D,True
+p05,2,6,430,1,1,Does not support,False,D,D,True
+p05,2,6,430,2,2,Does not support,False,D,D,True
+p05,2,6,430,3,3,Does not support,False,D,D,True
+p05,2,6,430,4,4,Supports,True,D,D,True
+p05,2,7,204,1,2,Supports,True,D,D,True
+p05,2,7,204,2,6,Supports,True,D,D,True
+p05,2,7,204,3,9,Supports,True,D,D,True
+p05,2,7,204,4,10,Supports,True,D,D,True
+p05,2,8,2110,1,1,Supports,True,A,A,True
+p05,2,8,2110,2,2,Supports,True,A,A,True
+p05,2,9,8524,1,2,Supports,True,C,C,True
+p05,2,9,8524,2,3,Supports,True,C,C,True
+p05,2,9,8524,3,1,Supports,True,C,C,True
+p05,2,10,6968,1,2,Supports,True,D,D,True
+p05,2,11,239,1,7,Supports,True,C,C,True
+p05,2,11,239,2,10,Supports,True,C,C,True
+p05,2,12,499,1,7,Supports,True,C,C,True
+p05,2,12,499,2,2,Supports,True,C,C,True
+p05,2,13,685,1,5,Supports,True,F,F,True
+p05,2,14,3776,1,1,Supports,True,D,A,False
+p05,2,15,1316,1,4,Supports,True,C,C,True
+p05,2,15,1316,2,10,Supports,True,C,C,True
+p05,2,16,9028,1,1,Does not support,False,C,D,False
+p05,2,16,9028,2,3,Supports,True,C,D,False
+p05,2,16,9028,3,7,Supports,True,C,D,False
+p04,2,1,4129,1,1,Does not support,False,B,B,True
+p04,2,1,4129,2,2,Supports,True,B,B,True
+p04,2,1,4129,3,5,Supports,True,B,B,True
+p04,2,2,1275,1,1,Supports,True,A,A,True
+p04,2,2,1275,2,3,Supports,True,A,A,True
+p04,2,2,1275,3,5,Supports,True,A,A,True
+p04,2,2,1275,4,6,Does not support,False,A,A,True
+p04,2,2,1275,5,7,Supports,True,A,A,True
+p04,2,3,506,1,1,Does not support,False,C,C,True
+p04,2,3,506,2,3,Supports,True,C,C,True
+p04,2,3,506,3,5,Supports,True,C,C,True
+p04,2,4,1144,1,1,Supports,True,C,C,True
+p04,2,4,1144,2,4,Supports,True,C,C,True
+p04,2,4,1144,3,5,Does not support,False,C,C,True
+p04,2,5,122,1,4,Supports,True,D,D,True
+p04,2,5,122,2,8,Does not support,False,D,D,True
+p04,2,5,122,3,9,Supports,True,D,D,True
+p04,2,6,430,1,1,Does not support,False,D,D,True
+p04,2,6,430,2,2,Supports,True,D,D,True
+p04,2,6,430,3,3,Supports,True,D,D,True
+p04,2,6,430,4,4,Supports,True,D,D,True
+p04,2,7,204,1,2,Supports,True,D,D,True
+p04,2,7,204,2,6,Supports,True,D,D,True
+p04,2,7,204,3,9,Supports,True,D,D,True
+p04,2,7,204,4,10,Supports,True,D,D,True
+p04,2,8,2110,1,1,Supports,True,A,A,True
+p04,2,8,2110,2,2,Supports,True,A,A,True
+p04,2,9,8524,1,2,Supports,True,C,C,True
+p04,2,9,8524,2,3,Supports,True,C,C,True
+p04,2,9,8524,3,1,Supports,True,C,C,True
+p04,2,10,6968,1,2,Does not support,False,D,D,True
+p04,2,11,239,1,7,Supports,True,C,C,True
+p04,2,11,239,2,10,Supports,True,C,C,True
+p04,2,12,499,1,7,Supports,True,C,C,True
+p04,2,12,499,2,2,Supports,True,C,C,True
+p04,2,13,685,1,5,Supports,True,F,F,True
+p04,2,14,3776,1,1,Supports,True,D,A,False
+p04,2,15,1316,1,4,Supports,True,C,C,True
+p04,2,15,1316,2,10,Supports,True,C,C,True
+p04,2,16,9028,1,1,Does not support,False,C,D,False
+p04,2,16,9028,2,3,Supports,True,C,D,False
+p04,2,16,9028,3,7,Supports,True,C,D,False
+p06,2,1,4129,1,1,Supports,True,B,B,True
+p06,2,1,4129,2,2,Supports,True,B,B,True
+p06,2,1,4129,3,5,Supports,True,B,B,True
+p06,2,2,1275,1,1,Supports,True,A,A,True
+p06,2,2,1275,2,3,Supports,True,A,A,True
+p06,2,2,1275,3,5,Supports,True,A,A,True
+p06,2,2,1275,4,6,Does not support,False,A,A,True
+p06,2,2,1275,5,7,Supports,True,A,A,True
+p06,2,3,506,1,1,Supports,True,C,C,True
+p06,2,3,506,2,3,Supports,True,C,C,True
+p06,2,3,506,3,5,Supports,True,C,C,True
+p06,2,4,1144,1,1,Supports,True,C,C,True
+p06,2,4,1144,2,4,Supports,True,C,C,True
+p06,2,4,1144,3,5,Supports,True,C,C,True
+p06,2,5,122,1,4,Supports,True,D,D,True
+p06,2,5,122,2,8,Does not support,False,D,D,True
+p06,2,5,122,3,9,Supports,True,D,D,True
+p06,2,6,430,1,1,Supports,True,D,D,True
+p06,2,6,430,2,2,Does not support,False,D,D,True
+p06,2,6,430,3,3,Supports,True,D,D,True
+p06,2,6,430,4,4,Supports,True,D,D,True
+p06,2,7,204,1,2,Supports,True,D,D,True
+p06,2,7,204,2,6,Supports,True,D,D,True
+p06,2,7,204,3,9,Supports,True,D,D,True
+p06,2,7,204,4,10,Supports,True,D,D,True
+p06,2,8,2110,1,1,Supports,True,A,A,True
+p06,2,8,2110,2,2,Supports,True,A,A,True
+p06,2,9,8524,1,2,Does not support,False,C,C,True
+p06,2,9,8524,2,3,Does not support,False,C,C,True
+p06,2,9,8524,3,1,Supports,True,C,C,True
+p06,2,10,6968,1,2,Supports,True,D,D,True
+p06,2,11,239,1,7,Supports,True,C,C,True
+p06,2,11,239,2,10,Supports,True,C,C,True
+p06,2,12,499,1,7,Supports,True,C,C,True
+p06,2,12,499,2,2,Supports,True,C,C,True
+p06,2,13,685,1,5,Supports,True,F,F,True
+p06,2,14,3776,1,1,Supports,True,D,A,False
+p06,2,15,1316,1,4,Does not support,False,C,C,True
+p06,2,15,1316,2,10,Does not support,False,C,C,True
+p06,2,16,9028,1,1,Does not support,False,C,D,False
+p06,2,16,9028,2,3,Supports,True,C,D,False
+p06,2,16,9028,3,7,Supports,True,C,D,False
+p09,3,1,9554,1,1,Supports,True,B,B,True
+p09,3,1,9554,2,3,Does not support,False,B,B,True
+p09,3,2,831,1,5,Supports,True,B,B,True
+p09,3,2,831,2,8,Does not support,False,B,B,True
+p09,3,3,203,1,4,Does not support,False,C,C,True
+p09,3,4,845,1,4,Supports,True,C,C,True
+p09,3,4,845,2,9,Supports,True,C,C,True
+p09,3,5,1015,1,2,Does not support,False,A,A,True
+p09,3,5,1015,2,6,Does not support,False,A,A,True
+p09,3,5,1015,3,7,Does not support,False,A,A,True
+p09,3,6,2897,1,1,Does not support,False,B,B,True
+p09,3,6,2897,2,2,Supports,True,B,B,True
+p09,3,7,1499,1,4,Supports,True,A,A,True
+p09,3,8,400,1,3,Does not support,False,A,D,False
+p09,3,9,6176,1,4,Does not support,False,A,A,True
+p09,3,9,6176,2,9,Does not support,False,A,A,True
+p09,3,9,6176,3,10,Supports,True,A,A,True
+p09,3,10,1354,1,2,Does not support,False,B,B,True
+p09,3,10,1354,2,4,Supports,True,B,B,True
+p09,3,10,1354,3,8,Does not support,False,B,B,True
+p09,3,11,720,1,1,Does not support,False,A,A,True
+p09,3,11,720,2,3,Does not support,False,A,A,True
+p09,3,11,720,3,6,Does not support,False,A,A,True
+p09,3,12,498,1,3,Does not support,False,B,C,False
+p09,3,13,4631,1,3,Does not support,False,A,A,True
+p09,3,14,6684,1,3,Supports,True,A,A,True
+p09,3,14,6684,2,1,Supports,True,A,A,True
+p09,3,15,1392,1,3,Does not support,False,A,A,True
+p09,3,15,1392,2,1,Does not support,False,A,A,True
+p09,3,16,2973,1,1,Supports,True,A,A,True
+p09,3,16,2973,2,4,Supports,True,A,A,True
+p09,3,16,2973,3,7,Does not support,False,A,A,True
+p09,3,16,2973,4,9,Supports,True,A,A,True
+p07,3,1,9554,1,1,Supports,True,B,B,True
+p07,3,1,9554,2,3,Supports,True,B,B,True
+p07,3,2,831,1,5,Supports,True,B,B,True
+p07,3,2,831,2,8,Supports,True,B,B,True
+p07,3,3,203,1,4,Does not support,False,C,C,True
+p07,3,4,845,1,4,Supports,True,C,C,True
+p07,3,4,845,2,9,Supports,True,C,C,True
+p07,3,5,1015,1,2,Supports,True,A,A,True
+p07,3,5,1015,2,6,Does not support,False,A,A,True
+p07,3,5,1015,3,7,Supports,True,A,A,True
+p07,3,6,2897,1,1,Supports,True,B,B,True
+p07,3,6,2897,2,2,Supports,True,B,B,True
+p07,3,7,1499,1,4,Supports,True,A,A,True
+p07,3,8,400,1,3,Does not support,False,A,D,False
+p07,3,9,6176,1,4,Supports,True,A,A,True
+p07,3,9,6176,2,9,Does not support,False,A,A,True
+p07,3,9,6176,3,10,Supports,True,A,A,True
+p07,3,10,1354,1,2,Does not support,False,B,B,True
+p07,3,10,1354,2,4,Supports,True,B,B,True
+p07,3,10,1354,3,8,Does not support,False,B,B,True
+p07,3,11,720,1,1,Does not support,False,A,A,True
+p07,3,11,720,2,3,Does not support,False,A,A,True
+p07,3,11,720,3,6,Does not support,False,A,A,True
+p07,3,12,498,1,3,Does not support,False,B,C,False
+p07,3,13,4631,1,3,Does not support,False,A,A,True
+p07,3,14,6684,1,3,Supports,True,A,A,True
+p07,3,14,6684,2,1,Supports,True,A,A,True
+p07,3,15,1392,1,3,Supports,True,A,A,True
+p07,3,15,1392,2,1,Does not support,False,A,A,True
+p07,3,16,2973,1,1,Supports,True,A,A,True
+p07,3,16,2973,2,4,Does not support,False,A,A,True
+p07,3,16,2973,3,7,Supports,True,A,A,True
+p07,3,16,2973,4,9,Supports,True,A,A,True
+p08,3,1,9554,1,1,Supports,True,B,B,True
+p08,3,1,9554,2,3,Supports,True,B,B,True
+p08,3,2,831,1,5,Supports,True,B,B,True
+p08,3,2,831,2,8,Supports,True,B,B,True
+p08,3,3,203,1,4,Does not support,False,C,C,True
+p08,3,4,845,1,4,Supports,True,C,C,True
+p08,3,4,845,2,9,Supports,True,C,C,True
+p08,3,5,1015,1,2,Supports,True,A,A,True
+p08,3,5,1015,2,6,Supports,True,A,A,True
+p08,3,5,1015,3,7,Supports,True,A,A,True
+p08,3,6,2897,1,1,Supports,True,B,B,True
+p08,3,6,2897,2,2,Supports,True,B,B,True
+p08,3,7,1499,1,4,Supports,True,A,A,True
+p08,3,8,400,1,3,Does not support,False,A,D,False
+p08,3,9,6176,1,4,Supports,True,A,A,True
+p08,3,9,6176,2,9,Supports,True,A,A,True
+p08,3,9,6176,3,10,Supports,True,A,A,True
+p08,3,10,1354,1,2,Does not support,False,B,B,True
+p08,3,10,1354,2,4,Does not support,False,B,B,True
+p08,3,10,1354,3,8,Does not support,False,B,B,True
+p08,3,11,720,1,1,Does not support,False,A,A,True
+p08,3,11,720,2,3,Does not support,False,A,A,True
+p08,3,11,720,3,6,Does not support,False,A,A,True
+p08,3,12,498,1,3,Does not support,False,B,C,False
+p08,3,13,4631,1,3,Does not support,False,A,A,True
+p08,3,14,6684,1,3,Supports,True,A,A,True
+p08,3,14,6684,2,1,Supports,True,A,A,True
+p08,3,15,1392,1,3,Supports,True,A,A,True
+p08,3,15,1392,2,1,Supports,True,A,A,True
+p08,3,16,2973,1,1,Supports,True,A,A,True
+p08,3,16,2973,2,4,Supports,True,A,A,True
+p08,3,16,2973,3,7,Supports,True,A,A,True
+p08,3,16,2973,4,9,Supports,True,A,A,True
+p11,4,1,9147,1,1,Supports,True,B,B,True
+p11,4,2,8693,1,4,Supports,True,C,C,True
+p11,4,3,799,1,5,Supports,True,A,A,True
+p11,4,4,682,1,1,Does not support,False,G,D,False
+p11,4,5,709,1,3,Supports,True,F,F,True
+p11,4,5,709,2,4,Supports,True,F,F,True
+p11,4,5,709,3,6,Supports,True,F,F,True
+p11,4,5,709,4,9,Supports,True,F,F,True
+p11,4,6,4742,1,7,Supports,True,A,A,True
+p11,4,6,4742,2,10,Supports,True,A,A,True
+p11,4,7,610,1,5,Supports,True,A,A,True
+p11,4,7,610,2,9,Supports,True,A,A,True
+p11,4,7,610,3,4,Does not support,False,A,A,True
+p11,4,8,1389,1,1,Supports,True,B,B,True
+p11,4,8,1389,2,2,Supports,True,B,B,True
+p11,4,8,1389,3,4,Supports,True,B,B,True
+p11,4,8,1389,4,5,Supports,True,B,B,True
+p11,4,9,9053,1,4,Supports,True,C,C,True
+p11,4,10,242,1,1,Does not support,False,C,C,True
+p11,4,10,242,2,9,Supports,True,C,C,True
+p11,4,11,2562,1,1,Supports,True,C,C,True
+p11,4,11,2562,2,10,Supports,True,C,C,True
+p11,4,12,7290,1,1,Supports,True,B,B,True
+p11,4,12,7290,2,5,Does not support,False,B,B,True
+p11,4,13,1028,1,5,Supports,True,D,D,True
+p11,4,13,1028,2,9,Supports,True,D,D,True
+p11,4,14,4403,1,1,Supports,True,B,B,True
+p11,4,14,4403,2,2,Supports,True,B,B,True
+p11,4,14,4403,3,5,Supports,True,B,B,True
+p11,4,15,199,1,1,Supports,True,B,B,True
+p11,4,15,199,2,5,Supports,True,B,B,True
+p11,4,15,199,3,9,Supports,True,B,B,True
+p11,4,16,528,1,6,Supports,True,B,A,False
+p12,4,1,9147,1,1,Supports,True,B,B,True
+p12,4,2,8693,1,4,Does not support,False,C,C,True
+p12,4,3,799,1,5,Does not support,False,A,A,True
+p12,4,4,682,1,1,Does not support,False,G,D,False
+p12,4,5,709,1,3,Supports,True,F,F,True
+p12,4,5,709,2,4,Does not support,False,F,F,True
+p12,4,5,709,3,6,Does not support,False,F,F,True
+p12,4,5,709,4,9,Supports,True,F,F,True
+p12,4,6,4742,1,7,Supports,True,A,A,True
+p12,4,6,4742,2,10,Supports,True,A,A,True
+p12,4,7,610,1,5,Does not support,False,A,A,True
+p12,4,7,610,2,9,Supports,True,A,A,True
+p12,4,7,610,3,4,Does not support,False,A,A,True
+p12,4,8,1389,1,1,Does not support,False,B,B,True
+p12,4,8,1389,2,2,Supports,True,B,B,True
+p12,4,8,1389,3,4,Supports,True,B,B,True
+p12,4,8,1389,4,5,Does not support,False,B,B,True
+p12,4,9,9053,1,4,Supports,True,C,C,True
+p12,4,10,242,1,1,Does not support,False,C,C,True
+p12,4,10,242,2,9,Does not support,False,C,C,True
+p12,4,11,2562,1,1,Supports,True,C,C,True
+p12,4,11,2562,2,10,Supports,True,C,C,True
+p12,4,12,7290,1,1,Supports,True,B,B,True
+p12,4,12,7290,2,5,Supports,True,B,B,True
+p12,4,13,1028,1,5,Supports,True,D,D,True
+p12,4,13,1028,2,9,Does not support,False,D,D,True
+p12,4,14,4403,1,1,Does not support,False,B,B,True
+p12,4,14,4403,2,2,Does not support,False,B,B,True
+p12,4,14,4403,3,5,Does not support,False,B,B,True
+p12,4,15,199,1,1,Supports,True,B,B,True
+p12,4,15,199,2,5,Supports,True,B,B,True
+p12,4,15,199,3,9,Supports,True,B,B,True
+p12,4,16,528,1,6,Does not support,False,B,A,False
+p14,5,1,458,1,3,Supports,True,D,D,True
+p14,5,1,458,2,5,Does not support,False,D,D,True
+p14,5,2,785,1,2,Supports,True,D,E,False
+p14,5,3,798,1,6,Supports,True,A,A,True
+p14,5,3,798,2,1,Does not support,False,A,A,True
+p14,5,4,6918,1,1,Supports,True,A,A,True
+p14,5,4,6918,2,2,Supports,True,A,A,True
+p14,5,4,6918,3,8,Does not support,False,A,A,True
+p14,5,5,842,1,1,Does not support,False,B,B,True
+p14,5,5,842,2,4,Does not support,False,B,B,True
+p14,5,6,2592,1,5,Does not support,False,A,A,True
+p14,5,7,2373,1,3,Supports,True,B,B,True
+p14,5,7,2373,2,6,Supports,True,B,B,True
+p14,5,7,2373,3,2,Supports,True,B,B,True
+p14,5,8,4341,1,1,Supports,True,B,B,True
+p14,5,8,4341,2,2,Supports,True,B,B,True
+p14,5,8,4341,3,6,Supports,True,B,B,True
+p14,5,9,407,1,3,Does not support,False,C,B,False
+p14,5,9,407,2,7,Does not support,False,C,B,False
+p14,5,9,407,3,9,Does not support,False,C,B,False
+p14,5,10,320,1,6,Supports,True,D,D,True
+p14,5,11,189,1,1,Does not support,False,A,A,True
+p14,5,11,189,2,2,Does not support,False,A,A,True
+p14,5,11,189,3,8,Does not support,False,A,A,True
+p14,5,12,558,1,5,Supports,True,D,D,True
+p14,5,12,558,2,6,Supports,True,D,D,True
+p14,5,12,558,3,7,Supports,True,D,D,True
+p14,5,13,5633,1,1,Supports,True,D,D,True
+p14,5,13,5633,2,2,Supports,True,D,D,True
+p14,5,13,5633,3,6,Supports,True,D,D,True
+p14,5,14,241,1,1,Does not support,False,A,A,True
+p14,5,14,241,2,5,Supports,True,A,A,True
+p14,5,14,241,3,6,Does not support,False,A,A,True
+p14,5,15,6596,1,2,Supports,True,C,C,True
+p14,5,15,6596,2,7,Supports,True,C,C,True
+p14,5,15,6596,3,9,Supports,True,C,C,True
+p14,5,16,1033,1,4,Supports,True,C,C,True
+p14,5,16,1033,2,1,Supports,True,C,C,True
+p14,5,16,1033,3,3,Does not support,False,C,C,True
+p15,5,1,458,1,3,Supports,True,D,D,True
+p15,5,1,458,2,5,Does not support,False,D,D,True
+p15,5,2,785,1,2,Supports,True,D,E,False
+p15,5,3,798,1,6,Supports,True,A,A,True
+p15,5,3,798,2,1,Does not support,False,A,A,True
+p15,5,4,6918,1,1,Does not support,False,A,A,True
+p15,5,4,6918,2,2,Does not support,False,A,A,True
+p15,5,4,6918,3,8,Does not support,False,A,A,True
+p15,5,5,842,1,1,Supports,True,B,B,True
+p15,5,5,842,2,4,Does not support,False,B,B,True
+p15,5,6,2592,1,5,Does not support,False,A,A,True
+p15,5,7,2373,1,3,Supports,True,B,B,True
+p15,5,7,2373,2,6,Supports,True,B,B,True
+p15,5,7,2373,3,2,Supports,True,B,B,True
+p15,5,8,4341,1,1,Supports,True,B,B,True
+p15,5,8,4341,2,2,Supports,True,B,B,True
+p15,5,8,4341,3,6,Supports,True,B,B,True
+p15,5,9,407,1,3,Does not support,False,C,B,False
+p15,5,9,407,2,7,Supports,True,C,B,False
+p15,5,9,407,3,9,Does not support,False,C,B,False
+p15,5,10,320,1,6,Supports,True,D,D,True
+p15,5,11,189,1,1,Does not support,False,A,A,True
+p15,5,11,189,2,2,Supports,True,A,A,True
+p15,5,11,189,3,8,Does not support,False,A,A,True
+p15,5,12,558,1,5,Supports,True,D,D,True
+p15,5,12,558,2,6,Supports,True,D,D,True
+p15,5,12,558,3,7,Does not support,False,D,D,True
+p15,5,13,5633,1,1,Does not support,False,D,D,True
+p15,5,13,5633,2,2,Supports,True,D,D,True
+p15,5,13,5633,3,6,Supports,True,D,D,True
+p15,5,14,241,1,1,Supports,True,A,A,True
+p15,5,14,241,2,5,Supports,True,A,A,True
+p15,5,14,241,3,6,Supports,True,A,A,True
+p15,5,15,6596,1,2,Supports,True,C,C,True
+p15,5,15,6596,2,7,Supports,True,C,C,True
+p15,5,15,6596,3,9,Does not support,False,C,C,True
+p15,5,16,1033,1,4,Supports,True,C,C,True
+p15,5,16,1033,2,1,Does not support,False,C,C,True
+p15,5,16,1033,3,3,Does not support,False,C,C,True
+p13,5,1,458,1,3,Supports,True,D,D,True
+p13,5,1,458,2,5,Does not support,False,D,D,True
+p13,5,2,785,1,2,Supports,True,D,E,False
+p13,5,3,798,1,6,Supports,True,A,A,True
+p13,5,3,798,2,1,Does not support,False,A,A,True
+p13,5,4,6918,1,1,Does not support,False,A,A,True
+p13,5,4,6918,2,2,Does not support,False,A,A,True
+p13,5,4,6918,3,8,Does not support,False,A,A,True
+p13,5,5,842,1,1,Does not support,False,B,B,True
+p13,5,5,842,2,4,Supports,True,B,B,True
+p13,5,6,2592,1,5,Does not support,False,A,A,True
+p13,5,7,2373,1,3,Supports,True,B,B,True
+p13,5,7,2373,2,6,Supports,True,B,B,True
+p13,5,7,2373,3,2,Supports,True,B,B,True
+p13,5,8,4341,1,1,Supports,True,B,B,True
+p13,5,8,4341,2,2,Supports,True,B,B,True
+p13,5,8,4341,3,6,Supports,True,B,B,True
+p13,5,9,407,1,3,Does not support,False,C,B,False
+p13,5,9,407,2,7,Does not support,False,C,B,False
+p13,5,9,407,3,9,Does not support,False,C,B,False
+p13,5,10,320,1,6,Does not support,False,D,D,True
+p13,5,11,189,1,1,Does not support,False,A,A,True
+p13,5,11,189,2,2,Does not support,False,A,A,True
+p13,5,11,189,3,8,Does not support,False,A,A,True
+p13,5,12,558,1,5,Supports,True,D,D,True
+p13,5,12,558,2,6,Supports,True,D,D,True
+p13,5,12,558,3,7,Does not support,False,D,D,True
+p13,5,13,5633,1,1,Supports,True,D,D,True
+p13,5,13,5633,2,2,Supports,True,D,D,True
+p13,5,13,5633,3,6,Supports,True,D,D,True
+p13,5,14,241,1,1,Does not support,False,A,A,True
+p13,5,14,241,2,5,Does not support,False,A,A,True
+p13,5,14,241,3,6,Does not support,False,A,A,True
+p13,5,15,6596,1,2,Supports,True,C,C,True
+p13,5,15,6596,2,7,Does not support,False,C,C,True
+p13,5,15,6596,3,9,Does not support,False,C,C,True
+p13,5,16,1033,1,4,Supports,True,C,C,True
+p13,5,16,1033,2,1,Does not support,False,C,C,True
+p13,5,16,1033,3,3,Does not support,False,C,C,True
+p16,6,1,8526,1,1,Supports,True,B,B,True
+p16,6,1,8526,2,5,Does not support,False,B,B,True
+p16,6,1,8526,3,6,Does not support,False,B,B,True
+p16,6,1,8526,4,7,Supports,True,B,B,True
+p16,6,2,234,1,3,Supports,True,D,D,True
+p16,6,3,646,1,4,Supports,True,E,E,True
+p16,6,3,646,2,5,Supports,True,E,E,True
+p16,6,4,575,1,1,Does not support,False,A,A,True
+p16,6,4,575,2,2,Does not support,False,A,A,True
+p16,6,4,575,3,6,Supports,True,A,A,True
+p16,6,5,341,1,4,Does not support,False,C,C,True
+p16,6,5,341,2,7,Does not support,False,C,C,True
+p16,6,5,341,3,2,Does not support,False,C,C,True
+p16,6,6,5160,1,1,Does not support,False,A,A,True
+p16,6,6,5160,2,5,Supports,True,A,A,True
+p16,6,6,5160,3,10,Supports,True,A,A,True
+p16,6,7,427,1,1,Supports,True,C,C,True
+p16,6,7,427,2,8,Supports,True,C,C,True
+p16,6,8,629,1,5,Supports,True,D,D,True
+p16,6,8,629,2,2,Supports,True,D,D,True
+p16,6,8,629,3,8,Does not support,False,D,D,True
+p16,6,9,734,1,7,Does not support,False,D,B,False
+p16,6,9,734,2,3,Does not support,False,D,B,False
+p16,6,9,734,3,9,Does not support,False,D,B,False
+p16,6,10,1397,1,6,Does not support,False,B,A,False
+p16,6,11,3982,1,1,Does not support,False,A,A,True
+p16,6,11,3982,2,4,Does not support,False,A,A,True
+p16,6,12,198,1,6,Supports,True,B,B,True
+p16,6,13,1269,1,1,Does not support,False,E,E,True
+p16,6,13,1269,2,4,Supports,True,E,E,True
+p16,6,13,1269,3,6,Does not support,False,E,E,True
+p16,6,13,1269,4,7,Supports,True,E,E,True
+p16,6,13,1269,5,9,Does not support,False,E,E,True
+p16,6,14,1250,1,7,Supports,True,E,E,True
+p16,6,14,1250,2,9,Does not support,False,E,E,True
+p16,6,14,1250,3,4,Supports,True,E,E,True
+p16,6,15,4797,1,2,Supports,True,A,A,True
+p16,6,15,4797,2,4,Does not support,False,A,A,True
+p16,6,15,4797,3,6,Supports,True,A,A,True
+p16,6,16,777,1,1,Supports,True,F,F,True
+p16,6,16,777,2,2,Supports,True,F,F,True
+p16,6,16,777,3,6,Does not support,False,F,F,True
+p16,6,16,777,4,7,Does not support,False,F,F,True
+p17,6,1,8526,1,1,Supports,True,B,B,True
+p17,6,1,8526,2,5,Does not support,False,B,B,True
+p17,6,1,8526,3,6,Does not support,False,B,B,True
+p17,6,1,8526,4,7,Supports,True,B,B,True
+p17,6,2,234,1,3,Supports,True,D,D,True
+p17,6,3,646,1,4,Does not support,False,E,E,True
+p17,6,3,646,2,5,Supports,True,E,E,True
+p17,6,4,575,1,1,Supports,True,A,A,True
+p17,6,4,575,2,2,Supports,True,A,A,True
+p17,6,4,575,3,6,Supports,True,A,A,True
+p17,6,5,341,1,4,Does not support,False,C,C,True
+p17,6,5,341,2,7,Does not support,False,C,C,True
+p17,6,5,341,3,2,Does not support,False,C,C,True
+p17,6,6,5160,1,1,Does not support,False,A,A,True
+p17,6,6,5160,2,5,Supports,True,A,A,True
+p17,6,6,5160,3,10,Supports,True,A,A,True
+p17,6,7,427,1,1,Does not support,False,C,C,True
+p17,6,7,427,2,8,Supports,True,C,C,True
+p17,6,8,629,1,5,Does not support,False,D,D,True
+p17,6,8,629,2,2,Supports,True,D,D,True
+p17,6,8,629,3,8,Does not support,False,D,D,True
+p17,6,9,734,1,7,Does not support,False,D,B,False
+p17,6,9,734,2,3,Does not support,False,D,B,False
+p17,6,9,734,3,9,Does not support,False,D,B,False
+p17,6,10,1397,1,6,Supports,True,B,A,False
+p17,6,11,3982,1,1,Supports,True,A,A,True
+p17,6,11,3982,2,4,Supports,True,A,A,True
+p17,6,12,198,1,6,Supports,True,B,B,True
+p17,6,13,1269,1,1,Supports,True,E,E,True
+p17,6,13,1269,2,4,Supports,True,E,E,True
+p17,6,13,1269,3,6,Supports,True,E,E,True
+p17,6,13,1269,4,7,Supports,True,E,E,True
+p17,6,13,1269,5,9,Supports,True,E,E,True
+p17,6,14,1250,1,7,Supports,True,E,E,True
+p17,6,14,1250,2,9,Does not support,False,E,E,True
+p17,6,14,1250,3,4,Does not support,False,E,E,True
+p17,6,15,4797,1,2,Does not support,False,A,A,True
+p17,6,15,4797,2,4,Does not support,False,A,A,True
+p17,6,15,4797,3,6,Does not support,False,A,A,True
+p17,6,16,777,1,1,Supports,True,F,F,True
+p17,6,16,777,2,2,Supports,True,F,F,True
+p17,6,16,777,3,6,Does not support,False,F,F,True
+p17,6,16,777,4,7,Does not support,False,F,F,True
+p18,6,1,8526,1,1,Does not support,False,B,B,True
+p18,6,1,8526,2,5,Does not support,False,B,B,True
+p18,6,1,8526,3,6,Does not support,False,B,B,True
+p18,6,1,8526,4,7,Supports,True,B,B,True
+p18,6,2,234,1,3,Supports,True,D,D,True
+p18,6,3,646,1,4,Supports,True,E,E,True
+p18,6,3,646,2,5,Supports,True,E,E,True
+p18,6,4,575,1,1,Supports,True,A,A,True
+p18,6,4,575,2,2,Supports,True,A,A,True
+p18,6,4,575,3,6,Supports,True,A,A,True
+p18,6,5,341,1,4,Supports,True,C,C,True
+p18,6,5,341,2,7,Does not support,False,C,C,True
+p18,6,5,341,3,2,Supports,True,C,C,True
+p18,6,6,5160,1,1,Supports,True,A,A,True
+p18,6,6,5160,2,5,Supports,True,A,A,True
+p18,6,6,5160,3,10,Does not support,False,A,A,True
+p18,6,7,427,1,1,Does not support,False,C,C,True
+p18,6,7,427,2,8,Supports,True,C,C,True
+p18,6,8,629,1,5,Supports,True,D,D,True
+p18,6,8,629,2,2,Does not support,False,D,D,True
+p18,6,8,629,3,8,Supports,True,D,D,True
+p18,6,9,734,1,7,Does not support,False,D,B,False
+p18,6,9,734,2,3,Does not support,False,D,B,False
+p18,6,9,734,3,9,Supports,True,D,B,False
+p18,6,10,1397,1,6,Does not support,False,B,A,False
+p18,6,11,3982,1,1,Supports,True,A,A,True
+p18,6,11,3982,2,4,Supports,True,A,A,True
+p18,6,12,198,1,6,Supports,True,B,B,True
+p18,6,13,1269,1,1,Does not support,False,E,E,True
+p18,6,13,1269,2,4,Does not support,False,E,E,True
+p18,6,13,1269,3,6,Does not support,False,E,E,True
+p18,6,13,1269,4,7,Supports,True,E,E,True
+p18,6,13,1269,5,9,Supports,True,E,E,True
+p18,6,14,1250,1,7,Supports,True,E,E,True
+p18,6,14,1250,2,9,Does not support,False,E,E,True
+p18,6,14,1250,3,4,Supports,True,E,E,True
+p18,6,15,4797,1,2,Does not support,False,A,A,True
+p18,6,15,4797,2,4,Does not support,False,A,A,True
+p18,6,15,4797,3,6,Supports,True,A,A,True
+p18,6,16,777,1,1,Supports,True,F,F,True
+p18,6,16,777,2,2,Supports,True,F,F,True
+p18,6,16,777,3,6,Supports,True,F,F,True
+p18,6,16,777,4,7,Does not support,False,F,F,True
+p20,7,1,10,1,6,Does not support,False,A,A,True
+p20,7,1,10,2,1,Does not support,False,A,A,True
+p20,7,2,1974,1,2,Supports,True,A,A,True
+p20,7,2,1974,2,5,Does not support,False,A,A,True
+p20,7,3,1211,1,3,Does not support,False,A,A,True
+p20,7,4,125,1,6,Does not support,False,C,A,False
+p20,7,4,125,2,9,Supports,True,C,A,False
+p20,7,5,1328,1,1,Does not support,False,E,E,True
+p20,7,5,1328,2,2,Supports,True,E,E,True
+p20,7,5,1328,3,4,Does not support,False,E,E,True
+p20,7,5,1328,4,7,Does not support,False,E,E,True
+p20,7,6,621,1,1,Supports,True,D,D,True
+p20,7,6,621,2,5,Supports,True,D,D,True
+p20,7,7,1260,1,1,Supports,True,B,B,True
+p20,7,7,1260,2,5,Supports,True,B,B,True
+p20,7,7,1260,3,6,Supports,True,B,B,True
+p20,7,7,1260,4,10,Supports,True,B,B,True
+p20,7,8,780,1,3,Supports,True,E,E,True
+p20,7,8,780,2,1,Does not support,False,E,E,True
+p20,7,9,1091,1,9,Supports,True,F,F,True
+p20,7,9,1091,2,3,Supports,True,F,F,True
+p20,7,9,1091,3,4,Does not support,False,F,F,True
+p20,7,10,1227,1,5,Supports,True,A,A,True
+p20,7,10,1227,2,10,Supports,True,A,A,True
+p20,7,11,1114,1,1,Does not support,False,D,D,True
+p20,7,11,1114,2,2,Does not support,False,D,D,True
+p20,7,12,590,1,2,Does not support,False,D,D,True
+p20,7,12,590,2,3,Does not support,False,D,D,True
+p20,7,12,590,3,8,Does not support,False,D,D,True
+p20,7,13,7906,1,1,Supports,True,A,A,True
+p20,7,13,7906,2,2,Does not support,False,A,A,True
+p20,7,13,7906,3,4,Supports,True,A,A,True
+p20,7,13,7906,4,5,Does not support,False,A,A,True
+p20,7,14,669,1,9,Supports,True,F,F,True
+p20,7,14,669,2,2,Does not support,False,F,F,True
+p20,7,15,295,1,1,Does not support,False,D,D,True
+p20,7,15,295,2,2,Supports,True,D,D,True
+p20,7,15,295,3,5,Supports,True,D,D,True
+p20,7,16,775,1,6,Does not support,False,D,F,False
+p20,7,16,775,2,3,Does not support,False,D,F,False
+p19,7,1,10,1,6,Supports,True,A,A,True
+p19,7,1,10,2,1,Does not support,False,A,A,True
+p19,7,2,1974,1,2,Supports,True,A,A,True
+p19,7,2,1974,2,5,Does not support,False,A,A,True
+p19,7,3,1211,1,3,Does not support,False,A,A,True
+p19,7,4,125,1,6,Does not support,False,C,A,False
+p19,7,4,125,2,9,Supports,True,C,A,False
+p19,7,5,1328,1,1,Does not support,False,E,E,True
+p19,7,5,1328,2,2,Supports,True,E,E,True
+p19,7,5,1328,3,4,Does not support,False,E,E,True
+p19,7,5,1328,4,7,Supports,True,E,E,True
+p19,7,6,621,1,1,Supports,True,D,D,True
+p19,7,6,621,2,5,Supports,True,D,D,True
+p19,7,7,1260,1,1,Supports,True,B,B,True
+p19,7,7,1260,2,5,Does not support,False,B,B,True
+p19,7,7,1260,3,6,Supports,True,B,B,True
+p19,7,7,1260,4,10,Supports,True,B,B,True
+p19,7,8,780,1,3,Supports,True,E,E,True
+p19,7,8,780,2,1,Does not support,False,E,E,True
+p19,7,9,1091,1,9,Supports,True,F,F,True
+p19,7,9,1091,2,3,Supports,True,F,F,True
+p19,7,9,1091,3,4,Does not support,False,F,F,True
+p19,7,10,1227,1,5,Supports,True,A,A,True
+p19,7,10,1227,2,10,Supports,True,A,A,True
+p19,7,11,1114,1,1,Does not support,False,D,D,True
+p19,7,11,1114,2,2,Does not support,False,D,D,True
+p19,7,12,590,1,2,Does not support,False,D,D,True
+p19,7,12,590,2,3,Does not support,False,D,D,True
+p19,7,12,590,3,8,Does not support,False,D,D,True
+p19,7,13,7906,1,1,Supports,True,A,A,True
+p19,7,13,7906,2,2,Supports,True,A,A,True
+p19,7,13,7906,3,4,Supports,True,A,A,True
+p19,7,13,7906,4,5,Supports,True,A,A,True
+p19,7,14,669,1,9,Supports,True,F,F,True
+p19,7,14,669,2,2,Supports,True,F,F,True
+p19,7,15,295,1,1,Supports,True,D,D,True
+p19,7,15,295,2,2,Supports,True,D,D,True
+p19,7,15,295,3,5,Does not support,False,D,D,True
+p19,7,16,775,1,6,Supports,True,D,F,False
+p19,7,16,775,2,3,Does not support,False,D,F,False
+p21,7,1,10,1,6,Supports,True,A,A,True
+p21,7,1,10,2,1,Does not support,False,A,A,True
+p21,7,2,1974,1,2,Supports,True,A,A,True
+p21,7,2,1974,2,5,Does not support,False,A,A,True
+p21,7,3,1211,1,3,Does not support,False,A,A,True
+p21,7,4,125,1,6,Does not support,False,C,A,False
+p21,7,4,125,2,9,Does not support,False,C,A,False
+p21,7,5,1328,1,1,Does not support,False,E,E,True
+p21,7,5,1328,2,2,Supports,True,E,E,True
+p21,7,5,1328,3,4,Does not support,False,E,E,True
+p21,7,5,1328,4,7,Does not support,False,E,E,True
+p21,7,6,621,1,1,Supports,True,D,D,True
+p21,7,6,621,2,5,Supports,True,D,D,True
+p21,7,7,1260,1,1,Does not support,False,B,B,True
+p21,7,7,1260,2,5,Does not support,False,B,B,True
+p21,7,7,1260,3,6,Does not support,False,B,B,True
+p21,7,7,1260,4,10,Does not support,False,B,B,True
+p21,7,8,780,1,3,Supports,True,E,E,True
+p21,7,8,780,2,1,Does not support,False,E,E,True
+p21,7,9,1091,1,9,Supports,True,F,F,True
+p21,7,9,1091,2,3,Does not support,False,F,F,True
+p21,7,9,1091,3,4,Does not support,False,F,F,True
+p21,7,10,1227,1,5,Supports,True,A,A,True
+p21,7,10,1227,2,10,Supports,True,A,A,True
+p21,7,11,1114,1,1,Does not support,False,D,D,True
+p21,7,11,1114,2,2,Does not support,False,D,D,True
+p21,7,12,590,1,2,Does not support,False,D,D,True
+p21,7,12,590,2,3,Does not support,False,D,D,True
+p21,7,12,590,3,8,Does not support,False,D,D,True
+p21,7,13,7906,1,1,Supports,True,A,A,True
+p21,7,13,7906,2,2,Does not support,False,A,A,True
+p21,7,13,7906,3,4,Does not support,False,A,A,True
+p21,7,13,7906,4,5,Supports,True,A,A,True
+p21,7,14,669,1,9,Supports,True,F,F,True
+p21,7,14,669,2,2,Supports,True,F,F,True
+p21,7,15,295,1,1,Supports,True,D,D,True
+p21,7,15,295,2,2,Supports,True,D,D,True
+p21,7,15,295,3,5,Does not support,False,D,D,True
+p21,7,16,775,1,6,Does not support,False,D,F,False
+p21,7,16,775,2,3,Does not support,False,D,F,False
+p24,8,1,8301,1,3,Does not support,False,B,A,False
+p24,8,1,8301,2,7,Does not support,False,B,A,False
+p24,8,2,440,1,5,Does not support,False,D,D,True
+p24,8,2,440,2,6,Does not support,False,D,D,True
+p24,8,2,440,3,9,Does not support,False,D,D,True
+p24,8,3,2591,1,2,Supports,True,B,B,True
+p24,8,3,2591,2,6,Supports,True,B,B,True
+p24,8,3,2591,3,1,Does not support,False,B,B,True
+p24,8,4,9187,1,1,Does not support,False,C,C,True
+p24,8,4,9187,2,4,Does not support,False,C,C,True
+p24,8,4,9187,3,5,Supports,True,C,C,True
+p24,8,4,9187,4,6,Does not support,False,C,C,True
+p24,8,5,1087,1,2,Does not support,False,A,E,False
+p24,8,5,1087,2,3,Does not support,False,A,E,False
+p24,8,5,1087,3,5,Does not support,False,A,E,False
+p24,8,6,7524,1,2,Supports,True,C,C,True
+p24,8,6,7524,2,5,Does not support,False,C,C,True
+p24,8,6,7524,3,6,Does not support,False,C,C,True
+p24,8,6,7524,4,7,Supports,True,C,C,True
+p24,8,7,1526,1,3,Supports,True,A,A,True
+p24,8,8,2007,1,2,Does not support,False,D,D,True
+p24,8,8,2007,2,3,Does not support,False,D,D,True
+p24,8,8,2007,3,4,Supports,True,D,D,True
+p24,8,8,2007,4,5,Does not support,False,D,D,True
+p24,8,9,3529,1,1,Supports,True,B,B,True
+p24,8,9,3529,2,6,Supports,True,B,B,True
+p24,8,10,224,1,1,Does not support,False,B,B,True
+p24,8,10,224,2,3,Does not support,False,B,B,True
+p24,8,10,224,3,6,Supports,True,B,B,True
+p24,8,11,555,1,5,Does not support,False,A,A,True
+p24,8,12,582,1,3,Does not support,False,B,B,True
+p24,8,12,582,2,6,Does not support,False,B,B,True
+p24,8,13,7026,1,2,Supports,True,C,C,True
+p24,8,13,7026,2,3,Supports,True,C,C,True
+p24,8,14,6710,1,1,Supports,True,C,C,True
+p24,8,14,6710,2,2,Supports,True,C,C,True
+p24,8,14,6710,3,4,Supports,True,C,C,True
+p24,8,15,560,1,2,Does not support,False,A,A,True
+p24,8,15,560,2,5,Does not support,False,A,A,True
+p24,8,15,560,3,6,Does not support,False,A,A,True
+p24,8,16,6851,1,3,Does not support,False,A,A,True
+p23,8,1,8301,1,3,Supports,True,B,A,False
+p23,8,1,8301,2,7,Supports,True,B,A,False
+p23,8,2,440,1,5,Does not support,False,D,D,True
+p23,8,2,440,2,6,Does not support,False,D,D,True
+p23,8,2,440,3,9,Supports,True,D,D,True
+p23,8,3,2591,1,2,Supports,True,B,B,True
+p23,8,3,2591,2,6,Does not support,False,B,B,True
+p23,8,3,2591,3,1,Supports,True,B,B,True
+p23,8,4,9187,1,1,Does not support,False,C,C,True
+p23,8,4,9187,2,4,Supports,True,C,C,True
+p23,8,4,9187,3,5,Supports,True,C,C,True
+p23,8,4,9187,4,6,Supports,True,C,C,True
+p23,8,5,1087,1,2,Supports,True,A,E,False
+p23,8,5,1087,2,3,Supports,True,A,E,False
+p23,8,5,1087,3,5,Does not support,False,A,E,False
+p23,8,6,7524,1,2,Supports,True,C,C,True
+p23,8,6,7524,2,5,Supports,True,C,C,True
+p23,8,6,7524,3,6,Supports,True,C,C,True
+p23,8,6,7524,4,7,Supports,True,C,C,True
+p23,8,7,1526,1,3,Supports,True,A,A,True
+p23,8,8,2007,1,2,Supports,True,D,D,True
+p23,8,8,2007,2,3,Supports,True,D,D,True
+p23,8,8,2007,3,4,Supports,True,D,D,True
+p23,8,8,2007,4,5,Supports,True,D,D,True
+p23,8,9,3529,1,1,Supports,True,B,B,True
+p23,8,9,3529,2,6,Supports,True,B,B,True
+p23,8,10,224,1,1,Does not support,False,B,B,True
+p23,8,10,224,2,3,Supports,True,B,B,True
+p23,8,10,224,3,6,Supports,True,B,B,True
+p23,8,11,555,1,5,Supports,True,A,A,True
+p23,8,12,582,1,3,Supports,True,B,B,True
+p23,8,12,582,2,6,Supports,True,B,B,True
+p23,8,13,7026,1,2,Supports,True,C,C,True
+p23,8,13,7026,2,3,Supports,True,C,C,True
+p23,8,14,6710,1,1,Supports,True,C,C,True
+p23,8,14,6710,2,2,Supports,True,C,C,True
+p23,8,14,6710,3,4,Supports,True,C,C,True
+p23,8,15,560,1,2,Supports,True,A,A,True
+p23,8,15,560,2,5,Does not support,False,A,A,True
+p23,8,15,560,3,6,Does not support,False,A,A,True
+p23,8,16,6851,1,3,Supports,True,A,A,True
+p27,9,1,1930,1,10,Supports,True,C,C,True
+p27,9,2,3309,1,2,Supports,True,B,B,True
+p27,9,2,3309,2,4,Supports,True,B,B,True
+p27,9,2,3309,3,6,Supports,True,B,B,True
+p27,9,3,2222,1,1,Supports,True,C,C,True
+p27,9,3,2222,2,2,Supports,True,C,C,True
+p27,9,3,2222,3,3,Supports,True,C,C,True
+p27,9,4,1318,1,7,Does not support,False,B,D,False
+p27,9,4,1318,2,5,Does not support,False,B,D,False
+p27,9,4,1318,3,3,Does not support,False,B,D,False
+p27,9,5,6707,1,1,Supports,True,A,A,True
+p27,9,5,6707,2,2,Supports,True,A,A,True
+p27,9,5,6707,3,4,Supports,True,A,A,True
+p27,9,6,2781,1,1,Supports,True,C,C,True
+p27,9,6,2781,2,3,Supports,True,C,C,True
+p27,9,6,2781,3,4,Does not support,False,C,C,True
+p27,9,6,2781,4,5,Supports,True,C,C,True
+p27,9,7,131,1,1,Supports,True,B,B,True
+p27,9,7,131,2,4,Does not support,False,B,B,True
+p27,9,8,325,1,2,Supports,True,B,B,True
+p27,9,9,250,1,1,Does not support,False,D,D,True
+p27,9,9,250,2,4,Does not support,False,D,D,True
+p27,9,9,250,3,9,Does not support,False,D,D,True
+p27,9,10,408,1,1,Does not support,False,A,C,False
+p27,9,10,408,2,4,Does not support,False,A,C,False
+p27,9,10,408,3,8,Does not support,False,A,C,False
+p27,9,11,1072,1,3,Does not support,False,E,E,True
+p27,9,12,589,1,3,Supports,True,A,A,True
+p27,9,12,589,2,8,Supports,True,A,A,True
+p27,9,12,589,3,10,Supports,True,A,A,True
+p27,9,13,1006,1,2,Supports,True,D,D,True
+p27,9,13,1006,2,10,Supports,True,D,D,True
+p27,9,14,5693,1,1,Supports,True,A,A,True
+p27,9,14,5693,2,4,Does not support,False,A,A,True
+p27,9,15,913,1,1,Does not support,False,E,E,True
+p27,9,15,913,2,3,Supports,True,E,E,True
+p27,9,15,913,3,5,Does not support,False,E,E,True
+p27,9,16,2828,1,5,Does not support,False,D,D,True
+p25,9,1,1930,1,10,Supports,True,C,C,True
+p25,9,2,3309,1,2,Supports,True,B,B,True
+p25,9,2,3309,2,4,Supports,True,B,B,True
+p25,9,2,3309,3,6,Supports,True,B,B,True
+p25,9,3,2222,1,1,Supports,True,C,C,True
+p25,9,3,2222,2,2,Supports,True,C,C,True
+p25,9,3,2222,3,3,Does not support,False,C,C,True
+p25,9,4,1318,1,7,Does not support,False,B,D,False
+p25,9,4,1318,2,5,Does not support,False,B,D,False
+p25,9,4,1318,3,3,Does not support,False,B,D,False
+p25,9,5,6707,1,1,Supports,True,A,A,True
+p25,9,5,6707,2,2,Supports,True,A,A,True
+p25,9,5,6707,3,4,Supports,True,A,A,True
+p25,9,6,2781,1,1,Supports,True,C,C,True
+p25,9,6,2781,2,3,Does not support,False,C,C,True
+p25,9,6,2781,3,4,Does not support,False,C,C,True
+p25,9,6,2781,4,5,Supports,True,C,C,True
+p25,9,7,131,1,1,Does not support,False,B,B,True
+p25,9,7,131,2,4,Supports,True,B,B,True
+p25,9,8,325,1,2,Supports,True,B,B,True
+p25,9,9,250,1,1,Does not support,False,D,D,True
+p25,9,9,250,2,4,Supports,True,D,D,True
+p25,9,9,250,3,9,Supports,True,D,D,True
+p25,9,10,408,1,1,Supports,True,A,C,False
+p25,9,10,408,2,4,Supports,True,A,C,False
+p25,9,10,408,3,8,Supports,True,A,C,False
+p25,9,11,1072,1,3,Supports,True,E,E,True
+p25,9,12,589,1,3,Supports,True,A,A,True
+p25,9,12,589,2,8,Supports,True,A,A,True
+p25,9,12,589,3,10,Supports,True,A,A,True
+p25,9,13,1006,1,2,Supports,True,D,D,True
+p25,9,13,1006,2,10,Does not support,False,D,D,True
+p25,9,14,5693,1,1,Does not support,False,A,A,True
+p25,9,14,5693,2,4,Does not support,False,A,A,True
+p25,9,15,913,1,1,Supports,True,E,E,True
+p25,9,15,913,2,3,Does not support,False,E,E,True
+p25,9,15,913,3,5,Does not support,False,E,E,True
+p25,9,16,2828,1,5,Does not support,False,D,D,True
+p26,9,1,1930,1,10,Supports,True,C,C,True
+p26,9,2,3309,1,2,Supports,True,B,B,True
+p26,9,2,3309,2,4,Supports,True,B,B,True
+p26,9,2,3309,3,6,Supports,True,B,B,True
+p26,9,3,2222,1,1,Supports,True,C,C,True
+p26,9,3,2222,2,2,Supports,True,C,C,True
+p26,9,3,2222,3,3,Supports,True,C,C,True
+p26,9,4,1318,1,7,Supports,True,B,D,False
+p26,9,4,1318,2,5,Does not support,False,B,D,False
+p26,9,4,1318,3,3,Does not support,False,B,D,False
+p26,9,5,6707,1,1,Does not support,False,A,A,True
+p26,9,5,6707,2,2,Supports,True,A,A,True
+p26,9,5,6707,3,4,Does not support,False,A,A,True
+p26,9,6,2781,1,1,Supports,True,C,C,True
+p26,9,6,2781,2,3,Does not support,False,C,C,True
+p26,9,6,2781,3,4,Does not support,False,C,C,True
+p26,9,6,2781,4,5,Does not support,False,C,C,True
+p26,9,7,131,1,1,Does not support,False,B,B,True
+p26,9,7,131,2,4,Supports,True,B,B,True
+p26,9,8,325,1,2,Supports,True,B,B,True
+p26,9,9,250,1,1,Supports,True,D,D,True
+p26,9,9,250,2,4,Does not support,False,D,D,True
+p26,9,9,250,3,9,Does not support,False,D,D,True
+p26,9,10,408,1,1,Does not support,False,A,C,False
+p26,9,10,408,2,4,Does not support,False,A,C,False
+p26,9,10,408,3,8,Does not support,False,A,C,False
+p26,9,11,1072,1,3,Supports,True,E,E,True
+p26,9,12,589,1,3,Supports,True,A,A,True
+p26,9,12,589,2,8,Does not support,False,A,A,True
+p26,9,12,589,3,10,Supports,True,A,A,True
+p26,9,13,1006,1,2,Supports,True,D,D,True
+p26,9,13,1006,2,10,Does not support,False,D,D,True
+p26,9,14,5693,1,1,Does not support,False,A,A,True
+p26,9,14,5693,2,4,Does not support,False,A,A,True
+p26,9,15,913,1,1,Supports,True,E,E,True
+p26,9,15,913,2,3,Supports,True,E,E,True
+p26,9,15,913,3,5,Does not support,False,E,E,True
+p26,9,16,2828,1,5,Does not support,False,D,D,True
+p28,10,1,9585,1,1,Supports,True,A,A,True
+p28,10,1,9585,2,3,Supports,True,A,A,True
+p28,10,2,7153,1,6,Supports,True,D,D,True
+p28,10,3,6317,1,1,Does not support,False,B,B,True
+p28,10,3,6317,2,7,Does not support,False,B,B,True
+p28,10,3,6317,3,9,Does not support,False,B,B,True
+p28,10,4,6161,1,1,Supports,True,B,B,True
+p28,10,4,6161,2,6,Supports,True,B,B,True
+p28,10,4,6161,3,7,Supports,True,B,B,True
+p28,10,5,4934,1,5,Does not support,False,A,A,True
+p28,10,6,5149,1,6,Does not support,False,C,C,True
+p28,10,7,908,1,2,Supports,True,D,B,False
+p28,10,7,908,2,3,Supports,True,D,B,False
+p28,10,7,908,3,5,Does not support,False,D,B,False
+p28,10,7,908,4,6,Supports,True,D,B,False
+p28,10,7,908,5,8,Supports,True,D,B,False
+p28,10,8,7640,1,2,Supports,True,B,B,True
+p28,10,8,7640,2,6,Supports,True,B,B,True
+p28,10,8,7640,3,5,Does not support,False,B,B,True
+p28,10,9,2137,1,6,Supports,True,A,A,True
+p28,10,10,806,1,3,Supports,True,A,A,True
+p28,10,10,806,2,5,Supports,True,A,A,True
+p28,10,10,806,3,9,Supports,True,A,A,True
+p28,10,11,1685,1,1,Does not support,False,A,A,True
+p28,10,11,1685,2,2,Supports,True,A,A,True
+p28,10,11,1685,3,3,Supports,True,A,A,True
+p28,10,11,1685,4,4,Supports,True,A,A,True
+p28,10,12,980,1,2,Supports,True,C,C,True
+p28,10,12,980,2,4,Supports,True,C,C,True
+p28,10,12,980,3,6,Supports,True,C,C,True
+p28,10,13,1115,1,1,Supports,True,E,E,True
+p28,10,13,1115,2,2,Supports,True,E,E,True
+p28,10,14,1398,1,1,Does not support,False,D,D,True
+p28,10,14,1398,2,4,Supports,True,D,D,True
+p28,10,14,1398,3,5,Supports,True,D,D,True
+p28,10,14,1398,4,7,Supports,True,D,D,True
+p28,10,15,9083,1,4,Does not support,False,A,A,True
+p28,10,15,9083,2,6,Does not support,False,A,A,True
+p28,10,16,479,1,5,Does not support,False,B,A,False
+p30,10,1,9585,1,1,Supports,True,A,A,True
+p30,10,1,9585,2,3,Supports,True,A,A,True
+p30,10,2,7153,1,6,Does not support,False,D,D,True
+p30,10,3,6317,1,1,Does not support,False,B,B,True
+p30,10,3,6317,2,7,Does not support,False,B,B,True
+p30,10,3,6317,3,9,Does not support,False,B,B,True
+p30,10,4,6161,1,1,Supports,True,B,B,True
+p30,10,4,6161,2,6,Supports,True,B,B,True
+p30,10,4,6161,3,7,Supports,True,B,B,True
+p30,10,5,4934,1,5,Does not support,False,A,A,True
+p30,10,6,5149,1,6,Supports,True,C,C,True
+p30,10,7,908,1,2,Supports,True,D,B,False
+p30,10,7,908,2,3,Supports,True,D,B,False
+p30,10,7,908,3,5,Does not support,False,D,B,False
+p30,10,7,908,4,6,Supports,True,D,B,False
+p30,10,7,908,5,8,Supports,True,D,B,False
+p30,10,8,7640,1,2,Supports,True,B,B,True
+p30,10,8,7640,2,6,Supports,True,B,B,True
+p30,10,8,7640,3,5,Does not support,False,B,B,True
+p30,10,9,2137,1,6,Supports,True,A,A,True
+p30,10,10,806,1,3,Supports,True,A,A,True
+p30,10,10,806,2,5,Does not support,False,A,A,True
+p30,10,10,806,3,9,Supports,True,A,A,True
+p30,10,11,1685,1,1,Supports,True,A,A,True
+p30,10,11,1685,2,2,Supports,True,A,A,True
+p30,10,11,1685,3,3,Supports,True,A,A,True
+p30,10,11,1685,4,4,Supports,True,A,A,True
+p30,10,12,980,1,2,Supports,True,C,C,True
+p30,10,12,980,2,4,Supports,True,C,C,True
+p30,10,12,980,3,6,Does not support,False,C,C,True
+p30,10,13,1115,1,1,Supports,True,E,E,True
+p30,10,13,1115,2,2,Supports,True,E,E,True
+p30,10,14,1398,1,1,Does not support,False,D,D,True
+p30,10,14,1398,2,4,Does not support,False,D,D,True
+p30,10,14,1398,3,5,Supports,True,D,D,True
+p30,10,14,1398,4,7,Does not support,False,D,D,True
+p30,10,15,9083,1,4,Supports,True,A,A,True
+p30,10,15,9083,2,6,Does not support,False,A,A,True
+p30,10,16,479,1,5,Supports,True,B,A,False
+p29,10,1,9585,1,1,Supports,True,A,A,True
+p29,10,1,9585,2,3,Does not support,False,A,A,True
+p29,10,2,7153,1,6,Supports,True,D,D,True
+p29,10,3,6317,1,1,Supports,True,B,B,True
+p29,10,3,6317,2,7,Does not support,False,B,B,True
+p29,10,3,6317,3,9,Does not support,False,B,B,True
+p29,10,4,6161,1,1,Supports,True,B,B,True
+p29,10,4,6161,2,6,Supports,True,B,B,True
+p29,10,4,6161,3,7,Supports,True,B,B,True
+p29,10,5,4934,1,5,Does not support,False,A,A,True
+p29,10,6,5149,1,6,Supports,True,C,C,True
+p29,10,7,908,1,2,Supports,True,D,B,False
+p29,10,7,908,2,3,Supports,True,D,B,False
+p29,10,7,908,3,5,Does not support,False,D,B,False
+p29,10,7,908,4,6,Supports,True,D,B,False
+p29,10,7,908,5,8,Supports,True,D,B,False
+p29,10,8,7640,1,2,Supports,True,B,B,True
+p29,10,8,7640,2,6,Does not support,False,B,B,True
+p29,10,8,7640,3,5,Does not support,False,B,B,True
+p29,10,9,2137,1,6,Supports,True,A,A,True
+p29,10,10,806,1,3,Supports,True,A,A,True
+p29,10,10,806,2,5,Does not support,False,A,A,True
+p29,10,10,806,3,9,Supports,True,A,A,True
+p29,10,11,1685,1,1,Supports,True,A,A,True
+p29,10,11,1685,2,2,Supports,True,A,A,True
+p29,10,11,1685,3,3,Supports,True,A,A,True
+p29,10,11,1685,4,4,Supports,True,A,A,True
+p29,10,12,980,1,2,Supports,True,C,C,True
+p29,10,12,980,2,4,Supports,True,C,C,True
+p29,10,12,980,3,6,Does not support,False,C,C,True
+p29,10,13,1115,1,1,Supports,True,E,E,True
+p29,10,13,1115,2,2,Supports,True,E,E,True
+p29,10,14,1398,1,1,Does not support,False,D,D,True
+p29,10,14,1398,2,4,Supports,True,D,D,True
+p29,10,14,1398,3,5,Supports,True,D,D,True
+p29,10,14,1398,4,7,Supports,True,D,D,True
+p29,10,15,9083,1,4,Supports,True,A,A,True
+p29,10,15,9083,2,6,Supports,True,A,A,True
+p29,10,16,479,1,5,Supports,True,B,A,False
+p33,11,1,2919,1,3,Supports,True,D,D,True
+p33,11,1,2919,2,6,Does not support,False,D,D,True
+p33,11,2,1661,1,3,Supports,True,B,B,True
+p33,11,2,1661,2,2,Supports,True,B,B,True
+p33,11,2,1661,3,5,Supports,True,B,B,True
+p33,11,3,4794,1,1,Supports,True,A,A,True
+p33,11,3,4794,2,5,Supports,True,A,A,True
+p33,11,3,4794,3,7,Supports,True,A,A,True
+p33,11,4,1216,1,1,Supports,True,D,D,True
+p33,11,4,1216,2,8,Supports,True,D,D,True
+p33,11,4,1216,3,10,Supports,True,D,D,True
+p33,11,5,1012,1,2,Supports,True,D,D,True
+p33,11,5,1012,2,4,Does not support,False,D,D,True
+p33,11,6,6703,1,1,Supports,True,A,A,True
+p33,11,6,6703,2,3,Supports,True,A,A,True
+p33,11,6,6703,3,7,Supports,True,A,A,True
+p33,11,7,1097,1,1,Supports,True,A,A,True
+p33,11,7,1097,2,5,Supports,True,A,A,True
+p33,11,8,9636,1,7,Does not support,False,D,D,True
+p33,11,8,9636,2,9,Supports,True,D,D,True
+p33,11,9,6130,1,2,Supports,True,B,B,True
+p33,11,9,6130,2,8,Supports,True,B,B,True
+p33,11,9,6130,3,9,Does not support,False,B,B,True
+p33,11,10,323,1,6,Does not support,False,B,A,False
+p33,11,10,323,2,7,Does not support,False,B,A,False
+p33,11,10,323,3,8,Supports,True,B,A,False
+p33,11,10,323,4,9,Supports,True,B,A,False
+p33,11,11,824,1,1,Supports,True,A,A,True
+p33,11,11,824,2,2,Supports,True,A,A,True
+p33,11,11,824,3,3,Supports,True,A,A,True
+p33,11,11,824,4,6,Supports,True,A,A,True
+p33,11,12,1979,1,1,Supports,True,B,B,True
+p33,11,12,1979,2,2,Supports,True,B,B,True
+p33,11,13,8604,1,2,Supports,True,A,A,True
+p33,11,13,8604,2,7,Does not support,False,A,A,True
+p33,11,13,8604,3,1,Supports,True,A,A,True
+p33,11,14,401,1,1,Does not support,False,A,D,False
+p33,11,14,401,2,5,Does not support,False,A,D,False
+p33,11,14,401,3,6,Does not support,False,A,D,False
+p33,11,14,401,4,7,Does not support,False,A,D,False
+p33,11,15,1120,1,1,Supports,True,C,C,True
+p33,11,15,1120,2,3,Supports,True,C,C,True
+p33,11,15,1120,3,7,Supports,True,C,C,True
+p33,11,15,1120,4,9,Supports,True,C,C,True
+p33,11,16,7061,1,1,Does not support,False,A,A,True
+p33,11,16,7061,2,2,Supports,True,A,A,True
+p33,11,16,7061,3,5,Supports,True,A,A,True
+p32,11,1,2919,1,3,Supports,True,D,D,True
+p32,11,1,2919,2,6,Does not support,False,D,D,True
+p32,11,2,1661,1,3,Supports,True,B,B,True
+p32,11,2,1661,2,2,Does not support,False,B,B,True
+p32,11,2,1661,3,5,Supports,True,B,B,True
+p32,11,3,4794,1,1,Supports,True,A,A,True
+p32,11,3,4794,2,5,Does not support,False,A,A,True
+p32,11,3,4794,3,7,Supports,True,A,A,True
+p32,11,4,1216,1,1,Supports,True,D,D,True
+p32,11,4,1216,2,8,Does not support,False,D,D,True
+p32,11,4,1216,3,10,Does not support,False,D,D,True
+p32,11,5,1012,1,2,Does not support,False,D,D,True
+p32,11,5,1012,2,4,Does not support,False,D,D,True
+p32,11,6,6703,1,1,Supports,True,A,A,True
+p32,11,6,6703,2,3,Does not support,False,A,A,True
+p32,11,6,6703,3,7,Supports,True,A,A,True
+p32,11,7,1097,1,1,Does not support,False,A,A,True
+p32,11,7,1097,2,5,Supports,True,A,A,True
+p32,11,8,9636,1,7,Does not support,False,D,D,True
+p32,11,8,9636,2,9,Supports,True,D,D,True
+p32,11,9,6130,1,2,Supports,True,B,B,True
+p32,11,9,6130,2,8,Supports,True,B,B,True
+p32,11,9,6130,3,9,Does not support,False,B,B,True
+p32,11,10,323,1,6,Supports,True,B,A,False
+p32,11,10,323,2,7,Does not support,False,B,A,False
+p32,11,10,323,3,8,Does not support,False,B,A,False
+p32,11,10,323,4,9,Does not support,False,B,A,False
+p32,11,11,824,1,1,Supports,True,A,A,True
+p32,11,11,824,2,2,Supports,True,A,A,True
+p32,11,11,824,3,3,Does not support,False,A,A,True
+p32,11,11,824,4,6,Supports,True,A,A,True
+p32,11,12,1979,1,1,Does not support,False,B,B,True
+p32,11,12,1979,2,2,Supports,True,B,B,True
+p32,11,13,8604,1,2,Does not support,False,A,A,True
+p32,11,13,8604,2,7,Does not support,False,A,A,True
+p32,11,13,8604,3,1,Supports,True,A,A,True
+p32,11,14,401,1,1,Does not support,False,A,D,False
+p32,11,14,401,2,5,Does not support,False,A,D,False
+p32,11,14,401,3,6,Does not support,False,A,D,False
+p32,11,14,401,4,7,Does not support,False,A,D,False
+p32,11,15,1120,1,1,Supports,True,C,C,True
+p32,11,15,1120,2,3,Supports,True,C,C,True
+p32,11,15,1120,3,7,Supports,True,C,C,True
+p32,11,15,1120,4,9,Supports,True,C,C,True
+p32,11,16,7061,1,1,Does not support,False,A,A,True
+p32,11,16,7061,2,2,Supports,True,A,A,True
+p32,11,16,7061,3,5,Does not support,False,A,A,True
+p31,11,1,2919,1,3,Supports,True,D,D,True
+p31,11,1,2919,2,6,Supports,True,D,D,True
+p31,11,2,1661,1,3,Supports,True,B,B,True
+p31,11,2,1661,2,2,Does not support,False,B,B,True
+p31,11,2,1661,3,5,Supports,True,B,B,True
+p31,11,3,4794,1,1,Supports,True,A,A,True
+p31,11,3,4794,2,5,Does not support,False,A,A,True
+p31,11,3,4794,3,7,Supports,True,A,A,True
+p31,11,4,1216,1,1,Does not support,False,D,D,True
+p31,11,4,1216,2,8,Does not support,False,D,D,True
+p31,11,4,1216,3,10,Does not support,False,D,D,True
+p31,11,5,1012,1,2,Does not support,False,D,D,True
+p31,11,5,1012,2,4,Does not support,False,D,D,True
+p31,11,6,6703,1,1,Supports,True,A,A,True
+p31,11,6,6703,2,3,Supports,True,A,A,True
+p31,11,6,6703,3,7,Supports,True,A,A,True
+p31,11,7,1097,1,1,Supports,True,A,A,True
+p31,11,7,1097,2,5,Supports,True,A,A,True
+p31,11,8,9636,1,7,Supports,True,D,D,True
+p31,11,8,9636,2,9,Does not support,False,D,D,True
+p31,11,9,6130,1,2,Supports,True,B,B,True
+p31,11,9,6130,2,8,Does not support,False,B,B,True
+p31,11,9,6130,3,9,Does not support,False,B,B,True
+p31,11,10,323,1,6,Supports,True,B,A,False
+p31,11,10,323,2,7,Does not support,False,B,A,False
+p31,11,10,323,3,8,Supports,True,B,A,False
+p31,11,10,323,4,9,Does not support,False,B,A,False
+p31,11,11,824,1,1,Supports,True,A,A,True
+p31,11,11,824,2,2,Supports,True,A,A,True
+p31,11,11,824,3,3,Supports,True,A,A,True
+p31,11,11,824,4,6,Does not support,False,A,A,True
+p31,11,12,1979,1,1,Supports,True,B,B,True
+p31,11,12,1979,2,2,Supports,True,B,B,True
+p31,11,13,8604,1,2,Supports,True,A,A,True
+p31,11,13,8604,2,7,Does not support,False,A,A,True
+p31,11,13,8604,3,1,Does not support,False,A,A,True
+p31,11,14,401,1,1,Supports,True,A,D,False
+p31,11,14,401,2,5,Supports,True,A,D,False
+p31,11,14,401,3,6,Does not support,False,A,D,False
+p31,11,14,401,4,7,Supports,True,A,D,False
+p31,11,15,1120,1,1,Supports,True,C,C,True
+p31,11,15,1120,2,3,Does not support,False,C,C,True
+p31,11,15,1120,3,7,Supports,True,C,C,True
+p31,11,15,1120,4,9,Supports,True,C,C,True
+p31,11,16,7061,1,1,Supports,True,A,A,True
+p31,11,16,7061,2,2,Supports,True,A,A,True
+p31,11,16,7061,3,5,Does not support,False,A,A,True
+p35,12,1,1288,1,1,Supports,True,D,D,True
+p35,12,1,1288,2,3,Supports,True,D,D,True
+p35,12,1,1288,3,4,Supports,True,D,D,True
+p35,12,2,7889,1,1,Does not support,False,D,D,True
+p35,12,3,186,1,1,Does not support,False,A,A,True
+p35,12,3,186,2,5,Supports,True,A,A,True
+p35,12,3,186,3,7,Supports,True,A,A,True
+p35,12,4,772,1,6,Does not support,False,D,D,True
+p35,12,4,772,2,5,Does not support,False,D,D,True
+p35,12,4,772,3,1,Does not support,False,D,D,True
+p35,12,5,8953,1,1,Does not support,False,A,A,True
+p35,12,5,8953,2,8,Does not support,False,A,A,True
+p35,12,6,3539,1,1,Supports,True,D,D,True
+p35,12,6,3539,2,4,Supports,True,D,D,True
+p35,12,6,3539,3,7,Does not support,False,D,D,True
+p35,12,7,7864,1,2,Does not support,False,D,A,False
+p35,12,7,7864,2,4,Does not support,False,D,A,False
+p35,12,8,54,1,4,Does not support,False,C,C,True
+p35,12,8,54,2,9,Does not support,False,C,C,True
+p35,12,9,8228,1,2,Supports,True,B,B,True
+p35,12,9,8228,2,1,Supports,True,B,B,True
+p35,12,9,8228,3,9,Supports,True,B,B,True
+p35,12,10,1943,1,2,Supports,True,D,D,True
+p35,12,10,1943,2,9,Supports,True,D,D,True
+p35,12,11,155,1,1,Supports,True,C,C,True
+p35,12,11,155,2,8,Supports,True,C,C,True
+p35,12,11,155,3,9,Supports,True,C,C,True
+p35,12,12,2427,1,1,Supports,True,C,C,True
+p35,12,12,2427,2,7,Supports,True,C,C,True
+p35,12,12,2427,3,9,Supports,True,C,C,True
+p35,12,13,1194,1,1,Does not support,False,D,D,True
+p35,12,13,1194,2,2,Does not support,False,D,D,True
+p35,12,13,1194,3,4,Does not support,False,D,D,True
+p35,12,14,9440,1,1,Does not support,False,B,A,False
+p35,12,14,9440,2,7,Does not support,False,B,A,False
+p35,12,15,514,1,2,Does not support,False,B,B,True
+p35,12,15,514,2,10,Supports,True,B,B,True
+p35,12,16,1320,1,7,Does not support,False,C,C,True
+p35,12,16,1320,2,8,Does not support,False,C,C,True
+p34,12,1,1288,1,1,Does not support,False,D,D,True
+p34,12,1,1288,2,3,Does not support,False,D,D,True
+p34,12,1,1288,3,4,Does not support,False,D,D,True
+p34,12,2,7889,1,1,Does not support,False,D,D,True
+p34,12,3,186,1,1,Does not support,False,A,A,True
+p34,12,3,186,2,5,Supports,True,A,A,True
+p34,12,3,186,3,7,Supports,True,A,A,True
+p34,12,4,772,1,6,Does not support,False,D,D,True
+p34,12,4,772,2,5,Does not support,False,D,D,True
+p34,12,4,772,3,1,Does not support,False,D,D,True
+p34,12,5,8953,1,1,Does not support,False,A,A,True
+p34,12,5,8953,2,8,Supports,True,A,A,True
+p34,12,6,3539,1,1,Supports,True,D,D,True
+p34,12,6,3539,2,4,Supports,True,D,D,True
+p34,12,6,3539,3,7,Does not support,False,D,D,True
+p34,12,7,7864,1,2,Does not support,False,D,A,False
+p34,12,7,7864,2,4,Does not support,False,D,A,False
+p34,12,8,54,1,4,Supports,True,C,C,True
+p34,12,8,54,2,9,Supports,True,C,C,True
+p34,12,9,8228,1,2,Supports,True,B,B,True
+p34,12,9,8228,2,1,Supports,True,B,B,True
+p34,12,9,8228,3,9,Supports,True,B,B,True
+p34,12,10,1943,1,2,Supports,True,D,D,True
+p34,12,10,1943,2,9,Supports,True,D,D,True
+p34,12,11,155,1,1,Does not support,False,C,C,True
+p34,12,11,155,2,8,Does not support,False,C,C,True
+p34,12,11,155,3,9,Does not support,False,C,C,True
+p34,12,12,2427,1,1,Supports,True,C,C,True
+p34,12,12,2427,2,7,Supports,True,C,C,True
+p34,12,12,2427,3,9,Supports,True,C,C,True
+p34,12,13,1194,1,1,Does not support,False,D,D,True
+p34,12,13,1194,2,2,Does not support,False,D,D,True
+p34,12,13,1194,3,4,Does not support,False,D,D,True
+p34,12,14,9440,1,1,Does not support,False,B,A,False
+p34,12,14,9440,2,7,Supports,True,B,A,False
+p34,12,15,514,1,2,Supports,True,B,B,True
+p34,12,15,514,2,10,Supports,True,B,B,True
+p34,12,16,1320,1,7,Does not support,False,C,C,True
+p34,12,16,1320,2,8,Does not support,False,C,C,True
+p36,12,1,1288,1,1,Supports,True,D,D,True
+p36,12,1,1288,2,3,Supports,True,D,D,True
+p36,12,1,1288,3,4,Supports,True,D,D,True
+p36,12,2,7889,1,1,Does not support,False,D,D,True
+p36,12,3,186,1,1,Supports,True,A,A,True
+p36,12,3,186,2,5,Supports,True,A,A,True
+p36,12,3,186,3,7,Supports,True,A,A,True
+p36,12,4,772,1,6,Supports,True,D,D,True
+p36,12,4,772,2,5,Supports,True,D,D,True
+p36,12,4,772,3,1,Supports,True,D,D,True
+p36,12,5,8953,1,1,Does not support,False,A,A,True
+p36,12,5,8953,2,8,Does not support,False,A,A,True
+p36,12,6,3539,1,1,Supports,True,D,D,True
+p36,12,6,3539,2,4,Supports,True,D,D,True
+p36,12,6,3539,3,7,Supports,True,D,D,True
+p36,12,7,7864,1,2,Does not support,False,D,A,False
+p36,12,7,7864,2,4,Does not support,False,D,A,False
+p36,12,8,54,1,4,Does not support,False,C,C,True
+p36,12,8,54,2,9,Supports,True,C,C,True
+p36,12,9,8228,1,2,Supports,True,B,B,True
+p36,12,9,8228,2,1,Supports,True,B,B,True
+p36,12,9,8228,3,9,Supports,True,B,B,True
+p36,12,10,1943,1,2,Supports,True,D,D,True
+p36,12,10,1943,2,9,Supports,True,D,D,True
+p36,12,11,155,1,1,Supports,True,C,C,True
+p36,12,11,155,2,8,Supports,True,C,C,True
+p36,12,11,155,3,9,Supports,True,C,C,True
+p36,12,12,2427,1,1,Supports,True,C,C,True
+p36,12,12,2427,2,7,Supports,True,C,C,True
+p36,12,12,2427,3,9,Supports,True,C,C,True
+p36,12,13,1194,1,1,Does not support,False,D,D,True
+p36,12,13,1194,2,2,Supports,True,D,D,True
+p36,12,13,1194,3,4,Supports,True,D,D,True
+p36,12,14,9440,1,1,Supports,True,B,A,False
+p36,12,14,9440,2,7,Does not support,False,B,A,False
+p36,12,15,514,1,2,Supports,True,B,B,True
+p36,12,15,514,2,10,Does not support,False,B,B,True
+p36,12,16,1320,1,7,Supports,True,C,C,True
+p36,12,16,1320,2,8,Supports,True,C,C,True
+p37,13,1,9930,1,1,Supports,True,B,B,True
+p37,13,1,9930,2,2,Supports,True,B,B,True
+p37,13,1,9930,3,3,Supports,True,B,B,True
+p37,13,2,2690,1,4,Supports,True,C,C,True
+p37,13,2,2690,2,7,Supports,True,C,C,True
+p37,13,2,2690,3,8,Supports,True,C,C,True
+p37,13,3,790,1,2,Does not support,False,E,E,True
+p37,13,4,794,1,2,Does not support,False,B,B,True
+p37,13,4,794,2,7,Does not support,False,B,B,True
+p37,13,5,6756,1,2,Supports,True,C,C,True
+p37,13,5,6756,2,3,Supports,True,C,C,True
+p37,13,5,6756,3,5,Supports,True,C,C,True
+p37,13,6,158,1,1,Supports,True,C,C,True
+p37,13,6,158,2,5,Supports,True,C,C,True
+p37,13,7,1730,1,1,Supports,True,D,D,True
+p37,13,7,1730,2,2,Supports,True,D,D,True
+p37,13,7,1730,3,3,Supports,True,D,D,True
+p37,13,8,606,1,3,Supports,True,E,E,True
+p37,13,8,606,2,5,Supports,True,E,E,True
+p37,13,8,606,3,8,Supports,True,E,E,True
+p37,13,9,4712,1,1,Does not support,False,D,D,True
+p37,13,10,7405,1,2,Does not support,False,B,B,True
+p37,13,10,7405,2,3,Does not support,False,B,B,True
+p37,13,10,7405,3,5,Does not support,False,B,B,True
+p37,13,11,1169,1,2,Supports,True,B,B,True
+p37,13,12,1513,1,2,Supports,True,D,C,False
+p37,13,12,1513,2,7,Does not support,False,D,C,False
+p37,13,13,6146,1,1,Supports,True,A,A,True
+p37,13,14,1214,1,1,Does not support,False,F,A,False
+p37,13,14,1214,2,2,Does not support,False,F,A,False
+p37,13,14,1214,3,3,Does not support,False,F,A,False
+p37,13,15,7310,1,1,Supports,True,B,B,True
+p37,13,15,7310,2,7,Supports,True,B,B,True
+p37,13,15,7310,3,9,Supports,True,B,B,True
+p37,13,16,2652,1,1,Supports,True,A,A,True
+p37,13,16,2652,2,2,Supports,True,A,A,True
+p37,13,16,2652,3,3,Supports,True,A,A,True
+p39,13,1,9930,1,1,Supports,True,B,B,True
+p39,13,1,9930,2,2,Supports,True,B,B,True
+p39,13,1,9930,3,3,Supports,True,B,B,True
+p39,13,2,2690,1,4,Supports,True,C,C,True
+p39,13,2,2690,2,7,Supports,True,C,C,True
+p39,13,2,2690,3,8,Does not support,False,C,C,True
+p39,13,3,790,1,2,Does not support,False,E,E,True
+p39,13,4,794,1,2,Does not support,False,B,B,True
+p39,13,4,794,2,7,Does not support,False,B,B,True
+p39,13,5,6756,1,2,Supports,True,C,C,True
+p39,13,5,6756,2,3,Does not support,False,C,C,True
+p39,13,5,6756,3,5,Does not support,False,C,C,True
+p39,13,6,158,1,1,Does not support,False,C,C,True
+p39,13,6,158,2,5,Supports,True,C,C,True
+p39,13,7,1730,1,1,Supports,True,D,D,True
+p39,13,7,1730,2,2,Supports,True,D,D,True
+p39,13,7,1730,3,3,Does not support,False,D,D,True
+p39,13,8,606,1,3,Supports,True,E,E,True
+p39,13,8,606,2,5,Supports,True,E,E,True
+p39,13,8,606,3,8,Supports,True,E,E,True
+p39,13,9,4712,1,1,Does not support,False,D,D,True
+p39,13,10,7405,1,2,Supports,True,B,B,True
+p39,13,10,7405,2,3,Supports,True,B,B,True
+p39,13,10,7405,3,5,Supports,True,B,B,True
+p39,13,11,1169,1,2,Supports,True,B,B,True
+p39,13,12,1513,1,2,Does not support,False,D,C,False
+p39,13,12,1513,2,7,Supports,True,D,C,False
+p39,13,13,6146,1,1,Supports,True,A,A,True
+p39,13,14,1214,1,1,Does not support,False,F,A,False
+p39,13,14,1214,2,2,Does not support,False,F,A,False
+p39,13,14,1214,3,3,Does not support,False,F,A,False
+p39,13,15,7310,1,1,Supports,True,B,B,True
+p39,13,15,7310,2,7,Supports,True,B,B,True
+p39,13,15,7310,3,9,Supports,True,B,B,True
+p39,13,16,2652,1,1,Supports,True,A,A,True
+p39,13,16,2652,2,2,Supports,True,A,A,True
+p39,13,16,2652,3,3,Does not support,False,A,A,True
+p42,14,1,7530,1,1,Supports,True,A,A,True
+p42,14,1,7530,2,7,Supports,True,A,A,True
+p42,14,1,7530,3,8,Supports,True,A,A,True
+p42,14,2,433,1,7,Supports,True,D,D,True
+p42,14,2,433,2,8,Supports,True,D,D,True
+p42,14,3,248,1,3,Supports,True,B,D,False
+p42,14,4,1408,1,1,Does not support,False,E,E,True
+p42,14,5,6378,1,2,Supports,True,C,C,True
+p42,14,5,6378,2,5,Supports,True,C,C,True
+p42,14,5,6378,3,6,Supports,True,C,C,True
+p42,14,5,6378,4,9,Supports,True,C,C,True
+p42,14,6,8291,1,8,Supports,True,C,C,True
+p42,14,7,455,1,1,Does not support,False,B,B,True
+p42,14,7,455,2,10,Supports,True,B,B,True
+p42,14,8,6302,1,5,Supports,True,A,C,False
+p42,14,9,1395,1,1,Supports,True,C,C,True
+p42,14,9,1395,2,4,Supports,True,C,C,True
+p42,14,9,1395,3,7,Supports,True,C,C,True
+p42,14,10,4119,1,2,Does not support,False,A,A,True
+p42,14,10,4119,2,6,Supports,True,A,A,True
+p42,14,10,4119,3,3,Supports,True,A,A,True
+p42,14,11,1151,1,4,Supports,True,B,B,True
+p42,14,11,1151,2,10,Supports,True,B,B,True
+p42,14,12,394,1,1,Supports,True,A,A,True
+p42,14,12,394,2,2,Supports,True,A,A,True
+p42,14,12,394,3,3,Supports,True,A,A,True
+p42,14,13,339,1,5,Supports,True,A,A,True
+p42,14,13,339,2,8,Supports,True,A,A,True
+p42,14,14,9472,1,1,Supports,True,A,A,True
+p42,14,14,9472,2,4,Supports,True,A,A,True
+p42,14,15,8992,1,1,Supports,True,A,A,True
+p42,14,15,8992,2,2,Supports,True,A,A,True
+p42,14,15,8992,3,6,Supports,True,A,A,True
+p42,14,16,119,1,2,Does not support,False,A,A,True
+p42,14,16,119,2,6,Does not support,False,A,A,True
+p42,14,16,119,3,8,Does not support,False,A,A,True
+p42,14,16,119,4,9,Supports,True,A,A,True
+p41,14,1,7530,1,1,Supports,True,A,A,True
+p41,14,1,7530,2,7,Does not support,False,A,A,True
+p41,14,1,7530,3,8,Supports,True,A,A,True
+p41,14,2,433,1,7,Does not support,False,D,D,True
+p41,14,2,433,2,8,Supports,True,D,D,True
+p41,14,3,248,1,3,Does not support,False,B,D,False
+p41,14,4,1408,1,1,Does not support,False,E,E,True
+p41,14,5,6378,1,2,Supports,True,C,C,True
+p41,14,5,6378,2,5,Supports,True,C,C,True
+p41,14,5,6378,3,6,Supports,True,C,C,True
+p41,14,5,6378,4,9,Does not support,False,C,C,True
+p41,14,6,8291,1,8,Supports,True,C,C,True
+p41,14,7,455,1,1,Does not support,False,B,B,True
+p41,14,7,455,2,10,Does not support,False,B,B,True
+p41,14,8,6302,1,5,Does not support,False,A,C,False
+p41,14,9,1395,1,1,Supports,True,C,C,True
+p41,14,9,1395,2,4,Supports,True,C,C,True
+p41,14,9,1395,3,7,Does not support,False,C,C,True
+p41,14,10,4119,1,2,Supports,True,A,A,True
+p41,14,10,4119,2,6,Does not support,False,A,A,True
+p41,14,10,4119,3,3,Does not support,False,A,A,True
+p41,14,11,1151,1,4,Does not support,False,B,B,True
+p41,14,11,1151,2,10,Does not support,False,B,B,True
+p41,14,12,394,1,1,Supports,True,A,A,True
+p41,14,12,394,2,2,Does not support,False,A,A,True
+p41,14,12,394,3,3,Does not support,False,A,A,True
+p41,14,13,339,1,5,Does not support,False,A,A,True
+p41,14,13,339,2,8,Supports,True,A,A,True
+p41,14,14,9472,1,1,Supports,True,A,A,True
+p41,14,14,9472,2,4,Supports,True,A,A,True
+p41,14,15,8992,1,1,Supports,True,A,A,True
+p41,14,15,8992,2,2,Supports,True,A,A,True
+p41,14,15,8992,3,6,Supports,True,A,A,True
+p41,14,16,119,1,2,Supports,True,A,A,True
+p41,14,16,119,2,6,Supports,True,A,A,True
+p41,14,16,119,3,8,Does not support,False,A,A,True
+p41,14,16,119,4,9,Supports,True,A,A,True
+p40,14,1,7530,1,1,Supports,True,A,A,True
+p40,14,1,7530,2,7,Does not support,False,A,A,True
+p40,14,1,7530,3,8,Supports,True,A,A,True
+p40,14,2,433,1,7,Does not support,False,D,D,True
+p40,14,2,433,2,8,Supports,True,D,D,True
+p40,14,3,248,1,3,Does not support,False,B,D,False
+p40,14,4,1408,1,1,Does not support,False,E,E,True
+p40,14,5,6378,1,2,Supports,True,C,C,True
+p40,14,5,6378,2,5,Supports,True,C,C,True
+p40,14,5,6378,3,6,Does not support,False,C,C,True
+p40,14,5,6378,4,9,Supports,True,C,C,True
+p40,14,6,8291,1,8,Supports,True,C,C,True
+p40,14,7,455,1,1,Supports,True,B,B,True
+p40,14,7,455,2,10,Supports,True,B,B,True
+p40,14,8,6302,1,5,Does not support,False,A,C,False
+p40,14,9,1395,1,1,Supports,True,C,C,True
+p40,14,9,1395,2,4,Does not support,False,C,C,True
+p40,14,9,1395,3,7,Does not support,False,C,C,True
+p40,14,10,4119,1,2,Supports,True,A,A,True
+p40,14,10,4119,2,6,Supports,True,A,A,True
+p40,14,10,4119,3,3,Supports,True,A,A,True
+p40,14,11,1151,1,4,Supports,True,B,B,True
+p40,14,11,1151,2,10,Supports,True,B,B,True
+p40,14,12,394,1,1,Does not support,False,A,A,True
+p40,14,12,394,2,2,Supports,True,A,A,True
+p40,14,12,394,3,3,Does not support,False,A,A,True
+p40,14,13,339,1,5,Supports,True,A,A,True
+p40,14,13,339,2,8,Supports,True,A,A,True
+p40,14,14,9472,1,1,Supports,True,A,A,True
+p40,14,14,9472,2,4,Supports,True,A,A,True
+p40,14,15,8992,1,1,Supports,True,A,A,True
+p40,14,15,8992,2,2,Supports,True,A,A,True
+p40,14,15,8992,3,6,Supports,True,A,A,True
+p40,14,16,119,1,2,Supports,True,A,A,True
+p40,14,16,119,2,6,Supports,True,A,A,True
+p40,14,16,119,3,8,Does not support,False,A,A,True
+p40,14,16,119,4,9,Supports,True,A,A,True
+p44,15,1,1487,1,4,Supports,True,A,A,True
+p44,15,1,1487,2,5,Supports,True,A,A,True
+p44,15,1,1487,3,3,Does not support,False,A,A,True
+p44,15,2,1810,1,2,Supports,True,B,B,True
+p44,15,2,1810,2,5,Does not support,False,B,B,True
+p44,15,2,1810,3,6,Supports,True,B,B,True
+p44,15,3,8749,1,3,Does not support,False,A,A,True
+p44,15,4,322,1,4,Supports,True,B,B,True
+p44,15,4,322,2,5,Supports,True,B,B,True
+p44,15,4,322,3,7,Supports,True,B,B,True
+p44,15,5,3273,1,8,Supports,True,C,C,True
+p44,15,5,3273,2,10,Does not support,False,C,C,True
+p44,15,6,57,1,1,Does not support,False,B,B,True
+p44,15,6,57,2,3,Does not support,False,B,B,True
+p44,15,6,57,3,9,Supports,True,B,B,True
+p44,15,7,1085,1,1,Does not support,False,C,C,True
+p44,15,7,1085,2,8,Does not support,False,C,C,True
+p44,15,8,9711,1,1,Supports,True,A,A,True
+p44,15,8,9711,2,2,Supports,True,A,A,True
+p44,15,8,9711,3,3,Does not support,False,A,A,True
+p44,15,9,1944,1,1,Supports,True,A,A,True
+p44,15,10,7595,1,1,Supports,True,A,A,True
+p44,15,10,7595,2,2,Supports,True,A,A,True
+p44,15,10,7595,3,5,Supports,True,A,A,True
+p44,15,10,7595,4,7,Supports,True,A,A,True
+p44,15,11,4935,1,1,Supports,True,B,B,True
+p44,15,11,4935,2,2,Supports,True,B,B,True
+p44,15,11,4935,3,7,Supports,True,B,B,True
+p44,15,12,258,1,1,Supports,True,D,D,True
+p44,15,12,258,2,2,Supports,True,D,D,True
+p44,15,12,258,3,4,Supports,True,D,D,True
+p44,15,12,258,4,5,Does not support,False,D,D,True
+p44,15,13,2490,1,6,Does not support,False,A,C,False
+p44,15,14,1113,1,4,Does not support,False,D,D,True
+p44,15,14,1113,2,8,Supports,True,D,D,True
+p44,15,14,1113,3,9,Does not support,False,D,D,True
+p44,15,15,2766,1,1,Does not support,False,B,B,True
+p44,15,15,2766,2,7,Does not support,False,B,B,True
+p44,15,16,8890,1,1,Supports,True,B,A,False
+p45,15,1,1487,1,4,Supports,True,A,A,True
+p45,15,1,1487,2,5,Supports,True,A,A,True
+p45,15,1,1487,3,3,Does not support,False,A,A,True
+p45,15,2,1810,1,2,Does not support,False,B,B,True
+p45,15,2,1810,2,5,Does not support,False,B,B,True
+p45,15,2,1810,3,6,Supports,True,B,B,True
+p45,15,3,8749,1,3,Does not support,False,A,A,True
+p45,15,4,322,1,4,Supports,True,B,B,True
+p45,15,4,322,2,5,Supports,True,B,B,True
+p45,15,4,322,3,7,Supports,True,B,B,True
+p45,15,5,3273,1,8,Supports,True,C,C,True
+p45,15,5,3273,2,10,Supports,True,C,C,True
+p45,15,6,57,1,1,Does not support,False,B,B,True
+p45,15,6,57,2,3,Does not support,False,B,B,True
+p45,15,6,57,3,9,Supports,True,B,B,True
+p45,15,7,1085,1,1,Does not support,False,C,C,True
+p45,15,7,1085,2,8,Supports,True,C,C,True
+p45,15,8,9711,1,1,Supports,True,A,A,True
+p45,15,8,9711,2,2,Supports,True,A,A,True
+p45,15,8,9711,3,3,Does not support,False,A,A,True
+p45,15,9,1944,1,1,Supports,True,A,A,True
+p45,15,10,7595,1,1,Supports,True,A,A,True
+p45,15,10,7595,2,2,Supports,True,A,A,True
+p45,15,10,7595,3,5,Supports,True,A,A,True
+p45,15,10,7595,4,7,Supports,True,A,A,True
+p45,15,11,4935,1,1,Does not support,False,B,B,True
+p45,15,11,4935,2,2,Supports,True,B,B,True
+p45,15,11,4935,3,7,Supports,True,B,B,True
+p45,15,12,258,1,1,Does not support,False,D,D,True
+p45,15,12,258,2,2,Does not support,False,D,D,True
+p45,15,12,258,3,4,Does not support,False,D,D,True
+p45,15,12,258,4,5,Does not support,False,D,D,True
+p45,15,13,2490,1,6,Supports,True,A,C,False
+p45,15,14,1113,1,4,Does not support,False,D,D,True
+p45,15,14,1113,2,8,Supports,True,D,D,True
+p45,15,14,1113,3,9,Does not support,False,D,D,True
+p45,15,15,2766,1,1,Does not support,False,B,B,True
+p45,15,15,2766,2,7,Does not support,False,B,B,True
+p45,15,16,8890,1,1,Does not support,False,B,A,False
+p43,15,1,1487,1,4,Supports,True,A,A,True
+p43,15,1,1487,2,5,Supports,True,A,A,True
+p43,15,1,1487,3,3,Does not support,False,A,A,True
+p43,15,2,1810,1,2,Does not support,False,B,B,True
+p43,15,2,1810,2,5,Does not support,False,B,B,True
+p43,15,2,1810,3,6,Supports,True,B,B,True
+p43,15,3,8749,1,3,Does not support,False,A,A,True
+p43,15,4,322,1,4,Supports,True,B,B,True
+p43,15,4,322,2,5,Supports,True,B,B,True
+p43,15,4,322,3,7,Supports,True,B,B,True
+p43,15,5,3273,1,8,Supports,True,C,C,True
+p43,15,5,3273,2,10,Does not support,False,C,C,True
+p43,15,6,57,1,1,Does not support,False,B,B,True
+p43,15,6,57,2,3,Does not support,False,B,B,True
+p43,15,6,57,3,9,Supports,True,B,B,True
+p43,15,7,1085,1,1,Does not support,False,C,C,True
+p43,15,7,1085,2,8,Does not support,False,C,C,True
+p43,15,8,9711,1,1,Supports,True,A,A,True
+p43,15,8,9711,2,2,Supports,True,A,A,True
+p43,15,8,9711,3,3,Does not support,False,A,A,True
+p43,15,9,1944,1,1,Supports,True,A,A,True
+p43,15,10,7595,1,1,Supports,True,A,A,True
+p43,15,10,7595,2,2,Supports,True,A,A,True
+p43,15,10,7595,3,5,Supports,True,A,A,True
+p43,15,10,7595,4,7,Supports,True,A,A,True
+p43,15,11,4935,1,1,Supports,True,B,B,True
+p43,15,11,4935,2,2,Supports,True,B,B,True
+p43,15,11,4935,3,7,Supports,True,B,B,True
+p43,15,12,258,1,1,Does not support,False,D,D,True
+p43,15,12,258,2,2,Does not support,False,D,D,True
+p43,15,12,258,3,4,Does not support,False,D,D,True
+p43,15,12,258,4,5,Does not support,False,D,D,True
+p43,15,13,2490,1,6,Does not support,False,A,C,False
+p43,15,14,1113,1,4,Does not support,False,D,D,True
+p43,15,14,1113,2,8,Does not support,False,D,D,True
+p43,15,14,1113,3,9,Does not support,False,D,D,True
+p43,15,15,2766,1,1,Supports,True,B,B,True
+p43,15,15,2766,2,7,Does not support,False,B,B,True
+p43,15,16,8890,1,1,Supports,True,B,A,False
+p48,16,1,490,1,3,Does not support,False,A,A,True
+p48,16,1,490,2,5,Supports,True,A,A,True
+p48,16,2,418,1,8,Supports,True,B,B,True
+p48,16,2,418,2,6,Does not support,False,B,B,True
+p48,16,2,418,3,1,Does not support,False,B,B,True
+p48,16,3,2640,1,1,Supports,True,A,A,True
+p48,16,4,7037,1,3,Supports,True,D,D,True
+p48,16,4,7037,2,2,Supports,True,D,D,True
+p48,16,5,500,1,2,Does not support,False,D,D,True
+p48,16,5,500,2,5,Supports,True,D,D,True
+p48,16,6,2305,1,2,Supports,True,A,A,True
+p48,16,6,2305,2,6,Supports,True,A,A,True
+p48,16,6,2305,3,7,Does not support,False,A,A,True
+p48,16,6,2305,4,8,Supports,True,A,A,True
+p48,16,7,1075,1,1,Does not support,False,C,C,True
+p48,16,7,1075,2,5,Supports,True,C,C,True
+p48,16,8,804,1,1,Does not support,False,D,D,True
+p48,16,8,804,2,5,Does not support,False,D,D,True
+p48,16,8,804,3,6,Does not support,False,D,D,True
+p48,16,9,689,1,10,Does not support,False,D,D,True
+p48,16,10,548,1,1,Supports,True,A,A,True
+p48,16,10,548,2,4,Supports,True,A,A,True
+p48,16,10,548,3,5,Supports,True,A,A,True
+p48,16,11,6073,1,3,Supports,True,D,D,True
+p48,16,11,6073,2,1,Supports,True,D,D,True
+p48,16,11,6073,3,8,Supports,True,D,D,True
+p48,16,12,177,1,1,Does not support,False,A,B,False
+p48,16,12,177,2,3,Does not support,False,A,B,False
+p48,16,13,1353,1,1,Does not support,False,A,A,True
+p48,16,14,9787,1,1,Does not support,False,A,C,False
+p48,16,14,9787,2,6,Supports,True,A,C,False
+p48,16,15,1063,1,3,Supports,True,E,E,True
+p48,16,15,1063,2,10,Supports,True,E,E,True
+p48,16,16,2913,1,1,Does not support,False,D,D,True
+p48,16,16,2913,2,2,Does not support,False,D,D,True
+p48,16,16,2913,3,4,Does not support,False,D,D,True
+p46,16,1,490,1,3,Supports,True,A,A,True
+p46,16,1,490,2,5,Supports,True,A,A,True
+p46,16,2,418,1,8,Supports,True,B,B,True
+p46,16,2,418,2,6,Does not support,False,B,B,True
+p46,16,2,418,3,1,Does not support,False,B,B,True
+p46,16,3,2640,1,1,Does not support,False,A,A,True
+p46,16,4,7037,1,3,Supports,True,D,D,True
+p46,16,4,7037,2,2,Does not support,False,D,D,True
+p46,16,5,500,1,2,Supports,True,D,D,True
+p46,16,5,500,2,5,Does not support,False,D,D,True
+p46,16,6,2305,1,2,Supports,True,A,A,True
+p46,16,6,2305,2,6,Supports,True,A,A,True
+p46,16,6,2305,3,7,Does not support,False,A,A,True
+p46,16,6,2305,4,8,Supports,True,A,A,True
+p46,16,7,1075,1,1,Does not support,False,C,C,True
+p46,16,7,1075,2,5,Supports,True,C,C,True
+p46,16,8,804,1,1,Does not support,False,D,D,True
+p46,16,8,804,2,5,Does not support,False,D,D,True
+p46,16,8,804,3,6,Does not support,False,D,D,True
+p46,16,9,689,1,10,Does not support,False,D,D,True
+p46,16,10,548,1,1,Supports,True,A,A,True
+p46,16,10,548,2,4,Supports,True,A,A,True
+p46,16,10,548,3,5,Supports,True,A,A,True
+p46,16,11,6073,1,3,Supports,True,D,D,True
+p46,16,11,6073,2,1,Does not support,False,D,D,True
+p46,16,11,6073,3,8,Does not support,False,D,D,True
+p46,16,12,177,1,1,Does not support,False,A,B,False
+p46,16,12,177,2,3,Does not support,False,A,B,False
+p46,16,13,1353,1,1,Does not support,False,A,A,True
+p46,16,14,9787,1,1,Does not support,False,A,C,False
+p46,16,14,9787,2,6,Does not support,False,A,C,False
+p46,16,15,1063,1,3,Supports,True,E,E,True
+p46,16,15,1063,2,10,Supports,True,E,E,True
+p46,16,16,2913,1,1,Supports,True,D,D,True
+p46,16,16,2913,2,2,Supports,True,D,D,True
+p46,16,16,2913,3,4,Supports,True,D,D,True
+p49,17,1,464,1,5,Supports,True,C,C,True
+p49,17,1,464,2,3,Supports,True,C,C,True
+p49,17,1,464,3,2,Does not support,False,C,C,True
+p49,17,2,351,1,6,Does not support,False,D,D,True
+p49,17,2,351,2,9,Does not support,False,D,D,True
+p49,17,3,8482,1,1,Does not support,False,C,C,True
+p49,17,4,9750,1,3,Supports,True,D,D,True
+p49,17,4,9750,2,4,Supports,True,D,D,True
+p49,17,4,9750,3,5,Supports,True,D,D,True
+p49,17,4,9750,4,9,Does not support,False,D,D,True
+p49,17,5,6741,1,1,Supports,True,C,C,True
+p49,17,5,6741,2,2,Supports,True,C,C,True
+p49,17,5,6741,3,5,Supports,True,C,C,True
+p49,17,5,6741,4,7,Supports,True,C,C,True
+p49,17,6,5671,1,1,Supports,True,C,B,False
+p49,17,6,5671,2,9,Supports,True,C,B,False
+p49,17,7,422,1,1,Does not support,False,A,A,True
+p49,17,7,422,2,2,Does not support,False,A,A,True
+p49,17,7,422,3,7,Does not support,False,A,A,True
+p49,17,8,289,1,2,Does not support,False,A,A,True
+p49,17,8,289,2,3,Does not support,False,A,A,True
+p49,17,8,289,3,4,Does not support,False,A,A,True
+p49,17,9,5910,1,3,Does not support,False,B,B,True
+p49,17,9,5910,2,5,Does not support,False,B,B,True
+p49,17,10,5451,1,9,Supports,True,C,C,True
+p49,17,11,71,1,4,Does not support,False,A,A,True
+p49,17,11,71,2,9,Does not support,False,A,A,True
+p49,17,12,6572,1,7,Does not support,False,C,C,True
+p49,17,12,6572,2,6,Supports,True,C,C,True
+p49,17,13,139,1,9,Supports,True,C,C,True
+p49,17,13,139,2,3,Does not support,False,C,C,True
+p49,17,14,1177,1,7,Does not support,False,B,E,False
+p49,17,15,6731,1,1,Supports,True,B,B,True
+p49,17,15,6731,2,7,Supports,True,B,B,True
+p49,17,16,4626,1,3,Supports,True,C,C,True
+p49,17,16,4626,2,4,Does not support,False,C,C,True
+p49,17,16,4626,3,5,Supports,True,C,C,True
+p52,18,1,5551,1,3,Supports,True,B,B,True
+p52,18,1,5551,2,8,Supports,True,B,B,True
+p52,18,1,5551,3,10,Supports,True,B,B,True
+p52,18,2,2317,1,1,Supports,True,A,A,True
+p52,18,2,2317,2,2,Supports,True,A,A,True
+p52,18,2,2317,3,5,Supports,True,A,A,True
+p52,18,3,4852,1,2,Does not support,False,B,B,True
+p52,18,3,4852,2,3,Supports,True,B,B,True
+p52,18,3,4852,3,5,Does not support,False,B,B,True
+p52,18,4,3530,1,1,Does not support,False,B,B,True
+p52,18,4,3530,2,2,Does not support,False,B,B,True
+p52,18,4,3530,3,4,Does not support,False,B,B,True
+p52,18,5,424,1,6,Does not support,False,A,A,True
+p52,18,6,1742,1,4,Supports,True,A,A,True
+p52,18,6,1742,2,5,Does not support,False,A,A,True
+p52,18,6,1742,3,6,Supports,True,A,A,True
+p52,18,7,828,1,5,Supports,True,B,B,True
+p52,18,8,1281,1,4,Does not support,False,A,A,True
+p52,18,8,1281,2,10,Supports,True,A,A,True
+p52,18,9,169,1,3,Supports,True,B,C,False
+p52,18,9,169,2,7,Does not support,False,B,C,False
+p52,18,9,169,3,8,Supports,True,B,C,False
+p52,18,10,1213,1,4,Supports,True,C,C,True
+p52,18,10,1213,2,7,Supports,True,C,C,True
+p52,18,10,1213,3,2,Does not support,False,C,C,True
+p52,18,11,1607,1,5,Does not support,False,B,B,True
+p52,18,12,608,1,1,Supports,True,D,D,True
+p52,18,12,608,2,5,Does not support,False,D,D,True
+p52,18,12,608,3,6,Supports,True,D,D,True
+p52,18,12,608,4,8,Supports,True,D,D,True
+p52,18,13,8531,1,1,Supports,True,B,B,True
+p52,18,14,1368,1,6,Supports,True,A,A,True
+p52,18,15,540,1,1,Supports,True,D,D,True
+p52,18,15,540,2,2,Supports,True,D,D,True
+p52,18,15,540,3,6,Does not support,False,D,D,True
+p52,18,15,540,4,7,Supports,True,D,D,True
+p52,18,16,1176,1,1,Does not support,False,D,A,False
