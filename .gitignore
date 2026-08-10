@@ -237,5 +237,8 @@ results/*.csv
 study_demo
 study_demo_highlight
 
-# demo/ ships with the repo (reviewer demo); only the rebuildable index is ignored
+# demo/ ships with the repo (reviewer demo); the rebuildable index and the live
+# pipeline output are ignored — demo/outputs_reference/ (tracked) holds our run's
+# committed copy for comparison instead
 demo/chromadb_demo/
+demo/outputs/

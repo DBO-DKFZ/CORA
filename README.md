@@ -230,8 +230,11 @@ questions the model already knows; the manuscript's RAG-vs-base comparison is ru
 the full open-ended reader-study format (§4), where the model can't rely on option
 elimination and grading requires the LLM judge (`run_answer_judge.py`).
 
-Reference outputs from our run are committed under [demo/outputs/](demo/outputs/) for
-comparison. Exact agreement is not expected: the retrieval agent and the answerer are
+Reference outputs from our run are committed under
+[demo/outputs_reference/](demo/outputs_reference/) for comparison — `demo/outputs/`
+itself is gitignored and starts empty; running the commands above creates it fresh, so
+your run's LLM calls are real and not silently skipped as already-done. Exact
+agreement is not expected: the retrieval agent and the answerer are
 non-deterministic LLM calls (only the sampling code is seeded), so the retrieved
 documents and the wording of sub-queries can differ between runs. What should
 reproduce is the shape of the output — six records at every stage, cited
