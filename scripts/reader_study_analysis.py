@@ -35,6 +35,8 @@ system, supplied via --alt_responses_csv and --alt_source_ratings_csv.
 Skipped with a message if not provided, or if kappa < 0.6.
 """
 
+from __future__ import annotations
+
 import argparse
 import warnings
 import sys
