@@ -1,107 +1,131 @@
 {
-  "_comment": "Six synthetic demo questions in the same schema as the study question sets (medqa_derma_final.json / pubmed_vignettes_medqa.json). Every answer is stated in demo/corpus/, so the demo exercises retrieval end-to-end without the licensed corpora. These are NOT study questions and carry no clinical authority.",
+  "_comment": "Six real questions drawn verbatim from the study question set (medqa_derma_final.json, source=mmlu_medqa), paired with two real EADV acne guideline documents from Data/EADV/Acne/ (see demo/corpus/). Both guideline documents are publicly available EADV publications, not the copyrighted textbooks, so they can be redistributed here. Retrieval on these is genuine, not guaranteed to be perfect -- unlike a fabricated demo, real guideline text does not necessarily state every answer as cleanly as a synthetic passage would.",
   "questions": {
     "0": {
-      "id": "demo-0001",
-      "question": "A 19-year-old man has comedones together with inflammatory papules and pustules on the face, without nodules or scarring. Which of the following is the recommended first-line topical treatment?",
-      "correct_choice": ["A"],
+      "id": "5ec75081-7713-4c2b-b292-f58d3635f6e1",
+      "question": "A 17-year-old girl comes to the physician because of a 3-year history of acne on her face and chest. She has no itching or scaling. She is concerned about the possibility of facial scarring and has never sought treatment. She has no history of serious illness. She takes no medications. She is 160 cm (5 ft 3 in) tall and weighs 58 kg (130 lb); BMI is 23 kg/m2. Her vital signs are within normal limits. Examination shows several open comedones on the face and chest. Which of the following is the most appropriate initial treatment?",
+      "correct_choice": [
+        "B"
+      ],
       "answer_options": {
-        "A": "Fixed-dose combination of adapalene and benzoyl peroxide once daily",
-        "B": "Topical clindamycin monotherapy twice daily",
-        "C": "Oral isotretinoin for 20 weeks",
-        "D": "Topical hydrocortisone once daily"
+        "A": "Oral antibiotics",
+        "B": "Topical benzoyl peroxide",
+        "C": "Topical antibiotic",
+        "D": "Oral isotretinoin"
       },
-      "correct_answer": "Fixed-dose combination of adapalene and benzoyl peroxide once daily",
-      "metadata": {"dermatology": true, "demo": true},
+      "correct_answer": "Topical benzoyl peroxide",
+      "metadata": {
+        "dermatology": true
+      },
       "choice_type": "single",
       "explanation": null,
-      "topic": "acne vulgaris",
-      "source": "synthetic_demo"
+      "topic": null,
+      "source": "mmlu_medqa"
     },
     "1": {
-      "id": "demo-0002",
-      "question": "A 45-year-old woman has plaque psoriasis affecting 18% of her body surface area. She has no contraindications to systemic therapy and has not been treated systemically before. Which first-line conventional systemic agent is recommended?",
-      "correct_choice": ["C"],
+      "id": "eaa7375d-d2a8-4f45-be0a-965cac1b4ff5",
+      "question": "A 22-year-old male presents to the physician with a 9-year history of recurring acne on his face. He has tried a number of over-the-counter face wash, gels, and supplements over the past few years with temporary relief but no significant lasting effects. The acne has gotten worse over time and now he is especially concerned about his appearance. A physical examination reveals numerous nodulocystic lesions over the face and neck. Scarring is present interspersed between the pustules. There are some lesions on the shoulders and upper back as well. Which of the following is the most appropriate treatment option for this patient at this time?",
+      "correct_choice": [
+        "B"
+      ],
       "answer_options": {
-        "A": "Acitretin",
-        "B": "An interleukin-17 inhibitor",
-        "C": "Methotrexate once weekly with folic acid",
-        "D": "Long-term oral prednisolone"
+        "A": "Oral erythromycin",
+        "B": "Oral isotretinoin",
+        "C": "Topical isotretinoin",
+        "D": "Topical salicylic acid"
       },
-      "correct_answer": "Methotrexate once weekly with folic acid",
-      "metadata": {"dermatology": true, "demo": true},
+      "correct_answer": "Oral isotretinoin",
+      "metadata": {
+        "dermatology": true
+      },
       "choice_type": "single",
       "explanation": null,
-      "topic": "plaque psoriasis",
-      "source": "synthetic_demo"
+      "topic": null,
+      "source": "mmlu_medqa"
     },
     "2": {
-      "id": "demo-0003",
-      "question": "A 32-year-old woman has had recurrent pruritic weals for four months, each individual lesion resolving within a day and leaving no mark. No external trigger is identifiable. What is the recommended first-line pharmacotherapy?",
-      "correct_choice": ["B"],
+      "id": "5b26232f-736f-4b69-b418-2567d0d466cd",
+      "question": "A 17-year-old male is diagnosed with acne vulgaris during a visit to a dermatologist. He is prescribed a therapy that is a derivative of vitamin A. He has no other significant past medical history. Which of the following is the major side-effect of this therapy?",
+      "correct_choice": [
+        "B"
+      ],
       "answer_options": {
-        "A": "A first-generation sedating H1 antihistamine",
-        "B": "A second-generation H1 antihistamine at the standard licensed dose",
-        "C": "Omalizumab",
-        "D": "Ciclosporin"
+        "A": "Hyperglycemia",
+        "B": "Hyperlipidemia",
+        "C": "Fatigue",
+        "D": "Alopecia"
       },
-      "correct_answer": "A second-generation H1 antihistamine at the standard licensed dose",
-      "metadata": {"dermatology": true, "demo": true},
+      "correct_answer": "Hyperlipidemia",
+      "metadata": {
+        "dermatology": true
+      },
       "choice_type": "single",
       "explanation": null,
-      "topic": "chronic spontaneous urticaria",
-      "source": "synthetic_demo"
+      "topic": null,
+      "source": "mmlu_medqa"
     },
     "3": {
-      "id": "demo-0004",
-      "question": "A 7-year-old boy has an expanding scaly patch of hair loss on the scalp with broken hairs, and culture grows a Trichophyton species. Which treatment approach is required?",
-      "correct_choice": ["D"],
+      "id": "4d248ea3-171a-4b8d-b198-fe85e81e9da7",
+      "question": "A 19-year-old woman presents to the dermatology clinic for a follow-up of worsening acne. She has previously tried topical tretinoin as well as topical and oral antibiotics with no improvement. She recently moved to the area for college and says the acne has caused significant emotional distress when it comes to making new friends. She has no significant past medical or surgical history. Family and social history are also noncontributory. The patient’s blood pressure is 118/77 mm Hg, the pulse is 76/min, the respiratory rate is 17/min, and the temperature is 36.6°C (97.9°F). Physical examination reveals erythematous skin lesions including both open and closed comedones with inflammatory lesions overlying her face, neck, and upper back. The patient asks about oral isotretinoin. Which of the following is the most important step in counseling this patient prior to prescribing oral isotretinoin?",
+      "correct_choice": [
+        "C"
+      ],
       "answer_options": {
-        "A": "Topical terbinafine cream alone for two weeks",
-        "B": "Topical ketoconazole shampoo alone",
-        "C": "Topical corticosteroid alone",
-        "D": "Oral terbinafine, with antifungal shampoo only as an adjunct"
+        "A": "Wear a wide-brimmed hat outdoors",
+        "B": "Use non-comedogenic sunscreen daily with SPF of at least 45",
+        "C": "Document 2 negative urine or blood pregnancy tests before beginning oral isotretinoin",
+        "D": "Apply topical retinoids in the evening before bed"
       },
-      "correct_answer": "Oral terbinafine, with antifungal shampoo only as an adjunct",
-      "metadata": {"dermatology": true, "demo": true},
+      "correct_answer": "Document 2 negative urine or blood pregnancy tests before beginning oral isotretinoin",
+      "metadata": {
+        "dermatology": true
+      },
       "choice_type": "single",
       "explanation": null,
-      "topic": "tinea capitis",
-      "source": "synthetic_demo"
+      "topic": null,
+      "source": "mmlu_medqa"
     },
     "4": {
-      "id": "demo-0005",
-      "question": "A patient reports itchy skin lesions. Which feature argues against urticaria and should prompt a lesional biopsy?",
-      "correct_choice": ["A"],
+      "id": "ed685c35-1766-4b47-bfac-4b2393539709",
+      "question": "A 16-year-old girl is brought to the physician for evaluation of severe acne on her face, chest, and back for the past 2 years. She has no itching or scaling. She has been treated in the past with a combination of oral cephalexin and topical benzoyl peroxide without clinical improvement. She is sexually active with one male partner, and they use condoms inconsistently. She does not smoke, drink alcohol, or use illicit drugs. There is no personal or family history of serious illness. Her vital signs are within normal limits. Examination shows mild facial scarring and numerous open comedones and sebaceous skin lesions on her face, chest, and back. Before initiating treatment, which of the following is the most appropriate next step?",
+      "correct_choice": [
+        "C"
+      ],
       "answer_options": {
-        "A": "Individual lesions persisting beyond 24 hours and resolving with pigmentation",
-        "B": "Weals that migrate over the trunk within hours",
-        "C": "Accompanying angioedema of the lips",
-        "D": "Symptoms lasting longer than six weeks"
+        "A": "Administer oral contraceptives",
+        "B": "Switch cephalexin to doxycycline",
+        "C": "Measure serum beta-hCG levels",
+        "D": "Measure creatinine kinase levels"
       },
-      "correct_answer": "Individual lesions persisting beyond 24 hours and resolving with pigmentation",
-      "metadata": {"dermatology": true, "demo": true},
+      "correct_answer": "Measure serum beta-hCG levels",
+      "metadata": {
+        "dermatology": true
+      },
       "choice_type": "single",
       "explanation": null,
-      "topic": "urticarial vasculitis",
-      "source": "synthetic_demo"
+      "topic": null,
+      "source": "mmlu_medqa"
     },
     "5": {
-      "id": "demo-0006",
-      "question": "An adult with severe nodular acne and early scarring has not responded to 12 weeks of an appropriate topical regimen. Which systemic option is indicated, and what precaution is mandatory?",
-      "correct_choice": ["C"],
+      "id": "6e1f10ea-e6b2-4d09-9a55-4e8359d64852",
+      "question": "A 19-year-old woman presents to her university health clinic for a regularly scheduled visit. She has a past medical history of depression, acne, attention-deficit/hyperactivity disorder, and dysmenorrhea. She is currently on paroxetine, dextroamphetamine, and naproxen during her menses. She is using nicotine replacement products to quit smoking. She is concerned about her acne, recent weight gain, and having a depressed mood this past month. She also states that her menses are irregular and painful. She is not sexually active and tries to exercise once a month. Her temperature is 97.6°F (36.4°C), blood pressure is 133/81 mmHg, pulse is 80/min, respirations are 14/min, and oxygen saturation is 98% on room air. Physical exam is notable for a morbidly obese woman with acne on her face. Her pelvic exam is unremarkable. The patient is given a prescription for isotretinoin. Which of the following is the most appropriate next step in management?",
+      "correct_choice": [
+        "A"
+      ],
       "answer_options": {
-        "A": "Topical clindamycin monotherapy, no precaution needed",
-        "B": "Doxycycline indefinitely, with annual liver enzymes",
-        "C": "Isotretinoin, with mandatory pregnancy prevention for patients who can become pregnant",
-        "D": "Methotrexate weekly, with folic acid"
+        "A": "Check hCG",
+        "B": "Check prolactin",
+        "C": "Check TSH",
+        "D": "Recheck blood pressure in 1 week"
       },
-      "correct_answer": "Isotretinoin, with mandatory pregnancy prevention for patients who can become pregnant",
-      "metadata": {"dermatology": true, "demo": true},
+      "correct_answer": "Check hCG",
+      "metadata": {
+        "dermatology": true
+      },
       "choice_type": "single",
       "explanation": null,
-      "topic": "acne vulgaris",
-      "source": "synthetic_demo"
+      "topic": null,
+      "source": "mmlu_medqa"
     }
   }
 }

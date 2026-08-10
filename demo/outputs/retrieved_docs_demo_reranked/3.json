@@ -1,15 +1,15 @@
 {
   "question_id": "3",
-  "question": "A 7-year-old boy has an expanding scaly patch of hair loss on the scalp with broken hairs, and culture grows a Trichophyton species. Which treatment approach is required?",
-  "question_prompt": "A 7-year-old boy has an expanding scaly patch of hair loss on the scalp with broken hairs, and culture grows a Trichophyton species. Which treatment approach is required?\n\nA. Topical terbinafine cream alone for two weeks\nB. Topical ketoconazole shampoo alone\nC. Topical corticosteroid alone\nD. Oral terbinafine, with antifungal shampoo only as an adjunct\n",
+  "question": "A 19-year-old woman presents to the dermatology clinic for a follow-up of worsening acne. She has previously tried topical tretinoin as well as topical and oral antibiotics with no improvement. She recently moved to the area for college and says the acne has caused significant emotional distress when it comes to making new friends. She has no significant past medical or surgical history. Family and social history are also noncontributory. The patient’s blood pressure is 118/77 mm Hg, the pulse is 76/min, the respiratory rate is 17/min, and the temperature is 36.6°C (97.9°F). Physical examination reveals erythematous skin lesions including both open and closed comedones with inflammatory lesions overlying her face, neck, and upper back. The patient asks about oral isotretinoin. Which of the following is the most important step in counseling this patient prior to prescribing oral isotretinoin?",
+  "question_prompt": "A 19-year-old woman presents to the dermatology clinic for a follow-up of worsening acne. She has previously tried topical tretinoin as well as topical and oral antibiotics with no improvement. She recently moved to the area for college and says the acne has caused significant emotional distress when it comes to making new friends. She has no significant past medical or surgical history. Family and social history are also noncontributory. The patient’s blood pressure is 118/77 mm Hg, the pulse is 76/min, the respiratory rate is 17/min, and the temperature is 36.6°C (97.9°F). Physical examination reveals erythematous skin lesions including both open and closed comedones with inflammatory lesions overlying her face, neck, and upper back. The patient asks about oral isotretinoin. Which of the following is the most important step in counseling this patient prior to prescribing oral isotretinoin?\n\nA. Wear a wide-brimmed hat outdoors\nB. Use non-comedogenic sunscreen daily with SPF of at least 45\nC. Document 2 negative urine or blood pregnancy tests before beginning oral isotretinoin\nD. Apply topical retinoids in the evening before bed\n",
   "answer_options": {
-    "A": "Topical terbinafine cream alone for two weeks",
-    "B": "Topical ketoconazole shampoo alone",
-    "C": "Topical corticosteroid alone",
-    "D": "Oral terbinafine, with antifungal shampoo only as an adjunct"
+    "A": "Wear a wide-brimmed hat outdoors",
+    "B": "Use non-comedogenic sunscreen daily with SPF of at least 45",
+    "C": "Document 2 negative urine or blood pregnancy tests before beginning oral isotretinoin",
+    "D": "Apply topical retinoids in the evening before bed"
   },
-  "correct_choice": "D",
-  "answer_source": "agentic_rag",
+  "correct_choice": "C",
+  "answer_source": "agentic_rag_insufficient",
   "retrieval_result": {
     "plan": {
       "collections": [
@@ -18,69 +18,92 @@
       ],
       "decomposed": true,
       "sub_queries": [
-        "Clinical features and diagnostic criteria of tinea capitis in school-aged children presenting with an expanding scaly alopecic patch and broken hairs, and typical mycology for Trichophyton species (culture/KOH findings).",
-        "Recommended first-line systemic therapy for tinea capitis caused by Trichophyton species in a 7-year-old: comparative efficacy of oral terbinafine vs griseofulvin, recommended agent, dosing, and treatment duration.",
-        "Adjunctive management for tinea capitis: role of topical antifungal shampoos to reduce transmission, household contact screening/treatment, and indications for oral corticosteroids or other interventions for inflammatory complications (kerion)."
+        "For women of childbearing potential starting oral isotretinoin, what pregnancy-prevention measures and counseling are required (eg, explanation of teratogenicity, mandatory contraception requirements, pregnancy testing schedule, informed-consent programs such as iPLEDGE)?",
+        "What baseline and ongoing laboratory tests and monitoring are recommended before and during isotretinoin therapy (eg, baseline/periodic pregnancy tests, liver function tests, fasting lipid panel, CBC) and what monitoring frequency is advised?",
+        "What are the absolute contraindications and major adverse effects of oral isotretinoin (including teratogenicity, psychiatric effects, mucocutaneous adverse effects, hyperlipidemia, hepatotoxicity) that must be discussed during pre-treatment counseling?"
       ],
       "key_concepts": [
-        "tinea capitis",
-        "Trichophyton species",
-        "scaly patch with broken hairs (black dot alopecia)",
-        "oral antifungal therapy in children",
-        "griseofulvin (pediatric dosing, duration)",
-        "terbinafine (pediatric dosing, duration)",
-        "topical adjunctive therapy (selenium sulfide or ketoconazole shampoo)",
-        "species-specific treatment recommendations/guidelines"
+        "isotretinoin teratogenicity",
+        "iPLEDGE / REMS pregnancy prevention program",
+        "pregnancy testing requirements (baseline and monthly)",
+        "contraception requirements (two forms, timing)",
+        "baseline and monitoring labs (lipids, LFTs, pregnancy)",
+        "contraindications and major adverse effects (mood changes, mucocutaneous effects)",
+        "dosing and treatment duration",
+        "counseling and informed consent for women of childbearing potential"
       ],
-      "reasoning": "This is a clinical treatment question where textbooks give standard teaching (books) and recent guidelines/evidence (primary literature) may influence drug choice (griseofulvin vs terbinafine), so decompose into diagnosis confirmation, need for systemic vs topical therapy, and species-specific drug/duration recommendations."
+      "reasoning": "Primary sources/guidelines are needed for current REMS/iPLEDGE and pregnancy-testing rules; textbooks can support pharmacology and adverse-effect context. Decomposition is needed to prioritize pregnancy prevention while also covering monitoring, contraindications, and counseling points."
     },
     "conditions": [
-      "tinea capitis",
-      "Trichophyton species",
-      "scaly patch with broken hairs (black dot alopecia)",
-      "oral antifungal therapy in children",
-      "griseofulvin (pediatric dosing, duration)",
-      "terbinafine (pediatric dosing, duration)",
-      "topical adjunctive therapy (selenium sulfide or ketoconazole shampoo)",
-      "species-specific treatment recommendations/guidelines"
+      "isotretinoin teratogenicity",
+      "iPLEDGE / REMS pregnancy prevention program",
+      "pregnancy testing requirements (baseline and monthly)",
+      "contraception requirements (two forms, timing)",
+      "baseline and monitoring labs (lipids, LFTs, pregnancy)",
+      "contraindications and major adverse effects (mood changes, mucocutaneous effects)",
+      "dosing and treatment duration",
+      "counseling and informed consent for women of childbearing potential"
     ],
     "retrieval_history": [
       {
         "iteration": 1,
         "query": [
-          "Clinical features and diagnostic criteria of tinea capitis in school-aged children presenting with an expanding scaly alopecic patch and broken hairs, and typical mycology for Trichophyton species (culture/KOH findings).",
-          "Recommended first-line systemic therapy for tinea capitis caused by Trichophyton species in a 7-year-old: comparative efficacy of oral terbinafine vs griseofulvin, recommended agent, dosing, and treatment duration.",
-          "Adjunctive management for tinea capitis: role of topical antifungal shampoos to reduce transmission, household contact screening/treatment, and indications for oral corticosteroids or other interventions for inflammatory complications (kerion)."
+          "For women of childbearing potential starting oral isotretinoin, what pregnancy-prevention measures and counseling are required (eg, explanation of teratogenicity, mandatory contraception requirements, pregnancy testing schedule, informed-consent programs such as iPLEDGE)?",
+          "What baseline and ongoing laboratory tests and monitoring are recommended before and during isotretinoin therapy (eg, baseline/periodic pregnancy tests, liver function tests, fasting lipid panel, CBC) and what monitoring frequency is advised?",
+          "What are the absolute contraindications and major adverse effects of oral isotretinoin (including teratogenicity, psychiatric effects, mucocutaneous adverse effects, hyperlipidemia, hepatotoxicity) that must be discussed during pre-treatment counseling?"
         ],
-        "docs_retrieved": 10,
-        "total_docs": 10,
+        "docs_retrieved": 7,
+        "total_docs": 7,
         "critique": {
-          "sufficient": true,
-          "confidence": 0.9,
+          "sufficient": false,
+          "confidence": 0.8,
           "gaps": [
-            "No specific pediatric dosing or treatment duration for oral terbinafine provided.",
-            "No detailed safety/contraindication information for systemic antifungals in children.",
-            "Limited information on alternative regimens if terbinafine is unavailable or contraindicated (e.g., when to use griseofulvin for Trichophyton)."
+            "No explicit statement that a negative pregnancy test is required immediately before initiating isotretinoin",
+            "No clear recommendation about mandatory use of two forms of contraception for women of childbearing potential",
+            "No precise timing/duration for contraception relative to starting and stopping isotretinoin (e.g., 1 month before, during, and after)",
+            "No mention of mandatory pregnancy-prevention programs/registry requirements (e.g., iPLEDGE) or required consent/documentation",
+            "No clear counseling steps such as monthly pregnancy testing and documentation during therapy"
           ],
-          "recommendation": "answer",
-          "reasoning": "Doc 4 explicitly states that tinea capitis requires oral antifungal therapy and that terbinafine is preferred for Trichophyton infections, which directly answers the clinical question. The retrieved set lacks dose/duration and safety details, but contains the key therapeutic approach."
+          "recommendation": "retrieve_more",
+          "reasoning": "The retrieved documents are relevant (they discuss isotretinoin indications, teratogenicity, and monitoring) but lack key, specific counseling steps required for prescribing to a woman of childbearing potential—particularly mandatory pregnancy testing, contraception requirements, duration, and program enrollment—so additional sources are needed to answer accurately."
+        }
+      },
+      {
+        "iteration": 2,
+        "query": [
+          "For women of childbearing potential (WOCBP) starting oral isotretinoin, what are the evidence-based pregnancy-prevention requirements and counseling elements—including mandated explanation of isotretinoin teratogenicity; mandatory enrollment in pregnancy-prevention/informed-consent programs (e.g., iPLEDGE) and required documentation; requirement for a negative pregnancy test immediately prior to initiation (specify timing and type of test, urine vs serum β-hCG) and frequency of pregnancy testing during therapy and after cessation; mandatory use of two concurrent forms of contraception (including at least one highly effective method), timing to initiate contraception (e.g., ≥1 month before), required duration during therapy and interval after stopping (e.g., 1 month); and counseling on emergency contraception, contraception failure management, monthly documentation, and informed-consent procedures?",
+          "What are the guideline-recommended baseline and ongoing laboratory tests and monitoring for patients starting and receiving oral isotretinoin, including: requirement for a documented negative pregnancy test immediately before initiation and monthly pregnancy testing with documentation; mandatory use and timing of two forms of contraception for women of childbearing potential (start 1 month before, during treatment, and 1 month after discontinuation); enrollment and consent/documentation requirements for pregnancy-prevention programs/registries (eg, iPLEDGE); and specific timing/frequency for monitoring liver function tests, fasting lipid panel, CBC (if indicated), and any other recommended labs or clinical assessments during therapy?",
+          "List absolute contraindications to oral isotretinoin and the major adverse effects that must be covered in pre‑treatment counseling (teratogenicity, psychiatric effects including depression/suicidality, mucocutaneous effects, hypertriglyceridemia, hepatotoxicity), and explicitly state required pregnancy‑prevention measures and documentation: need for a negative pregnancy test immediately before initiation, mandatory use of two forms of contraception for women of childbearing potential with timing (start ≥1 month before treatment, continue during treatment, and continue for 1 month after discontinuation), requirement for monthly pregnancy testing and documentation during therapy, enrollment and consent/registry requirements for pregnancy‑prevention programs (e.g., iPLEDGE), plus recommended baseline and ongoing laboratory monitoring and counseling steps."
+        ],
+        "docs_retrieved": 4,
+        "total_docs": 8,
+        "critique": {
+          "sufficient": false,
+          "confidence": 0.25,
+          "gaps": [
+            "Explicit statement that a negative pregnancy test is required immediately before initiating isotretinoin",
+            "Specific contraception requirements (eg, use of two forms of effective contraception) and timing (start before, during, and duration after treatment)",
+            "Requirement for and details of enrollment in a pregnancy-prevention program (eg, iPLEDGE) and monthly pregnancy testing while on therapy"
+          ],
+          "recommendation": "retrieve_more",
+          "reasoning": "The retrieved documents are relevant (isotretinoin guidelines) and note teratogenicity and need for pregnancy prevention, but the excerpts do not state the single critical counseling step clearly (negative pregnancy test, dual contraception, monthly testing/enrollment). More specific guidance or guideline text is needed to answer the question accurately."
         }
       }
     ],
     "documents": [
-      "## Tinea capitis\n\nTinea capitis requires **oral** antifungal therapy; topical agents do not penetrate\nthe hair follicle and are used only as adjunctive sporicidal shampoo to reduce\ntransmission. Griseofulvin remains the reference agent for *Microsporum* infection,\nwhereas terbinafine is preferred for *Trichophyton* infection in this demo chapter.",
-      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
-      "## Monitoring\n\nResponse is assessed after 8 to 12 weeks. Maintenance with a topical retinoid is\nrecommended after clearance to prevent relapse.",
-      "## Topical therapy\n\nMild plaque psoriasis is managed topically. The preferred option is a **fixed-dose\ncombination of calcipotriol and betamethasone dipropionate** once daily for up to\nfour weeks, followed by intermittent maintenance.",
-      "## Topical treatment of mild to moderate papulopustular acne\n\nFor mild to moderate papulopustular acne, the recommended first-line treatment in\nthis demo document is a **topical fixed-dose combination of adapalene and benzoyl\nperoxide**, applied once daily in the evening. The combination targets both\ncomedogenesis and inflammatory lesions, and benzoyl peroxide limits the emergence of\nantibiotic-resistant *Cutibacterium acnes*.\n\nTopical antibiotic monotherapy is **not** recommended at any severity because of\nresistance selection. If a topical antibiotic is used, it must always be combined\nwith benzoyl peroxide."
+      "# Abstract\n\nGuidelines and consensus on the management of patients with acne aim to give evidence-based, expert-group recommendations. This review compares current guidelines and consensus articles to provide a compilation of recommendations on the treatment of acne with oral isotretinoin. Ten common, relevant, clinical questions are addressed, based on published recommendations, including the indications of isotretinoin, the proposed daily dose, the cumulative isotretinoin dose and the laboratory monitoring needed. Recommendations on special considerations are also addressed, including the timing of procedures and the question of an association of depression or inflammatory bowel disease with isotretinoin. A major limitation is the use of different classification systems for acne across guidelines. The recommended daily dose ranges from 0.3 to $0.5\\mathrm{mg / kg}$ in the European guidelines to up to $1\\mathrm{mg / kg}$ in the US guidelines. A specific duration of treatment of at least 6 months is only recommended in the European guidelines. All guidelines report the need of strict pregnancy prevention measures. The European, French and US guidelines recommend to monitor for symptoms of depression. Important clinical questions that are inconsistently addressed in guidelines include the age indication, the recommendation for a cumulative dose, the timing of procedures, the association of isotretinoin with IBD, the recommendation for preventing acne flares and for appropriate laboratory monitoring. These topics should be clearly included in the recommendations of guidelines as they are often raised in everyday clinical practice.",
+      "# Clinical question 10: What are the recommendations for laboratory monitoring during treatment with isotretinoin?\n\nEuropean Medicines Agency recommends laboratory testing, mainly of lipids and liver enzymes, before treatment initiation\n\nand at month 1 and 3 thereafter. It is mentioned that monitoring may be more frequent in selected patients with co-morbidities.[2]\n\nThe European guidelines recommend to monitor laboratory parameters, primarily liver enzymes and lipids, before treatment, 1 month after starting treatment, and every 3 months thereafter, in line with the EMA recommendation.\n\nPublished guidelines do not give detailed recommendations on laboratory monitoring during isotretinoin treatment.[12,14,15] The recommendations for laboratory monitoring (apart from pregnancy testing) during isotretinoin treatment are summarized in Table 4. The decision for laboratory monitoring is based on the judgement of the treating physician in relation with the risk factors, the medical history and the symptoms of each patient.",
+      "# Clinical questions concerning oral isotretinoin for acne treatment\n\nThe following clinical questions concerning treatment with oral isotretinoin for acne are addressed:\n\n- Clinical question 1: For which acne forms is systemic isotretinoin indicated?   \nClinical question 2: At what ages is treatment indicated?   \n- Clinical question 3: Which is the recommended daily dosing?   \n- Clinical question 4: Is a cumulative dose necessary?   \n- Clinical question 5: What are the recommendations for the timing of procedures with isotretinoin treatment?   \n- Clinical question 6: Which is the essential duration of contraception after discontinuation of isotretinoin treatment?   \n- Clinical question 7: Is isotretinoin associated with depression?   \n- Clinical question 8: Is there an association of oral isotretinoin with IBD?   \n- Clinical question 9: What are the recommendations for preventing acne flares during isotretinoin treatment?   \n- Clinical question 10: What are the recommendations for laboratory monitoring during treatment with isotretinoin?",
+      "# Clinical question 3: Which is the recommended daily dosing?\n\nThe EMA recommends to start isotretinoin at a dose of $0.5\\mathrm{mg / kg}$ while the dose may range from 0.5 to $1.0~\\mathrm{mg / kg}$ .\n\nThe European guidelines mention that best dosage evidence is rare and partly conflicting, whereas recommendations were based more on expert opinion. For severe papulopustular acne/moderate nodular acne, systemic isotretinoin $0.3 - 0.5\\mathrm{mg / kg}$ can be recommended. For conglobate acne, a dosage of $\\geq 0.5\\mathrm{mg / kg}$ can be recommended. The duration of treatment should be at least 6 months, and in case of insufficient response, it can be prolonged.[10,15]\n\nSimilar recommendations are given in other published guidelines and consensus articles that are summarized in Tables 1 and 2.\n\nRecommendation that isotretinoin must be taken with food to be efficiently absorbed is given in the Canadian guidelines Appendix $4^{14}$ and the AAD guidelines. $^{13}$\n\nThe French $^{12}$ and the AAD guidelines $^{13}$ do not recommend intermittent or low-dose isotretinoin.\n\nRegarding the need of once or twice daily dosing, there are no recommendations given in any of the guidelines $^{10,12-14}$ or consensus articles. $^{16-18}$",
+      "# Clinical question 6: Which is the essential duration of contraception after discontinuation of isotretinoin treatment?\n\nOral isotretinoin is teratogenic, and it should only be prescribed to women of childbearing potential under strict pregnancy prevention measures.[2,12] For male patients, there is no evidence to suggest that the fertility or offspring of male patients will be affected by them taking isotretinoin.[2]\n\nThe good practice recommendations of the French Society of Dermatology (2015) $^{11}$ include recommendations for prevention of pregnancy measures, such as:\n\nBefore treatment onset, women of childbearing potential should:\n\n- Be informed and understand the teratogenicity of isotretinoin and the absolute need to avoid any pregnancy,   \n- Read carefully and sign an informed consent form for treatment and contraception and keep one copy,   \n- Use effective contraception for at least 4 weeks before treatment onset,\n\n- Have a negative serum pregnancy test result within 3 days before first prescription,\n\nDuring treatment and for at least 1 month after the end of treatment with oral isotretinoin, women of childbearing potential should:\n\n- Take effective contraception measures during treatment and for at least one month after the end of treatment,   \n- Have a serum pregnancy test every month, within 3 days before each monthly prescription of isotretinoin,   \n- Have a serum pregnancy test at 5 weeks after the end of treatment.\n\nSimilar strict prevention of pregnancy recommendations are given by the EMA and the European and AAD guidelines. In addition, in USA the strict pregnancy prevention program iPLEDGE is mandatory.[13]"
     ],
-    "final_sufficient": true,
+    "final_sufficient": false,
     "reranker_scores": [
-      0.08625465631484985,
-      0.07384982705116272,
-      0.07311403006315231,
-      0.06063815578818321,
-      0.05525713786482811
+      0.4392261505126953,
+      0.434000700712204,
+      0.4301656186580658,
+      0.41961294412612915,
+      0.4056278467178345
     ],
     "final_doc_count": 5
   }

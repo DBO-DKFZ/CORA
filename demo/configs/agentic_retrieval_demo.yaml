@@ -1,4 +1,4 @@
-# Demo agentic retrieval — small synthetic corpus, CPU-friendly models.
+# Demo agentic retrieval — small real corpus (2 real EADV acne guidelines), CPU-friendly models.
 # Same script and same config schema as configs/agentic_retrieval_gaps.yaml.
 
 input_json: "demo/questions_demo.json"

@@ -1,15 +1,15 @@
 {
   "question_id": "5",
-  "question": "An adult with severe nodular acne and early scarring has not responded to 12 weeks of an appropriate topical regimen. Which systemic option is indicated, and what precaution is mandatory?",
-  "question_prompt": "An adult with severe nodular acne and early scarring has not responded to 12 weeks of an appropriate topical regimen. Which systemic option is indicated, and what precaution is mandatory?\n\nA. Topical clindamycin monotherapy, no precaution needed\nB. Doxycycline indefinitely, with annual liver enzymes\nC. Isotretinoin, with mandatory pregnancy prevention for patients who can become pregnant\nD. Methotrexate weekly, with folic acid\n",
+  "question": "A 19-year-old woman presents to her university health clinic for a regularly scheduled visit. She has a past medical history of depression, acne, attention-deficit/hyperactivity disorder, and dysmenorrhea. She is currently on paroxetine, dextroamphetamine, and naproxen during her menses. She is using nicotine replacement products to quit smoking. She is concerned about her acne, recent weight gain, and having a depressed mood this past month. She also states that her menses are irregular and painful. She is not sexually active and tries to exercise once a month. Her temperature is 97.6°F (36.4°C), blood pressure is 133/81 mmHg, pulse is 80/min, respirations are 14/min, and oxygen saturation is 98% on room air. Physical exam is notable for a morbidly obese woman with acne on her face. Her pelvic exam is unremarkable. The patient is given a prescription for isotretinoin. Which of the following is the most appropriate next step in management?",
+  "question_prompt": "A 19-year-old woman presents to her university health clinic for a regularly scheduled visit. She has a past medical history of depression, acne, attention-deficit/hyperactivity disorder, and dysmenorrhea. She is currently on paroxetine, dextroamphetamine, and naproxen during her menses. She is using nicotine replacement products to quit smoking. She is concerned about her acne, recent weight gain, and having a depressed mood this past month. She also states that her menses are irregular and painful. She is not sexually active and tries to exercise once a month. Her temperature is 97.6°F (36.4°C), blood pressure is 133/81 mmHg, pulse is 80/min, respirations are 14/min, and oxygen saturation is 98% on room air. Physical exam is notable for a morbidly obese woman with acne on her face. Her pelvic exam is unremarkable. The patient is given a prescription for isotretinoin. Which of the following is the most appropriate next step in management?\n\nA. Check hCG\nB. Check prolactin\nC. Check TSH\nD. Recheck blood pressure in 1 week\n",
   "answer_options": {
-    "A": "Topical clindamycin monotherapy, no precaution needed",
-    "B": "Doxycycline indefinitely, with annual liver enzymes",
-    "C": "Isotretinoin, with mandatory pregnancy prevention for patients who can become pregnant",
-    "D": "Methotrexate weekly, with folic acid"
+    "A": "Check hCG",
+    "B": "Check prolactin",
+    "C": "Check TSH",
+    "D": "Recheck blood pressure in 1 week"
   },
-  "correct_choice": "C",
-  "answer_source": "agentic_rag",
+  "correct_choice": "A",
+  "answer_source": "agentic_rag_insufficient",
   "retrieval_result": {
     "plan": {
       "collections": [
@@ -18,68 +18,91 @@
       ],
       "decomposed": true,
       "sub_queries": [
-        "What systemic therapy is guideline-indicated for an adult with severe nodular acne and early scarring after failure of 12 weeks of appropriate topical treatment (i.e., role of oral isotretinoin, typical dosing and treatment duration)?",
-        "What mandatory precaution is required when prescribing oral isotretinoin—details on teratogenic risk and required pregnancy-prevention measures (e.g., iPLEDGE/enrollment, contraception, baseline and monthly pregnancy testing) for persons of childbearing potential?",
-        "What baseline and ongoing safety monitoring is required during oral isotretinoin therapy (liver function tests, fasting lipid panel, pregnancy tests schedule, and recommended monitoring for mood/psychiatric symptoms)?"
+        "iPLEDGE and isotretinoin requirements for females of childbearing potential: mandatory enrollment, pregnancy testing protocol (baseline and ongoing monthly testing), contraception requirements (number and types of acceptable methods) and counseling obligations even if patient reports no sexual activity",
+        "Baseline and ongoing monitoring before and during isotretinoin therapy: required laboratory tests (baseline and frequency of liver function tests, fasting lipid panel/triglycerides, pregnancy tests), recommended psychiatric screening for depression/suicidality, and frequency of follow-up visits",
+        "Contraindications, major drug interactions, and safety precautions for isotretinoin: concurrent tetracyclines, vitamin A supplements, blood donation restrictions, and management considerations for patients with preexisting depression on SSRIs"
       ],
       "key_concepts": [
-        "severe nodular acne",
-        "early scarring acne",
-        "oral isotretinoin (systemic retinoid)",
-        "teratogenicity of isotretinoin",
-        "pregnancy prevention program (iPLEDGE or equivalent)",
-        "baseline and periodic pregnancy testing",
-        "contraception requirements (two forms)",
-        "monitoring: liver function tests and serum lipids"
+        "isotretinoin teratogenicity",
+        "iPLEDGE (FDA pregnancy prevention program) requirements",
+        "baseline and monthly pregnancy testing for women of childbearing potential",
+        "contraception requirements (two forms vs documented abstinence)",
+        "isotretinoin and mood/psychiatric adverse effects (depression, suicidality) and counseling",
+        "baseline monitoring labs for isotretinoin (lipids, liver function tests)",
+        "drug interactions/relevant meds (paroxetine, stimulants, NSAIDs, nicotine replacement)"
       ],
-      "reasoning": "Use both primary guidelines and textbook sources to confirm that oral isotretinoin is indicated and to retrieve mandatory safety measures (pregnancy prevention program, testing and monitoring); decomposition is needed to locate treatment recommendation and the specific required precautions/monitoring."
+      "reasoning": "This question hinges on isotretinoin safety rules for women of childbearing potential (iPLEDGE and pregnancy testing/contraception) plus counseling/monitoring for depression and baseline labs, so search both guideline/primary sources and textbooks for practice details; decompose into pregnancy-prevention rules, psychiatric risk, and baseline monitoring."
     },
     "conditions": [
-      "severe nodular acne",
-      "early scarring acne",
-      "oral isotretinoin (systemic retinoid)",
-      "teratogenicity of isotretinoin",
-      "pregnancy prevention program (iPLEDGE or equivalent)",
-      "baseline and periodic pregnancy testing",
-      "contraception requirements (two forms)",
-      "monitoring: liver function tests and serum lipids"
+      "isotretinoin teratogenicity",
+      "iPLEDGE (FDA pregnancy prevention program) requirements",
+      "baseline and monthly pregnancy testing for women of childbearing potential",
+      "contraception requirements (two forms vs documented abstinence)",
+      "isotretinoin and mood/psychiatric adverse effects (depression, suicidality) and counseling",
+      "baseline monitoring labs for isotretinoin (lipids, liver function tests)",
+      "drug interactions/relevant meds (paroxetine, stimulants, NSAIDs, nicotine replacement)"
     ],
     "retrieval_history": [
       {
         "iteration": 1,
         "query": [
-          "What systemic therapy is guideline-indicated for an adult with severe nodular acne and early scarring after failure of 12 weeks of appropriate topical treatment (i.e., role of oral isotretinoin, typical dosing and treatment duration)?",
-          "What mandatory precaution is required when prescribing oral isotretinoin—details on teratogenic risk and required pregnancy-prevention measures (e.g., iPLEDGE/enrollment, contraception, baseline and monthly pregnancy testing) for persons of childbearing potential?",
-          "What baseline and ongoing safety monitoring is required during oral isotretinoin therapy (liver function tests, fasting lipid panel, pregnancy tests schedule, and recommended monitoring for mood/psychiatric symptoms)?"
+          "iPLEDGE and isotretinoin requirements for females of childbearing potential: mandatory enrollment, pregnancy testing protocol (baseline and ongoing monthly testing), contraception requirements (number and types of acceptable methods) and counseling obligations even if patient reports no sexual activity",
+          "Baseline and ongoing monitoring before and during isotretinoin therapy: required laboratory tests (baseline and frequency of liver function tests, fasting lipid panel/triglycerides, pregnancy tests), recommended psychiatric screening for depression/suicidality, and frequency of follow-up visits",
+          "Contraindications, major drug interactions, and safety precautions for isotretinoin: concurrent tetracyclines, vitamin A supplements, blood donation restrictions, and management considerations for patients with preexisting depression on SSRIs"
         ],
-        "docs_retrieved": 9,
-        "total_docs": 9,
+        "docs_retrieved": 5,
+        "total_docs": 5,
         "critique": {
-          "sufficient": true,
-          "confidence": 0.8,
+          "sufficient": false,
+          "confidence": 0.45,
           "gaps": [
-            "No specific details on the required pregnancy-prevention measures (e.g., requirement for two forms of contraception, timing/frequency of pregnancy testing, or required duration of contraception after stopping isotretinoin).",
-            "No information on isotretinoin dosing, monitoring (lipids, liver enzymes), or treatment duration."
+            "No explicit statement of the required pregnancy-prevention protocol before initiating isotretinoin (eg, need for a negative pregnancy test immediately prior to starting).",
+            "No clear guidance on contraception requirements (eg, recommendation for two forms of contraception, duration of use before/after treatment, monthly pregnancy testing, or enrollment in risk-management programs such as iPLEDGE).",
+            "Incomplete immediate pre-treatment checklist (baseline pregnancy test, and whether baseline lipids/LFTs should be obtained before the first dose).",
+            "Limited specifics on how to manage concomitant psychiatric history when starting isotretinoin (eg, concrete monitoring frequency or when to avoid therapy)."
           ],
-          "recommendation": "answer",
-          "reasoning": "Doc 1 explicitly names oral isotretinoin as the systemic option for severe nodular or scarring acne and states that pregnancy prevention is mandatory, which directly answers the question. However, the documents omit specifics of the pregnancy-prevention program and other management details, so if those specifics are required a further retrieval would be needed."
+          "recommendation": "retrieve_more",
+          "reasoning": "The retrieved documents mention teratogenicity, contraception, lab monitoring, and possible depression risk but do not provide the explicit, actionable pre-treatment steps (pregnancy testing, contraception requirements, program enrollment, baseline labs) needed to choose the single most appropriate next step for this patient."
+        }
+      },
+      {
+        "iteration": 2,
+        "query": [
+          "iPLEDGE/REMS requirements for females of childbearing potential (FBCP) prescribed isotretinoin: mandatory enrollment criteria and provider obligations; required pregnancy‑prevention protocol before initiating therapy (need for a documented negative serum or urine hCG immediately prior to first dose and acceptable timing relative to start); ongoing monthly pregnancy testing protocol (type — serum vs urine — acceptable testing window, documentation, and when testing may be waived); contraception requirements (requirement for two concurrent methods, list of acceptable methods—combined hormonal contraceptives, progestin-only methods, IUD/implant, sterilization, barrier methods—definition of “effective” methods, allowed combinations, and exemptions such as confirmed abstinence); required duration of contraception before initiation and after completion of isotretinoin; counseling and documentation obligations including counseling when the patient reports no sexual activity/abstinence and counseling on emergency contraception; immediate pre-treatment checklist including baseline pregnancy test and baseline labs (lipid panel, liver function tests, any other required baseline monitoring) and timing of these labs relative to first dose; management and monitoring for patients with psychiatric history (screening, frequency of mental health monitoring, thresholds for avoiding or discontinuing isotretinoin, suicide/depression reporting requirements); and procedures for monthly attestations, pregnancy reporting, and management if pregnancy occurs while on isotretinoin.",
+          "Clinical guidelines for baseline and ongoing monitoring during isotretinoin (13‑cis‑retinoic acid) therapy for acne: required pre‑treatment checklist (is a negative pregnancy test required immediately prior to first dose; which baseline labs must be obtained before starting—serum hCG, AST/ALT, bilirubin, fasting lipid panel/triglycerides, CBC), recommended frequency of LFT and fasting lipid monitoring during treatment and post‑treatment, explicit pregnancy‑prevention protocol and contraception requirements (number and types of contraceptive methods recommended, duration of contraception before and after therapy, requirement for monthly pregnancy testing, mandatory enrollment in risk‑management programs such as iPLEDGE), recommended psychiatric screening and monitoring for depression/suicidality (screening tools, baseline assessment and ongoing frequency), management guidance for patients with pre‑existing psychiatric disorders (monitoring intervals, contraindications, thresholds for withholding or discontinuing isotretinoin), recommended frequency of dermatology follow‑up visits, and laboratory/action thresholds for dose adjustment or cessation.",
+          "Evidence-based contraindications, major drug interactions, and safety/monitoring protocols for oral isotretinoin (13‑cis‑retinoic acid), specifically addressing: 1) absolute and relative contraindications (including pregnancy, severe hepatic disease, hypersensitivity); 2) drug interactions — concurrent tetracyclines (risk of intracranial hypertension), vitamin A supplements (risk of hypervitaminosis A), anticoagulants (warfarin), relevant CYP interactions or other notable pharmacologic interactions; 3) blood donation guidance (when to withhold donation during therapy and required interval after discontinuation); 4) detailed pregnancy‑prevention/REMS (iPLEDGE) requirements — need for a negative pregnancy test immediately prior to initiation, requirement for two forms of contraception, recommended timing to start contraception (eg, 1 month before), monthly pregnancy testing during therapy, duration of contraception and pregnancy avoidance after stopping (eg, ≥1 month), and enrollment/documentation steps; 5) baseline and ongoing laboratory monitoring (which baseline tests to obtain prior to first dose — pregnancy test, fasting lipid panel, liver function tests, CBC, etc.), recommended monitoring frequency (eg, monthly pregnancy tests, timing for repeat lipids/LFTs), and laboratory thresholds and management actions (eg, triglyceride and transaminase cutoffs for dose reduction or discontinuation); and 6) management strategies for patients with preexisting depression on SSRIs — baseline psychiatric assessment, recommended monitoring frequency and red‑flag symptoms, criteria for delaying or stopping isotretinoin, and recommendations for psychiatric co‑management."
+        ],
+        "docs_retrieved": 4,
+        "total_docs": 6,
+        "critique": {
+          "sufficient": false,
+          "confidence": 0.3,
+          "gaps": [
+            "No explicit statement that a negative pregnancy test is required immediately before initiating isotretinoin.",
+            "No detailed contraception requirements (e.g., need for two methods, timing to start contraception, duration after stopping isotretinoin).",
+            "No mention of mandatory enrollment/registration programs (e.g., iPLEDGE or equivalent) or consent documentation prior to prescribing.",
+            "Insufficient guidance on how to manage isotretinoin in a patient with a history of depression (e.g., whether to avoid, obtain psychiatric clearance, or increased monitoring frequency).",
+            "No explicit prioritization of the immediate next clinical action for this specific patient scenario."
+          ],
+          "recommendation": "retrieve_more",
+          "reasoning": "The documents are relevant (address teratogenicity, lab monitoring, and depression risk) but lack the specific, actionable pregnancy-prevention and prescribing steps required before starting isotretinoin in a woman of childbearing potential. Additional guidance (pregnancy testing protocol, contraception requirements, and program enrollment) is needed to answer the question accurately."
         }
       }
     ],
     "documents": [
-      "## Systemic treatment\n\nSystemic treatment is reserved for severe papulopustular, nodular, or scarring acne,\nor for moderate disease that has failed an adequate topical trial of at least\n12 weeks.\n\n- **Oral doxycycline** 100 mg once daily, always combined with a topical retinoid and\n  benzoyl peroxide, and limited to a maximum of 12 weeks.\n- **Oral isotretinoin** for severe nodular or scarring acne, or for relapsing disease.\n  Pregnancy prevention is mandatory for patients who can become pregnant.",
-      "## Topical treatment of mild to moderate papulopustular acne\n\nFor mild to moderate papulopustular acne, the recommended first-line treatment in\nthis demo document is a **topical fixed-dose combination of adapalene and benzoyl\nperoxide**, applied once daily in the evening. The combination targets both\ncomedogenesis and inflammatory lesions, and benzoyl peroxide limits the emergence of\nantibiotic-resistant *Cutibacterium acnes*.\n\nTopical antibiotic monotherapy is **not** recommended at any severity because of\nresistance selection. If a topical antibiotic is used, it must always be combined\nwith benzoyl peroxide.",
-      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
-      "## Monitoring\n\nResponse is assessed after 8 to 12 weeks. Maintenance with a topical retinoid is\nrecommended after clearance to prevent relapse.",
-      "## Tinea capitis\n\nTinea capitis requires **oral** antifungal therapy; topical agents do not penetrate\nthe hair follicle and are used only as adjunctive sporicidal shampoo to reduce\ntransmission. Griseofulvin remains the reference agent for *Microsporum* infection,\nwhereas terbinafine is preferred for *Trichophyton* infection in this demo chapter."
+      "# Clinical question 7: Is isotretinoin associated with depression?\n\nThe EMA mentions that psychiatric disorders have been reported in patients treated with isotretinoin, including depression (rare, $\\geq 1/10000$ and $< 1/1000$ ), and suicide/suicide attempt/abnormal behaviour/psychotic disorder (very rare, $\\leq 1/10000$ ). It is mentioned that particular care needs to be taken in patients with a history of depression and all patients should be monitored for signs of depression. Discontinuation of isotretinoin may be insufficient to alleviate symptoms and further psychiatric or psychological evaluation may be necessary.[2]\n\nThe European Guidelines state that there is continued uncertainty regarding isotretinoin, depression and suicidal behaviour and that caution and patient information appears reasonable. It is mentioned that the current literature comes to different conclusions and that there were important limitations in studies. They recommend to assess prior symptoms of depression in the patient's medical history before isotretinoin onset and during treatment and to inform patients about a possible risk of depression and suicidal behaviour.[10]\n\nThe French guidelines mention that no available population-level data support that isotretinoin increases the risk of depression in, or suicide attempts by, patients suffering from acne. However, it is stated that a rare individual risk could not be excluded and that before initiation of isotretinoin treatment, the patient and his/her family must be informed of the potential risk of psychiatric disorders and the treating physician must be notified of any mood or behaviour change.[12]\n\nThe AAD guidelines (2016) mention that, although mood changes, including depression, and suicidal behaviour have been reported sporadically, there are no studies to suggest an evidence-based link between isotretinoin and depression, anxiety, mood changes, or suicidal ideation/suicide. However, it is proposed that prescribing physician should continue to monitor for these symptoms and make therapeutic decisions within the context of each individual patient.[13]\n\nThe consensus article of Eichenfield et al.,[18] conclude that ongoing vigilance and surveillance of patients for mood changes while on isotretinoin therapy seem reasonable but the data appear reassuring. The topic of depression was not addressed in the consensus articles of Gollnick et al.[16] and Thiboutot et al.[17]",
+      "# Abstract\n\nGuidelines and consensus on the management of patients with acne aim to give evidence-based, expert-group recommendations. This review compares current guidelines and consensus articles to provide a compilation of recommendations on the treatment of acne with oral isotretinoin. Ten common, relevant, clinical questions are addressed, based on published recommendations, including the indications of isotretinoin, the proposed daily dose, the cumulative isotretinoin dose and the laboratory monitoring needed. Recommendations on special considerations are also addressed, including the timing of procedures and the question of an association of depression or inflammatory bowel disease with isotretinoin. A major limitation is the use of different classification systems for acne across guidelines. The recommended daily dose ranges from 0.3 to $0.5\\mathrm{mg / kg}$ in the European guidelines to up to $1\\mathrm{mg / kg}$ in the US guidelines. A specific duration of treatment of at least 6 months is only recommended in the European guidelines. All guidelines report the need of strict pregnancy prevention measures. The European, French and US guidelines recommend to monitor for symptoms of depression. Important clinical questions that are inconsistently addressed in guidelines include the age indication, the recommendation for a cumulative dose, the timing of procedures, the association of isotretinoin with IBD, the recommendation for preventing acne flares and for appropriate laboratory monitoring. These topics should be clearly included in the recommendations of guidelines as they are often raised in everyday clinical practice.",
+      "# Clinical question 6: Which is the essential duration of contraception after discontinuation of isotretinoin treatment?\n\nOral isotretinoin is teratogenic, and it should only be prescribed to women of childbearing potential under strict pregnancy prevention measures.[2,12] For male patients, there is no evidence to suggest that the fertility or offspring of male patients will be affected by them taking isotretinoin.[2]\n\nThe good practice recommendations of the French Society of Dermatology (2015) $^{11}$ include recommendations for prevention of pregnancy measures, such as:\n\nBefore treatment onset, women of childbearing potential should:\n\n- Be informed and understand the teratogenicity of isotretinoin and the absolute need to avoid any pregnancy,   \n- Read carefully and sign an informed consent form for treatment and contraception and keep one copy,   \n- Use effective contraception for at least 4 weeks before treatment onset,\n\n- Have a negative serum pregnancy test result within 3 days before first prescription,\n\nDuring treatment and for at least 1 month after the end of treatment with oral isotretinoin, women of childbearing potential should:\n\n- Take effective contraception measures during treatment and for at least one month after the end of treatment,   \n- Have a serum pregnancy test every month, within 3 days before each monthly prescription of isotretinoin,   \n- Have a serum pregnancy test at 5 weeks after the end of treatment.\n\nSimilar strict prevention of pregnancy recommendations are given by the EMA and the European and AAD guidelines. In addition, in USA the strict pregnancy prevention program iPLEDGE is mandatory.[13]",
+      "# Clinical question 10: What are the recommendations for laboratory monitoring during treatment with isotretinoin?\n\nEuropean Medicines Agency recommends laboratory testing, mainly of lipids and liver enzymes, before treatment initiation\n\nand at month 1 and 3 thereafter. It is mentioned that monitoring may be more frequent in selected patients with co-morbidities.[2]\n\nThe European guidelines recommend to monitor laboratory parameters, primarily liver enzymes and lipids, before treatment, 1 month after starting treatment, and every 3 months thereafter, in line with the EMA recommendation.\n\nPublished guidelines do not give detailed recommendations on laboratory monitoring during isotretinoin treatment.[12,14,15] The recommendations for laboratory monitoring (apart from pregnancy testing) during isotretinoin treatment are summarized in Table 4. The decision for laboratory monitoring is based on the judgement of the treating physician in relation with the risk factors, the medical history and the symptoms of each patient.",
+      "# Clinical questions concerning oral isotretinoin for acne treatment\n\nThe following clinical questions concerning treatment with oral isotretinoin for acne are addressed:\n\n- Clinical question 1: For which acne forms is systemic isotretinoin indicated?   \nClinical question 2: At what ages is treatment indicated?   \n- Clinical question 3: Which is the recommended daily dosing?   \n- Clinical question 4: Is a cumulative dose necessary?   \n- Clinical question 5: What are the recommendations for the timing of procedures with isotretinoin treatment?   \n- Clinical question 6: Which is the essential duration of contraception after discontinuation of isotretinoin treatment?   \n- Clinical question 7: Is isotretinoin associated with depression?   \n- Clinical question 8: Is there an association of oral isotretinoin with IBD?   \n- Clinical question 9: What are the recommendations for preventing acne flares during isotretinoin treatment?   \n- Clinical question 10: What are the recommendations for laboratory monitoring during treatment with isotretinoin?"
     ],
-    "final_sufficient": true,
+    "final_sufficient": false,
     "reranker_scores": [
-      0.7606405019760132,
-      0.49818557500839233,
-      0.27908968925476074,
-      0.24836060404777527,
-      0.12371903657913208
+      0.19985230267047882,
+      0.19792526960372925,
+      0.18582706153392792,
+      0.18415968120098114,
+      0.1539362221956253
     ],
     "final_doc_count": 5
   }

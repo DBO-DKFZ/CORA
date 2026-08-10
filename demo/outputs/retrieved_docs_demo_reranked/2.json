@@ -1,81 +1,58 @@
 {
   "question_id": "2",
-  "question": "A 32-year-old woman has had recurrent pruritic weals for four months, each individual lesion resolving within a day and leaving no mark. No external trigger is identifiable. What is the recommended first-line pharmacotherapy?",
-  "question_prompt": "A 32-year-old woman has had recurrent pruritic weals for four months, each individual lesion resolving within a day and leaving no mark. No external trigger is identifiable. What is the recommended first-line pharmacotherapy?\n\nA. A first-generation sedating H1 antihistamine\nB. A second-generation H1 antihistamine at the standard licensed dose\nC. Omalizumab\nD. Ciclosporin\n",
+  "question": "A 17-year-old male is diagnosed with acne vulgaris during a visit to a dermatologist. He is prescribed a therapy that is a derivative of vitamin A. He has no other significant past medical history. Which of the following is the major side-effect of this therapy?",
+  "question_prompt": "A 17-year-old male is diagnosed with acne vulgaris during a visit to a dermatologist. He is prescribed a therapy that is a derivative of vitamin A. He has no other significant past medical history. Which of the following is the major side-effect of this therapy?\n\nA. Hyperglycemia\nB. Hyperlipidemia\nC. Fatigue\nD. Alopecia\n",
   "answer_options": {
-    "A": "A first-generation sedating H1 antihistamine",
-    "B": "A second-generation H1 antihistamine at the standard licensed dose",
-    "C": "Omalizumab",
-    "D": "Ciclosporin"
+    "A": "Hyperglycemia",
+    "B": "Hyperlipidemia",
+    "C": "Fatigue",
+    "D": "Alopecia"
   },
   "correct_choice": "B",
-  "answer_source": "agentic_rag",
+  "answer_source": "agentic_rag_insufficient",
   "retrieval_result": {
     "plan": {
       "collections": [
-        "primary",
         "books"
       ],
       "decomposed": true,
       "sub_queries": [
-        "Chronic spontaneous urticaria (CSU) diagnostic criteria and differential diagnosis: recurrent pruritic wheals >6 weeks, individual lesions resolving <24 hours, no identifiable external trigger",
-        "First-line pharmacotherapy for adult CSU: recommended second‑generation non‑sedating H1‑antihistamines (examples, standard dosing, contraindications; avoid first‑generation antihistamines)",
-        "Treatment escalation for CSU refractory to standard-dose second‑generation H1‑antihistamines: up‑dosing to 4× licensed dose, and next‑line options (omalizumab, ciclosporin, short courses of systemic corticosteroids)"
+        "Which systemic vitamin A derivative (retinoid) is commonly prescribed for severe acne vulgaris (e.g., nodulocystic acne)?",
+        "What is the single most clinically significant adverse effect of systemic isotretinoin (13-cis-retinoic acid) therapy?",
+        "What are the other major adverse effects and monitoring/contraindication requirements for systemic isotretinoin (e.g., mucocutaneous effects, hypertriglyceridemia, hepatotoxicity, psychiatric risks, pregnancy testing/contraception)?"
       ],
       "key_concepts": [
-        "chronic spontaneous/idiopathic urticaria",
-        "urticaria diagnostic criteria (lesion duration <24 hours, recurrent >6 weeks)",
-        "first-line pharmacotherapy",
-        "second-generation non-sedating H1-antihistamines (e.g., cetirizine, loratadine, fexofenadine)",
-        "dose escalation (up to 4x standard dose) and guideline recommendations"
+        "acne vulgaris",
+        "isotretinoin (13-cis-retinoic acid)",
+        "teratogenicity (major adverse effect)",
+        "common adverse effects: cheilitis, mucocutaneous dryness, hypertriglyceridemia, hepatotoxicity",
+        "pregnancy prevention programs (iPLEDGE) / contraception requirements"
       ],
-      "reasoning": "Confirm diagnosis/definition (chronic spontaneous urticaria) and then retrieve guideline-based treatment recommendations—guidelines/reviews in primary literature plus textbooks for background are both useful."
+      "reasoning": "Textbooks/guidelines are sufficient to map 'vitamin A derivative' → isotretinoin and its classic major adverse effect (teratogenicity). Decompose into: identify the drug, then list and prioritize its adverse effects and monitoring/precautions."
     },
     "conditions": [
-      "chronic spontaneous/idiopathic urticaria",
-      "urticaria diagnostic criteria (lesion duration <24 hours, recurrent >6 weeks)",
-      "first-line pharmacotherapy",
-      "second-generation non-sedating H1-antihistamines (e.g., cetirizine, loratadine, fexofenadine)",
-      "dose escalation (up to 4x standard dose) and guideline recommendations"
+      "acne vulgaris",
+      "isotretinoin (13-cis-retinoic acid)",
+      "teratogenicity (major adverse effect)",
+      "common adverse effects: cheilitis, mucocutaneous dryness, hypertriglyceridemia, hepatotoxicity",
+      "pregnancy prevention programs (iPLEDGE) / contraception requirements"
     ],
     "retrieval_history": [
       {
         "iteration": 1,
         "query": [
-          "Chronic spontaneous urticaria (CSU) diagnostic criteria and differential diagnosis: recurrent pruritic wheals >6 weeks, individual lesions resolving <24 hours, no identifiable external trigger",
-          "First-line pharmacotherapy for adult CSU: recommended second‑generation non‑sedating H1‑antihistamines (examples, standard dosing, contraindications; avoid first‑generation antihistamines)",
-          "Treatment escalation for CSU refractory to standard-dose second‑generation H1‑antihistamines: up‑dosing to 4× licensed dose, and next‑line options (omalizumab, ciclosporin, short courses of systemic corticosteroids)"
+          "Which systemic vitamin A derivative (retinoid) is commonly prescribed for severe acne vulgaris (e.g., nodulocystic acne)?",
+          "What is the single most clinically significant adverse effect of systemic isotretinoin (13-cis-retinoic acid) therapy?",
+          "What are the other major adverse effects and monitoring/contraindication requirements for systemic isotretinoin (e.g., mucocutaneous effects, hypertriglyceridemia, hepatotoxicity, psychiatric risks, pregnancy testing/contraception)?"
         ],
-        "docs_retrieved": 10,
-        "total_docs": 10,
-        "critique": {
-          "sufficient": true,
-          "confidence": 0.9,
-          "gaps": [
-            "Specific example drug names and their standard licensed doses (e.g., cetirizine 10 mg daily, loratadine 10 mg daily, fexofenadine dosing)",
-            "Explicit instructions on management if symptoms persist (e.g., up-dosing to 4×, second-line agents such as omalizumab or ciclosporin)",
-            "Pregnancy, breastfeeding or comorbidity-specific cautions and contraindications"
-          ],
-          "recommendation": "answer",
-          "reasoning": "The retrieved urticaria chapter defines chronic spontaneous urticaria (>6 weeks) and the pharmacotherapy section explicitly states the first-line treatment is a second‑generation H1 antihistamine at the standard licensed dose. While dosing examples and escalation details are referenced but not fully listed, the core first-line recommendation is present."
-        }
+        "docs_retrieved": 0,
+        "total_docs": 0,
+        "critique": null
       }
     ],
-    "documents": [
-      "## Clinical features\n\nUrticaria presents with transient, intensely pruritic weals that individually resolve\nwithin 24 hours and leave no residual pigmentation. Angioedema, a deeper swelling of\nthe dermis and subcutis, accompanies weals in roughly 40% of cases in this demo\nchapter. Chronic spontaneous urticaria is defined by weals, angioedema, or both\nrecurring for more than six weeks without an identifiable external trigger.\n\nA lesion that persists at the same site beyond 24 hours, burns rather than itches, or\nresolves with bruising or pigmentation argues against urticaria and raises the\npossibility of urticarial vasculitis, in which case a lesional biopsy is indicated.",
-      "## Tinea capitis\n\nTinea capitis requires **oral** antifungal therapy; topical agents do not penetrate\nthe hair follicle and are used only as adjunctive sporicidal shampoo to reduce\ntransmission. Griseofulvin remains the reference agent for *Microsporum* infection,\nwhereas terbinafine is preferred for *Trichophyton* infection in this demo chapter.",
-      "## Topical treatment of mild to moderate papulopustular acne\n\nFor mild to moderate papulopustular acne, the recommended first-line treatment in\nthis demo document is a **topical fixed-dose combination of adapalene and benzoyl\nperoxide**, applied once daily in the evening. The combination targets both\ncomedogenesis and inflammatory lesions, and benzoyl peroxide limits the emergence of\nantibiotic-resistant *Cutibacterium acnes*.\n\nTopical antibiotic monotherapy is **not** recommended at any severity because of\nresistance selection. If a topical antibiotic is used, it must always be combined\nwith benzoyl peroxide.",
-      "## Topical therapy\n\nMild plaque psoriasis is managed topically. The preferred option is a **fixed-dose\ncombination of calcipotriol and betamethasone dipropionate** once daily for up to\nfour weeks, followed by intermittent maintenance.",
-      "## Conventional systemic therapy\n\nFor moderate to severe plaque psoriasis in an adult without contraindications, the\nrecommended first-line conventional systemic agent in this demo document is\n**methotrexate**, given once weekly with folic acid supplementation. Baseline and\nperiodic monitoring of full blood count, liver enzymes, and renal function is\nrequired, and pregnancy is a contraindication.\n\nAlternative conventional systemic agents are ciclosporin, for short-term control of\nunstable disease, and acitretin, which is preferred in pustular variants."
-    ],
-    "final_sufficient": true,
-    "reranker_scores": [
-      0.25144827365875244,
-      0.16762728989124298,
-      0.13797326385974884,
-      0.12126513570547104,
-      0.11394307762384415
-    ],
-    "final_doc_count": 5
+    "documents": [],
+    "final_sufficient": false,
+    "reranker_scores": [],
+    "final_doc_count": 0
   }
 }

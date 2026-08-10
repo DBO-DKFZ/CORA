@@ -133,16 +133,20 @@ def build_collection(
     embed_model: HuggingFaceEmbedding,
     rebuild: bool = True,
 ) -> VectorStoreIndex | None:
-    if not documents:
-        print(f"  No documents found — skipping collection '{collection_name}'.\n")
-        return None
-
     if rebuild:
         try:
             chroma_client.delete_collection(collection_name)
             print(f"  Dropped existing collection '{collection_name}'")
         except Exception:
             pass
+
+    if not documents:
+        # Retrieval scripts call get_collection() unconditionally, so the collection
+        # must exist even when this source contributes nothing (e.g. a demo corpus
+        # with no textbook content).
+        chroma_client.get_or_create_collection(collection_name)
+        print(f"  No documents found — created empty collection '{collection_name}'.\n")
+        return None
 
     # Split each document on markdown headers; inherits document metadata
     nodes = MarkdownNodeParser().get_nodes_from_documents(documents)

@@ -129,18 +129,29 @@ cached in `~/.cache/huggingface`).
 ## 3. Demo
 
 The demo runs the complete pipeline — index → agentic retrieval → rerank → answer →
-LLM judge — on a **small synthetic dataset shipped in [demo/](demo/)**, so it needs
-none of the licensed study data:
+LLM judge — on a **small real slice of the study's own data, shipped in
+[demo/](demo/)**, so a reviewer needs no external downloads:
 
-- [demo/corpus/](demo/corpus/) — four short synthetic guideline/textbook markdown
-  documents (acne, psoriasis, urticaria, superficial fungal infections), written for
-  this demo and carrying no clinical authority.
-- [demo/questions_demo.json](demo/questions_demo.json) — six multiple-choice
-  questions in the same schema as the study question sets. Every answer is stated in
-  the demo corpus.
+- [demo/corpus/](demo/corpus/) — two real EADV acne guideline documents copied
+  verbatim from `Data/EADV/Acne/` (the European S3 guideline on acne treatment, and a
+  cross-guideline comparison of oral isotretinoin recommendations). EADV guidelines
+  are publicly available and redistributable, unlike the copyrighted textbooks, so
+  only `EADV/` is included here; the `books` collection is built empty.
+- [demo/questions_demo.json](demo/questions_demo.json) — six real questions copied
+  verbatim from the study's own question set (`medqa_derma_final.json`), all about
+  acne/isotretinoin management, so their answers are at least partly grounded in the
+  two guideline documents above.
 - [demo/configs/](demo/configs/) — demo counterparts of the configs in `configs/`,
   pointing at a small CPU-friendly embedder (`all-MiniLM-L6-v2`), the xsmall
   cross-encoder, and `gpt-5-mini` for the agent/answerer/judge.
+
+Because this is real guideline text rather than a passage written to guarantee a
+clean retrieval, the demo also shows the pipeline's real failure modes: on one
+question the planning step routed to the (empty) `books` collection and came back
+with zero documents, and the open-ended condition disagrees with the multiple-choice
+gold answer on several questions where the model's free-text answer is clinically
+reasonable but phrased at a different level of specificity than the keyed answer.
+That is expected — see [Expected output](#expected-output) below.
 
 Requires `OPENAI_API_KEY` (about 30 LLM calls in total, all with `gpt-5-mini`).
 
@@ -179,16 +190,23 @@ python query.py --config demo/configs/query_demo.yaml \
 
 ### Expected output
 
-Step 1 loads 2 book documents (7 chunks) and 2 guideline documents (11 chunks) and
-writes `demo/chromadb_demo/` (~1 MB).
+Step 1 loads 0 book documents (the `books` collection is created empty — no
+copyrighted textbook content ships with this repo) and 2 EADV guideline documents
+(58 chunks) and writes `demo/chromadb_demo/` (~1 MB).
 
 Step 2 writes one JSON record per question to
 `demo/outputs/retrieved_docs_demo/{0..5}.json`, each containing the agent's plan,
 sub-queries, per-iteration critiques (`sufficient`, `confidence`, `gaps`), and the
-retrieved passages. In our run it reported ~9 documents and 1.17 iterations per
-question on average, with one question (`4`) escalating to a second iteration and
-ending `final_sufficient=False` — the demo configs deliberately keep such records so
-the later stages still process all six questions.
+retrieved passages. In our run it reported ~6 documents and 1.5 iterations per
+question on average. Four of the six records ended `final_sufficient=False` — the
+real EADV guideline text doesn't spell out a US-style iPLEDGE pregnancy-prevention
+protocol as explicitly as a synthetic passage would, so the self-critique correctly
+flagged those retrievals as incomplete even though the answerer still had enough to
+work with. One record (`2`) got zero documents: the planning step routed that
+question to the (empty) `books` collection instead of `eadv_guidelines`. The demo
+configs deliberately keep such records (`sufficient_only: false`) so every stage
+still processes all six questions — this is what a real, imperfect corpus looks
+like, not a bug.
 
 Step 3 writes the same records to `demo/outputs/retrieved_docs_demo_reranked/`, with
 `documents` re-sorted by cross-encoder score, plus `reranker_scores`, truncated to
@@ -202,25 +220,40 @@ Steps 4–5 write one CSV row per question (`question_id`, `question`,
 ```
 === demo/outputs/results_demo_rag.csv ===
 answered: 6   correct: 6   accuracy: 100.00%
- question_id correct_choice llm_response  correct  final_doc_count                     used_sources
-           0              A            A     True                5 [Document ID 1], [Document ID 2]
-           1              C            C     True                5 [Document ID 1], [Document ID 3]
+ question_id correct_choice llm_response  correct  final_doc_count                                          used_sources
+           0              B            B     True                5                            [Document ID 2], [Document ID 4]
+           1              B            B     True                5           [Document ID 3], [Document ID 4], [Document ID 5]
+           2              B            B     True                0                                                       NaN
            ...
 ```
 
+Both the RAG and no-retrieval-baseline conditions score 6/6 on the multiple-choice
+format in our run — these are real MedQA-style questions with a small, fixed answer
+set, and `gpt-5-mini` has enough general medical knowledge to get isotretinoin
+management right from the options alone. RAG earns its keep more clearly in the
+open-ended condition (step 6), where the model can't rely on option elimination.
+
 Step 6 adds `verdict`, `verdict_explanation`, and `verdict_raw` columns to
-`demo/outputs/results_demo_openended.csv` and prints a breakdown; our run gave
-5 × `Correct` and 1 × `Partially correct` (strict accuracy 0.833, lenient 1.000).
+`demo/outputs/results_demo_openended.csv`; our run gave 2 × `Correct` and 4 ×
+`Incorrect` (strict/lenient accuracy 0.333). Reading the four "incorrect" rows
+matters more than the number: in most of them the free-text answer is clinically
+reasonable (e.g. "counsel on teratogenicity and initiate strict pregnancy
+prevention") but doesn't name the specific procedural step the multiple-choice gold
+answer keys on (e.g. "measure serum beta-hCG"). That is a genuine property of
+grading open-ended answers against a single keyed action, present in the real
+reader-study data too — see the judge's `verdict_explanation` column for its
+reasoning on each row.
 
 Reference outputs from our run are committed under [demo/outputs/](demo/outputs/) for
 comparison. Exact agreement is not expected: the retrieval agent and the answerer are
-non-deterministic LLM calls (only the sampling code is seeded), so the number of
-retrieved documents, the wording of sub-queries, and the judge's `Correct` vs
-`Partially correct` boundary can differ between runs. What should reproduce is the
-shape of the output: six records at every stage, cited `used_sources` for the RAG
-condition, and near-ceiling accuracy — the demo questions are intentionally easy, so
-the no-retrieval baseline also scores highly. The demo verifies that the pipeline
-runs, not the manuscript's effect.
+non-deterministic LLM calls (only the sampling code is seeded), so the retrieved
+documents, the wording of sub-queries, and individual judge verdicts can differ
+between runs. What should reproduce is the shape of the output — six records at
+every stage, cited `used_sources` for the RAG condition — and roughly this pattern of
+results: strong multiple-choice accuracy in both conditions, a visibly harder
+open-ended condition, and at least one record that is not perfectly retrieved. The
+demo verifies that the pipeline runs end to end on real data, not the manuscript's
+effect size.
 
 ### Expected run time
 
@@ -228,9 +261,9 @@ On a normal desktop (CPU-only, models already downloaded), measured end to end:
 
 | Step | Time |
 |---|---|
-| 1 — build demo index | ~25 s |
-| 2 — agentic retrieval (6 questions) | ~2.5 min |
-| 3 — rerank | ~20 s |
+| 1 — build demo index | ~15 s |
+| 2 — agentic retrieval (6 questions) | ~3 min |
+| 3 — rerank | ~15 s |
 | 4a/4b — answer, MCQ + baseline | ~10 s each |
 | 5 — scoring | instant |
 | 6 — open-ended answer + judge | ~20 s |
@@ -372,7 +405,7 @@ the answer; [clean_llm_outputs.py](clean_llm_outputs.py) extracts the selected a
 | [run_answer_judge.py](run_answer_judge.py), [run_faithfulness_judge.py](run_faithfulness_judge.py) | LLM judges |
 | [query.py](query.py) | interactive single-question tool over the same pipeline |
 | [configs/](configs/) | YAML configs for every stage and model |
-| [demo/](demo/) | synthetic demo corpus, questions, configs, reference outputs |
+| [demo/](demo/) | small real corpus/question slice, demo configs, reference outputs |
 | [scripts/](scripts/) | question annotation, retrieval/faithfulness analyses, error typing |
 | [notebooks/](notebooks/) | figure generation |
 | [results/](results/) | model outputs and judge ratings per model and condition |
@@ -384,5 +417,7 @@ the answer; [clean_llm_outputs.py](clean_llm_outputs.py) extracts the selected a
 - **Retrieval corpora (`Data/`) are not distributed here.** The EADV guidelines are
   publicly available from the EADV; the dermatology textbooks are copyrighted and
   cannot be redistributed. See the data availability statement in the paper.
-- **Demo data** in [demo/](demo/) is synthetic, written for this repository, and free
-  of any licence restriction. It is illustrative only and has no clinical validity.
+- **Demo data** in [demo/](demo/) is a small real slice of the data above: two public
+  EADV guideline documents (`demo/corpus/`, copied from `Data/EADV/Acne/`) and six
+  real questions (`demo/questions_demo.json`, copied from `medqa_derma_final.json`).
+  It is not the copyrighted textbook content and not the full question set.

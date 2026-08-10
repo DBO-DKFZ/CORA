@@ -1,14 +1,14 @@
 {
   "question_id": "4",
-  "question": "A patient reports itchy skin lesions. Which feature argues against urticaria and should prompt a lesional biopsy?",
-  "question_prompt": "A patient reports itchy skin lesions. Which feature argues against urticaria and should prompt a lesional biopsy?\n\nA. Individual lesions persisting beyond 24 hours and resolving with pigmentation\nB. Weals that migrate over the trunk within hours\nC. Accompanying angioedema of the lips\nD. Symptoms lasting longer than six weeks\n",
+  "question": "A 16-year-old girl is brought to the physician for evaluation of severe acne on her face, chest, and back for the past 2 years. She has no itching or scaling. She has been treated in the past with a combination of oral cephalexin and topical benzoyl peroxide without clinical improvement. She is sexually active with one male partner, and they use condoms inconsistently. She does not smoke, drink alcohol, or use illicit drugs. There is no personal or family history of serious illness. Her vital signs are within normal limits. Examination shows mild facial scarring and numerous open comedones and sebaceous skin lesions on her face, chest, and back. Before initiating treatment, which of the following is the most appropriate next step?",
+  "question_prompt": "A 16-year-old girl is brought to the physician for evaluation of severe acne on her face, chest, and back for the past 2 years. She has no itching or scaling. She has been treated in the past with a combination of oral cephalexin and topical benzoyl peroxide without clinical improvement. She is sexually active with one male partner, and they use condoms inconsistently. She does not smoke, drink alcohol, or use illicit drugs. There is no personal or family history of serious illness. Her vital signs are within normal limits. Examination shows mild facial scarring and numerous open comedones and sebaceous skin lesions on her face, chest, and back. Before initiating treatment, which of the following is the most appropriate next step?\n\nA. Administer oral contraceptives\nB. Switch cephalexin to doxycycline\nC. Measure serum beta-hCG levels\nD. Measure creatinine kinase levels\n",
   "answer_options": {
-    "A": "Individual lesions persisting beyond 24 hours and resolving with pigmentation",
-    "B": "Weals that migrate over the trunk within hours",
-    "C": "Accompanying angioedema of the lips",
-    "D": "Symptoms lasting longer than six weeks"
+    "A": "Administer oral contraceptives",
+    "B": "Switch cephalexin to doxycycline",
+    "C": "Measure serum beta-hCG levels",
+    "D": "Measure creatinine kinase levels"
   },
-  "correct_choice": "A",
+  "correct_choice": "C",
   "answer_source": "agentic_rag_insufficient",
   "retrieval_result": {
     "plan": {
@@ -18,90 +18,89 @@
       ],
       "decomposed": true,
       "sub_queries": [
-        "Clinical features that argue against ordinary urticaria and should prompt biopsy: persistent lesions lasting >24–48 hours, painful or burning (rather than purely pruritic) lesions, palpable purpura/petechiae, residual hyperpigmentation or bruising/staining, scarring or scale, systemic symptoms (fever, arthralgia), or fixed distribution — list and prioritize these red flags.",
-        "Indications and practical guidance for lesional skin biopsy in suspected urticarial vasculitis: optimal timing relative to lesion onset, recommended biopsy technique (punch depth, number of specimens), and adjunctive laboratory tests to order (C3/C4, ESR/CRP, ANA, ANCA).",
-        "Histopathologic and direct immunofluorescence findings that distinguish urticaria from urticarial vasculitis and other mimics: leukocytoclastic vasculitis, fibrinoid necrosis of vessel walls, neutrophil nuclear dust, red blood cell extravasation, and granular IgG/IgM/C3 deposition — sensitivity/specificity and differential diagnoses."
+        "Indications and criteria for initiating oral isotretinoin in adolescents with severe, scarring, treatment‑refractory acne after failure of antibiotics/topical therapy",
+        "Pre‑treatment pregnancy risk mitigation for females of childbearing potential starting isotretinoin: required pregnancy testing, contraception requirements (number/types), informed consent, and iPLEDGE enrollment",
+        "Baseline laboratory tests and monitoring before and during isotretinoin therapy: liver function tests, fasting lipid panel (triglycerides), pregnancy test frequency, and follow‑up monitoring schedule"
       ],
       "key_concepts": [
-        "urticaria (hives) clinical features",
-        "lesion duration >24 hours / fixed lesions",
-        "blanching vs non-blanching lesions",
-        "palpable purpura / purpura",
-        "residual hyperpigmentation or bruising",
-        "urticarial vasculitis",
-        "indications for lesional biopsy in suspected vasculitis",
-        "differential diagnoses of pruritic eruptions (e.g., urticarial vasculitis, bullous disease, dermatitis)"
+        "severe/refractory acne with scarring",
+        "isotretinoin indications",
+        "isotretinoin teratogenicity",
+        "pre-treatment pregnancy testing",
+        "contraception requirements / iPLEDGE",
+        "baseline labs (liver enzymes, lipids)",
+        "prior antibiotic treatment failure"
       ],
-      "reasoning": "Textbooks give core definitions/typical features of urticaria (transient, blanching wheals <24 h) while primary literature/guidelines detail atypical features (fixed, non-blanching, purpura, lasting >24 h) that mandate biopsy; decomposing into definition + red flags + biopsy indications will yield precise retrievals."
+      "reasoning": "This vignette suggests severe acne refractory to prior therapy and a likely need for isotretinoin; search both primary guidelines and textbooks and decompose into diagnosis/indication + safety/pre-treatment requirements (pregnancy testing, contraception, baseline labs)."
     },
     "conditions": [
-      "urticaria (hives) clinical features",
-      "lesion duration >24 hours / fixed lesions",
-      "blanching vs non-blanching lesions",
-      "palpable purpura / purpura",
-      "residual hyperpigmentation or bruising",
-      "urticarial vasculitis",
-      "indications for lesional biopsy in suspected vasculitis",
-      "differential diagnoses of pruritic eruptions (e.g., urticarial vasculitis, bullous disease, dermatitis)"
+      "severe/refractory acne with scarring",
+      "isotretinoin indications",
+      "isotretinoin teratogenicity",
+      "pre-treatment pregnancy testing",
+      "contraception requirements / iPLEDGE",
+      "baseline labs (liver enzymes, lipids)",
+      "prior antibiotic treatment failure"
     ],
     "retrieval_history": [
       {
         "iteration": 1,
         "query": [
-          "Clinical features that argue against ordinary urticaria and should prompt biopsy: persistent lesions lasting >24–48 hours, painful or burning (rather than purely pruritic) lesions, palpable purpura/petechiae, residual hyperpigmentation or bruising/staining, scarring or scale, systemic symptoms (fever, arthralgia), or fixed distribution — list and prioritize these red flags.",
-          "Indications and practical guidance for lesional skin biopsy in suspected urticarial vasculitis: optimal timing relative to lesion onset, recommended biopsy technique (punch depth, number of specimens), and adjunctive laboratory tests to order (C3/C4, ESR/CRP, ANA, ANCA).",
-          "Histopathologic and direct immunofluorescence findings that distinguish urticaria from urticarial vasculitis and other mimics: leukocytoclastic vasculitis, fibrinoid necrosis of vessel walls, neutrophil nuclear dust, red blood cell extravasation, and granular IgG/IgM/C3 deposition — sensitivity/specificity and differential diagnoses."
+          "Indications and criteria for initiating oral isotretinoin in adolescents with severe, scarring, treatment‑refractory acne after failure of antibiotics/topical therapy",
+          "Pre‑treatment pregnancy risk mitigation for females of childbearing potential starting isotretinoin: required pregnancy testing, contraception requirements (number/types), informed consent, and iPLEDGE enrollment",
+          "Baseline laboratory tests and monitoring before and during isotretinoin therapy: liver function tests, fasting lipid panel (triglycerides), pregnancy test frequency, and follow‑up monitoring schedule"
         ],
-        "docs_retrieved": 9,
-        "total_docs": 9,
+        "docs_retrieved": 7,
+        "total_docs": 7,
         "critique": {
           "sufficient": false,
-          "confidence": 0.35,
+          "confidence": 0.85,
           "gaps": [
-            "Doc 4 is truncated and does not fully state the features that argue against urticaria (the sentence cuts off after 'burns rather ...').",
-            "No document explicitly links the abnormal features (e.g., lesions persisting >24 hours, painful/burning lesions, residual pigmentation, palpable purpura or systemic features) to a diagnosis such as urticarial vasculitis or to the clear indication for a lesional biopsy.",
-            "Lack of a concise list or guideline statement specifying which specific clinical findings should prompt biopsy (e.g., persistent lesions >24 hours, pain/burning rather than pruritus, non-blanching/purpuric lesions, systemic symptoms)."
+            "No explicit statement in the snippets about the required pregnancy testing before initiating isotretinoin (eg, timing/number of tests, need for negative test immediately before start).",
+            "No clear description of mandatory contraception requirements for women of childbearing potential (eg, need for two forms of contraception, when to start, duration after stopping isotretinoin, or program enrollment such as iPLEDGE).",
+            "No direct endorsement in the retrieved excerpts that isotretinoin is the indicated next step in a sexually active 16-year-old with severe, scarring acne refractory to prior therapy (the indications are mentioned but not applied to this clinical scenario).",
+            "Details about pre-treatment steps prioritized for this patient (pregnancy test vs baseline labs vs contraceptive counseling) are not specifically provided."
           ],
           "recommendation": "retrieve_more",
-          "reasoning": "Doc 4 partially addresses the key point (lesions persisting >24 hours argue against urticaria) but is incomplete and truncated, and no retrieved document explicitly states that such features should prompt a lesional biopsy or provides the full differential (urticarial vasculitis, palpable purpura, painful lesions). More targeted sources are needed to answer accurately."
+          "reasoning": "The documents are relevant (focus on isotretinoin indications, contraception, and monitoring) but the excerpts lack the specific, actionable pregnancy-prevention and pre-initiation steps required to answer which single next step is most appropriate for this sexually active adolescent. Retrieve guideline text specifying pre-treatment pregnancy testing and contraception requirements before isotretinoin."
         }
       },
       {
         "iteration": 2,
         "query": [
-          "Which clinical features most strongly argue against ordinary urticaria and warrant a lesional skin biopsy—provide a prioritized list with evidence/guideline statements (lesion duration >24–48 hours, painful/burning vs pruritic lesions, fixed distribution, non‑blanching palpable purpura/petechiae, residual hyperpigmentation or bruising/staining, scarring or scale, systemic symptoms such as fever, arthralgia, renal/ocular involvement) and explain how each feature correlates with diagnoses like urticarial vasculitis/leukocytoclastic vasculitis, recommended biopsy timing and site, and expected histopathologic findings?",
-          "Indications and practical guidance for lesional skin biopsy in suspected urticarial vasculitis (urticaria vs leukocytoclastic vasculitis): which clinical features should prompt biopsy (e.g., individual urticarial lesions persisting >24 hours, painful/burning rather than pruritic lesions, non‑blanching/palpable purpura, residual hyperpigmentation or purpuric staining, systemic features such as fever, arthralgia/myalgia, abdominal pain or renal involvement); optimal timing of biopsy relative to lesion onset for routine H&E (leukocytoclastic vasculitis) and for direct immunofluorescence (hours/days window to maximize diagnostic yield); biopsy site selection (lesional vs perilesional skin) and recommended technique (punch biopsy size and depth—dermal and subcutis inclusion, e.g., 4–6 mm to mid/deep dermis vs deeper), number of specimens (separate specimens for H&E and DIF), specimen handling and transport (FFPE vs fresh for DIF, fixation media); and recommended adjunctive laboratory investigations to order at presentation (complement levels C3, C4, CH50; ESR, CRP; ANA, ANCA; CBC, serum creatinine/urinalysis for renal involvement; hepatitis B/C serology; cryoglobulins and other relevant serologies) to support diagnosis and guide workup.",
-          "Histopathologic and direct immunofluorescence (DIF) criteria that distinguish acute urticaria from urticarial vasculitis and other mimics (cutaneous leukocytoclastic/small‑vessel vasculitis, urticarial dermatitis, early bullous disease): specific histologic features (fibrinoid necrosis of vessel walls, leukocytoclasia/karyorrhexis, perivascular neutrophilic infiltrate, endothelial swelling, red blood cell extravasation, leukocyte margination) and DIF findings (granular perivascular deposition of IgG, IgM, IgA, C3) — reported sensitivity, specificity, positive/negative predictive values or likelihood ratios for each feature and for combinations. Include differences between hypocomplementemic vs normocomplementemic urticarial vasculitis and frequency of immune‑complex/DIF positivity in urticarial vasculitis versus ordinary urticaria. Provide evidence‑based clinical indications for performing lesional skin biopsy in suspected urticarial vasculitis (e.g., individual lesions persisting >24 hours, painful/burning rather than pruritic lesions, non‑blanching/palpable purpura, residual hyperpigmentation, systemic symptoms such as fever/arthralgia/renal involvement, hypocomplementemia), recommended biopsy timing and site (age of lesion, edge vs center), and common interpretation pitfalls. Also list major differential diagnoses and the distinguishing clinicopathologic features for each."
+          "Guideline-based indications and initiation criteria for oral isotretinoin in adolescents (eg, a sexually active 16‑year‑old) with severe, scarring nodulocystic acne refractory to systemic antibiotics and topical therapy, including: (1) specific clinical indications that make isotretinoin the appropriate next‑line therapy; (2) mandatory pre‑treatment requirements — pregnancy testing protocol (number, timing, type of test, need for negative test immediately before initiation), contraception requirements for females of childbearing potential (need for two forms, acceptable methods, timing to start relative to isotretinoin, duration of contraception after stopping), and enrollment in risk‑management programs (iPLEDGE or country‑specific equivalent); (3) required baseline laboratory tests and timing (LFTs, fasting lipid panel, CBC, pregnancy test) and any age‑specific modifications; (4) recommended prioritization of pre‑treatment steps (which actions must be completed before dispensing/starting therapy); (5) monitoring requirements during treatment and pregnancy avoidance guidance post‑treatment; and references to AAD, AAP, FDA/iPLEDGE, and NICE guideline recommendations.",
+          "Isotretinoin pregnancy risk‑mitigation requirements for females of childbearing potential (FCP): what are the recommended pre‑treatment pregnancy tests (serum quantitative beta‑hCG vs urine hCG, number of tests, timing and requirement for a negative test immediately before initiation), mandatory contraception requirements (number and types of contraceptive methods required—eg, two concurrent methods with at least one highly effective method such as hormonal contraception or intrauterine device; use of barrier method as second method; when contraception must be started relative to isotretinoin initiation; documentation and required duration of contraception after discontinuation), required informed‑consent elements/counseling content, and specific iPLEDGE enrollment and pregnancy‑testing schedule requirements (patient/prescriber/pharmacy registration, age criteria, frequency and timing of tests mandated by iPLEDGE). Additionally, in a sexually active 16‑year‑old female with severe scarring/nodulocystic acne refractory to topical therapy and systemic antibiotics, is isotretinoin indicated as the next step, and which pre‑treatment steps are prioritized (pregnancy test vs baseline labs such as LFTs/fasting lipids vs contraceptive counseling/documentation) with exact timing relative to treatment start?",
+          "Guideline-based retrieval query: \"For isotretinoin therapy, what are the evidence- and guideline-recommended baseline laboratory tests and monitoring schedule (specific tests including AST/ALT, bilirubin, fasting lipid panel with triglycerides, CBC if indicated) and action thresholds? Specifically, what are the required pregnancy testing protocols for women of childbearing potential (WOCBP) — number and type of tests (serum β-hCG vs urine), timing relative to initiation (eg, within 24–72 hours, need for a negative test immediately before starting), frequency during treatment (monthly or otherwise), and duration of testing after stopping isotretinoin? What are the mandatory contraception requirements and counseling for WOCBP (need for two forms of contraception, which methods qualify, when to start relative to therapy, duration after cessation), and what are the enrollment/documentation requirements in pregnancy prevention programs/REMS such as iPLEDGE? For a sexually active 16-year-old female with severe, scarring acne refractory to prior therapy, do guidelines endorse isotretinoin as the next step, and what pre-treatment steps should be prioritized (pregnancy test vs baseline labs vs initiation of contraception/enrollment) and the recommended follow-up monitoring schedule and management thresholds for abnormal LFTs or triglycerides in adolescents?\""
         ],
-        "docs_retrieved": 8,
-        "total_docs": 10,
+        "docs_retrieved": 6,
+        "total_docs": 9,
         "critique": {
           "sufficient": false,
           "confidence": 0.35,
           "gaps": [
-            "Doc 4 is truncated and does not complete the sentence describing the abnormal features (e.g., burning/pain, residual pigmentation) or explicitly link them to urticarial vasculitis or biopsy.",
-            "No retrieved document explicitly states that a lesional biopsy is indicated (or recommended) when lesions persist >24 hours or describes biopsy findings/indications.",
-            "Other features that argue against ordinary urticaria (palpable purpura, fixed lesions, systemic signs) are not clearly described across the set."
+            "No explicit, retrievable statement in the excerpts that a pregnancy test (and its timing/type) must be obtained immediately before initiating isotretinoin in females of childbearing potential.",
+            "Details of required pregnancy-prevention measures (number/timing of tests, number/type of contraception methods, mandatory counseling/consent) are not provided in the snippets.",
+            "Direct linkage in the excerpts between the clinical scenario (severe, scarring acne unresponsive to antibiotics) and the single best immediate next step (eg, obtain pregnancy test vs start isotretinoin vs alternative therapy) is not clearly documented."
           ],
           "recommendation": "retrieve_more",
-          "reasoning": "Doc 4 contains the key clue that typical urticarial weals resolve within 24 hours and that persistence beyond 24 hours is atypical, but the text is truncated and there is no explicit statement about biopsy or urticarial vasculitis. Additional documents that explicitly describe red flags (persistent lesions >24 h, pain/burning, residual pigmentation/purpura) and biopsy indications are needed to answer confidently."
+          "reasoning": "The documents are relevant (guidelines on isotretinoin) but the provided excerpts lack the specific pre-initiation actions and pregnancy-prevention details needed to confidently answer that the immediate next step is to perform pregnancy testing and counseling before starting isotretinoin. More targeted guideline text or a clinical guideline summary addressing pre-treatment pregnancy testing/requirements is needed."
         }
       }
     ],
     "documents": [
-      "## Clinical features\n\nUrticaria presents with transient, intensely pruritic weals that individually resolve\nwithin 24 hours and leave no residual pigmentation. Angioedema, a deeper swelling of\nthe dermis and subcutis, accompanies weals in roughly 40% of cases in this demo\nchapter. Chronic spontaneous urticaria is defined by weals, angioedema, or both\nrecurring for more than six weeks without an identifiable external trigger.\n\nA lesion that persists at the same site beyond 24 hours, burns rather than itches, or\nresolves with bruising or pigmentation argues against urticaria and raises the\npossibility of urticarial vasculitis, in which case a lesional biopsy is indicated.",
-      "## Tinea corporis\n\nTinea corporis presents as an annular plaque with a raised, scaly, advancing border\nand relative central clearing. Diagnosis is confirmed by potassium hydroxide\nmicroscopy of scale taken from the active edge, or by culture.\n\nLimited disease is treated with a topical allylamine such as terbinafine cream twice\ndaily for two weeks. Extensive disease, or disease that has failed topical therapy,\nis treated with oral terbinafine.",
-      "## Comorbidity screening\n\nAll patients are screened for psoriatic arthritis at diagnosis and annually\nthereafter, and for cardiovascular and metabolic comorbidity.",
-      "## Severity assessment\n\nDisease is considered **moderate to severe** in this demo document when the affected\nbody surface area exceeds 10%, or when the Psoriasis Area and Severity Index (PASI)\nexceeds 10, or when disease at a visible or functionally critical site causes a\nDermatology Life Quality Index (DLQI) above 10.",
-      "## Topical therapy\n\nMild plaque psoriasis is managed topically. The preferred option is a **fixed-dose\ncombination of calcipotriol and betamethasone dipropionate** once daily for up to\nfour weeks, followed by intermittent maintenance."
+      "# Clinical question 2: At what ages is treatment indicated?\n\nAccording to EMA, isotretinoin is not indicated for the treatment of prepubertal acne and is not recommended in patients $< 12$ years of age. The European guidelines are conformed with these recommendations; however, experts agreed that an age under 12 years does not exclude obligatorily isotretinoin administration.[15]\n\nEvidence-based recommendations for paediatric acne were published in 2013. The consensus article recommended isotretinoin for severe, scarring and/or refractory acne in adolescents (strength of recommendation A: based on consistent and good-quality patient-oriented evidence) and stated that it may be used in younger patients (strength of recommendation C: based on consensus, usual practice, opinion, disease-oriented evidence or case series for studies of diagnosis, treatment, prevention or screening).<sup>18</sup> It was also recommended to provide extensive counselling on isotretinoin teratogenicity and pregnancy avoidance and to monitor carefully for possible adverse events.<sup>18</sup> It was noted that the majority of clinical trials for acne medications are conducted in patients 12 years of age or older, and there is not sufficient evidence for acne treatments in paediatric patients<sup>18</sup> (Table 2).",
+      "# Further evidence\n\nSimilarly, a recent systematic review mentioned that all published randomized controlled trials for isotretinoin in acne included patients older than 12 years of age.[8]\n\nAcne may present at an earlier age than 12 years, including neonates, infants, mid-childhood or prepubertal children. However, acne in these younger age groups is not usually severe to require oral isotretinoin. Neonatal acne is a self-limiting condition, infantile acne usually responds to topical anti-acne agents or systemic antibiotics for more severe types, acne in mid-childhood (between 1 and 7 years of age) is very rare and hyperandrogenism should always be ruled out.[23] Rare patients with recalcitrant infantile acne associated with scarring that needed isotretinoin have been reported. It is outside the scope of this review to discuss in detail these cases that have been reviewed elsewhere.[23]\n\nA limitation in the prescribing indication of isotretinoin by EMA is the definition of 'puberty' at age 12. Acne in prepubertal age may be the first physical sign of pubertal maturation, and thus, the presence of severe acne should raise a suspicion of possible endocrine disorders such as premature adrenarche, congenital adrenal hyperplasia or true precocious puberty.[24-26] A retrospective US study in the National Ambulatory Medical Care Survey database over the period from 1979 to 2007 reported a significant decrease in the mean age of children seeking treatment for acne. They reported that these results support the increasingly earlier onset of puberty in children.[27]",
+      "# General considerations\n\nChoice of type of topical retinoid\n\nAdapalene should be selected in preference to tretinoin and isotretinoin.\n\nChoice of type of systemic antibiotic\n\nDoxycycline and lymecycline should be selected in preference to minocycline and tetracycline.\n\nConsiderations on isotretinoin and dosage\n\nFor severe papulopustular acne/moderate nodular acne, a dosage of systemic isotretinoin of $0.3 - 0.5\\mathrm{mg / kg}$ can be recommended.\n\nFor conglobate acne a dosage of systemic isotretinoin of $\\geq 0.5\\mathrm{mg / kg}$ can be recommended.\n\nThe duration of the therapy should be at least 6 months.\n\nIn case of insufficient response, the treatment period can be prolonged.",
+      "# Abstract\n\nGuidelines and consensus on the management of patients with acne aim to give evidence-based, expert-group recommendations. This review compares current guidelines and consensus articles to provide a compilation of recommendations on the treatment of acne with oral isotretinoin. Ten common, relevant, clinical questions are addressed, based on published recommendations, including the indications of isotretinoin, the proposed daily dose, the cumulative isotretinoin dose and the laboratory monitoring needed. Recommendations on special considerations are also addressed, including the timing of procedures and the question of an association of depression or inflammatory bowel disease with isotretinoin. A major limitation is the use of different classification systems for acne across guidelines. The recommended daily dose ranges from 0.3 to $0.5\\mathrm{mg / kg}$ in the European guidelines to up to $1\\mathrm{mg / kg}$ in the US guidelines. A specific duration of treatment of at least 6 months is only recommended in the European guidelines. All guidelines report the need of strict pregnancy prevention measures. The European, French and US guidelines recommend to monitor for symptoms of depression. Important clinical questions that are inconsistently addressed in guidelines include the age indication, the recommendation for a cumulative dose, the timing of procedures, the association of isotretinoin with IBD, the recommendation for preventing acne flares and for appropriate laboratory monitoring. These topics should be clearly included in the recommendations of guidelines as they are often raised in everyday clinical practice.",
+      "# Clinical questions concerning oral isotretinoin for acne treatment\n\nThe following clinical questions concerning treatment with oral isotretinoin for acne are addressed:\n\n- Clinical question 1: For which acne forms is systemic isotretinoin indicated?   \nClinical question 2: At what ages is treatment indicated?   \n- Clinical question 3: Which is the recommended daily dosing?   \n- Clinical question 4: Is a cumulative dose necessary?   \n- Clinical question 5: What are the recommendations for the timing of procedures with isotretinoin treatment?   \n- Clinical question 6: Which is the essential duration of contraception after discontinuation of isotretinoin treatment?   \n- Clinical question 7: Is isotretinoin associated with depression?   \n- Clinical question 8: Is there an association of oral isotretinoin with IBD?   \n- Clinical question 9: What are the recommendations for preventing acne flares during isotretinoin treatment?   \n- Clinical question 10: What are the recommendations for laboratory monitoring during treatment with isotretinoin?"
     ],
     "final_sufficient": false,
     "reranker_scores": [
-      0.46918785572052,
-      0.2184470146894455,
-      0.20003552734851837,
-      0.18810217082500458,
-      0.16692385077476501
+      0.322459876537323,
+      0.31035885214805603,
+      0.26797887682914734,
+      0.256874144077301,
+      0.245920330286026
     ],
     "final_doc_count": 5
   }
