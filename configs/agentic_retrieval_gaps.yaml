@@ -1,4 +1,4 @@
-input_json: "/home/t252a/data/derma/medqa_derma_final.json"
+input_json: "data/derma/medqa_derma_final.json"
 output_dir: "results/retrieved_docs_medqa_qwenagent/"
 verbose: true
 

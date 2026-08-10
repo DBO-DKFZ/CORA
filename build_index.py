@@ -1,14 +1,28 @@
 #!/usr/bin/env python3
 """
-Build ChromaDB index from EADV guidelines and dermatology books.
+Build the ChromaDB retrieval index from guideline and textbook markdown.
 
 Two collections are created in a single persistent ChromaDB:
-  - eadv_guidelines : Data/EADV/{condition}/{document_title}/vlm/*.md
-  - dermatology_books: Data/books/{book_title}/vlm/*.md
+  - eadv_guidelines : {data_dir}/EADV/{condition}/{document_title}/vlm/*.md
+  - books           : {data_dir}/books/{book_title}/vlm/*.md
 
-Run with REBUILD=True (default) to drop and recreate collections on each run.
+Case reports are a third collection, added separately by ingest_case_reports.py.
+
+The defaults reproduce the index used in the paper (Snowflake arctic-embed-l-v2.0
+into ./chromadb_snowflakev2), which is also what the retrieval configs in configs/
+point at. Every setting is overridable so the same script can build the small demo
+index described in the README:
+
+  python build_index.py --data-dir demo/corpus --chroma-path demo/chromadb_demo \\
+                        --embed-model sentence-transformers/all-MiniLM-L6-v2 \\
+                        --device cpu
+
+IMPORTANT: --embed-model must match the `embed_model` in the retrieval config that
+queries this index. Querying an index with a different embedding model silently
+returns meaningless neighbours.
 """
 
+import argparse
 from pathlib import Path
 from typing import Dict, List
 
@@ -18,43 +32,43 @@ from llama_index.core.node_parser import MarkdownNodeParser
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.vector_stores.chroma import ChromaVectorStore
 
-# ── Configuration ──────────────────────────────────────────────────────────────
+# ── Defaults (the paper's configuration) ───────────────────────────────────────
 
-DATA_DIR       = Path("./Data")
-CHROMA_DB_PATH = "./chromadb"
-REBUILD        = True   # drop existing collections before indexing
-
-EMBED_MODEL_NAME = "Qwen/Qwen3-Embedding-4B"
-EMBED_BATCH_SIZE = 2    # lower if GPU OOM; 4B model is memory-heavy
-
-# Prepended to queries at retrieval time; documents are encoded without it.
-# Adjust the task description to match your retrieval use-case.
-QUERY_INSTRUCTION = (
-    "Instruct: Retrieve relevant dermatological guidelines or textbook passages "
-    "that answer the clinical question\nQuery: "
-)
+DEFAULT_DATA_DIR    = "./Data"
+DEFAULT_CHROMA_PATH = "./chromadb_snowflakev2"
+DEFAULT_EMBED_MODEL = "Snowflake/snowflake-arctic-embed-l-v2.0"
+DEFAULT_BATCH_SIZE  = 2      # lower if the GPU OOMs; large embedders are memory-heavy
 
 # ── Embedding model ─────────────────────────────────────────────────────────────
 
-def get_embed_model() -> HuggingFaceEmbedding:
+def get_embed_model(
+    model_name: str,
+    device: str,
+    batch_size: int,
+    query_instruction: str | None = None,
+) -> HuggingFaceEmbedding:
+    """
+    Documents are always encoded without a prefix; `query_instruction` only affects
+    query-time encoding, so leave it unset unless the retrieval side sets the same one.
+    """
     return HuggingFaceEmbedding(
-        model_name=EMBED_MODEL_NAME,
-        query_instruction=QUERY_INSTRUCTION,
+        model_name=model_name,
+        query_instruction=query_instruction,
         trust_remote_code=True,
-        device="cuda",
-        embed_batch_size=EMBED_BATCH_SIZE,
+        device=device,
+        embed_batch_size=batch_size,
     )
 
 # ── Document loaders ────────────────────────────────────────────────────────────
 
-def load_eadv_documents() -> List[Document]:
+def load_eadv_documents(data_dir: Path) -> List[Document]:
     """
-    Load .md files from Data/EADV.
+    Load .md files from {data_dir}/EADV.
     Path pattern: EADV/{condition}/{document_title}/vlm/<file>.md
     Metadata attached: source, condition, document_title, file_path.
     """
     docs: List[Document] = []
-    root = DATA_DIR / "EADV"
+    root = data_dir / "EADV"
 
     for md_file in sorted(root.rglob("*.md")):
         parts = md_file.relative_to(root).parts
@@ -80,14 +94,14 @@ def load_eadv_documents() -> List[Document]:
     return docs
 
 
-def load_books_documents() -> List[Document]:
+def load_books_documents(data_dir: Path) -> List[Document]:
     """
-    Load .md files from Data/books.
+    Load .md files from {data_dir}/books.
     Path pattern: books/{book_title}/vlm/<file>.md
     Metadata attached: source, book_title, file_path.
     """
     docs: List[Document] = []
-    root = DATA_DIR / "books"
+    root = data_dir / "books"
 
     for md_file in sorted(root.rglob("*.md")):
         parts = md_file.relative_to(root).parts
@@ -117,8 +131,13 @@ def build_collection(
     collection_name: str,
     chroma_client: chromadb.PersistentClient,
     embed_model: HuggingFaceEmbedding,
-) -> VectorStoreIndex:
-    if REBUILD:
+    rebuild: bool = True,
+) -> VectorStoreIndex | None:
+    if not documents:
+        print(f"  No documents found — skipping collection '{collection_name}'.\n")
+        return None
+
+    if rebuild:
         try:
             chroma_client.delete_collection(collection_name)
             print(f"  Dropped existing collection '{collection_name}'")
@@ -151,27 +170,62 @@ def build_collection(
 
 # ── Entry point ─────────────────────────────────────────────────────────────────
 
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description=__doc__,
+                                formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--data-dir", default=DEFAULT_DATA_DIR,
+                   help=f"Corpus root containing EADV/ and books/ (default: {DEFAULT_DATA_DIR})")
+    p.add_argument("--chroma-path", default=DEFAULT_CHROMA_PATH,
+                   help=f"Persistent ChromaDB directory (default: {DEFAULT_CHROMA_PATH})")
+    p.add_argument("--embed-model", default=DEFAULT_EMBED_MODEL,
+                   help=f"HuggingFace embedding model (default: {DEFAULT_EMBED_MODEL})")
+    p.add_argument("--device", default="cuda", choices=["cuda", "cpu"],
+                   help="Device for the embedding pass (default: cuda)")
+    p.add_argument("--batch-size", type=int, default=DEFAULT_BATCH_SIZE,
+                   help=f"Embedding batch size (default: {DEFAULT_BATCH_SIZE})")
+    p.add_argument("--guidelines-collection", default="eadv_guidelines",
+                   help="Collection name for EADV/ (default: eadv_guidelines)")
+    p.add_argument("--books-collection", default="books",
+                   help="Collection name for books/ (default: books)")
+    p.add_argument("--query-instruction", default=None,
+                   help="Optional query-side instruction prefix; leave unset to match "
+                        "the retrieval scripts, which encode queries without a prefix.")
+    p.add_argument("--no-rebuild", action="store_true",
+                   help="Append to existing collections instead of dropping them first")
+    return p.parse_args()
+
+
 def main() -> None:
-    embed_model  = get_embed_model()
-    chroma_client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
+    args = parse_args()
+    data_dir = Path(args.data_dir)
+    if not data_dir.is_dir():
+        raise SystemExit(f"Corpus directory not found: {data_dir}")
+
+    embed_model = get_embed_model(
+        args.embed_model, args.device, args.batch_size, args.query_instruction
+    )
+    chroma_client = chromadb.PersistentClient(path=args.chroma_path)
+    rebuild = not args.no_rebuild
 
     print("=== Dermatology books ===")
     build_collection(
-        load_books_documents(),
-        "dermatology_books",
+        load_books_documents(data_dir),
+        args.books_collection,
         chroma_client,
         embed_model,
+        rebuild=rebuild,
     )
 
     print("=== EADV guidelines ===")
     build_collection(
-        load_eadv_documents(),
-        "eadv_guidelines",
+        load_eadv_documents(data_dir),
+        args.guidelines_collection,
         chroma_client,
         embed_model,
+        rebuild=rebuild,
     )
 
-    print(f"Done. ChromaDB written to: {CHROMA_DB_PATH}")
+    print(f"Done. ChromaDB written to: {args.chroma_path}")
 
 
 if __name__ == "__main__":

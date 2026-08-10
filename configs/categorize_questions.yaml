@@ -1,4 +1,4 @@
-input_json: "/home/t252a/data/derma/medqa_derma_final.json"
+input_json: "data/derma/medqa_derma_final.json"
 output_csv: "results/question_categories.csv"
 
 model: "claude-sonnet-4-6"

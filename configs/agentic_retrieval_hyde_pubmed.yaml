@@ -1,4 +1,4 @@
-input_json: "/home/t252a/data/derma/pubmed_vignettes_medqa.json"
+input_json: "data/derma/pubmed_vignettes_medqa.json"
 output_dir: "results/retrieved_docs_pubmed_hyde/"
 verbose: true
 
