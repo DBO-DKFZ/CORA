@@ -72,7 +72,7 @@ numbers.
 | pandas | 2.3.3 | |
 | openai | ≥1.100 | OpenAI-compatible clients (also used for local vLLM/TGI) |
 | together | ≥1.5.35 | Together-hosted open-weight models |
-| anthropic | 0.104.1 | LLM judge and annotation scripts — see the note in §2 |
+| anthropic | 0.104.1 | LLM judge and annotation scripts |
 | statsmodels, scikit-learn, nltk, sacrebleu, bert-score, rouge-score | see `pyproject.toml` | metrics and statistics |
 
 The complete, exactly resolved dependency set is in [pyproject.toml](pyproject.toml)
@@ -128,17 +128,11 @@ git clone https://github.com/DBO-DKFZ/CORA cora
 cd cora
 
 poetry install          # creates ./.venv from poetry.lock
-poetry run pip install anthropic==0.104.1   # see note below
 ```
 
 Then either prefix commands with `poetry run`, or activate the environment
 (`source .venv/bin/activate`). All commands below assume the repository root as the
 working directory.
-
-> **Note on `anthropic`.** The judge (`run_answer_judge.py`) and the LLM annotation
-> scripts under `scripts/` import the `anthropic` SDK, which is not yet in
-> `poetry.lock`; install it with the `pip` line above. Everything else, including the
-> whole demo, works without it.
 
 Without Poetry:
 
